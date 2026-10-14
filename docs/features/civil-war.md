@@ -85,7 +85,7 @@ An AI plot raises its banner when **all** of this is true:
 
 When it rises:
 
-- The plot's leader founds a **new kingdom**, named *"{Clan} Pretenders"*, with their clan's culture and a copy of its banner. It claims the throne and is at war with the crown at once.
+- The plot's leader founds a **new kingdom**, named *"{Clan} Pretenders"*, with their clan's culture and emblem, on a banner of its own colours, distinct from the realm it rose against (if you lead the rising, your clan keeps its own colours). It claims the throne and is at war with the crown at once.
 - Every clan of the plot goes over with its towns, castles and villages, keeps its influence, and must stay at least **60 days**.
 - You see a red message: *"{Leader} of the {Clan} has raised the banner against {ruler}! Civil war in {Kingdom}."*
 
