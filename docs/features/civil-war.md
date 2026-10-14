@@ -14,9 +14,9 @@ Every 7 days (the mod's own count, not the game's week, which is only 3 days in 
 
 | Size of the kingdom | Relation lost per 7 days |
 |---|---|
-| 1.25 times its fair share | 1 |
+| 1.25 times its fair share | 0.5 (one point every two weeks) |
 | between the two | rises steadily |
-| 2 times or more | 3 |
+| 2 times or more | 1.5 |
 
 - It reaches every vassal clan leader, **you included**. It does not reach the ruler's own clan, the ruler's close kin (parents, children, brothers and sisters, husband or wife) or mercenaries.
 - It never takes anyone below **−25** with the ruler. Lords who already dislike the ruler more than that lose nothing further from it.
