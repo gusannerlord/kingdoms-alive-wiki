@@ -89,6 +89,8 @@ When it rises:
 - Every clan of the plot goes over with its towns, castles and villages, keeps its influence, and must stay at least **60 days**.
 - You see a red message: *"{Leader} of the {Clan} has raised the banner against {ruler}! Civil war in {Kingdom}."*
 
+The news of the rising names the houses that go over to the rebels.
+
 ## Winning the civil war
 
 Each day the mod compares the two sides: the total Clan Strength of each side's vassal clans.
@@ -101,6 +103,8 @@ Nothing is settled while you are in a battle or siege on either side; it waits f
 ## The outcomes
 
 **The rebels win.** The rebel leader's clan becomes the ruling clan of the old kingdom. Every rebel house comes back into it (and must stay 60 days), and the rebel kingdom disappears. The old ruler loses **20** relation with the new one. If that ruler was you: *"You have lost the throne of {Kingdom}. {New ruler} of the {Clan} now rules; your house remains as a vassal."*
+
+If you led the rising and win, you are told the crown of the kingdom is yours.
 
 **The crown wins.** The plot's leader loses every town and castle (they go to the ruler) and is banished: an AI clan goes to another kingdom, preferably of its own culture and whose ruler it likes best, never yours. If none will do, it is left without a kingdom. The other rebel houses come back pardoned, each with **−20** relation with the ruler, and must stay 60 days.
 
@@ -157,7 +161,7 @@ The four arguments for staying loyal:
 
 ### Whispers at court
 
-In any town or castle of your kingdom, once you know of a plot, the menu has **"Whispers at court"**. It lists every clan by strength with what you know of its stance: *leads the plot*, *in the plot*, *in the plot, sworn*, *loyal*, *loyal, sworn*, *wavering* (could still go either way), *the ruler*, *the crown's own* (the ruler's close kin), or *unknown*.
+In any town or castle of your kingdom, once you know of a plot, the menu has **"Whispers at court"**. It lists every clan by strength with what you know of its stance: *leads the plot* (only once you have found out who leads it), *in the plot*, *in the plot, sworn*, *loyal*, *loyal, sworn*, *wavering* (could still go either way), *the ruler*, *the crown's own* (the ruler's close kin), or *unknown*.
 
 If you are in the plot, the top line gives its exact share of the realm's strength and when it can rise. If you are not, you only learn who leads it, and only once you have found out.
 

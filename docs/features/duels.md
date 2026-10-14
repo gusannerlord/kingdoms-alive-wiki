@@ -5,7 +5,7 @@ Make enough enemies and one of them will send you a glove. A duel is to the deat
 ## Who challenges you, and how often
 - A clan whose leader stands at **-30 or worse** with you, and whose realm is not at war with you, can challenge you.
 - The clan sends its **best or second best fighter**, chosen by melee skill, Athletics, armour and health.
-- Never a king or queen, never your own blood (parents, children, brothers and sisters), never someone who personally likes you, and never a lord who is pregnant.
+- Never a king or queen, never your own blood (parents, children, brothers and sisters), never someone who personally likes you, never a lord who is pregnant, and never a lord riding in your army.
 - After a challenge, no other comes for **60 to 90 days**. Once that wait is over, there is a 1 in 20 chance each day while such a clan exists. Expect roughly one challenge every 80 to 110 days if you have bitter enemies, none if you have none. The first one cannot come before 10 days.
 
 ## The challenge
@@ -57,8 +57,8 @@ Deaths in duels appear in the game's notifications and the encyclopedia as *"{na
 AI lords fight duels too:
 
 - Between two clans of realms that are not at war with each other, whose leaders stand at **-50 or worse**.
-- Each clan sends its best or second best fighter; **rulers never fight** (the next best fighter of their clan goes instead).
-- A 1 in 100 chance each day for the whole map, and no more than one duel every 60 to 90 days. That is roughly 5 deaths every 1,000 days.
+- Each clan sends its best or second best fighter; **rulers never fight** (the next best fighter of their clan goes instead). Nor do a lord who is pregnant, anyone of your blood, or a lord riding in your army.
+- A 1 in 100 chance each day for the whole map. If the two clans drawn have nobody free to fight (everyone is in a battle or a siege), another feuding pair is tried. After a duel, none for 60 to 90 days. That is roughly 5 deaths every 1,000 days.
 - The loser dies, with the same renown, influence and relation changes as above. The death shows up as news like any lord's, saying it was a duel.
 
 ## Turn it off
