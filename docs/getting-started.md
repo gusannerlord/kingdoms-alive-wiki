@@ -15,7 +15,7 @@
     That was the mod's first name. The folder and the settings file keep it so that updates and saves keep working.
 
 ## Updating
-Overwrite the same **CampaignImprovements** folder. Your campaign carries on. New features are added to your settings file, switched on.
+Overwrite the same **CampaignImprovements** folder. Your campaign carries on. New switches are added to your settings file with their default values (almost all on).
 
 ## New or existing campaign?
 - **Safe to add to a campaign in progress.** Everything starts working from the day you load it.

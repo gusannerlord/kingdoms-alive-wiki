@@ -39,7 +39,7 @@ Two more errands appear during a plot in your realm: **"Win a lord over to our p
 ### Prices and dowries
 A good envoy gets a better price. The price to join or the dowry is cut by about 4% for each half step in the envoy's favour (see below), down to 70% of the base game's figure, and raised the same way for a poor envoy, up to 130%.
 
-Prices are hidden in the lists until the lord has been **sounded out**, then shown for 60 days. A typical dowry at relation 0 is about 45,000 denars, about 1,000 less for each point of relation.
+Prices are hidden in the lists until the lord has been **sounded out**, then shown for 60 days. Dowries vary a lot from one person to another, often tens of thousands of denars; each point of relation between your house and theirs takes about 1,000 off.
 
 ### Sounding a lord out
 The envoy writes back with what they learnt:
@@ -49,7 +49,7 @@ The envoy writes back with what they learnt:
 - the price to join you, and the dowries of their unmarried relatives who could marry someone of yours;
 - if you rule and they rule: whether their council would hear of a trade agreement.
 
-Each item is learnt with the envoy's odds (about 80 in 100 to start, moved by the envoy as below; Roguery counts like Charm here). What the envoy learns is always true; what they miss is listed as not found out.
+Each item is learnt with the envoy's odds (about 80 in 100 to start, moved by the envoy as below; here Roguery adds its own half steps on top, in the same bands as Charm). What the envoy learns is always true; what they miss is listed as not found out.
 
 ### Meetings
 Whether a lord agrees depends on how they feel about you, before the envoy's effect:
@@ -61,7 +61,7 @@ Whether a lord agrees depends on how they feel about you, before the envoy's eff
 The place is a town or castle at peace with both of you and not under siege, and it is marked on your map. The lord waits there 3 days, a little more with a good envoy, a little less with a poor one (2 to 6 days). Lords in an army, governors and lords riding in someone else's party cannot come.
 
 - You talk to the lord there as usual. Meeting them gives **+1 relation**.
-- If they wait in vain, they leave offended: **-3 relation** (not if you were a prisoner the whole time).
+- If they wait in vain, they leave offended: **-3 relation** (not if you are a prisoner when the wait runs out).
 - The same lord will not agree to another meeting for 30 days.
 
 ## What decides success
@@ -74,7 +74,7 @@ The odds start from what the matter itself gives (what you would have in person 
 | Character fit | Mercy, Valor, Honor, Generosity and Calculating of the envoy compared with the lord's. Shared traits help, opposite ones hurt: from -3 to +3 |
 | Tone | +1 if it suits the lord, -1 if it grates (see below) |
 | The envoy's own relation with the lord | -10 or worse: -1; 30 or better: +1; 60 or better: +2. Close kin (parent, child, sibling, or born in that clan) counts +2. Never more than +2 in total |
-| Rank | A family member sent to a ruler or a great house (tier 4 or higher): +1. A companion sent to a ruler they are not friendly with: -1 |
+| Rank | A family member sent to a ruler or a great house (tier 4 or higher): +1. A companion sent to a ruler, unless the companion's own relation with them is 30 or better: -1 |
 
 The tones, as the game describes them:
 

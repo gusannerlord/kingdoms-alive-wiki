@@ -48,14 +48,14 @@ Every 7 days, each clan leader of the kingdom weighs the plot. The ruler's own c
 | Valor | +3 per level |
 | Calculating | only a calculating lord sides with the winner: drawn in once the plot holds more than 30% of the realm's strength, put off below that |
 | How big the plot is | up to +20, as it grows toward the whole realm |
-| Clan without towns or castles | +10 |
+| Clan without towns or castles | +10, only while the realm is too large |
 | Close kin or in-law of the plot's leader | +20 |
 
 A lord **joins at 25** and **leaves below 5**. Example: a lord with −20 toward the ruler (+14) and +10 toward the plotter (+5), with the plot holding 30% of the realm (+6), reaches 25 and joins.
 
 "The realm's strength" here means the Clan Strength of all its vassal clans together, the ruler's clan included and mercenaries left out. The plot's **share** is the part of that held by its clans.
 
-**The plot's leader recruits.** Each week an AI plot leader tries to win over one undecided lord (score between 5 and 25), the closest to joining. The odds are 15%, plus a little for the leader's Charm, plus 2% for each point the lord is above 5, between 5% and 60%. At the same feast the odds are 1.5 times higher. A lord won over this way stays in the plot for at least 30 days. Once the plot holds 60% of the realm, the leader stops recruiting (lords may still join by themselves).
+**The plot's leader recruits.** Each week an AI plot leader tries to win over one undecided lord (score between 5 and 25), the closest to joining. The odds are 15%, plus 2% for every 10 points of the leader's Charm, plus 2% for each point the lord is above 5, between 5% and 60%. At the same feast the odds are 1.5 times higher. A lord won over this way stays in the plot for at least 30 days. Once the plot holds 60% of the realm, the leader stops recruiting (lords may still join by themselves).
 
 **The ruler wins lords back.** Once the plot holds 25% of the realm, an AI ruler tries each week to win back the member who is least committed. The deeper the lord is in it, the harder. A lord won back leaves the plot, gains **+5** relation with the ruler and stays loyal for at least **60 days**. If you are the ruler, this is your job (see below).
 
@@ -68,7 +68,7 @@ When a plot reaches **20%** of the realm's strength, and you are a vassal of tha
 - **It never grew:** a plot that has not reached **25%** within **60 days** comes to nothing.
 - **It stalls (AI plots only):** after **120 days** without holding enough to rise (counted from its start, or from the last week it had enough), it gives up.
 - **The realm shrank (AI plots only):** once the kingdom has been back below "too large" for **60 days in a row**, it ends.
-- **The leader is gone:** the leader dies, is replaced at the head of the clan, leaves the kingdom, or comes to the throne.
+- **The leader is gone:** the leader dies, is replaced at the head of the clan, leaves the kingdom, becomes a mercenary, comes to the throne, or (an AI leader) becomes close kin of the ruler, for example by marriage.
 - **The leader is talked out of it** (by you, see below).
 
 If you knew of it you see *"The plot among the lords of {Kingdom} has come to nothing."*
@@ -126,14 +126,14 @@ Everything below needs you to lead your clan as a vassal (not a mercenary) of th
 
 | You say | When it appears | What it does |
 |---|---|---|
-| *"{Ruler} is leading this realm to ruin. Would you stand with me if it came to it?"* | You are not the ruler and know of no plot in the realm. | Starts **your own plot** and tries to win this lord over. Greyed out if your Clan Strength is below 1,000, if the realm is in its calm after a plot or civil war (*"The lords of the realm are wary just now. It is too soon."*), or if you spoke to this lord about it too lately. If a secret plot already exists, the lord answers *"Hush. You are not the first to say so..."* and you learn that there is one. |
+| *"{Ruler} is leading this realm to ruin. Would you stand with me if it came to it?"* | You are neither the ruler nor the ruler's close kin, you know of no plot in the realm, and the lord is not of the ruler's clan or close kin. | Starts **your own plot** and tries to win this lord over. Greyed out if your Clan Strength is below 1,000, if the realm is in its calm after a plot or civil war (*"The lords of the realm are wary just now. It is too soon."*), or if you spoke to this lord about it too lately. If a secret plot already exists, the lord answers *"Hush. You are not the first to say so..."* and you learn that there is one. |
 | *"There are those of us who mean to set this realm right. Join our cause."* | You are in a plot, your own or an AI lord's. | Persuade the lord to join. |
 | *"There is a plot against {ruler}. Stay loyal to the crown."* | You know of a plot and are not in it. | Persuade the lord to stay out of it, or to leave it. If you convince the plot's leader, the whole plot falls apart and that leader stays loyal for 60 days. |
-| *"There is talk of a plot. Where does your house stand?"* | You know of a plot, are not in it, and do not know this lord's stance. | The lord tells the truth if your relation is 10 or better, or else with a chance of 30% plus a little for your Charm (once a week per lord). A member names the leader; a leader admits it; an outsider may know the leader's name. You remember the answer for 60 days. |
+| *"There is talk of a plot. Where does your house stand?"* | You know of a plot, are not in it, and do not know this lord's stance. | The lord tells the truth if your relation is 10 or better, or else with a chance of 30% plus 2% for every 10 points of your Charm. Ask the same lord again within 7 days and you get nothing but *"Plots? I know nothing of plots..."* A member names the leader; a leader admits it; an outsider may know the leader's name. You remember the answer for 60 days. |
 | *"I know what you are planning. Count me in."* | You are talking to the plot's leader and know they lead it. | You join if they would take you like any other lord: your relation with them and with the ruler and your traits count, and a score of 5 is enough. Otherwise: *"I do not trust you enough for that. Not yet."* Not possible while you are sworn to the crown. |
 | *"I will have no more part in this plot of yours."* | You are a member of an AI lord's plot and talk to its leader. | You leave the plot. *"Then go, and keep your mouth shut."* |
 
-**How persuasion works.** It uses the game's usual persuasion screen. Some lords agree at once (*"You need not persuade me..."*). Some refuse to discuss it at all, for example lords already sworn to the other side. The rest want convincing, and how many arguments you need to win depends on how far they are from changing their mind and on your relation with them. A good relation (15 or more) makes it easier, a bad one harder, and being at the same feast makes it easier.
+**How persuasion works.** It uses the game's usual persuasion screen. Some lords agree at once (*"You need not persuade me..."*). Some refuse to discuss it at all, for example lords already sworn to the other side. When you ask a lord to stay loyal without knowing where they stand, they only open up if they would tell you the truth when asked (same roll as above); otherwise they answer *"Plots, loyalty... I will not speak of such things with you."* The rest want convincing, and how many arguments you need to win depends on how far they are from changing their mind and on your relation with them. A good relation (15 or more) makes it easier, a bad one harder, and being at the same feast makes it easier.
 
 The four arguments for joining:
 
@@ -157,13 +157,13 @@ The four arguments for staying loyal:
 
 ### Whispers at court
 
-In any town or castle of your kingdom, once you know of a plot, the menu has **"Whispers at court"**. It lists every clan by strength with what you know of its stance: *leads the plot*, *in the plot*, *in the plot, sworn*, *loyal*, *loyal, sworn*, *wavering* (could still go either way), *the crown's own*, or *unknown*.
+In any town or castle of your kingdom, once you know of a plot, the menu has **"Whispers at court"**. It lists every clan by strength with what you know of its stance: *leads the plot*, *in the plot*, *in the plot, sworn*, *loyal*, *loyal, sworn*, *wavering* (could still go either way), *the ruler*, *the crown's own* (the ruler's close kin), or *unknown*.
 
 If you are in the plot, the top line gives its exact share of the realm's strength and when it can rise. If you are not, you only learn who leads it, and only once you have found out.
 
 ### Leading your own plot
 
-- Your clan needs a Clan Strength of 1,000. Unlike the AI, you can plot in **any** kingdom, large or not, as long as you are not its ruler.
+- Your clan needs a Clan Strength of 1,000. Unlike the AI, you can plot in **any** kingdom, large or not, as long as you are neither its ruler nor the ruler's close kin.
 - Lords also join and leave your plot by themselves each week, using the same scores as above. An AI ruler tries to win your members back.
 - Your plot only fails if it has not reached 25% within 60 days. It does not give up after 120 days, and it does not die when the realm shrinks. While it exists, no AI plot can start in that kingdom.
 

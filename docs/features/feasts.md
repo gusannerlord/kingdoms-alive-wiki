@@ -27,10 +27,10 @@ If the feast is in your own kingdom, a message on the map tells you who calls it
 Every evening:
 
 - The host grows a little closer to each clan sitting at the table (up to **+1** over the whole feast).
-- Two of the houses present are thrown together. Usually they part **1 point** closer. About **3 times in 10** they quarrel instead and lose **2 points**. If you are in the hall you see it: *"Hard words pass between … over the wine, and the hall goes quiet."*
+- Two of the houses present (never yours) are thrown together. Usually they part **1 point** closer. About **3 times in 10** they quarrel instead and lose **2 points**. If you are in the hall you see it: *"Hard words pass between … over the wine, and the hall goes quiet."*
 - There is a **15%** chance that two unmarried lords of different clans in the hall agree a match and marry. The couple is picked by the game's own marriage odds. Nobody from your clan is ever married off this way.
 
-No feast raises a relation above **40**.
+Apart from your own feasts (see below), no feast raises a relation above **40**.
 
 ## War breaks it up
 
@@ -54,7 +54,7 @@ When a feast is being held in a town or castle you are in, the menu shows **Join
 
 In a town or castle that belongs to your clan, the menu shows **Hold a feast here**. You need:
 
-- to be the leader of your clan, in a kingdom (as a vassal or as ruler, not as a mercenary);
+- to be in a kingdom (as a vassal or as ruler, not as a mercenary);
 - your kingdom at peace with every other kingdom;
 - no other feast of your kingdom already called;
 - **8 days** since the last feast in your kingdom, whoever held it, and **25 days** since your own last feast;
@@ -62,27 +62,27 @@ In a town or castle that belongs to your clan, the menu shows **Hold a feast her
 
 If something is missing, the option is greyed out and the tooltip says why.
 
-You choose one of three tables. The cost is paid for **each other clan of your kingdom**, whether or not it comes:
+You choose one of three tables. The cost is paid for **each other clan of your kingdom** (mercenaries aside), whether or not it comes:
 
-| Table | Cost per clan | Relation over the whole feast | Only with clans at or below | Influence per clan per evening |
+| Table | Cost per clan | Relation over the whole feast | Raises relations up to | Influence per clan per evening |
 |---|---|---|---|---|
 | A modest table | 1,500 | +1 | 30 | 0.3 |
 | A generous table | 4,000 | +2 | 45 | 0.6 |
 | A lavish table | 10,000 | +3 | 60 | 1.2 |
 
-- The relation goes to each clan that sits through every evening, and **only if you preside in person** on those evenings. Relations above the limit for that table do not move.
+- The relation goes to each clan that sits through every evening, and **only if you preside in person** on those evenings. No relation goes above the limit for that table.
 - When the feast ends you gain influence for every clan present on every evening you were there. For example, 10 clans for 3 evenings at a generous table gives 18 influence.
 - **A host who is away gains nothing:** *"A feast without its host is soon forgotten: yours has won you nothing."*
 - If war breaks out before the tables are laid, you get your denars back.
 
 !!! tip
-    A lavish table is the only way to push relations up to 60. Use the modest one when you just want the council in one room for persuasion.
+    Only a lavish table raises relations past 45, up to 60. Use the modest one when you just want the council in one room for persuasion.
 
 ## The grand tournament
 
 A ruler can proclaim a **grand tournament of the realm** together with a feast held in a town (castles have no arena).
 
-- **You, as ruler:** after choosing your table, a window asks *"A grand tournament?"*. Choose **Proclaim it** or **Just the feast**. It adds the purse of **20,000 denars** to the cost.
+- **You, as ruler:** after choosing your table, a window asks *"A grand tournament?"*. Choose **Proclaim it** or **Just the feast**. It adds the purse of **20,000 denars** to the cost, so the window only appears if you can pay the table and the purse together.
 - **Your AI ruler**, when you are a vassal: when they host a feast in a town and can afford it, they proclaim one about **half the time**.
 - Only your own kingdom holds grand tournaments.
 

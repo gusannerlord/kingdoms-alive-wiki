@@ -7,7 +7,7 @@ AI kingdoms now go to war for a reason, stay in it until it is settled, and rest
 The AI still weighs what it could win against what it could lose. On top of that, these causes push it toward a war:
 
 - **A hated ruler.** The relation between the two ruling clans counts ten times as much as in the base game. It is capped, so on its own it is worth about half of what a war needs. It works both ways: a ruler who is on good terms with another is much less likely to attack them.
-- **Lost land.** A town or castle of the attacker's culture held by a kingdom of another culture counts ten times as much as in the base game. Between two kingdoms of the same culture it counts as in the base game.
+- **Lost land.** A town or castle of the attacker's culture held by a kingdom of another culture counts up to ten times as much as in the base game (in full when the attacker is at least as strong; less the weaker it is). Between two kingdoms of the same culture it counts as in the base game.
 - **The right moment.** A kingdom at peace with every other kingdom sees its chance when a stronger neighbour of another culture holds some of its land and has just gone to war with someone else (every war that neighbour has began no more than 20 days ago). The lost land then counts three times as much again. It still needs at least 60% of the neighbour's strength, and it will not do this to a ruler it is close friends with (relation 80 or more).
 - **A rival grown too large.** See [A kingdom that grows too much](#a-kingdom-that-grows-too-much) below.
 - **An ally already at war** with the target.
@@ -27,7 +27,7 @@ A war with none of these behind it needs clearly better odds. Causes that are st
 Every kingdom has an even share of the towns and castles on the map. Kingdoms that have been destroyed still count, so the share does not grow as kingdoms fall. With nine kingdoms and 133 towns and castles, the share is about 15.
 
 - **Resentment** starts at 1.25 times the share (about 19). Other kingdoms weigh a war against it as if they liked its ruler less, up to 30 points of relation less at twice the share (about 30). The real relation is not changed, and this goes away when the kingdom shrinks.
-- **Fear** starts at 1.35 times the share (about 20) and is full at 2.25 times (about 33). Its neighbours then expect up to 40% more from a war against it, the war gets an extra push of its own, and its land counts at full value (the base game halves the value of a very large kingdom's land).
+- **Fear** starts at 1.35 times the share (about 20) and is full at 2.25 times (about 33). Its neighbours then expect up to 40% more from a war against it, the war gets an extra push of its own, and its land counts at full value (the base game counts the land of a very large kingdom above a certain value at half).
 - **Coalition.** Weaker kingdoms do not open a war against it alone, but once someone is fighting it, others count part of that strength as their own and join in. Joining others against it costs little or nothing in shared spoils, the less the more dominant it is.
 - **The right moment lasts longer** against it: up to 40 days after its wars began instead of 20, and an attacker needs only half its strength alone, because the kingdoms already fighting it count too.
 - **Good relations calm the fear.** Each 40 points of relation between the two ruling clans halve the fear (a quarter of it at +80), but it never drops below a quarter.
@@ -58,7 +58,7 @@ A peace offered to your kingdom always comes to you or to your council, as in th
 - **Truce.** For 45 days after a peace, neither kingdom's council can declare war on the other (base game: 20 days, and only for the AI).
 - **Tribute.** A kingdom that pays tribute to another cannot be attacked by it while it pays, for up to 72 days after the peace.
 
-On the kingdom screen, a war you cannot propose shows the reason, for example *"There is a truce with the Vlandians: peace was made 12 days ago and the truce lasts 45."*, or that the other kingdom *"is paying tribute to this realm."*
+On the kingdom screen, a war you cannot propose shows the reason, for example *"There is a truce with Vlandians: peace was made 12 days ago and the truce lasts 45."*, or that the other kingdom *"is paying tribute to this realm."*
 
 These rules also bind your kingdom, whether you rule it or serve it, when it declares war or asks for peace. Attacking someone on the map still starts a war as always.
 
@@ -71,13 +71,13 @@ This also applies to your kingdom: if you are called into a war, you leave it wh
 
 ## Heirs and old grudges
 
-When a clan leader dies, the heir inherits part of each of the dead leader's relations. The base game always passes on 70%. Now the share is drawn at random for each person, between 10% and 70%. An heir may keep their father's friendships and feuds almost whole, or nearly forget them.
+When a clan leader dies, the heir inherits part of each of the dead leader's relations. The base game always passes on 70%. Now the share is drawn at random for each person, between 10% and 70%. An heir may keep the late leader's friendships and feuds almost whole, or nearly forget them.
 
 ## Seeing why
 
 - **War proposals.** A clan that proposes a war gives its real reason, for example *"Balgard is ours by right, and the Nords hold it. It is time to take it back."*, *"Our allies are already at war with the Aserai. We should stand with them."* or *"The Khuzaits have grown too powerful. They must be checked while it can still be done."*
 - **The kingdom screen.** When you look at proposing a war, the support shown by the game ("Low support", "Good support"...) is followed by the lords' two main reasons, for or against. For example *"Low support: we have no quarrel with them; the realm is weary of war"* or *"Good support: Sargot is ours by right; we are the stronger side"*.
-- **When war is declared on your kingdom**, a window titled **"War is declared on us"** pauses the game and gives what the attacker's lords say, for example *"What their lords give as the reason: "Our allies, the Sturgians, are at war with you and have called on us. We keep our word.""* If they have no cause, it says *"They give no reason beyond their own advantage."* You can switch the pause off and get a notice on the map instead.
+- **When war is declared on your kingdom** by a vote of their council or because an ally called them in, a window titled **"War is declared on us"** pauses the game and gives what the attacker's lords say, for example *"What their lords give as the reason: "Our allies, the Sturgians, are at war with you and have called on us. We keep our word.""* If they have no cause, it says *"They give no reason beyond their own advantage."* You can switch the pause off and get a notice on the map instead.
 
 ## Turn it off
 

@@ -26,7 +26,7 @@ So young lords marry a little sooner, and older bachelors and widowers much soon
 ### The older-woman rule
 More marriages should mean more children, not men who could still father children tied to wives who can no longer bear them. When the man is **under 60**:
 
-- from the woman's **38th** year, her extra chance fades away in a straight line;
+- from the woman's age of **38**, her extra chance fades away in a straight line;
 - from **45** on, the match is very unlikely: one twentieth of the base game's chance.
 
 Men of 60 or more marry women of any age as freely as anyone else, so old widows and widowers still pair up.
@@ -47,7 +47,7 @@ A fast mode campaign was run for 63 years of game time, with the AI on its own:
 In the base game, a child of two parents takes the father's or the mother's culture at a coin flip. With the mod, it takes the **father's culture 9 times in 10**. The child's name and clothes follow that culture. Since the child also belongs to the father's clan, houses keep their culture over the generations instead of drifting at random.
 
 - Applies in **normal and fast mode** alike.
-- Applies to every child whose parents are both not you, including children born in your own clan to your relatives or companions.
+- Applies to every child whose parents are both not you, including children born in your own clan to your relatives (companions never marry, so they have no children).
 - **Your own children** always take your culture, as in the base game.
 - Measured in the 63-year test: 1,047 of 1,157 children of mixed-culture parents took the father's culture (90.5%).
 

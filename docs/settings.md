@@ -58,7 +58,7 @@ See [War and peace](features/war-and-peace.md).
 | `CouncilPersuasionEnabled` | Talking lords into backing a war or a peace. | [Council](features/council.md) |
 | `FeastsEnabled` | Feasts. | [Feasts](features/feasts.md) |
 | `GrandTournamentEnabled` | The grand tournament at a ruler's feast. | [Feasts](features/feasts.md) |
-| `HallCrowdLimitEnabled` | A crowded hall lets in only as many nobles as it has seats. | [Feasts](features/feasts.md) |
+| `HallCrowdLimitEnabled` | A crowded lord's hall lets in only as many lords as it has places for; the rest can still be spoken to from the menu. | [Feasts](features/feasts.md) |
 | `ClanEventsEnabled` | Events between clans. | [Events between clans](features/clan-events.md) |
 | `RealmDiscontentEnabled` | Discontent in kingdoms grown too large. | [Civil war](features/civil-war.md) |
 | `ConspiracyEnabled` | Plots and civil wars. | [Civil war](features/civil-war.md) |

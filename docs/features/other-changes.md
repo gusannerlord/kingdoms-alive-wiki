@@ -17,22 +17,22 @@ What this means in play:
 
 - Defenders have more time to build their own engines and for help to arrive.
 - Besiegers spend more food and wages before they can assault, so more sieges are lifted.
-- When you besiege, you wait twice as long too. If an assault ends with no winner, the base game resets the preparations, and rebuilding them also takes twice as long.
-- The info text still says "Build Cost 48", but the progress bar fills at half speed.
+- When you besiege, you wait twice as long too. If you send your troops in without fighting yourself and that assault ends with no winner, the base game resets your preparations, and rebuilding them also takes twice as long.
+- The tooltip still shows the same "Build Cost" (48), but the progress bar fills at half speed.
 - Only the preparations change. Siege engines built afterwards, and everything the defenders build, are as in the base game.
 
 ### AI assault patience
-In the base game, the AI starts to accept worse odds for an assault after 96 hours of siege, counted from the start. With doubled preparations, small and medium armies would finish them with that patience already spent and storm the walls too soon. The mod does not count the extra preparation time, so after its preparations the AI is exactly as patient as in the base game.
+In the base game, the AI starts to accept worse odds for an assault after 96 hours of siege, counted from the start. With doubled preparations, small and medium armies would finish them with that patience already spent and storm the walls too soon. The mod does not count the extra preparation time, so after its preparations the AI is about as patient as in the base game.
 
 In a 249-day test campaign, AI armies first assaulted at a median of 81 hours into the siege, always with 2 to 4 siege engines built: no rushed assaults.
 
 ## Less free training for AI troops in peace
-In the base game, troops in AI lords' parties gain experience every day without fighting: 15 + 3 x tier per troop in a clan leader's party, 10 + 2 x tier in other lords' parties. A recruit reaches tier 5 on its own in about 130 to 190 days.
+In the base game, troops in AI lords' parties gain experience every day without fighting: 15 + 3 x tier per troop in a clan leader's party, 10 + 2 x tier in other lords' parties. A recruit reaches tier 5 on its own in about 135 days with a clan leader and about 205 days with other lords.
 
 With the mod, once a kingdom has had **no war with another kingdom for more than 10 days**, its lords' troops get only **a quarter** of that free experience until the next war. Armies are built in war, not in long breaks between them.
 
 - Applies to the AI lords of every kingdom, including the vassals and mercenaries of your own kingdom.
-- Your own clan's parties, and armies you lead, are untouched.
+- Your own clan's parties, and parties in an army you lead, get no free experience in the base game either, so nothing changes for them.
 - Clans without a kingdom are untouched. Wars against rebels or clans without a kingdom do not count as war.
 - Experience from battles and from perks is untouched.
 - With the usual length of peace breaks, kingdoms lose roughly 6 to 20% of their free experience overall. A recruit who spends a 40-day peace in a lord's party no longer reaches tier 2 by itself.

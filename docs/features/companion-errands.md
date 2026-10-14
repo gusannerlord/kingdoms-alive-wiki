@@ -10,9 +10,9 @@ Now and then a companion riding with you speaks up: word has reached them of som
 
 ## Who asks, and when
 
-The companion must be riding in your own party, unhurt, not pregnant and not busy with a quest. A companion who is your champion in a pending duel does not ask.
+The companion must be riding in your own party, unhurt and not busy with a quest. A companion who is your champion in a pending duel does not ask.
 
-They only speak up while you are travelling on the map: not in a town, at sea, in a battle or siege, or in the middle of another conversation or event window.
+They only speak up while you are travelling on the map: not inside a town, castle or village, at sea, in a battle or siege, or in the middle of another conversation or event window.
 
 Your party must have enough healthy troops to spare: what they ask for **plus 10 more**. Heroes and troops lent to you by a quest do not count.
 
@@ -58,7 +58,7 @@ When an errand goes wrong:
 - No gold and no veterans.
 - The companion gets **half** the experience.
 - In every errand except the merchant deal, there was a fight: the companion comes back **badly wounded** (never killed) and losses are **doubled**.
-- The merchant deal that goes wrong just means empty saddlebags. Nobody is hurt.
+- The merchant deal that goes wrong just means empty saddlebags: the companion comes back unhurt, and losses are no heavier than usual (up to 5% of the men).
 - No errand ever costs more than 80% of the men sent.
 
 ## Coming back
@@ -66,7 +66,7 @@ When an errand goes wrong:
 When the days are up, the companion and the surviving men rejoin your party with a message telling what happened.
 
 - **If you are a prisoner, in a battle or at sea**, they wait and rejoin once you are free, out of the fight or back on land (or in a port).
-- If the companion dies of old age while away, or is no longer one of your companions, the men come back without them and a message tells you why.
+- If the companion dies of old age while away, the men come back without them and a message tells you.
 
 !!! warning
     Do not start a War Sails story quest while a companion is away on an errand. If the errand ends during it, the men can be lost and the companion left without a party.

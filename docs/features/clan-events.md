@@ -33,7 +33,7 @@ Whatever the traits, the chance of a bad event stays between 20% and 80%.
 
 Good turns bring two houses a little closer. Quarrels are more frequent and can hurt badly.
 
-**Cap:** an event never takes a relation above **+60** or below **−60**. If two leaders are already past that point, the event changes nothing. Your Charm does not make these changes any larger or smaller.
+**Cap:** an event never takes a relation above **+60** or below **−60**. A good event between leaders already at +60 or more changes nothing, and so does a bad one between leaders at −60 or less. Your Charm does not make these changes any larger or smaller.
 
 ## The twelve events
 
@@ -66,7 +66,7 @@ The window waits until you are free (not in a battle, a conversation or captivit
 
 | Choice | Cost | Effect |
 |---|---|---|
-| *"Make amends: send X denars to {leader}."* | **2,000 denars × the other clan's tier**, paid to their leader. If you cannot afford it: **20 influence** instead (*"Make amends: spend 20 influence at court on it."*). With neither, nothing happens. | Gets back **half** of what you lost (rounded up). |
+| *"Make amends: send X denars to {leader}."* | **2,000 denars × the other clan's tier**, paid to their leader. If you cannot afford it: **20 influence** instead (*"Make amends: spend 20 influence at court on it."*). With neither, the choice reads *"Make amends... but you have neither the gold nor the influence for it."* and does nothing. | Gets back **half** of what you lost (rounded up). |
 | *"Let it be. Words would only make it worse."* | Nothing | The relation stays where the event left it. |
 | *"Answer in kind, and make sure the whole realm hears of it."* | Nothing | You lose **another half** of the loss, and the other clan loses **10 renown**. |
 
@@ -77,7 +77,7 @@ Example: an insult at table costs you −12 with a tier 4 clan. Making amends co
 | Choice | Cost | Effect |
 |---|---|---|
 | *"Take it in the spirit it was meant."* | Nothing | The relation stays where the event left it. |
-| *"Return the kindness with a gift of X denars."* | **1,000 denars × the other clan's tier**, paid to their leader. | Adds **another half** of the gain (rounded up). |
+| *"Return the kindness with a gift of X denars."* | **1,000 denars × the other clan's tier**, paid to their leader. If you do not have it, the choice reads *"Return the kindness... but you cannot spare X denars."* and does nothing. | Adds **another half** of the gain (rounded up). |
 
 The +60 / −60 cap only limits the event itself, not your answer.
 

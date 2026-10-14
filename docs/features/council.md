@@ -8,7 +8,7 @@ Talk the clan leaders of your own kingdom, the ruler included, into backing or o
 
 Talk to the leader of any other clan of your kingdom and choose **"There is something I'd like to discuss."**, then **"There is a matter of war and peace I would raise with you."**
 
-It works whether you are a vassal or the ruler. Neither you nor the lord can be a mercenary or a prisoner. A lord whose relation with you is below -30 refuses: *"I do not discuss the affairs of the realm with you."*
+It works whether you are a vassal or the ruler. Neither you nor the lord can be a mercenary. A lord whose relation with you is below -30 refuses: *"I do not discuss the affairs of the realm with you."*
 
 Choose what you want:
 
@@ -33,7 +33,7 @@ You get four arguments. Three depend on the matter, and the fourth is always a p
 
 An argument is easier when:
 
-- it is **true** as things stand: *"The Sturgians are already at war elsewhere. We will not get a better chance."* lands better when they really are, and *"(town) is ours by right"* when the other kingdom really holds a town of your culture;
+- it is **true** as things stand: *"The Sturgians are already at war elsewhere. We will not get a better chance."* lands better when they really are, and *"(town) is ours by right"* when the other kingdom really holds a town or castle of your kingdom's culture;
 - it suits the lord's **character**: a valorous lord likes talk of glory, a merciful one listens to the suffering of the people, a calculating one to counting the spears, an honourable one to right and wrong, a generous one to a favour between friends;
 - you get on well with the lord (for the favour).
 
@@ -71,7 +71,7 @@ You also gain the skill experience the base game gives for the arguments that la
 
 **Failure:** the lord will not discuss that matter with you again for **45 days**. If an argument went very badly they get angry (*"You overstep. I will not hear another word of this."*): **60 days** and **-4 relation**.
 
-If a lord later comes round to your view on their own after promising the opposite, their earlier promise is released and you get a message.
+If you later ask a lord for the opposite of what they promised you, and they already agree with it on their own, the old promise is cancelled and you get a message.
 
 A promise ends if the lord's clan leaves the kingdom, and all promises end if you leave it.
 

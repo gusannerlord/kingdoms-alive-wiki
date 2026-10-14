@@ -21,7 +21,7 @@ Every feature can be switched off on its own (see [Settings](settings.md)).
 - **[Events between clans](features/clan-events.md)**: the clans of a kingdom fall out and make up.
 - **[Civil war](features/civil-war.md)**: large kingdoms crack, powerful clans plot for the throne, and you can join, oppose or lead the plot.
 - **[Envoys](features/envoys.md)**: send a family member or companion to a lord with a message.
-- **[Duels](features/duels.md)**: a lord who hates you may challenge you to a duel to the death.
+- **[Duels](features/duels.md)**: a clan that hates you may send a fighter to challenge you. The loser dies, unless it is you: you are only badly hurt.
 
 ### Your realm and household
 - **[Affairs of your kingdom](features/realm-affairs.md)**: sellswords, revolts, famines, feuds and great works to deal with in peacetime.

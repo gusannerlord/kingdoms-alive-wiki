@@ -65,7 +65,7 @@ Events come in three sizes. Small ones move the tension by 15 (6 times in 10), m
 
 ## How AI rulers react
 
-Both rulers answer each event. An AI ruler **stirs it up** (the event counts 40% more), **lets it be**, or **smooths it over** (40% less). Their choice depends on:
+Both rulers answer each event. An AI ruler **stirs it up** (a grievance counts 40% more, a courtesy 40% less), **lets it be**, or **smooths it over** (the reverse). Their choice depends on:
 
 - their relation with the other ruler (a disliked ruler gets stirred against);
 - their character: valorous rulers stir things up; merciful and calculating ones calm them down;
@@ -96,7 +96,7 @@ When an event involves the kingdom you rule or serve, the game's own event windo
 
 Hovering over a choice shows the cost and where the tension will end up. If you cannot pay the full cost, you pay all you have and the effect is smaller in proportion.
 
-After a window, the next one comes no sooner than 10 to 20 days later. Events of your kingdom in between still happen, and you get a message such as *"... Tension with the Sturgians: now 42."* A window you leave unanswered for 2 days lapses and the event takes its course.
+After a window, the next one comes no sooner than 10 to 20 days later. Events of your kingdom in between still happen, and you get a message such as *"... Tension with the Sturgians: now 42."* If the window cannot open within 2 days (for example because you are in a battle), the event takes its course without you.
 
 !!! tip
     As ruler, a cheap way to keep a strong neighbour off your back is to smooth over the small incidents. A gift of 5,000 denars to their ruler can undo most of a cattle raid.

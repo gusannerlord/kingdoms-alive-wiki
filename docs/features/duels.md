@@ -5,8 +5,8 @@ Make enough enemies and one of them will send you a glove. A duel is to the deat
 ## Who challenges you, and how often
 - A clan whose leader stands at **-30 or worse** with you, and whose realm is not at war with you, can challenge you.
 - The clan sends its **best or second best fighter**, chosen by melee skill, Athletics, armour and health.
-- Never a king or queen, never your own blood (parents, children, brothers and sisters, spouse), and never someone who personally likes you.
-- After a challenge, no other comes for **60 to 90 days**. Once that wait is over, there is a 1 in 20 chance each day while such a clan exists. Expect roughly one challenge every 100 to 200 days if you have bitter enemies, none if you have none. The first one cannot come before 10 days.
+- Never a king or queen, never your own blood (parents, children, brothers and sisters), never someone who personally likes you, and never a lord who is pregnant.
+- After a challenge, no other comes for **60 to 90 days**. Once that wait is over, there is a 1 in 20 chance each day while such a clan exists. Expect roughly one challenge every 80 to 110 days if you have bitter enemies, none if you have none. The first one cannot come before 10 days.
 
 ## The challenge
 A window titled **"A challenge"** opens on the map: the challenger has *"sent you a glove and a message"*, names the arena, and warns that *"Whoever falls does not get up again."* You have three answers:
@@ -36,8 +36,8 @@ Every hour you could not fight moves the day back by an hour. That covers: the c
 After **10 days** of such delays, or if you are a prisoner when the day comes, the duel is called off with no penalty: *"The duel with {challenger} will not take place."* It is also called off if the challenger dies, is captured, becomes a ruler, or your realms go to war.
 
 ## Sending a champion
-- Any **companion or family member** who can fight: adult, not wounded, not a prisoner, not pregnant, not tied up in a quest.
-- The duel is fought without you **3 to 5 days later**, settled by the two fighters' skill, armour and health. Equal fighters have even odds; one about 60 points "better" wins about 3 times in 4.
+- Any adult **companion or family member**, wherever they are, as long as they are not a prisoner, not away (as an envoy, on an errand or solving a quest), not tied up in a quest, and not pregnant (for women of your family). Being wounded does not stop them.
+- The duel is fought without you **3 to 5 days later**, settled by the two fighters' best melee skill, Athletics, armour and health. Equal fighters have even odds; the choice window shows each candidate's chance against the challenger.
 - **Whoever loses dies, your champion too**, even if they are family.
 - If either of them is in a battle or a siege that day, the duel waits. If one of them cannot come at all, it does not take place.
 - A champion cannot leave as an [envoy](envoys.md) until the duel is over.

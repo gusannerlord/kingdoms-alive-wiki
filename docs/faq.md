@@ -31,7 +31,7 @@ No. Both change how kingdoms decide on war and peace. Use one or the other.
 Yes. Every feature has its own switch. See [Settings](settings.md).
 
 **Does it work in normal (non-fast) campaigns?**
-Yes. Only the [fast mode families](features/fast-mode.md) changes are limited to fast mode.
+Yes. Only the extra AI marriages and children on the [fast mode families](features/fast-mode.md) page are limited to fast mode.
 
 **Does it work with War Sails?**
 Yes.

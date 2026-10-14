@@ -30,7 +30,7 @@ A company of out-of-work sellswords has moved into a village of your kingdom. Yo
 
 ![Facing the free company in the village](../assets/free-company-village.jpg)
 
-- **Drive them out by force.** A battle in the village, just you and them. Mostly low-tier mercenaries of the local culture. Win and you get a bounty of **60 denars per sellsword**, **1 influence per 6 sellswords**, **+6** with the village notables, and **+5** with the village's owner if it is not yours. Lose and they still hold the village (if they capture you, you are let go at once), so you can come back before the 15 days are up.
+- **Drive them out by force.** A battle in the village, just you and them. Mercenaries of the local culture, of every grade. Win and you get a bounty of **60 denars per sellsword**, **1 influence per 6 sellswords**, **+6** with the village notables, and **+5** with the village's owner if it is not yours. Lose and they still hold the village (if they capture you, you are let go at once), so you can come back before the 15 days are up.
 - **Take the whole company into your service** for **180 denars per man**. All of them join your party, whatever its size limit. **+3** with the village notables.
 - **Pay them to take the road out of the realm** for **80 denars per man**. **+3** with the notables. They go to the lands of a neighbouring kingdom you are at peace with, and that kingdom will resent it: tension with it rises by 15 (see [Events between kingdoms](events-between-kingdoms.md)).
 - **Ride away.**
