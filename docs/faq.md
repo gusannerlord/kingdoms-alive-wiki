@@ -19,10 +19,10 @@ A good report says:
 Yes, for now. In the beta the events are frequent on purpose, so every feature gets tested and bugs show up quickly. They will be spaced out as feedback comes in.
 
 **Can I add the mod to my current campaign?**
-Yes. See [Getting started](getting-started.md#new-or-existing-campaign).
+You can, but it is best to start a new campaign with it. See [Getting started](getting-started.md#new-or-existing-campaign).
 
 **Can I remove it later?**
-Yes, the save still loads. See [Removing the mod](getting-started.md#removing-the-mod).
+Not safely. Removing it halfway through a campaign can break that save. See [Removing the mod](getting-started.md#removing-the-mod).
 
 **Does it work with the Diplomacy mod?**
 No. Both change how kingdoms decide on war and peace. Use one or the other.

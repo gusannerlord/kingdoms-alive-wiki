@@ -58,7 +58,7 @@ Whether a lord agrees depends on how they feel about you, before the envoy's eff
 |---|---|---|---|---|---|
 | Odds | 10 in 100 | 30 | 55 | 80 | 90 |
 
-The place is a town or castle at peace with both of you and not under siege, and it is marked on your map. The lord waits there 3 days, a little more with a good envoy, a little less with a poor one (2 to 6 days). Lords in an army, governors and lords riding in someone else's party cannot come.
+The place is a town or castle at peace with both of you and not under siege, and it is marked on your map. The envoy's letter tells you in about how many days the lord should be there, reckoned from how fast their party really travels, and you get a message when they arrive. A lord who is late but still on the road to the meeting is given up to 5 more days; only a lord who never comes calls it off (*"{Lord} never reached {place}; the meeting is off."*). Once there, the lord waits 3 days, a little more with a good envoy, a little less with a poor one (2 to 6 days). Lords in an army, governors and lords riding in someone else's party cannot come.
 
 - You talk to the lord there as usual. Meeting them gives **+1 relation**.
 - If they wait in vain, they leave offended: **-3 relation** (not if you are a prisoner when the wait runs out).

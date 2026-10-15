@@ -60,9 +60,12 @@ See [War and peace](features/war-and-peace.md).
 | `GrandTournamentEnabled` | The grand tournament at a ruler's feast. | [Feasts](features/feasts.md) |
 | `HallCrowdLimitEnabled` | A crowded lord's hall lets in only as many lords as it has places for; the rest can still be spoken to from the menu. | [Feasts](features/feasts.md) |
 | `ClanEventsEnabled` | Events between clans. | [Events between clans](features/clan-events.md) |
+| `VoteRelationsEnabled` | Your council votes, and your decisions as ruler, change relations by the mod's fairer rules. | [Council](features/council.md#relations-from-council-votes) |
+| `VoteRelationsAiEnabled` | AI lords' votes change relations between them too. | [Council](features/council.md#relations-from-council-votes) |
 | `RealmDiscontentEnabled` | Discontent in kingdoms grown too large. | [Civil war](features/civil-war.md) |
 | `ConspiracyEnabled` | Plots and civil wars. | [Civil war](features/civil-war.md) |
 | `CivilWarOutsideRestraintEnabled` | Other kingdoms hold back from attacking either side of a civil war. | [Civil war](features/civil-war.md) |
+| `CivilWarNotifyPlayer` | A notice in the middle of the screen when any kingdom falls into civil war. | [Civil war](features/civil-war.md) |
 | `EnvoysEnabled` | Envoys (all errands). | [Envoys](features/envoys.md) |
 | `EnvoyCouncilEnabled`, `EnvoyRecruitEnabled`, `EnvoyMarriageEnabled`, `EnvoyTradeEnabled`, `EnvoySoundEnabled`, `EnvoyMeetingEnabled`, `EnvoyGiftEnabled`, `EnvoyPlotJoinEnabled`, `EnvoyPlotLoyalEnabled` | Each envoy errand on its own. | [Envoys](features/envoys.md) |
 | `DuelsEnabled` | Lords may challenge you to a duel. | [Duels](features/duels.md) |
@@ -75,7 +78,25 @@ See [War and peace](features/war-and-peace.md).
 | Switch | What it does |
 |---|---|
 | `RealmAffairsEnabled` | [Affairs of your kingdom](features/realm-affairs.md). Each affair also has its own switch: `RealmAffairFreeCompany`, `RealmAffairPeasantRevolt`, `RealmAffairFamine`, `RealmAffairClanFeud`, `RealmAffairRealmWorks`. |
+| `AffairDelegationEnabled` | "Entrust it to someone": hand an affair of your kingdom to a family member, a companion or (if you rule) another house. See [Affairs of your kingdom](features/realm-affairs.md). |
 | `CompanionErrandsEnabled` | [Companion errands](features/companion-errands.md). |
+
+### The royal court
+See [The royal court](features/royal-court.md).
+
+| Switch | What it does |
+|---|---|
+| `CourtOfficesEnabled` | The four offices of the court (Marshal, Steward, Master of Works, Chancellor) and what they give. |
+| `CourtAiAppointEnabled` | AI rulers name their own court and may offer you an office. |
+| `CourtChargeEnabled` | When you hold an office for an AI ruler, the affairs of that office come to you as the ruler's charge, with greater rewards. |
+| `AudiencesEnabled` | Petitioners come to you with requests, and you can call and hold audiences. |
+| `TourEnabled` | "Hold court here" in your fiefs, and the royal tour of your vassals' fiefs if you rule. |
+| `OathEnabled` | When a kingdom gets a new ruler, every house swears to them, asks for something or refuses. |
+| `FiefRevocationEnabled` | Proposing to take a fief from a vassal worries your other vassals, and the holder may break away with its fiefs. |
+| `FiefPlotEnabled` | As ruler, win lords over to vote for taking a fief from another house. |
+| `FiefClaimFourCandidates` | Four candidates when a fief is shared out; right after a conquest, the house that led it always stands. See [Council](features/council.md#who-gets-a-fief). |
+| `FiefClaimEnabled` | Ask a lord for his voice for your house when the next fief is shared out. |
+| `FiefClaimFriendshipEnabled` | Every lord's vote for your house rises a little with how much he likes you. |
 
 ### Campaign
 
@@ -91,4 +112,4 @@ See [War and peace](features/war-and-peace.md).
 | `ApplyToWeapons` | Weapons get cheaper too. Off = only armour. |
 
 ### Logs
-`EventLogEnabled` and `DiplomacyLogEnabled` write detailed lines to the game's log, useful only when I ask you for a log to track a bug. Off by default.
+`EventLogEnabled`, `DiplomacyLogEnabled` and `CourtMeasureLogEnabled` write detailed lines to the game's log, useful only when I ask you for a log to track a bug. Off by default.

@@ -78,6 +78,59 @@ A promise ends if the lord's clan leaves the kingdom, and all promises end if yo
 !!! note
     A family member or companion sent as an [envoy](envoys.md) can win a lord over the same way, with the same promises and waiting times.
 
+## Relations from council votes
+
+In the base game, every vote you cast raises your relation with the lord behind the option you back, by a lot (up to +28 for a fief), whether it passes or not, as often as you like. AI lords gain nothing from their votes. The mod makes votes a small, fair source of goodwill, with the same rules for you and for the AI.
+
+When a vote is settled:
+
+| | Slightly in favor | Strongly in favor | Fully in favor |
+|---|---|---|---|
+| With the lord behind your option, if it passed | +2 | +4 | +8 |
+| With the lord behind your option, if it failed | +1 | +3 | +6 |
+| With **one** rival: the lord behind the option that beat yours (or, if yours passed, behind the strongest of the others) | −1 | −3 | −6 |
+
+- The loss is never larger than the gain. A vote you win leaves you a little ahead overall; a vote you lose leaves you about even.
+- **No sides, no favour:** if no other option had a lord pushing it, nobody gains or loses anything. Voting for your own proposal gives nothing either.
+- Favours to the **same lord within 30 days** count less: the second time 75%, the third 50%, after that 25%.
+- Charm, perks and Honor raise the gains a little, as in the base game. Sturgian lords lose 20% more, as in the base game.
+- With **Good Natured**, a lost vote costs you no influence, so it gives only +1.
+- A **ruler** who decides against the option most of the council backed loses **5** with the lord behind it (not if you, as ruler, abstain and let the vote decide).
+- **AI lords** follow the same rules at a quarter of the amounts, so over time votes bind some houses together and set others apart. How AI lords vote on your proposals still changes nothing between you and them, as in the base game.
+- The voting window shows whom you will gain with and whom you will lose with if the vote ends as it stands.
+- The vote on taking a fief away from its holder keeps the base game's rules.
+
+## Who gets a fief
+
+When a town or castle is conquered, or taken from a vassal, the council votes on who gets it. In the base game only the **three** houses the game finds most deserving stand, and that favours houses with little land: once you hold a few fiefs, you often do not even stand for the one you just conquered. The mod gives you ways to play for it.
+
+- **Four candidates instead of three.** Right after a conquest, the fourth is the house that **led** the conquest, if it is not already among the first three. Conquer it yourself and you always stand. Otherwise the fourth is the next most deserving house. (The voting cards are a little narrower to fit four candidates and "abstain".)
+- **Friendship counts.** Every lord's vote for your house rises a little with how much they like you: at 50 relation, about as much as a house's own merit weighs with a lord who does not care either way.
+- **Ask for a lord's voice.** Talk to the head of another house of your realm, as ruler or vassal: *"When the next fief of this realm is shared out, I would have your voice for my house."* Any lord with 0 relation or more listens, then you argue it out. The more towns and castles your house already holds, the harder it is (one step for every 2); your Charm and a shared feast make it easier; an honorable lord, who votes by merit, is harder.
+
+Your chances with a lord who has no special traits:
+
+| Relation | Charm | You hold 0 fiefs | 2 | 4 | 6 |
+|---|---|---|---|---|---|
+| 0 | 0 | 6% | 1% | 1% | 1% |
+| 0 | 200 | 48% | 24% | 4% | 1% |
+| 40 | 100 | 48% | 24% | 4% | 1% |
+| 40 | 200 | 67% | 39% | 24% | 4% |
+| 80 | 0 | 56% | 32% | 7% | 2% |
+| 80 | 100 | 74% | 48% | 32% | 7% |
+| 80 | 200 | 85% | 63% | 48% | 32% |
+
+- **Won over**, they back your house in the next sharing out in which it stands, within **60 days**. The promise is only spent once they have actually voted for you. A lord with less than **500** influence backs you strongly, but never with everything they have.
+- A lord whose own house stands for the fief still votes for their own house.
+- As ruler you can still overrule the council with influence; every voice won makes it cheaper. As a vassal, an AI ruler can still overrule a vote you won if they have the influence to spare, as in the base game.
+
 ## Turn it off
 
-In the [settings file](../settings.md), set `CouncilPersuasionEnabled` to `false`. The conversation is no longer offered.
+In the [settings file](../settings.md):
+
+- `CouncilPersuasionEnabled` to `false`: the conversation is no longer offered.
+- `FiefClaimFourCandidates` to `false`: three candidates, as in the base game.
+- `FiefClaimEnabled` to `false`: you cannot ask for a lord's voice for your house.
+- `FiefClaimFriendshipEnabled` to `false`: friendship counts in the vote only as in the base game.
+- `VoteRelationsEnabled` to `false`: your votes and your decisions as ruler change relations as in the base game.
+- `VoteRelationsAiEnabled` to `false`: AI lords' votes change nothing between them, as in the base game.

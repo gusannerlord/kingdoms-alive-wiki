@@ -19,6 +19,19 @@ Every 7 days (the mod's own count, not the game's week, which is only 3 days in 
 | 2 times or more | 1.5 |
 
 - It reaches every vassal clan leader, **you included**. It does not reach the ruler's own clan, the ruler's close kin (parents, children, brothers and sisters, husband or wife) or mercenaries.
+- **It stops at a limit that depends on the kingdom's size.** In all, it never takes more from a clan leader than:
+
+    | Size of the kingdom | Most it takes in all |
+    |---|---|
+    | 1.25 times its fair share | 3 |
+    | 1.3 times | 5 |
+    | 1.4 times | 9 |
+    | 1.5 times | 12 |
+    | 1.75 times | 18 |
+    | 2 times or more | 25 |
+
+    A kingdom that keeps growing wears its lords down further, up to the new limit. One that shrinks gives back what is over its new limit, a point every 7 days. Size alone rarely turns lords against a ruler badly enough for a civil war; [quarrels between clans](clan-events.md) and other grudges do the rest.
+- A [Chancellor](royal-court.md#the-offices) cuts it by up to 15%, and a house whose lord received the ruler in their own hall on a [royal progress](royal-court.md#the-royal-progress) is spared it for 30 days.
 - It never takes anyone below **−25** with the ruler. Lords who already dislike the ruler more than that lose nothing further from it.
 - Every so often you see a yellow message. As a vassal: *"{Kingdom} has grown too large to be ruled well, and your regard for {ruler} keeps wearing away (now X)."* As the ruler: *"The lords of {Kingdom} grumble that the realm has grown too large to be ruled well: N houses think less of you."*
 - **Recovery:** once the kingdom is no longer too large, or while it rests after a civil war, each clan leader gets back 1 point every 7 days, up to what the discontent took and never more. That claim is lost if the ruler changes, the clan gets a new leader, or the clan leaves the kingdom.
@@ -50,6 +63,9 @@ Every 7 days, each clan leader of the kingdom weighs the plot. The ruler's own c
 | How big the plot is | up to +20, as it grows toward the whole realm |
 | Clan without towns or castles | +10, only while the realm is too large |
 | Close kin or in-law of the plot's leader | +20 |
+| Swore the [oath of fealty](royal-court.md#the-oath-to-a-new-ruler) to the current ruler | −10, for 120 days |
+| Refused that oath, or let the time pass | +20, for 180 days |
+| Dismissed from the [court](royal-court.md#the-offices) | up to +8, fading over about 120 days |
 
 A lord **joins at 25** and **leaves below 5**. Example: a lord with −20 toward the ruler (+14) and +10 toward the plotter (+5), with the plot holding 30% of the realm (+6), reaches 25 and joins.
 
@@ -87,9 +103,8 @@ When it rises:
 
 - The plot's leader founds a **new kingdom**, named *"{Clan} Pretenders"*, with their clan's culture and emblem, on a banner of its own colours, distinct from the realm it rose against (if you lead the rising, your clan keeps its own colours). It claims the throne and is at war with the crown at once.
 - Every clan of the plot goes over with its towns, castles and villages, keeps its influence, and must stay at least **60 days**.
-- You see a red message: *"{Leader} of the {Clan} has raised the banner against {ruler}! Civil war in {Kingdom}."*
-
-The news of the rising names the houses that go over to the rebels.
+- You are told in the middle of the screen, wherever it happens: *"Civil war: {Leader} of the {Clan} has raised the banner against {ruler}, ruler of the {people}."* (or *"Civil war in your realm: ..."* in your own kingdom). If you led the rising, were in the plot or were asked whether you ride with it, you already know and get no extra notice.
+- The log keeps a red line with the news and the houses that went over to the rebels.
 
 ## Winning the civil war
 
@@ -104,7 +119,7 @@ Nothing is settled while you are in a battle or siege on either side; it waits f
 
 **The rebels win.** The rebel leader's clan becomes the ruling clan of the old kingdom. Every rebel house comes back into it (and must stay 60 days), and the rebel kingdom disappears. The old ruler loses **20** relation with the new one. If that ruler was you: *"You have lost the throne of {Kingdom}. {New ruler} of the {Clan} now rules; your house remains as a vassal."*
 
-If you led the rising and win, you are told the crown of the kingdom is yours.
+If you led the rising and win, you are told the crown of the kingdom is yours. A new ruler means a new [oath of fealty](royal-court.md#the-oath-to-a-new-ruler): the houses that stayed loyal to the old crown are much less willing to swear to the winner.
 
 **The crown wins.** The plot's leader loses every town and castle (they go to the ruler) and is banished: an AI clan goes to another kingdom, preferably of its own culture and whose ruler it likes best, never yours. If none will do, it is left without a kingdom. The other rebel houses come back pardoned, each with **−20** relation with the ruler, and must stay 60 days.
 
@@ -159,11 +174,13 @@ The four arguments for staying loyal:
 - A lord you keep loyal is sworn to the crown for **30 days**, or **60 days** if you are the ruler.
 - If you fail, you must wait **45 days** before trying that lord again. A bad failure means **60 days** and **−4** relation.
 
-### Whispers at court
+### The Plots tab
 
-In any town or castle of your kingdom, once you know of a plot, the menu has **"Whispers at court"**. It lists every clan by strength with what you know of its stance: *leads the plot* (only once you have found out who leads it), *in the plot*, *in the plot, sworn*, *loyal*, *loyal, sworn*, *wavering* (could still go either way), *the ruler*, *the crown's own* (the ruler's close kin), or *unknown*.
+Open the kingdom screen (**K**) and pick the **Plots** tab, from anywhere. If you know of no plot, it says *"No whispers reach you."* Once you know of one, it lists every house of the realm by strength with what you know of its stance: *leads the plot* (only once you have found out who leads it), *in the plot*, *in the plot, sworn*, *loyal*, *loyal, sworn*, *wavering* (could still go either way), *the ruler*, *the crown's own* (the ruler's close kin), or *unknown*.
 
-If you are in the plot, the top line gives its exact share of the realm's strength and when it can rise. If you are not, you only learn who leads it, and only once you have found out.
+If you are in the plot, the top line and a bar give its exact share of the realm's strength and when it can rise. If you are not, you only learn who leads it, and only once you have found out.
+
+The tab also lists the votes you have won: lords who will vote to [take a fief from a house](royal-court.md#winning-the-votes-first), and lords who will back your house when the next [fief is shared out](council.md#who-gets-a-fief), with the days they have left.
 
 ### Leading your own plot
 
@@ -173,15 +190,15 @@ If you are in the plot, the top line gives its exact share of the realm's streng
 
 ### Raise the banner
 
-When you lead the plot, the town and castle menu shows **"Raise the banner"**. It is available only:
+When you lead the plot, the **Plots** tab has a **"Raise the banner"** button. It works only:
 
-- in a town or castle held by a house of your plot (yours included);
+- while you are **inside a town or castle** of your kingdom held by a house of your plot (yours included);
 - with the plot holding **40%** of the realm's strength (the AI needs 50%);
 - with the kingdom at peace with every other kingdom;
 - with the crown still holding a town or castle of its own;
 - when no story quest is under way and you are not in the middle of a fight.
 
-If something is missing, the option is greyed out and its tooltip says what. A confirmation explains that there is no going back, that peace is impossible for 120 days, and that if the crown wins your lands are forfeit and you are banished. Then you **name your kingdom** (it cannot take the name of the realm you rise against). Your plot's houses follow you with their lands, and the civil war begins.
+If something is missing, the button is greyed out and its tooltip says what. A confirmation explains that there is no going back, that peace is impossible for 120 days, and that if the crown wins your lands are forfeit and you are banished. Then you **name your kingdom** (it cannot take the name of the realm you rise against). Your plot's houses follow you with their lands, and the civil war begins.
 
 ### When an AI plot you are in rises
 
@@ -196,7 +213,7 @@ During a story quest you can only stay, with no penalty.
 
 - Discontent wears on your lords' relation with you, but never on your own clan or close kin, and those never plot against you.
 - Nobody wins lords back for you: talk to them yourself (*"There is a plot against me. Stay loyal to the crown."*), or send an envoy. A lord you keep loyal stays so for 60 days. Talking the plot's leader out of it ends the plot.
-- When the rumour reaches you, ask around or use "Whispers at court" to find who is behind it.
+- When the rumour reaches you, ask around, and watch the **Plots** tab, to find who is behind it.
 - **You can lose the crown.** If the rebels win, their leader rules your kingdom and your house stays on as a vassal.
 
 ### Envoys
@@ -210,7 +227,7 @@ With [Envoys](envoys.md) you can send a family member or companion to do this ta
 - Watch the **Calculating** lords: they hold back while a plot is small and rush in once it passes 30%.
 - The AI only rises in peacetime. A ruler facing a strong plot is safe while at war with another kingdom, but a plot that already has enough waits for the peace.
 - Feasts make winning lords over easier, for you and for the AI.
-- Keep a town or castle of your plot in mind before you start: you can only raise the banner from one of them.
+- Keep a town or castle of your plot in mind before you start: you can only raise the banner from inside one of them.
 
 ## Turn it off
 

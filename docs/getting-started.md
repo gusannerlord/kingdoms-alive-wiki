@@ -18,14 +18,15 @@
 Overwrite the same **CampaignImprovements** folder. Your campaign carries on. New switches are added to your settings file with their default values (almost all on).
 
 ## New or existing campaign?
-- **Safe to add to a campaign in progress.** Everything starts working from the day you load it.
-- Some features build up over time (tension between kingdoms, discontent in large kingdoms, plots), so give them a few weeks of game time.
+
+!!! warning "Start a new campaign with the mod, and keep it to the end"
+    The mod is best played from the first day of a campaign, and it is **not meant to be removed halfway**. Taking it out of a campaign in progress can break that save.
+
+- It can be added to a campaign in progress, and everything starts working from the day you load it, but a new campaign is the way it is meant to be played.
+- Some features build up over time (tension between kingdoms, discontent in large kingdoms, plots, the courts of AI rulers), so give them a few weeks of game time.
 
 ## Removing the mod
-Your save still loads without the mod. A few things stay as they were at that moment:
-
-- an envoy or a companion who is away on an errand does not come back;
-- a civil war in progress becomes an ordinary war between two kingdoms.
+Do not remove it from a campaign you want to keep playing. If you do, keep a copy of your save first: the campaign may no longer load, or may misbehave. Things the mod had under way (an envoy or companion away on an errand, a civil war, a court) stay as they were at that moment or are lost.
 
 ## Compatibility
 - **Not compatible with the "Diplomacy" mod** or other mods that replace how AI kingdoms decide on war and peace. Despite the name, this is not an add-on for it.

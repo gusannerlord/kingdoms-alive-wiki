@@ -1,5 +1,5 @@
 site_name: Kingdoms Alive Wiki
-site_description: Player guide for the Bannerlord mod "Diplomacy - Kingdoms Alive".
+site_description: Player guide for the Bannerlord mod "Diplomacy - Kingdoms Alive", which turns your campaign into a living medieval realm in the spirit of Crusader Kings.
 site_url: https://gusannerlord.github.io/kingdoms-alive-wiki/
 repo_url: https://github.com/gusannerlord/kingdoms-alive-wiki
 repo_name: kingdoms-alive-wiki
@@ -58,6 +58,7 @@ nav:
       - Envoys: features/envoys.md
       - Duels: features/duels.md
   - Your realm and household:
+      - The royal court: features/royal-court.md
       - Affairs of your kingdom: features/realm-affairs.md
       - Companion errands: features/companion-errands.md
   - Campaign:

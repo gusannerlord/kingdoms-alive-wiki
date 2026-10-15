@@ -28,10 +28,10 @@ Whatever the traits, the chance of a bad event stays between 20% and 80%.
 
 | Kind | Usual change | Larger change |
 |---|---|---|
-| Good | +1 to +3 (85% of the time) | +5 to +8 (15%) |
-| Bad | −3 to −6 (80% of the time) | −10 to −15 (20%) |
+| Good | +2 to +4 (85% of the time) | +6 to +10 (15%) |
+| Bad | −2 to −5 (80% of the time) | −8 to −12 (20%) |
 
-Good turns bring two houses a little closer. Quarrels are more frequent and can hurt badly.
+Good turns bring two houses a little closer. Quarrels are a little more frequent and hurt a little more, so over many events relations drift slowly downward unless something mends them.
 
 **Cap:** an event never takes a relation above **+60** or below **−60**. A good event between leaders already at +60 or more changes nothing, and so does a bad one between leaders at −60 or less. Your Charm does not make these changes any larger or smaller.
 
