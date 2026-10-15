@@ -1,7 +1,7 @@
 # FAQ, bugs and roadmap
 
 ## Reporting a bug
-I will be very active these days and fix reported problems quickly. Report them in the **Bugs** or **Posts** tab on [Nexus Mods](https://www.nexusmods.com/mountandblade2bannerlord/mods/13980).
+I fix reported problems quickly. Report them in the **Bugs** or **Posts** tab on [Nexus Mods](https://www.nexusmods.com/mountandblade2bannerlord/mods/13980).
 
 A good report says:
 
@@ -11,12 +11,12 @@ A good report says:
 4. If the game crashed: accept the crash report, and tell me the date and time of the crash.
 
 !!! tip "Feedback is just as welcome"
-    I really value your feedback to finish tuning the numbers. If something happens too often, too rarely, or feels unfair, tell me. That is exactly what the beta is for.
+    I really value your feedback to keep tuning the numbers. If something happens too often, too rarely, or feels unfair, tell me.
 
 ## Frequent questions
 
-**Events happen very often. Is that normal?**
-Yes, for now. In the beta the events are frequent on purpose, so every feature gets tested and bugs show up quickly. They will be spaced out as feedback comes in.
+**Events happen too often, or too rarely, for my taste. Can I change that?**
+Yes. Every feature has its own switch, and its numbers can be changed in the settings file (see [Settings](settings.md)). And tell me: frequencies are tuned with players' feedback.
 
 **Can I add the mod to my current campaign?**
 You can, but it is best to start a new campaign with it. See [Getting started](getting-started.md#new-or-existing-campaign).

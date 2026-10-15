@@ -9,11 +9,6 @@ Every feature can be switched off on its own (see [Settings](settings.md)).
 !!! warning "Start a new campaign with it"
     Play the mod from the start of a campaign and keep it until the end. Removing it from a campaign in progress can break that save. See [Getting started](getting-started.md#new-or-existing-campaign).
 
-!!! warning "This mod is in beta"
-    I am still testing things. Right now events may happen quite often, and you may see several within a few days. **That is on purpose**: it lets every feature be tested and bugs found quickly. Frequencies and values will be tuned over the next updates with your feedback.
-
-    I will be very active these days. If you find a problem, report it (see [Bugs](faq.md#reporting-a-bug)) and I will fix it quickly.
-
 ## What the mod does
 
 ### War and diplomacy
