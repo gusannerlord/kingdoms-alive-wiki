@@ -8,7 +8,8 @@ In times of peace the lords of a kingdom gather under one roof. Houses grow clos
 - Each day there is a **1 in 5** chance that one of its clans calls a feast.
 - After a feast ends, that kingdom holds no other for **25 days**.
 - The host is the ruling clan about **7 times in 10**. Otherwise it is one of the other clans, with higher-tier clans more likely.
-- The host pays **1,500 denars for each clan invited**, and only calls a feast if they have three times that sum. They must be leading a party of their own and not be away with an army.
+- The host pays **1,500 denars for each clan invited**, and only calls a feast if they have three times that sum. They must be leading a party of their own, not be away with an army and not be on their way to your court.
+- No feast is called while a [hunt](hunts.md) of the kingdom is announced or under way, nor in the **3 days** after it ends. AI hunts are normally fitted into the waiting time between feasts, so they rarely hold a feast back.
 - The feast is held in the host's richest town. If they hold no town, it is held in one of their castles.
 
 If the feast is in your own kingdom, a message on the map tells you who calls it and where: *"{Host} bids the lords of the realm to a feast at {place}. The tables will be laid in 5 days."*
@@ -18,7 +19,8 @@ If the feast is in your own kingdom, a message on the map tells you who calls it
 ## Notice, duration and who comes
 
 - The tables are laid **5 days** after the feast is called, and the feast lasts **3 evenings**.
-- Lords of the kingdom who lead a party ride there if they are within about **4 days** of travel and would arrive before it ends. The host comes from any distance. A lord with something more urgent to do, such as a siege, still does that.
+- Lords of the kingdom who lead a party ride there if they are within about **4 days** of travel and would arrive before it ends. The host comes from any distance. A lord with something more urgent to do, such as a siege, still does that, and a lord you have called to your court (see [The royal court](royal-court.md)) goes there instead.
+- When the tables are laid, a banner tells you if it is your own feast (*"Your feast at {place} has begun: join your guests in the hall."*) or a feast of your realm you are bidden to (*"The feast at {place} has begun: {Host} awaits the lords of the realm in the hall."*).
 - **Clan leaders without a party** who are idle in a town or castle also travel there, if they are within 4 days and would arrive with at least one evening left. Governors stay at their posts. Once at the feast, these lords stay until it is over.
 - Mercenary clans are not invited.
 
@@ -48,7 +50,7 @@ When a feast is being held in a town or castle you are in, the menu shows **Join
 - You count as present on any evening you are in the settlement.
 - Stay for all 3 evenings and you gain **+1** with the host (if the host is there) and **+1** with one other house you spent the evening with.
 - **Feasts of other kingdoms:** you can join if your faction is not at war with them and your relation with the host is **0 or better**. Otherwise the option is greyed out: *"{Host} keeps this table for friends, and does not count you among them."*
-- **Easier persuasion:** at a feast of your own kingdom, the clan leaders in the hall are **one step easier** to win over about a war or a peace (see [Winning the council over](council.md)). Lords at the same feast are also easier to draw into a plot (see [Civil war](civil-war.md)).
+- **Easier persuasion:** at a feast of your own kingdom, the clan leaders in the hall are **one step easier** to win over about a war, a peace or a fief (see [Winning the council over](council.md)). Lords at the same feast are also easier to draw into a plot (see [Civil war](civil-war.md)). A [hunt](hunts.md) gives the same help, but never on top of a feast.
 
 ## Holding your own feast
 
@@ -56,7 +58,7 @@ In a town or castle that belongs to your clan, the menu shows **Hold a feast her
 
 - to be in a kingdom (as a vassal or as ruler, not as a mercenary);
 - your kingdom at peace with every other kingdom;
-- no other feast of your kingdom already called;
+- no other feast of your kingdom already called, and no hunt of your kingdom announced or under way, nor one that ended less than **3 days** ago;
 - **8 days** since the last feast in your kingdom, whoever held it, and **25 days** since your own last feast;
 - enough denars for at least the modest table.
 
@@ -70,6 +72,7 @@ You choose one of three tables. The cost is paid for **each other clan of your k
 | A generous table | 4,000 | +2 | 45 | 0.6 |
 | A lavish table | 10,000 | +3 | 60 | 1.2 |
 
+- Your feast is **marked on your map** from the moment you call it until it ends or breaks up.
 - The relation goes to each clan that sits through every evening, and **only if you preside in person** on those evenings. No relation goes above the limit for that table.
 - When the feast ends you gain influence for every clan present on every evening you were there. For example, 10 clans for 3 evenings at a generous table gives 18 influence.
 - **A host who is away gains nothing:** *"A feast without its host is soon forgotten: yours has won you nothing."*

@@ -31,7 +31,7 @@ Every 7 days (the mod's own count, not the game's week, which is only 3 days in 
     | 2 times or more | 25 |
 
     A kingdom that keeps growing wears its lords down further, up to the new limit. One that shrinks gives back what is over its new limit, a point every 7 days. Size alone rarely turns lords against a ruler badly enough for a civil war; [quarrels between clans](clan-events.md) and other grudges do the rest.
-- A [Chancellor](royal-court.md#the-offices) cuts it by up to 15%, and a house whose lord received the ruler in their own hall on a [royal progress](royal-court.md#the-royal-progress) is spared it for 30 days.
+- A [Chancellor](royal-court.md#the-offices) cuts it by up to 15%.
 - It never takes anyone below **−25** with the ruler. Lords who already dislike the ruler more than that lose nothing further from it.
 - Every so often you see a yellow message. As a vassal: *"{Kingdom} has grown too large to be ruled well, and your regard for {ruler} keeps wearing away (now X)."* As the ruler: *"The lords of {Kingdom} grumble that the realm has grown too large to be ruled well: N houses think less of you."*
 - **Recovery:** once the kingdom is no longer too large, or while it rests after a civil war, each clan leader gets back 1 point every 7 days, up to what the discontent took and never more. That claim is lost if the ruler changes, the clan gets a new leader, or the clan leaves the kingdom.
@@ -71,7 +71,9 @@ A lord **joins at 25** and **leaves below 5**. Example: a lord with −20 toward
 
 "The realm's strength" here means the Clan Strength of all its vassal clans together, the ruler's clan included and mercenaries left out. The plot's **share** is the part of that held by its clans.
 
-**The plot's leader recruits.** Each week an AI plot leader tries to win over one undecided lord (score between 5 and 25), the closest to joining. The odds are 15%, plus 2% for every 10 points of the leader's Charm, plus 2% for each point the lord is above 5, between 5% and 60%. At the same feast the odds are 1.5 times higher. A lord won over this way stays in the plot for at least 30 days. Once the plot holds 60% of the realm, the leader stops recruiting (lords may still join by themselves).
+**The plot's leader recruits.** Each week an AI plot leader tries to win over one undecided lord (score between 5 and 25), the closest to joining. The odds are 15%, plus 2% for every 10 points of the leader's Charm, plus 2% for each point the lord is above 5, between 5% and 60%. At the same feast or the same [hunt](hunts.md) the odds are 1.5 times higher. A lord won over this way stays in the plot for at least 30 days. Once the plot holds 60% of the realm, the leader stops recruiting (lords may still join by themselves).
+
+**At a hunt.** An AI plot leader who hosts a hunt likes to invite wavering lords (score between 5 and 25). On the last day of the hunt they try once to win over each wavering guest who came, with the odds above, 1.5 times higher. A member of the plot who hosts a hunt tries with each wavering guest half the time. An AI ruler who knows of the plot and hosts a hunt tries to win back each guest who is in it.
 
 **The ruler wins lords back.** Once the plot holds 25% of the realm, an AI ruler tries each week to win back the member who is least committed. The deeper the lord is in it, the harder. A lord won back leaves the plot, gains **+5** relation with the ruler and stays loyal for at least **60 days**. If you are the ruler, this is your job (see below).
 
@@ -152,7 +154,7 @@ Everything below needs you to lead your clan as a vassal (not a mercenary) of th
 | *"I know what you are planning. Count me in."* | You are talking to the plot's leader and know they lead it. | You join if they would take you like any other lord: your relation with them and with the ruler and your traits count, and a score of 5 is enough. Otherwise: *"I do not trust you enough for that. Not yet."* Not possible while you are sworn to the crown. |
 | *"I will have no more part in this plot of yours."* | You are a member of an AI lord's plot and talk to its leader. | You leave the plot. *"Then go, and keep your mouth shut."* |
 
-**How persuasion works.** It uses the game's usual persuasion screen. Some lords agree at once (*"You need not persuade me..."*). Some refuse to discuss it at all, for example lords already sworn to the other side. When you ask a lord to stay loyal without knowing where they stand, they only open up if they would tell you the truth when asked (same roll as above); otherwise they answer *"Plots, loyalty... I will not speak of such things with you."* The rest want convincing, and how many arguments you need to win depends on how far they are from changing their mind and on your relation with them. A good relation (15 or more) makes it easier, a bad one harder, and being at the same feast makes it easier.
+**How persuasion works.** It uses the game's usual persuasion screen. Some lords agree at once (*"You need not persuade me..."*). Some refuse to discuss it at all, for example lords already sworn to the other side. When you ask a lord to stay loyal without knowing where they stand, they only open up if they would tell you the truth when asked (same roll as above); otherwise they answer *"Plots, loyalty... I will not speak of such things with you."* The rest want convincing, and how many arguments you need to win depends on how far they are from changing their mind and on your relation with them. A good relation (15 or more) makes it easier, a bad one harder, and being at the same feast or out at the same hunt makes it easier.
 
 The four arguments for joining:
 
@@ -180,7 +182,7 @@ Open the kingdom screen (**K**) and pick the **Plots** tab, from anywhere. If yo
 
 If you are in the plot, the top line and a bar give its exact share of the realm's strength and when it can rise. If you are not, you only learn who leads it, and only once you have found out.
 
-The tab also lists the votes you have won: lords who will vote to [take a fief from a house](royal-court.md#winning-the-votes-first), and lords who will back your house when the next [fief is shared out](council.md#who-gets-a-fief), with the days they have left.
+The tab also lists, under **Votes you have won**, the votes you have won: lords who will vote to [take a fief from a house](royal-court.md#winning-the-votes-first), and lords who will back your house when the next [fief is shared out](council.md#who-gets-a-fief), with the days they have left.
 
 ### Leading your own plot
 
@@ -226,7 +228,7 @@ With [Envoys](envoys.md) you can send a family member or companion to do this ta
 - A plot's leader needs relation −5 or worse with the ruler. Gaining relation with your strongest clan leaders (feasts, gifts, favours) keeps them from starting one.
 - Watch the **Calculating** lords: they hold back while a plot is small and rush in once it passes 30%.
 - The AI only rises in peacetime. A ruler facing a strong plot is safe while at war with another kingdom, but a plot that already has enough waits for the peace.
-- Feasts make winning lords over easier, for you and for the AI.
+- Feasts and hunts make winning lords over easier, for you and for the AI.
 - Keep a town or castle of your plot in mind before you start: you can only raise the banner from inside one of them.
 
 ## Turn it off
@@ -237,3 +239,4 @@ In the settings file (see [Settings](../settings.md)):
 - `ConspiracyEnabled` to `false`: no new plots, and plots under way are called off. A civil war already going on continues until it ends.
 - `CivilWarOutsideRestraintEnabled` to `false`: other kingdoms treat a war against either side of a civil war like any other war.
 - `EnvoyPlotJoinEnabled` / `EnvoyPlotLoyalEnabled` to `false`: removes the two envoy errands for plots.
+- `HuntPlotRecruitEnabled` to `false`: hunts no longer make talking lords into or out of a plot easier.

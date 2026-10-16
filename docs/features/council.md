@@ -59,7 +59,7 @@ How hard a lord is depends on how far they are from your view, your relation wit
 - The ruler is two steps harder than any other lord.
 
 !!! tip
-    **Feasts make it easier.** At a [feast](feasts.md) of your kingdom, a lord who is there with you is one step easier to persuade. With the whole council in one hall, a feast is the best time to win votes.
+    **Feasts make it easier.** At a [feast](feasts.md) of your kingdom, a lord who is there with you is one step easier to persuade. With the whole council in one hall, a feast is the best time to win votes. A [hunt](hunts.md) works the same way: a lord out with you on the same hunt is also one step easier (a hunt never falls during a feast of the same kingdom, so the two never add up).
 
 ## What you get
 
@@ -106,7 +106,7 @@ When a town or castle is conquered, or taken from a vassal, the council votes on
 
 - **Four candidates instead of three.** Right after a conquest, the fourth is the house that **led** the conquest, if it is not already among the first three. Conquer it yourself and you always stand. Otherwise the fourth is the next most deserving house. (The voting cards are a little narrower to fit four candidates and "abstain".)
 - **Friendship counts.** Every lord's vote for your house rises a little with how much they like you: at 50 relation, about as much as a house's own merit weighs with a lord who does not care either way.
-- **Ask for a lord's voice.** Talk to the head of another house of your realm, as ruler or vassal: *"When the next fief of this realm is shared out, I would have your voice for my house."* Any lord with 0 relation or more listens, then you argue it out. The more towns and castles your house already holds, the harder it is (one step for every 2); your Charm and a shared feast make it easier; an honorable lord, who votes by merit, is harder.
+- **Ask for a lord's voice.** Talk to the head of another house of your realm, as ruler or vassal: *"When the next fief of this realm is shared out, I would have your voice for my house."* Any lord with 0 relation or more listens, then you argue it out. The more towns and castles your house already holds, the harder it is (one step for every 2); your Charm and a shared feast or hunt make it easier; an honorable lord, who votes by merit, is harder.
 
 Your chances with a lord who has no special traits:
 
@@ -122,6 +122,7 @@ Your chances with a lord who has no special traits:
 
 - **Won over**, they back your house in the next sharing out in which it stands, within **60 days**. The promise is only spent once they have actually voted for you. A lord with less than **500** influence backs you strongly, but never with everything they have.
 - A lord whose own house stands for the fief still votes for their own house.
+- When a fief is being taken from a house, that house will not speak for yours over it, whatever it promised, and its liking for you does not count in that vote either. Its promise is not spent: it waits for the next fief shared out.
 - As ruler you can still overrule the council with influence; every voice won makes it cheaper. As a vassal, an AI ruler can still overrule a vote you won if they have the influence to spare, as in the base game.
 
 ## Turn it off

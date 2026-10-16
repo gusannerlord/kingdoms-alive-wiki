@@ -24,6 +24,9 @@ You can, but it is best to start a new campaign with it. See [Getting started](g
 **Can I remove it later?**
 Not safely. Removing it halfway through a campaign can break that save. See [Removing the mod](getting-started.md#removing-the-mod).
 
+**Where do I see a companion or family member I sent away?**
+In your quest log. Everyone you send away on an [affair of your kingdom](features/realm-affairs.md) or a [companion errand](features/companion-errands.md), and a house of your realm you hand an affair to, has an entry there with a **Return Days** bar. It closes by itself when they are back. [Envoys](features/envoys.md) are not in the log: they write to you instead (messages starting *"A letter from..."*).
+
 **Does it work with the Diplomacy mod?**
 No. Both change how kingdoms decide on war and peace. Use one or the other.
 

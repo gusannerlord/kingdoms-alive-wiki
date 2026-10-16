@@ -2,7 +2,7 @@
 
 **Kingdoms Alive turns your Bannerlord campaign into a living medieval realm, in the spirit of Crusader Kings:** a court to fill, oaths to demand, houses that scheme and feud, and kingdoms that remember what you did.
 
-A campaign mod for Mount & Blade II: Bannerlord. Kingdoms go to war for a reason, wars last long enough to matter, peace is agreed by both sides, and peace is no longer empty: lords feast and duel, clans quarrel and make up, great realms split in civil war, and your own household gives you something to do.
+A campaign mod for Mount & Blade II: Bannerlord. Kingdoms go to war for a reason, wars last long enough to matter, peace is agreed by both sides, and peace is no longer empty: lords feast, hunt and duel, clans quarrel and make up, great realms split in civil war, and your own household gives you something to do.
 
 Every feature can be switched off on its own (see [Settings](settings.md)).
 
@@ -18,15 +18,16 @@ Every feature can be switched off on its own (see [Settings](settings.md)).
 
 ### Life at court
 - **[Feasts and the grand tournament](features/feasts.md)**: lords gather in peacetime; you can attend or hold your own, and a ruler can add a grand tournament.
+- **[Hunts](features/hunts.md)**: in peacetime lords invite friendly houses to hunt in the woods of their fiefs; ride along or host your own, win friends, have a quiet word about a plot, and once in a long while someone does not come back.
 - **[Events between clans](features/clan-events.md)**: the clans of a kingdom fall out and make up.
 - **[Civil war](features/civil-war.md)**: large kingdoms crack, powerful clans plot for the throne, and you can join, oppose or lead the plot from the Plots tab of the kingdom screen.
 - **[Envoys](features/envoys.md)**: send a family member or companion to a lord with a message.
 - **[Duels](features/duels.md)**: a clan that hates you may send a fighter to challenge you. The loser dies, unless it is you: you are only badly hurt.
 
 ### Your realm and household
-- **[The royal court](features/royal-court.md)**: name a Marshal, Steward, Master of Works and Chancellor; hear petitions in audience; hold court in your fiefs or ride on a royal progress; win the oath of every house when a new ruler takes the throne; and think twice before taking a fief from a vassal, or quietly win the votes first.
-- **[Affairs of your kingdom](features/realm-affairs.md)**: sellswords, revolts, famines, feuds and great works to deal with in peacetime, yourself or by entrusting them to someone.
-- **[Companion errands](features/companion-errands.md)**: companions ask for leave to settle matters of their own.
+- **[The royal court](features/royal-court.md)**: name a Marshal, Steward, Master of Works and Chancellor; choose **Hold court** in one of your own towns or castles to hear the petitioners, then the notables with tasks for you; win the oath of every house when a new ruler takes the throne; and think twice before taking a fief from a vassal, or quietly win the votes first.
+- **[Affairs of your kingdom](features/realm-affairs.md)**: in peacetime a messenger stops you on the road with news of sellswords, a revolt, a famine, a feud or a great work. Deal with it yourself, send a companion or one of your kin with men you pick, or, if you rule, hand it to one of your vassals' houses. Whoever you send shows in your quest log until they are back.
+- **[Companion errands](features/companion-errands.md)**: companions ask for leave and a few men you pick to settle matters of their own.
 
 ### Campaign
 - **[Fast mode families](features/fast-mode.md)**: in fast mode, noble houses no longer die out.

@@ -14,24 +14,30 @@ The companion must be riding in your own party, unhurt and not busy with a quest
 
 They only speak up while you are travelling on the map: not inside a town, castle or village, at sea, in a battle or siege, or in the middle of another conversation or event window.
 
-Your party must have enough healthy troops to spare: what they ask for **plus 10 more**. Heroes and troops lent to you by a quest do not count.
+Only healthy soldiers of **tier 2 or higher** count, and only they can go. Heroes, recruits of tier 1 and troops lent to you by a quest are left out. A companion never asks for more than **a third** of those soldiers, and always leaves you at least **10** of them. A small company early in the campaign is asked for a handful of men, or not asked at all: the smallest errand needs about 14 such soldiers in your party, the largest about 31.
 
 ## The conversation
 
 The companion opens a conversation and explains the matter, how many days they need and how many men. You answer:
 
-- *"Go, and take the {N} men you need."* They leave with everything they asked for.
-- *"Go, but I can spare you only {N} men."* They leave with **half** the men. The errand is more likely to go wrong (see below).
+- *"Go. Pick the men you need from my company."* The game's troop screen for quests opens, as when you send a companion to settle a quest. Move the men who go: healthy soldiers of tier 2 or higher, no more than they asked for (*"{Companion} asked for {N} men, no more."*). As with the game's own quests, the men's wages for those days are paid when they leave.
+    - All the men they asked for: they thank you and leave.
+    - Fewer: *"Fewer than I would like. It will have to do, and I thank you for it."* They leave, but the errand is more likely to go wrong (see below).
+    - Nobody: *"Without men I cannot go. What do you say?"* and you answer again.
 - *"Then I am coming with you."* They thank you but say no: this is theirs to see to. You answer again.
 - *"No. I need you here."* They stay and lose relation with you.
 
-If the conversation is cut short before you answer, they ask again about 5 days later.
+If the conversation is cut short before you answer, the men you picked go back to your party and the companion asks again about 5 days later.
 
 While they are away, the companion and their men are gone from your party.
 
+## In your quest log
+
+When a companion leaves, the quest log gets an entry with the errand's name (for example *"Outlaws above {Companion}'s village"* or *"Buried plunder"*), who went, with how many men, and a **Return Days** bar that fills up until their return. It closes by itself when they come back, with the same news as the message.
+
 ## The six errands
 
-The men asked for are a share of your healthy troops, with a minimum, and **never more than 40**. The men are picked at random from your troops, elites included.
+The men asked for are a share of your healthy soldiers of tier 2 or higher, with a minimum, **never more than 40** and never more than a third of them. You choose which men go.
 
 | Errand | Days | Men asked | Can go wrong | Losses (if it goes well) | Skill trained | Relation: let go / refused |
 |---|---|---|---|---|---|---|
@@ -51,7 +57,7 @@ The men asked for are a share of your healthy troops, with a minimum, and **neve
 
 ## When it goes wrong
 
-The chance in the table is for when you give all the men asked for. With half the men, it is **doubled**, and losses are **1.5 times** as heavy.
+The chance in the table is for when you give all the men asked for. The fewer you give, the likelier it goes wrong and the heavier the losses: with half the men the chance is **doubled** and losses are **1.5 times** as heavy; with only a man or two, close to **three times** as likely, with losses close to **twice** as heavy.
 
 When an errand goes wrong:
 
@@ -73,4 +79,7 @@ When the days are up, the companion and the surviving men rejoin your party with
 
 ## Turn it off
 
-In the settings file (see [Settings](../settings.md)), set `CompanionErrandsEnabled` to `false`. Nobody asks again, but a companion already away still comes back.
+In the settings file (see [Settings](../settings.md)):
+
+- `CompanionErrandsEnabled` to `false`: nobody asks again, but a companion already away still comes back.
+- `AwayQuestLogEnabled` to `false`: no new quest log entries for those you send away (this also covers affairs of your kingdom you hand to someone). Entries already open still close.

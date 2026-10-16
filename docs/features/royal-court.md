@@ -1,6 +1,6 @@
 # The royal court
 
-Every kingdom now has a court. Four offices, held by real people whose skills matter, help run the realm. A ruler does not have to see to every small matter in person: they can hand affairs to others, hear petitions in audience, ride through their lands, and must win the oath of every house when they come to the throne. As a vassal you can be offered an office, hold court in your own fiefs and swear (or not) to each new ruler.
+Every kingdom now has a court. Four offices, held by real people whose skills matter, help run the realm. A ruler does not have to see to every small matter in person: they can send others to deal with the affairs of the realm, hold court in their own halls to hear petitions, and must win the oath of every house when they come to the throne. As a vassal you can be offered an office, hold court in your own fiefs and swear (or not) to each new ruler.
 
 ## The kingdom screen
 
@@ -9,8 +9,7 @@ The kingdom screen (**K**) has two new tabs after Diplomacy: **Court** and **Plo
 The **Court** tab lists:
 
 - the four **offices**, with each holder's portrait and name, or *Vacant*. Pick one to see who holds it, their skill, how much of the full effect they give (*"... 50% of the full effect"*) and what it gives right now;
-- **Petitions**: how many people are waiting for an [audience](#audiences);
-- **Your fiefs**: days since you last [held court](#holding-court-in-your-fiefs) in each of your fiefs;
+- **Petitions**: how many people are waiting for you to [hold court](#holding-court) (*"N waiting"*, or *"N waiting, fiefs losing loyalty"* once the wait starts to cost you);
 - **Oaths of fealty**: while the houses are swearing to a new ruler, where each one stands.
 
 The **Plots** tab shows what you know of a plot in your realm, and is where you raise the banner if you lead one. See [Civil war](civil-war.md#the-plots-tab).
@@ -29,7 +28,7 @@ The **Plots** tab shows what you know of a plot in your realm, and is where you 
 
 - **Skill decides how much.** A holder with skill 30 or less gives nothing; at 250 or more, the full effect. In between it grows steadily: about half at 140.
 - **A place at court is an honour.** The clan of each holder gets **+0.3 influence a day** (once per clan, however many offices it holds). The ruler's own clan does not get this.
-- One office per person. A holder who is a prisoner, in hiding or away on another task keeps the office, but it gives nothing until they are back. Someone [entrusted](#entrusting-affairs-of-the-realm) with an affair that belongs to their own office keeps working while away.
+- One office per person. A holder who is a prisoner, in hiding or away on another task keeps the office, but it gives nothing until they are back. Someone [sent](#sending-others-on-the-realms-business) on an affair that belongs to their own office keeps working while away.
 - You see the bonus in the game's usual tooltips, for example *"Marshal (Name)"*.
 - An office falls vacant when its holder dies, leaves the realm, becomes ruler or (a companion) leaves the ruler's household. You are told: *"The office of {office} of {realm} is vacant..."*
 
@@ -45,14 +44,14 @@ You always name someone **in person**:
 Who says no:
 
 - Family and companions always accept.
-- A lord with relation **below −10** with you refuses: *"I think not. Find someone else to do your bidding."*
-- A lord secretly in a plot politely declines, saying their own lands need them.
+- A lord with relation **below −10** with you refuses: *"An honour, but I would rather not serve you just now. Ask someone else."* In the Court tab they are greyed out: *"He would not take an office from you now."*
+- A lord secretly in a plot does not give himself away: he accepts the office.
 
 What it costs or gives:
 
 - Naming a lord of another house pleases that house: **+10** with its head (once every 120 days per house).
 - Clan leaders with more renown than the house you chose, and less than 30 relation with you, feel passed over: **−3** each.
-- Dismissing someone, or replacing them, costs **−15** relation, they cannot be named again for 60 days, and their house leans a little towards plots for a while.
+- Dismissing or replacing someone of another house costs **−15** relation, they cannot be named again for 60 days, and their house leans a little towards plots for a while. Dismissing your own family or companions costs nothing.
 
 When you come to the throne, you inherit the old ruler's court and can keep it or change it.
 
@@ -65,85 +64,70 @@ When you come to the throne, you inherit the old ruler's court and can keep it o
 
 **Offers to you.** If you or a noble of your family is the best choice for an office, the ruler sends a letter, **"An office at court"**, saying what the office would give. **Accept** for the office and **+10** relation with the ruler. **Decline** costs **−5** relation, and that ruler will not ask again for 60 days. Your companions are never offered offices by an AI ruler.
 
-**Holding an office for an AI ruler.** Your office works for the whole realm according to your skill, and your clan gets the +0.3 influence a day. The [affairs of your kingdom](realm-affairs.md) that belong to your office come to you as the ruler's charge, with bigger rewards. Ignoring a charge as Marshal costs relation with the ruler.
+**Holding an office for an AI ruler.** Your office works for the whole realm according to your skill, and your clan gets the +0.3 influence a day. The [affairs of your kingdom](realm-affairs.md) that belong to your office come to you as the ruler's charge: the messenger rides from the ruler, and the rewards are bigger. Leaving a charge undone as Marshal or Steward costs relation with the ruler.
 
-## Entrusting affairs of the realm
+## Sending others on the realm's business
 
-When an [affair of your kingdom](realm-affairs.md) comes up (a free company, a revolt, a hungry town, bad blood between two houses), you no longer have to ride there yourself. Choose **"Entrust it to someone."** and pick who goes:
+When an [affair of your kingdom](realm-affairs.md) comes up (a free company, a revolt, a hungry town, bad blood between two houses), a messenger brings you the news on the road and you can answer, as with the game's own quests, that someone else will see to it:
 
-- **Your family and companions**, ruler or vassal. They must be with you and free, and take men from your party if the affair needs them.
-- **The houses of your realm**, if you rule. A house sends one of its lords (never its head) with soldiers from its own garrison, for 15 influence. A house whose head is on bad terms with you may refuse: never at relation 0 or better, always at −30 or worse.
+- *"One of my companions or kin will see to it."*: someone riding in your party goes, with men you pick in the game's troop screen.
+- *"My vassals will see to it."* (if you rule): a house of your realm sends one of its lords (never its head) with soldiers from its own garrison. The list shows your relation with the head of each house, the chance it accepts and the influence it costs (30 at relation 0, less the better you stand with them, between 10 and 50). A house on bad terms with you may refuse: never at relation 0 or better, always at −30 or worse.
 - The holder of the fitting office is listed first: Marshal for sellswords and revolts, Steward for hunger, Chancellor for bad blood.
 
-How it goes depends on their skill: at 120 it is safe, below that it takes longer and may fail. What you entrust never gives you more than doing it yourself. The work of the realm cannot be entrusted. Full details: [Entrust it to someone](realm-affairs.md#entrust-it-to-someone).
+Whoever goes is away for some days and has an entry in your quest log until they are back. How it goes depends on their skill: at 120 it is safe, below that it takes longer and may fail. What you entrust never gives you more than doing it yourself. The work of the realm cannot be entrusted. Full details: [Someone else sees to it](realm-affairs.md#someone-else-sees-to-it).
 
-## Audiences
+## Holding court
 
-People come to ask you for things. As **ruler**, a new request arrives every **4 to 6 days**, from anywhere in the realm. As a **vassal** with fiefs of your own, every **8 to 12 days**, only from your own fiefs, and never the requests marked "ruler" below. You are told: *"{Who} has come to ask you for {what}, and waits to be heard at {place}."* Up to 5 can wait at once; the Court tab lists them under **Petitions**.
+People come to ask you for things, and you hear them by holding court in one of your own towns or castles.
 
-### Calling and holding an audience
+### Who comes, and how often
 
-In the menu of a town or castle where you can hear them (any in the realm as ruler, your own as vassal):
+- As **ruler**, a new request arrives every **25 to 30 days**, from anywhere in the realm. As a **vassal** with fiefs of your own, every **40 to 48 days**, only from your own fiefs, and never the requests marked "ruler" below.
+- You are told who asks and for what, for example: *"{Who} has come to ask you for {what}, and waits to be heard at {place}."* As ruler, a lord's request reads *"... Hold court in one of your own towns or castles and they will ride there to be heard."*
+- Up to **5** can wait at once. The Court tab lists them under **Petitions**, by where they come from.
+- While your realm is at war, requests still come, but the waiting does not count: nobody gives up and nothing is held against you. A ruler with no town or castle of their own gets no new requests, and the waiting does not count either.
 
-- **"Call an audience"**: riders go out to the lords who asked to be heard. Pick when you sit (in 1, 2 or 3 days). Lords within about 3 days' ride come. Stay in the town: if you leave, the audience is off.
-- **"Hold the audience"**: after a short wait you sit in the hall and choose **"Receive {name}"** for each petitioner. Each one is a conversation with two to four answers. Notables and common folk are heard only in the place their request belongs to.
+### "Hold court"
 
-Holding an audience in one of your fiefs also counts as a visit there (see [Holding court](#holding-court-in-your-fiefs)).
+In the menu of one of **your own** towns or castles, choose **"Hold court"**. Hovering over it shows who is there now, which notables have a task for you, who would ride there and in about how many days, who cannot come and why (*"at war with us"*, *"with an army"*, *"hosting guests"*...), and about how long it should take.
+
+- Riders go out to every lord who asked to be heard, **however far** they are. A lord with a party rides there; one without travels on their own. When one arrives you are told: *"{Lord} has arrived at {place} and waits to be heard."*
+- You wait in the hall with the game's progress bar. The hall takes a couple of hours to make ready. Then each petitioner comes before you **in turn, as they arrive**: the conversation opens by itself, and the clock stops while you talk. Each request has two to four answers.
+- **As ruler**, everyone else with a request (notables and common folk from any town or castle of the realm) comes to whichever of your halls you sit in. **As a vassal**, each is heard in the town or castle their request belongs to.
+- **Then the notables.** Notables of the town and its villages who have one of the game's own quests to offer come before you too, with the game's usual quest conversation: accept it, turn it down or send a companion, as in the base game.
+- The court ends by itself when everyone who could come has been heard, or when the bar runs out (those still on the road go home). **"Rise from court"** ends it early, and leaving the place ends it too.
+- With nobody to hear, the button is greyed out and says why: *"Nobody is waiting to be heard."*, *"Nobody here asks to be heard. Those waiting are at: ..."* or who cannot come now.
+- It cannot be held while the place is under siege.
 
 ### The requests
 
 | Request | Who asks | Your answers |
 |---|---|---|
 | **a fief** (ruler) | the head of a house of your realm without land | Promise the next fief the crown grants (**+8**; **−15** if it goes to someone else or none comes within 120 days), put them off kindly (a Charm roll; −3 if it fails), or refuse (**−6**). |
-| **gold for his men** (ruler) | a lord whose party is under half strength | Give 3,000 denars plus 1,000 per clan tier, at most 8,000 (**+6**), or refuse (−2). |
+| **gold to raise troops** (ruler) | a lord whose party is under half strength | Give 3,000 denars plus 1,000 per clan tier, at most 8,000 (**+6**), or refuse (−2). |
 | **abuses of a lord** (ruler) | a village notable, against the lord who holds their town or castle | Reprimand the lord yourself (−8 with them, +10 loyalty there, +5 with the notable), send it back to the lord (−5 with the notable), or have your **Marshal** look into it: after 5 days the complaint may turn out false. |
-| **freedom from dues** | a merchant of your town | Grant 60 days without dues (less tax there, a little prosperity, +6), lend 5,000 denars to be repaid in 60 days (+3), or refuse (−4). |
+| **freedom from dues** | a merchant of your town | Grant 60 days without dues (10% less tax there, **+1 prosperity a day**, shown as *"Merchants' exemption"*, and +6), lend 5,000 denars to be repaid in 60 days (+3), or refuse (−4). |
 | **a quarrel over land** | two notables of one place | Give the land to one or the other (+6 / −6), split it (+2 each), or let them settle it. |
 | **a widow's pension** | a soldier's widow, after a battle you fought | Pay 500 denars (+2 loyalty there) or refuse. |
 | **a prisoner's freedom** | the house of a lord you hold prisoner | Free them (+10 with the house head), ransom them for twice the usual price, or keep them (−5). |
 | **a place in your guard** | an old soldier | Take him: a seasoned (tier 5) soldier of your culture joins you. |
 | **works for the town** | a master builder, in your town or castle | Pay 85% of a building's cost: it goes into the town's building fund and that building goes first. |
 | **refuge in your realm** (ruler) | a lord of a foreign kingdom at war with another | Shelter them: **+8** with their ruler, but tension with the enemy kingdom rises (see [Events between kingdoms](events-between-kingdoms.md)). Or stay out of it. |
-| **a place in your house** | a distant kinsman (needs a free companion slot) | Take them in: a new companion of your culture joins your party. |
+| **a place in your house** | a distant kinsman (needs a free companion slot; at most once every 3 courts) | Take them in: a new companion of your culture joins your party. |
 | **help with a marriage** (ruler) | two unmarried lords of different houses | Speak to both houses: a Charm roll; on success they marry and both house heads think better of you (+5). |
 
-Charm rolls show their odds in the answer: from 35%, plus about 1 in 4 per Charm point, up to 85%.
+Charm rolls show their odds in the answer: 35%, plus 0.25% per point of Charm (+25% per 100), up to 85% at 200 Charm.
 
-### Neglecting them
+### Leaving them waiting
 
 - A request left unheard for **30 days** lapses, usually with a small loss of relation: *"{Who} has given up waiting to be heard at {place}."*
-- If people have waited **20 days** or more since your last audience, every 10 days your fiefs lose **1 loyalty** each, and lords still waiting think a little less of you.
+- Once **20 days** have passed since the oldest request arrived (or since your last court, if that is later), **each of your towns and castles loses 0.1 loyalty a day**. It shows as **"Petitions unheard"** in the loyalty breakdown of each fief, and the Court tab shows *"N waiting, fiefs losing loyalty"*. Every 10 days the lords still waiting lose 1 relation with you, and a message tells you who waits where, which fiefs are losing loyalty and what to do.
+- Before that, the **Petitions** panel of the Court tab tells you how many days have gone by and when the loss would start.
+- Holding court and hearing at least one petitioner starts the count again.
 
 ### The Chancellor hears them for you
 
-As ruler, with a Chancellor able to act, the Court tab offers **"Let the chancellor hear them ({N})"**. Your chancellor decides by their own character (a generous one pays, a merciful one forgives, a mean one refuses), and only a generous one spends your gold, never more than 10,000 per hearing. You see their answers first, in a window **"From your chancellor"**: **"Let it be done"** or **"I will hear them myself"**. Through the chancellor, relation gains are halved, and their Charm decides the rolls. The old soldier and the kinsman will only speak to you in person.
-
-## Holding court in your fiefs
-
-Any clan leader, ruler or vassal, can sit in judgement in their own fiefs. In the menu of one of your towns, castles or villages, choose **"Hold court here"**: you spend **12 hours** hearing whoever comes.
-
-| Fief | What a full sitting gives |
-|---|---|
-| Town or castle | **+3 loyalty**, **+2** with each notable |
-| Village | **+10 hearths**, **+3** with each notable |
-
-- The full amount needs **20 days** or more since your last visit there; after 10 days you get half. Once a day at most.
-- While your realm is at war, the gains are halved.
-- *"Rise early"* leaves with nothing.
-- In peacetime there is about a **1 in 3** chance a small local matter comes up (a fouled well, a boundary quarrel between notables, a wedding, a lad who wants to fight...). It opens in the game's event window with two choices, usually a little gold for loyalty, security or goodwill.
-- A feast or an audience held in a fief also counts as a visit.
-
-**Neglect.** A fief you have not visited for more than **80 days** starts to feel forgotten: every 5 days a town or castle loses **0.5 loyalty**, and a village's notables think less of you. A yellow message names the fiefs: *"Your people feel forgotten in ..."*
-
-**Reminder letter.** In peacetime, when a fief has gone more than 55 days without you, a letter **"Word from your lands"** arrives from your spouse, a governor or a companion, naming up to three forgotten fiefs and what troubles them. **"Mark {place} on the map"** marks the most forgotten one. You get one at most every 20 days, and never in war.
-
-### The royal progress
-
-A ruler can also visit the halls of their vassals. In the Court tab, under **Your fiefs**, press **"Go on a royal progress"** (only in peacetime, and not within 30 days of the last one).
-
-- Choose up to **4** towns or castles of your vassals from the nearest ones. Each is marked on the map and its lord is told to go home and expect you. You have **20 days**.
-- At each stop, **"Hold court here"** for 12 hours. You get the usual loyalty and notables' goodwill, and if the lord is in their hall to receive you: **+6** with them, and their house is spared the [discontent of a large realm](civil-war.md#discontent) for **30 days**. A second visit to the same house within 60 days gives nothing more.
-- The progress ends when you have seen every hall, after 20 days, or when a war begins.
+As ruler, with a Chancellor able to act, the Court tab offers **"Let the chancellor hear them ({N})"**. Your chancellor decides by their own character (a generous one pays, a merciful one forgives, a mean one refuses), and only a generous one spends your gold, never more than 10,000 per hearing. You see their answers first, in a window **"From your chancellor"**: **"Let it be done"** or **"I will hear them myself"**. Through the chancellor, relation gains are halved, and their Charm decides the rolls. The old soldier and the kinsman will only speak to you in person. A ruler with no town or castle of their own can only have petitions heard this way.
 
 ## The oath to a new ruler
 
@@ -157,7 +141,7 @@ Each AI house weighs it up: its relation with the new ruler, its Honor, whether 
 | **asks for something** | An empty office, or a fief of the ruler's own clan. If the ruler grants it, the house swears on those terms. |
 | **refuses**, or lets the 15 days pass | **−10** with the ruler; the house is **marked** for 180 days: far more inclined to plot, and kept out of that ruler's court. Nobody leaves the realm. |
 
-**AI rulers almost never give up a fief.** A ruler whose own clan holds only 2 towns and 2 castles or fewer never gives one. Otherwise there is a 5% chance, once per house, and at most one fief per oath. Most of the time a house that asks gets an empty office instead. When the 15 days end, an AI ruler tries to win back houses that refused, with gold or an office; failing that, they rebuke them (another −10).
+**AI rulers almost never give up a fief.** A ruler whose own clan holds only 2 towns and 2 castles or fewer never gives one. Otherwise there is a 5% chance, once per house, and at most one fief per oath. Most of the time a house that asks gets an empty office instead. When the 15 days end, about half the time an AI ruler wins back a house that refused, with gold or an office; otherwise it rebukes it (another −10).
 
 ### As a vassal
 
@@ -176,13 +160,13 @@ You can also talk to a house that has not sworn: persuade it (*"Hear me out befo
 
 ## Taking a fief from a vassal
 
-As ruler, you can still put a vassal's town, castle or village to the council's vote (the **Propose** button on the Fiefs tab of the kingdom screen), but it is no longer free of consequences.
+As ruler, you can still put a vassal's town or castle to the council's vote (the **Propose** button on the Fiefs tab of the kingdom screen), but it is no longer free of consequences.
 
 - **Every vassal house worries it is next.** The moment you propose it, you lose **5** relation with the head of every house of your realm: *"Word spreads that you mean to take {fief} from the {clan}. Your vassals wonder whose fief is next..."* What this costs you with any one lord never goes past **−25** in all, and it comes back slowly, about 5 points every 120 days.
 - **The holder may refuse.** If the vote passes, the house that held the fief may refuse to give it up, renounce its oath to you and leave your kingdom **with all its fiefs**, at war with you. A window **"A house in revolt"** tells you. The chance is about **60%**, lower if its head likes you or is honorable (−10% per level of Honor), higher if they hate you or are valorous (+5% per level of Valor), and always between 20% and 90%. A house that refuses keeps the fief; the vote on who gets it is dropped.
 - Otherwise the house **bows** and yields the fief, and the vote on its new holder goes ahead as usual.
 - A house that is part of a [plot](civil-war.md) does not break away alone: it bows and waits for the rising. During a [civil war](civil-war.md), a house that refuses goes over to the other side instead.
-- A house riding at your side (in your army, your battle or your siege) waits until it is no longer with you before it breaks away.
+- A house riding at your side (in your army, your battle or your siege, or while you are in one of its towns or castles) waits until it is no longer with you before it breaks away.
 
 ### Winning the votes first
 
@@ -192,7 +176,7 @@ Talk to the head of another house of your realm and say *"There is a house in th
 
 - **Only a lord with few scruples listens.** Below **30** relation with you they say *"That is not talk for the two of us"*. A lord who is honorable, merciful or generous (any level of Honor, Mercy or Generosity) will not be party to it at all. Valor does not count against them.
 - **They will not move against a friend.** If they like the head of that house 20 points or more above you, they refuse outright. The better they like that house, the harder they are to win; if they hate it (−30 or worse), it gets easier.
-- **Then you argue it out** with the game's persuasion. Friendship alone does not get you far: your **Charm** counts (one step easier per 100), and so does talking to them at a [feast](feasts.md) you both attend.
+- **Then you argue it out** with the game's persuasion. Friendship alone does not get you far: your **Charm** counts (one step easier per 100), and so does talking to them at a [feast](feasts.md) or a [hunt](hunts.md) you both attend (one step easier; the two do not add up).
 
 Your chances against a house they have no feelings about:
 
@@ -216,8 +200,7 @@ In the settings file (see [Settings](../settings.md)):
 - `CourtOfficesEnabled` to `false`: the offices give nothing and nobody is named.
 - `CourtAiAppointEnabled` to `false`: AI rulers do not name their courts or offer you offices.
 - `CourtChargeEnabled` to `false`: holding an office for an AI ruler does not bring you its affairs as the ruler's charge.
-- `AffairDelegationEnabled` to `false`: no "Entrust it to someone".
-- `AudiencesEnabled` to `false`: no petitions or audiences.
-- `TourEnabled` to `false`: no "Hold court here", neglect, reminder letters or royal progress.
+- `AffairDelegationEnabled` to `false`: affairs of your kingdom cannot be sent to companions, kin or houses.
+- `AudiencesEnabled` to `false`: no petitions and no "Hold court".
 - `OathEnabled` to `false`: no oath of fealty when a ruler changes.
 - `FiefRevocationEnabled` to `false`: taking a fief from a vassal works as in the base game, with no lost relations and no revolt.
