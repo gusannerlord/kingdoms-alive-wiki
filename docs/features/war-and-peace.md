@@ -69,6 +69,16 @@ These rules also bind your kingdom, whether you rule it or serve it, when it dec
 
 This also applies to your kingdom: if you are called into a war, you leave it when the caller makes peace.
 
+## Vassal realms
+
+A clearly beaten kingdom may have to swear fealty instead of paying a tribute. See [Vassal realms and annexation](vassal-realms.md). In war and peace:
+
+- **A vassal marches with its overlord** in every one of its wars, without a vote, and makes no wars, alliances or trade agreements of its own.
+- **The overlord's peace covers the vassal** in that war. The vassal cannot make that peace itself (*"Only the {overlord} can make this peace for your realm."*), and its enemy has to make peace with the overlord.
+- **No war on your own vassal.** To end the tie, release it or demand its annexation from the Vassals tab. Whoever may not attack the overlord (truce, tribute, alliance) may not attack its vassal either, an attacker counts the overlord's full strength against it, and the vassal's against whoever attacks the overlord.
+- **Dominance counts a vassal's towns and castles at half** for its overlord.
+- **The caller rule above does not bind an overlord and its vassal**: the overlord makes its peace when it likes, and that peace covers the vassal.
+
 ## Heirs and old grudges
 
 When a clan leader dies, the heir inherits part of each of the dead leader's relations. The base game always passes on 70%. Now the share is drawn at random for each person, between 10% and 70%. An heir may keep the late leader's friendships and feuds almost whole, or nearly forget them.

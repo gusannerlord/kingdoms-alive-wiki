@@ -50,6 +50,24 @@ See [War and peace](features/war-and-peace.md).
 | `WarDeclaredOnPlayerShowsReason` | You are told why a kingdom declared war on yours. |
 | `WarDeclaredOnPlayerPausesGame` | That message is a window that pauses the game. Off = a notice on the map. |
 
+### Vassal realms and annexation
+See [Vassal realms](features/vassal-realms.md).
+
+| Switch | What it does |
+|---|---|
+| `VassalageEnabled` | The whole feature. Off = it sleeps: nothing new happens, and realms that were already vassals are left as they are until you turn it back on. |
+| `VassalRealmsEnabled` | New vassal realms can be made. Off = no new ones; those that exist carry on. |
+| `VassalAiDemandsEnabled` | An AI kingdom that is clearly winning a war can ask fealty as the price of peace. |
+| `VassalFearOffersEnabled` | A small, beaten and surrounded AI kingdom can offer fealty to its enemy for peace. |
+| `VassalLoyaltyEnabled` | A vassal realm's loyalty moves day by day. Off = it stays where it is. |
+| `VassalRebellionEnabled` | An AI vassal realm rebels when its loyalty stays low. |
+| `VassalFiefReturnEnabled` | A fief a vassal realm lost and its overlord retakes is given back to it (if you are the overlord, you are asked). |
+| `VassalAnnexOnDeathEnabled` | When a vassal realm's ruler dies, the overlord's ruler stands in the vote for its crown. |
+| `VassalAnnexLoyalEnabled` | After 90 days with loyalty at 70 or more, a vassal realm can be joined to its overlord's for good. |
+| `VassalAnnexForceEnabled` | AI overlords can demand annexation, at the risk of war. You can always demand it. |
+| `VassalAnnexMarriageEnabled` | A marriage between the two royal houses strengthens the overlord's claim to the vassal's crown. |
+| `VassalDominanceHalfEnabled` | A vassal realm's towns and castles count half for its overlord when neighbours judge who is too large. Off = they count whole. |
+
 ### Kingdoms and court
 
 | Switch | What it does | Page |
@@ -79,10 +97,17 @@ See [War and peace](features/war-and-peace.md).
 | `CivilWarNotifyPlayer` | A notice in the middle of the screen when any kingdom falls into civil war. | [Civil war](features/civil-war.md) |
 | `EnvoysEnabled` | Envoys (all errands). | [Envoys](features/envoys.md) |
 | `EnvoyCouncilEnabled`, `EnvoyRecruitEnabled`, `EnvoyMarriageEnabled`, `EnvoyTradeEnabled`, `EnvoySoundEnabled`, `EnvoyMeetingEnabled`, `EnvoyGiftEnabled`, `EnvoyPlotJoinEnabled`, `EnvoyPlotLoyalEnabled` | Each envoy errand on its own. | [Envoys](features/envoys.md) |
-| `DuelsEnabled` | Lords may challenge you to a duel. | [Duels](features/duels.md) |
+| `DuelsEnabled` | Duels between AI lords, and the challenges from houses that hate you (if those are on). Your rival's duel has its own switch. | [Duels](features/duels.md) |
+| `DuelPlayerChallengesEnabled` | Houses that hate you challenge you to a duel on their own. **Off by default**: only your rival challenges you. | [Duels](features/duels.md) |
 | `AiDuelsEnabled` | AI lords duel each other. | [Duels](features/duels.md) |
 | `AiDuelsCanKillRulers` | Rulers can fight (and die) in AI duels. Off by default. | [Duels](features/duels.md) |
 | `DuelRulersCanChallengePlayer` | Rulers can challenge you. Off by default. | [Duels](features/duels.md) |
+| `RivalsEnabled` | A lord may swear a blood feud against you and become your rival. | [Your rival](features/rival.md) |
+| `RivalHideoutEnabled` | Your rival can set up a hideout of hired blades marked on the map. | [Your rival](features/rival.md) |
+| `RivalBountyEnabled` | Your rival can send bands of hired blades after you, and a larger company after them. | [Your rival](features/rival.md) |
+| `RivalTownAmbushEnabled` | Your rival's thugs can ambush you in a town's streets. | [Your rival](features/rival.md) |
+| `RivalDuelEnabled` | The rivalry ends in a duel to the death in the arena. | [Your rival](features/rival.md) |
+| `RivalSmearEnabled` | Your rival can speak against you to the ruler of their realm (-3 relation, once). | [Your rival](features/rival.md) |
 
 ### Your realm and household
 
@@ -92,6 +117,20 @@ See [War and peace](features/war-and-peace.md).
 | `AffairDelegationEnabled` | The messenger's answers *"One of my companions or kin will see to it."* and, if you rule, *"My vassals will see to it."*: send someone of yours with men you pick, or hand the affair to a house of your realm. Off = you deal with affairs yourself. See [Affairs of your kingdom](features/realm-affairs.md). |
 | `CompanionErrandsEnabled` | [Companion errands](features/companion-errands.md). |
 | `AwayQuestLogEnabled` | A quest log entry, with the days until they are back, for everyone you send away: on an affair of your kingdom, or a companion on an errand. It closes by itself when they return. |
+
+### Mercenary contracts and the Unsworn
+See [Mercenary contracts](features/mercenary-contracts.md).
+
+| Switch | What it does |
+|---|---|
+| `MercContractsEnabled` | While you serve a realm as a mercenary, its ruler sends you tasks by messenger. Off = no new tasks and no "In the service of the crown" quest; one under way ends as usual. |
+| `MercContractRaid` | The task of raiding enemy villages (the game's own "Raid an Enemy Territory" quest). |
+| `MercContractProtect` | The tasks of escorting a caravan of the realm and guarding a border village. |
+| `MercContractUnswornHideout` | The task of clearing a hideout of the Unsworn. |
+| `MercContractUnswornSweep` | The task of beating three bands of the Unsworn that roam the realm's villages. |
+| `MercContractRescue` | The task of freeing a lord of the realm from an enemy dungeon. |
+| `MercContractVassalPath` | After 5 tasks fulfilled, with your clan at tier 2 or more, the ruler offers you vassalage, and maybe a castle. |
+| `UnswornTroopsEnabled` | Taverns sometimes offer Unsworn sellswords for hire. Off = they are no longer offered, and there are no Unsworn tasks. |
 
 ### The royal court
 See [The royal court](features/royal-court.md).
@@ -118,9 +157,9 @@ See [The royal court](features/royal-court.md).
 | `ChildCultureEnabled` | A child of two AI characters takes the father's culture 9 times out of 10. |
 | `SiegePreparationEnabled` | Siege preparations take twice as long. See [Other changes](features/other-changes.md). |
 | `SiegePatienceIgnoresAddedPreparationTime` | The AI besieger is not made impatient by that extra time. |
-| `AiPeaceTrainingEnabled` | AI troops train less in long peace. |
+| `AiPeaceTrainingEnabled` | Once their kingdom has been at peace for 10 days, AI troops get only a quarter of their free daily training. |
 | `GearPricesEnabled` | Fairer prices of weapons and armour for the player. |
 | `ApplyToWeapons` | Weapons get cheaper too. Off = only armour. |
 
 ### Logs
-`EventLogEnabled`, `DiplomacyLogEnabled` and `CourtMeasureLogEnabled` write detailed lines to the game's log, useful only when I ask you for a log to track a bug. Off by default.
+`EventLogEnabled`, `DiplomacyLogEnabled`, `CourtMeasureLogEnabled`, `RivalLogEnabled` and `MercContractLogEnabled` write detailed lines to the game's log, useful only when I ask you for a log to track a bug. Off by default.

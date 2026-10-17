@@ -49,6 +49,8 @@ Each such leader has a **10% chance** a week, plus 5% for each level of Calculat
 
 No new plot starts for **60 days** after a plot ends, nor for **100 days** after a civil war.
 
+A [vassal realm](vassal-realms.md) never has a plot or a civil war: a plot under way dies quietly when its realm bends the knee. And no realm becomes a vassal while either side is in a civil war.
+
 ## Who joins, and why
 
 Every 7 days, each clan leader of the kingdom weighs the plot. The ruler's own clan and close kin never join. The rest add up a score:

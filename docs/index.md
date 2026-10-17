@@ -15,6 +15,7 @@ Every feature can be switched off on its own (see [Settings](settings.md)).
 - **[War and peace](features/war-and-peace.md)**: wars have a cause you can read, last weeks instead of days, and end when both sides agree.
 - **[Events between kingdoms](features/events-between-kingdoms.md)**: raids, insults and gifts between neighbours build tension that can lead to war, or prevent it.
 - **[Winning the council over](features/council.md)**: talk lords into backing your war or your peace, or your house when a fief is shared out (now with four candidates, and the conqueror always among them); council votes bring modest, fair goodwill.
+- **[Vassal realms and annexation](features/vassal-realms.md)**: a beaten kingdom can bend the knee instead of being wiped out. A vassal realm keeps its ruler, pays tribute and marches in its overlord's wars, and may in time be joined to the overlord's realm for good, or rebel. Your own realm can take vassals, or become one. Everything shows in the Vassals tab of the kingdom screen.
 
 ### Life at court
 - **[Feasts and the grand tournament](features/feasts.md)**: lords gather in peacetime; you can attend or hold your own, and a ruler can add a grand tournament.
@@ -22,12 +23,14 @@ Every feature can be switched off on its own (see [Settings](settings.md)).
 - **[Events between clans](features/clan-events.md)**: the clans of a kingdom fall out and make up.
 - **[Civil war](features/civil-war.md)**: large kingdoms crack, powerful clans plot for the throne, and you can join, oppose or lead the plot from the Plots tab of the kingdom screen.
 - **[Envoys](features/envoys.md)**: send a family member or companion to a lord with a message.
-- **[Duels](features/duels.md)**: a clan that hates you may send a fighter to challenge you. The loser dies, unless it is you: you are only badly hurt.
+- **[Your rival](features/rival.md)**: beat a lord in a tournament final, or earn their hatred, and they may swear a blood feud against you: taunts, hired blades on your trail, ambushes in town streets, and at the end a duel to the death.
+- **[Duels](features/duels.md)**: your rival challenges you to a duel in the arena, and AI lords who hate each other fight their own. The loser dies, unless it is you: you are only badly hurt.
 
 ### Your realm and household
-- **[The royal court](features/royal-court.md)**: name a Marshal, Steward, Master of Works and Chancellor; choose **Hold court** in one of your own towns or castles to hear the petitioners, then the notables with tasks for you; win the oath of every house when a new ruler takes the throne; and think twice before taking a fief from a vassal, or quietly win the votes first.
+- **[The royal court](features/royal-court.md)**: from the Court tab of the kingdom screen, name a Marshal, Steward, Master of Works and Chancellor; choose **Hold court** in one of your own towns or castles to hear the petitioners, then the notables with tasks for you; win the oath of every house when a new ruler takes the throne; and think twice before taking a fief from a vassal, or quietly win the votes first.
 - **[Affairs of your kingdom](features/realm-affairs.md)**: in peacetime a messenger stops you on the road with news of sellswords, a revolt, a famine, a feud or a great work. Deal with it yourself, send a companion or one of your kin with men you pick, or, if you rule, hand it to one of your vassals' houses. Whoever you send shows in your quest log until they are back.
 - **[Companion errands](features/companion-errands.md)**: companions ask for leave and a few men you pick to settle matters of their own.
+- **[Mercenary contracts and the Unsworn](features/mercenary-contracts.md)**: while your clan serves a realm as mercenaries, its ruler sends you tasks (raids, escorts, guarding a village, Unsworn hideouts and bands, rescues); fulfil enough of them and you are offered vassalage. Taverns now also hire out the Unsworn, a new tree of sellswords.
 
 ### Campaign
 - **[Fast mode families](features/fast-mode.md)**: in fast mode, noble houses no longer die out.

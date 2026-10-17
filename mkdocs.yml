@@ -51,17 +51,20 @@ nav:
       - War and peace: features/war-and-peace.md
       - Events between kingdoms: features/events-between-kingdoms.md
       - Winning the council over: features/council.md
+      - Vassal realms and annexation: features/vassal-realms.md
   - Life at court:
       - Feasts and the grand tournament: features/feasts.md
       - Hunts: features/hunts.md
       - Events between clans: features/clan-events.md
       - Civil war: features/civil-war.md
       - Envoys: features/envoys.md
+      - Your rival: features/rival.md
       - Duels: features/duels.md
   - Your realm and household:
       - The royal court: features/royal-court.md
       - Affairs of your kingdom: features/realm-affairs.md
       - Companion errands: features/companion-errands.md
+      - Mercenary contracts and the Unsworn: features/mercenary-contracts.md
   - Campaign:
       - Fast mode families: features/fast-mode.md
       - Other changes: features/other-changes.md

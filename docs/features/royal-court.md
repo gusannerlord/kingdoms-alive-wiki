@@ -4,7 +4,7 @@ Every kingdom now has a court. Four offices, held by real people whose skills ma
 
 ## The kingdom screen
 
-The kingdom screen (**K**) has two new tabs after Diplomacy: **Court** and **Plots**. The usual tabs are unchanged, and with War Sails the Fiefs tab still shows your ships.
+The kingdom screen (**K**) has three new tabs after Diplomacy: **Court**, **Plots** and **Vassals** (see [Vassal realms and annexation](vassal-realms.md)). The usual tabs are unchanged, and with War Sails the Fiefs tab still shows your ships.
 
 The **Court** tab lists:
 
@@ -131,7 +131,7 @@ As ruler, with a Chancellor able to act, the Court tab offers **"Let the chancel
 
 ## The oath to a new ruler
 
-When a kingdom gets a new ruler (by succession, by election or by winning a civil war), every house of the realm has **15 days** to swear fealty. A brand-new kingdom has no oath.
+When a kingdom gets a new ruler (by succession, by election or by winning a civil war), every house of the realm has **15 days** to swear fealty. A brand-new kingdom has no oath. Nor is there one when a [vassal realm](vassal-realms.md)'s council chooses its overlord's ruler: the realm is joined to the overlord's and its houses swear no oath.
 
 Each AI house weighs it up: its relation with the new ruler, its Honor, whether it voted for them, whether it stood against them for the throne or fought them in a civil war, how close it is to plotting, and kinship.
 
