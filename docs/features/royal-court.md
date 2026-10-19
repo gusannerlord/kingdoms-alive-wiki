@@ -39,12 +39,12 @@ Only the ruler names the court. Anyone adult in the realm can serve: nobles of a
 You always name someone **in person**:
 
 - **By talking to them.** Say *"I would have you serve at my court."* (for a lord of another house it is under *"There is something I'd like to discuss."*), then pick the office: *"As my {office}."*, or *"As my {office}, in place of {holder}."* Hovering shows what they would give.
-- **From the Court tab.** Pick an office and press **Appoint**. The list shows everyone who could take it, with their skill. Only people with you can be picked: in the same town or castle, in your party, or in your army. Anyone else is greyed out with *"Speak to him in person..."*. Press **Dismiss** to relieve a holder.
+- **From the Court tab.** Pick an office and press **Appoint**. The list shows everyone who could take it, with their skill. Only people with you can be picked: in the same town or castle, in your party, or in your army. Anyone else is greyed out with *"Speak to her/him in person: she/he is not in this town or castle, nor in your party or army."*. Press **Dismiss** to relieve a holder.
 
 Who says no:
 
 - Family and companions always accept.
-- A lord with relation **below −10** with you refuses: *"An honour, but I would rather not serve you just now. Ask someone else."* In the Court tab they are greyed out: *"He would not take an office from you now."*
+- A lord with relation **below −10** with you refuses: *"An honour, but I would rather not serve you just now. Ask someone else."* In the Court tab they are greyed out: *"She/He would not take an office from you now."*
 - A lord secretly in a plot does not give himself away: he accepts the office.
 
 What it costs or gives:
@@ -145,7 +145,7 @@ Each AI house weighs it up: its relation with the new ruler, its Honor, whether 
 
 ### As a vassal
 
-You are told: *"{ruler} is now ruler of {kingdom}. Every house is to swear fealty within 15 days..."* Go to the ruler in person, choose *"There is something I'd like to discuss."* and then *"I have come about my oath of fealty."*:
+You are told: *"{ruler} is now ruler of {kingdom}. Every house is to swear fealty within 15 days: go to her/him in person to swear, ask for something, or refuse."* Go to the ruler in person, choose *"There is something I'd like to discuss."* and then *"I have come about my oath of fealty."*:
 
 - *"I swear to be your faithful vassal..."*: **+5** relation and **+10 influence**.
 - *"I will swear, but I would ask something in return."* (once per oath): ask for an empty office, a fief of the ruler's own clan (only if they have one to spare by the rule above; much harder to argue), or **5,000 denars × your clan tier**. Then you argue it out with the game's persuasion. Win and you get it and swear. Lose and the ruler says *"No. You will have nothing of me for an oath you owe in any case."* (**−5** relation); then swear without terms, refuse, or take more time.

@@ -33,7 +33,7 @@ Every 7 days (the mod's own count, not the game's week, which is only 3 days in 
     A kingdom that keeps growing wears its lords down further, up to the new limit. One that shrinks gives back what is over its new limit, a point every 7 days. Size alone rarely turns lords against a ruler badly enough for a civil war; [quarrels between clans](clan-events.md) and other grudges do the rest.
 - A [Chancellor](royal-court.md#the-offices) cuts it by up to 15%.
 - It never takes anyone below **−25** with the ruler. Lords who already dislike the ruler more than that lose nothing further from it.
-- Every so often you see a yellow message. As a vassal: *"{Kingdom} has grown too large to be ruled well, and your regard for {ruler} keeps wearing away (now X)."* As the ruler: *"The lords of {Kingdom} grumble that the realm has grown too large to be ruled well: N houses think less of you."*
+- Every so often you see a yellow message. As a vassal: *"{Kingdom} has grown too large to be ruled well. {ruler} has no time for lords like you any more, and your regard for your liege keeps wearing away."* As the ruler: *"The lords of {Kingdom} grumble that the realm has grown too large to be ruled well: {N} houses think less of you."*
 - **Recovery:** once the kingdom is no longer too large, or while it rests after a civil war, each clan leader gets back 1 point every 7 days, up to what the discontent took and never more. That claim is lost if the ruler changes, the clan gets a new leader, or the clan leaves the kingdom.
 - During a civil war nothing is lost and nothing comes back.
 
@@ -127,7 +127,7 @@ If you led the rising and win, you are told the crown of the kingdom is yours. A
 
 **The crown wins.** The plot's leader loses every town and castle (they go to the ruler) and is banished: an AI clan goes to another kingdom, preferably of its own culture and whose ruler it likes best, never yours. If none will do, it is left without a kingdom. The other rebel houses come back pardoned, each with **−20** relation with the ruler, and must stay 60 days.
 
-**A negotiated peace.** From day **120** either side may offer peace. It is never automatic: the side that receives the offer must want it (if that side is a kingdom you rule, you decide). Before day 120 a peace is refused with *"A civil war ends with a victory, or with a peace both sides accept once it has lasted 120 days (now N)."* A peace leaves **two kingdoms**: the rebels keep what they hold, and an AI rebel kingdom drops "Pretenders" and becomes *"Realm of the {Clan}"*. A side that has already lost every town and castle cannot make peace: it has lost.
+**A negotiated peace.** From day **120** either side may offer peace. It is never automatic: the side that receives the offer must want it (if that side is a kingdom you rule, you decide). Before day 120 a peace is refused with *"Blood is still too hot for talk of peace in this civil war. Unless one side wins outright, it will be some {N} days before either will hear of it."* A peace leaves **two kingdoms**: the rebels keep what they hold, and an AI rebel kingdom drops "Pretenders" and becomes *"Realm of the {Clan}"*. A side that has already lost every town and castle cannot make peace: it has lost.
 
 **Afterwards:** every kingdom that comes out of a civil war gets **100 days of calm**: no discontent and no new plots, while the discontent of the past slowly mends.
 
@@ -216,7 +216,7 @@ During a story quest you can only stay, with no penalty.
 ### If you are the ruler
 
 - Discontent wears on your lords' relation with you, but never on your own clan or close kin, and those never plot against you.
-- Nobody wins lords back for you: talk to them yourself (*"There is a plot against me. Stay loyal to the crown."*), or send an envoy. A lord you keep loyal stays so for 60 days. Talking the plot's leader out of it ends the plot.
+- Nobody wins lords back for you: talk to them yourself (*"There is a plot against {your name}. Stay loyal to the crown."*), or send an envoy. A lord you keep loyal stays so for 60 days. Talking the plot's leader out of it ends the plot.
 - When the rumour reaches you, ask around, and watch the **Plots** tab, to find who is behind it.
 - **You can lose the crown.** If the rebels win, their leader rules your kingdom and your house stays on as a vassal.
 

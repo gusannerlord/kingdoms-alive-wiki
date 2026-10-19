@@ -102,6 +102,7 @@ See [Vassal realms](features/vassal-realms.md).
 | `AiDuelsEnabled` | AI lords duel each other. | [Duels](features/duels.md) |
 | `AiDuelsCanKillRulers` | Rulers can fight (and die) in AI duels. Off by default. | [Duels](features/duels.md) |
 | `DuelRulersCanChallengePlayer` | Rulers can challenge you. Off by default. | [Duels](features/duels.md) |
+| `DuelQuestLogEnabled` | A duel you agreed to has its quest log entry naming the arena town, and moves to another arena if its town turns hostile instead of being called off. | [Duels](features/duels.md) |
 | `RivalsEnabled` | A lord may swear a blood feud against you and become your rival. | [Your rival](features/rival.md) |
 | `RivalHideoutEnabled` | Your rival can set up a hideout of hired blades marked on the map. | [Your rival](features/rival.md) |
 | `RivalBountyEnabled` | Your rival can send bands of hired blades after you, and a larger company after them. | [Your rival](features/rival.md) |
@@ -114,9 +115,11 @@ See [Vassal realms](features/vassal-realms.md).
 | Switch | What it does |
 |---|---|
 | `RealmAffairsEnabled` | [Affairs of your kingdom](features/realm-affairs.md), brought to you by a messenger on the road. Each affair also has its own switch: `RealmAffairFreeCompany`, `RealmAffairPeasantRevolt`, `RealmAffairFamine`, `RealmAffairClanFeud`, `RealmAffairRealmWorks`. |
+| `RealmAffairQuestLogEnabled` | Each affair of your kingdom has its own quest log entry for as long as it lasts, with its places and rebel bands marked on the map. |
 | `AffairDelegationEnabled` | The messenger's answers *"One of my companions or kin will see to it."* and, if you rule, *"My vassals will see to it."*: send someone of yours with men you pick, or hand the affair to a house of your realm. Off = you deal with affairs yourself. See [Affairs of your kingdom](features/realm-affairs.md). |
 | `CompanionErrandsEnabled` | [Companion errands](features/companion-errands.md). |
 | `AwayQuestLogEnabled` | A quest log entry, with the days until they are back, for everyone you send away: on an affair of your kingdom, or a companion on an errand. It closes by itself when they return. |
+| `TaskQuestLogEnabled` | A quest log entry, with its places marked on the map, for the mod's other tasks: feasts and hunts you are bound to, envoys and meetings, council promises, plots and civil war, petitions, promised fiefs, the oath to a new ruler, a vassal's call for help and your overlord's wars, and the like. |
 
 ### Mercenary contracts and the Unsworn
 See [Mercenary contracts](features/mercenary-contracts.md).
@@ -128,9 +131,53 @@ See [Mercenary contracts](features/mercenary-contracts.md).
 | `MercContractProtect` | The tasks of escorting a caravan of the realm and guarding a border village. |
 | `MercContractUnswornHideout` | The task of clearing a hideout of the Unsworn. |
 | `MercContractUnswornSweep` | The task of beating three bands of the Unsworn that roam the realm's villages. |
-| `MercContractRescue` | The task of freeing a lord of the realm from an enemy dungeon. |
+| `MercContractRescue` | The task of freeing a lord of the realm from an enemy town's dungeon. |
+| `MercContractRescueRuler` | When the ruler is held in an enemy town, their house asks you to bring them home. Off = no task while the ruler is a prisoner. |
 | `MercContractVassalPath` | After 5 tasks fulfilled, with your clan at tier 2 or more, the ruler offers you vassalage, and maybe a castle. |
 | `UnswornTroopsEnabled` | Taverns sometimes offer Unsworn sellswords for hire. Off = they are no longer offered, and there are no Unsworn tasks. |
+| `FixMercHideoutMenEnabled` | The hideouts of the Unsworn and of your rival hold 35 to 40 men. Off = only as many as the game's own hideouts. |
+
+### Squire service
+See [Squire service](features/squire.md).
+
+| Switch | What it does |
+|---|---|
+| `SquireEnabled` | Lords take you as their squire. Off = no new service; one under way ends within the hour, without blame. |
+| `SquireTournament` | The errand of fighting in a tournament for your lord's house (or losing the final on purpose, for a lord without honour). |
+| `SquireLetter` | The errand of carrying a letter (or a threat) to another lord. |
+| `SquireFeast` | The errand of attending a feast of the realm in your lord's name. |
+| `SquireBand` | The errand of destroying a company of sellswords sent against your lord's lands. |
+| `SquireTaxes` | The game's own "Revenue Farming" quest, given by your lord. |
+| `SquireGarrison` | The game's own "Lord Needs Garrison Troops" quest, given by your lord. |
+| `SquireTraining` | The errand of drilling a day with your lord's men at one of their fortresses. |
+| `SquireHideout` | The errand of clearing a bandit hideout near your lord's lands. |
+| `SquireArmyCall` | You are called to every army your lord raises or joins. |
+| `SquireRescue` | Your lord's house asks you to free them when they are captured. |
+| `SquireBattleSide` | In battle your lord is outlined in gold, and you start at their side. |
+| `SquireStayOn` | After your errands you may stay on as squire instead of going for your spurs. |
+| `SquireMarkLord` | Your lord carries the game's map arrow while you serve. |
+| `SquireMarchCall` | Word when your lord's own party rides out to raid or besiege. |
+| `SquireMarchDefend` | The same when they ride out to relieve a place of their realm. |
+| `SquireBattleAlarm` | A quick notice when your lord goes into battle without you. |
+
+### Lords who remember you, captives and companions with a story
+
+| Switch | What it does | Page |
+|---|---|---|
+| `NobleMemoryEnabled` | Lords remember what you did to them and theirs, and bring it up when you talk. | [Lords who remember you](features/memories.md) |
+| `CaptiveDealsEnabled` | When you take a lord prisoner, their house may act (bargains, sellswords, knives in the streets). | [Captives](features/captives.md) |
+| `CaptiveDealOffer` | The "name your price" bargains, from the house's messenger or from the captive. | [Captives](features/captives.md) |
+| `CaptiveMarriageOffer` | A marriage into their house can be among the offers. | [Captives](features/captives.md) |
+| `CaptiveCaravanTip` | Word of a rich caravan can be among the offers. | [Captives](features/captives.md) |
+| `CaptiveRescueParty` | The house can hire sellswords to hunt your party and free the captive. | [Captives](features/captives.md) |
+| `CaptiveTownThugs` | The house can send cut-throats to the town where you keep the captive. | [Captives](features/captives.md) |
+| `CaptiveTalksEnabled` | Noble prisoners in your party speak to you, and how you keep them matters. | [Captives](features/captives.md) |
+| `CaptiveTalkNews` | You can ask captives about their realm. | [Captives](features/captives.md) |
+| `CaptiveGrudges` | Captives leave grateful or bitter, and a bitter one can become your rival. | [Captives](features/captives.md) |
+| `StoryCompanionsEnabled` | Companions with a story of their own can appear. | [Alayen](features/alayen.md) |
+| `AlayenEnabled` | Alayen can appear. | [Alayen](features/alayen.md) |
+| `AlayenQuestEnabled` | His quest, "The Grey Wolf". | [Alayen](features/alayen.md) |
+| `AlayenErrandsEnabled` | His requests for leave and men to settle matters of his own. | [Alayen](features/alayen.md) |
 
 ### The royal court
 See [The royal court](features/royal-court.md).
@@ -162,4 +209,4 @@ See [The royal court](features/royal-court.md).
 | `ApplyToWeapons` | Weapons get cheaper too. Off = only armour. |
 
 ### Logs
-`EventLogEnabled`, `DiplomacyLogEnabled`, `CourtMeasureLogEnabled`, `RivalLogEnabled` and `MercContractLogEnabled` write detailed lines to the game's log, useful only when I ask you for a log to track a bug. Off by default.
+`EventLogEnabled`, `DiplomacyLogEnabled`, `CourtMeasureLogEnabled`, `RivalLogEnabled`, `MercContractLogEnabled`, `SquireLogEnabled`, `NobleMemoryLogEnabled`, `CaptiveLogEnabled`, `StoryLogEnabled` and `FixRealmLogEnabled` write detailed lines to the game's log, useful only when I ask you for a log to track a bug. Off by default.

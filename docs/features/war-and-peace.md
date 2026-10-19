@@ -58,7 +58,7 @@ A peace offered to your kingdom always comes to you or to your council, as in th
 - **Truce.** For 45 days after a peace, neither kingdom's council can declare war on the other (base game: 20 days, and only for the AI).
 - **Tribute.** A kingdom that pays tribute to another cannot be attacked by it while it pays, for up to 72 days after the peace.
 
-On the kingdom screen, a war you cannot propose shows the reason, for example *"There is a truce with Vlandians: peace was made 12 days ago and the truce lasts 45."*, or that the other kingdom *"is paying tribute to this realm."*
+On the kingdom screen, a war you cannot propose shows the reason, for example *"A truce holds with Vlandia: the peace is barely sealed, and to break it now would shame the realm. It has some 33 days yet to run."*, or *"Vlandia pays tribute to this realm; one does not take a man's silver and his throat in the same season."*
 
 These rules also bind your kingdom, whether you rule it or serve it, when it declares war or asks for peace. Attacking someone on the map still starts a war as always.
 

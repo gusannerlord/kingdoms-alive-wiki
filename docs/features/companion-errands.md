@@ -22,7 +22,7 @@ The companion opens a conversation and explains the matter, how many days they n
 
 - *"Go. Pick the men you need from my company."* The game's troop screen for quests opens, as when you send a companion to settle a quest. Move the men who go: healthy soldiers of tier 2 or higher, no more than they asked for (*"{Companion} asked for {N} men, no more."*). As with the game's own quests, the men's wages for those days are paid when they leave.
     - All the men they asked for: they thank you and leave.
-    - Fewer: *"Fewer than I would like. It will have to do, and I thank you for it."* They leave, but the errand is more likely to go wrong (see below).
+    - Fewer: they make the best of it, for example *"Fewer than I would like, but I know what you can spare. It will have to do, and I thank you for it."* They leave, but the errand is more likely to go wrong (see below).
     - Nobody: *"Without men I cannot go. What do you say?"* and you answer again.
 - *"Then I am coming with you."* They thank you but say no: this is theirs to see to. You answer again.
 - *"No. I need you here."* They stay and lose relation with you.

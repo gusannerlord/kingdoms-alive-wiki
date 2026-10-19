@@ -6,8 +6,9 @@ When your kingdom is at peace, trouble comes up inside it: a band of sellswords 
 
 - Only in the kingdom you **rule or serve as a vassal**. Mercenaries and AI kingdoms have none.
 - Your kingdom must have been at peace with every other kingdom for **8 days**.
-- Each day there is a **12%** chance that an affair starts.
-- **One affair at a time**, never the same kind twice in a row, and none for **20 days** after the last one is settled. None starts while you are a prisoner.
+- A new affair comes up **15 to 20 days** after the last one came up. If the last one is still going on by then, the next comes the day after it is over.
+- **One affair at a time**, never the same kind twice in a row. None starts while you are a prisoner.
+- Feasts, hunts and petitions do not hold them back: they can fall in the same days.
 - If the place stops being part of your kingdom, or you leave the kingdom, the affair simply ends.
 
 **Ruler or vassal:** the affairs are the same, but some answers read differently, cost different amounts or carry more weight when you rule. The differences are given below.
@@ -28,6 +29,10 @@ You answer him as you answer someone who brings you a quest in the base game:
 Answers you cannot afford are greyed out: *"You do not have the denars."* or *"You do not have the influence."* Hovering over an answer shows what it costs and gives. Places you have to go to are marked on the map.
 
 If you hold an office in an AI ruler's court and the affair belongs to it, the messenger comes from the ruler (see [The ruler's charge](#the-rulers-charge)).
+
+## In your journal
+
+Once you have heard the messenger, the affair has its own entry in your quest log for as long as it lasts: *"Sellswords at {village}"*, *"The villages of {town} rise"*, *"Hunger in {town}"*, *"Bad blood: {first} and {second}"* or *"A work of the realm at {town}"*. It says what is happening, where, what can still be done about it and how much time is left, and it changes when your answer changes. The place is marked on your map while you are dealing with it yourself, and the rebel bands of a revolt carry an arrow on the map. A revolt has a bar of the bands broken, a famine a bar of the loads of grain handed over.
 
 ## A free company
 
@@ -125,11 +130,11 @@ For the free company, the revolt, the hunger and the feud, you can tell the mess
 
 ### A house of your realm (if you rule)
 
-*"My vassals will see to it."* lists the houses of your realm: *"{house} (relation N, accepts N%, N influence)"*, then who it would send, with their skill, men, days and risk. The two feuding houses are not asked.
+*"My vassals will see to it."* lists the houses of your realm: *"{house} (relation N, N influence)"*, with a few words added when the house might refuse (for example *"will likely take it"* or *"will likely turn you down"*), then who it would send, with their skill, men, days and risk. The two feuding houses are not asked.
 
 - The house sends one of its lords, **never its head**, preferably one who holds no office at court. That lord must be free in one of the house's own towns or castles, and takes soldiers from its garrison, which always keeps at least half its men (and never fewer than 40).
 - **Influence:** **30** at relation 0 with its head, 0.3 less per point of relation (0.3 more per point below 0), between **10 and 50**. For example 15 at relation +50, 39 at −30. Paid only if the house accepts. The feud adds its own 20 influence on top.
-- **A house may say no.** At relation 0 or better it always accepts. Below that the chance of refusal grows in a straight line, to certain at **−30** or worse (shown in the list). A refusal costs nothing: *"{head} of the {house} sends word that the house has other cares: it will not take the charge from you."* That house will not be asked again about this affair.
+- **A house may say no.** At relation 0 or better it always accepts. Below that the chance of refusal grows in a straight line, to certain at **−30** or worse (the list says in words how likely it is to accept). A refusal costs nothing: *"{head} of the {house} sends word that the house has other cares: it will not take the charge from you."* That house will not be asked again about this affair.
 - If you have a [court](royal-court.md#the-offices), the holder of the office that fits the affair is listed first: the **Marshal** for the free company and the revolt, the **Steward** for hunger, the **Chancellor** for bad blood.
 
 ### Skill, men, days and risk
@@ -190,4 +195,5 @@ In the settings file (see [Settings](../settings.md)):
 - `RealmAffairRealmWorks`: the work of the realm.
 - `AffairDelegationEnabled`: no sending companions, kin or houses; only the affairs' own answers.
 - `CourtChargeEnabled`: holding an office for an AI ruler does not turn its affairs into the ruler's charge.
+- `RealmAffairQuestLogEnabled`: no journal entry for the affair itself.
 - `AwayQuestLogEnabled`: no quest log entries for those you send away (this also covers [companion errands](companion-errands.md)).

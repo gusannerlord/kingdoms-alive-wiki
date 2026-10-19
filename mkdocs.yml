@@ -60,10 +60,14 @@ nav:
       - Envoys: features/envoys.md
       - Your rival: features/rival.md
       - Duels: features/duels.md
+      - Lords who remember you: features/memories.md
+      - Captives: features/captives.md
   - Your realm and household:
       - The royal court: features/royal-court.md
       - Affairs of your kingdom: features/realm-affairs.md
       - Companion errands: features/companion-errands.md
+      - Alayen: features/alayen.md
+      - Squire service: features/squire.md
       - Mercenary contracts and the Unsworn: features/mercenary-contracts.md
   - Campaign:
       - Fast mode families: features/fast-mode.md

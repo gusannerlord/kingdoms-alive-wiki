@@ -2,12 +2,14 @@
 
 Beat the wrong lord in a tournament, or let a hatred fester, and someone may swear a feud against you. Over the following weeks they come at you in their own way: taunts, tales told to their ruler, hired blades in a hideout, bands hunting you, ambushes in town streets. At the end, always, a duel to the death in the arena.
 
-You have at most one rival at a time. Each rivalry opens a quest in your journal, **"Rivalry: {rival}"**, with your rival tracked on the map. If you meet your rival's party on the map, they greet you with a few sharp words before the usual talk.
+You have at most one rival at a time. Each rivalry opens a quest in your journal, **"The feud with {rival}"**, with your rival tracked on the map. If you meet your rival's party on the map, they greet you with a few sharp words before the usual talk.
 
 ## How a rival appears
 
 - **A tournament.** Until your first rivalry, each tournament you win with lords in it has a **30%** chance that one of them swears a feud against you; after that, **1%**. The rival is the lord you beat in the final if they can be one; otherwise another lord who took part (cruel, brave or hostile ones likelier).
 - **Hatred.** Every 10 days, if some lord stands at **-30 relation or worse** with you, there is a **3%** chance that one of them declares themselves your rival. The more they hate you, the likelier they are to be the one.
+- **A lord you served badly.** If you walk out on the lord you serve as [squire](squire.md), or are sent away in disgrace, they may swear a feud: likely for a lord who is neither generous, merciful nor honourable. Such a lord can be of a ruling house (never the ruler).
+- **A captive you mistreated.** A lord you held prisoner and treated harshly may swear vengeance when they go free; humiliating them makes it much likelier. See [Captives](captives.md).
 
 There is no fixed wait between rivalries. A house that has already had a rivalry or a blood feud with you is about **10 times** less likely to produce another rival.
 
@@ -17,10 +19,11 @@ There is no fixed wait between rivalries. A house that has already had a rivalry
 - Your own family (parents, children, brothers and sisters, spouse), or anyone of a house where such a relative lives.
 - A lord who likes you (relation above **+20**).
 - If you rule a kingdom, anyone of your own kingdom.
+- The lord you serve as [squire](squire.md), for as long as you serve them.
 
 ## The blood feud
 
-When the rivalry begins, you see *"{rival} has sworn a feud against you"*, and your relation with the head of their house drops by **15**, and to **-20** if it was still higher. Their house enters the game's own **blood feud** with yours:
+When the rivalry begins, you hear how it came about, in words that depend on why they hate you, and your relation with the head of their house drops by **15**, and to **-20** if it was still higher. Their house enters the game's own **blood feud** with yours:
 
 - If a party of their house captures you, **you will be executed**.
 - Members of your clan they hold prisoner can be executed too.
@@ -41,7 +44,7 @@ A blood feud their house already had with you stays as it was and outlives the r
 
 One or two days after the feud is sworn, once you are out on the map, a messenger stops you and reads you your rival's letter, with a warning about the blood feud and a hint that the ransom brokers in the taverns can end it for a price.
 
-Accept (*"Tell {rival} I accept. Let them name the place, and we will see who is left standing."*: a little Valor, and they soon send back a taunt) or send the messenger away; closing the talk counts as silence. Either way the rivalry goes on the same.
+Accept (*"Tell {rival} I have read it, and I accept. [...] We will see who is left standing."*: a little Valor, and they soon send back a taunt) or *"[Take the letter, tear it in two, and ride on without a word.]"*; closing the talk counts as silence too. Either way the rivalry goes on the same.
 
 ## The plan
 
@@ -66,12 +69,13 @@ Once per rivalry, your rival speaks against you to their ruler: you lose **3 rel
 
 ### The hideout of hired blades
 
-Your rival hires **26 men**, their captain among them, who hole up in one of the hideouts near you. It is marked on your map and named after the company, such as **"Wolfskins Hideout"**. No ordinary bandits inside: their **Hired Captain** is the boss you face at the end, as in the game's own hideouts, and cannot be taken prisoner. Leave them alone for **15 days** and they come out as a band looking for you.
+Your rival hires **35 men**, their captain among them, who hole up in one of the hideouts near you. It is marked on your map and named after the company, such as **"Wolfskins Hideout"**. No ordinary bandits inside: their **Hired Captain** is the boss you face at the end, as in the game's own hideouts, and cannot be taken prisoner. Leave them alone for **15 days** and they come out as a band looking for you.
 
 ### Bands hunting you
 
 **"Hired Blades of {rival}"** appear near you, just out of sight: **20 to 40 men** depending on how far your campaign has gone. An **arrow** at the edge of the map points to them, and they are tracked in your journal.
 
+- They ride faster than a lord's party, so you cannot simply outrun them.
 - They **chase** you while they are more than 1.2 times as strong as your party and you are on the open map; otherwise they keep on your heels. Lose men, and they will come.
 - Other lords leave them alone, and they do not talk. After **6 days** they give up.
 - While you have fewer than **15 healthy men** the band waits; after two such delays it is dropped. At sea it waits until you land.
@@ -82,7 +86,7 @@ After a band or the hideout, your rival may pay for more: **"{company} in the Pa
 
 ### Street ambushes
 
-Each time you enter a town while an ambush is planned, there is a **1 in 10** chance it waits there. A window titled **"Ambush!"** opens and you fight in the streets:
+Each time you enter a town while an ambush is planned, there is a **1 in 10** chance it waits there. A window titled **"Knives in the alley"** opens and you fight in the streets:
 
 - You and your healthiest companion or family member against **3 to 5** of the company's men. Alone, you face 3.
 - **Win**: **5 renown**. **Lose**: you are robbed of up to **500 denars**, but nobody of yours dies.

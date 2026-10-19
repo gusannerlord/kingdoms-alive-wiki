@@ -25,10 +25,13 @@ You can, but it is best to start a new campaign with it. See [Getting started](g
 Not safely. Removing it halfway through a campaign can break that save. See [Removing the mod](getting-started.md#removing-the-mod).
 
 **Where do I see a companion or family member I sent away?**
-In your quest log. Everyone you send away on an [affair of your kingdom](features/realm-affairs.md) or a [companion errand](features/companion-errands.md), and a house of your realm you hand an affair to, has an entry there with a **Return Days** bar. It closes by itself when they are back. [Envoys](features/envoys.md) are not in the log: they write to you instead (messages starting *"A letter from..."*).
+In your quest log. Everyone you send away on an [affair of your kingdom](features/realm-affairs.md) or a [companion errand](features/companion-errands.md), and a house of your realm you hand an affair to, has an entry there with a **Return Days** bar. It closes by itself when they are back. An [envoy](features/envoys.md) on the road, or a meeting they arranged, has its entry too.
+
+**Where do I follow feasts, hunts, petitions, duels and the rest?**
+In your quest log as well: almost everything the mod asks of you (a feast or hunt you are bound to, a council promise, a plot, a petition, a promised fief, an oath, a duel, an affair of your kingdom, a [squire](features/squire.md)'s errand, the house of a [captive](features/captives.md) coming for them) has its own entry, with the places marked on your map.
 
 **Where do I follow my rival or my mercenary tasks?**
-Also in your quest log. A rivalry has its own entry, *"Rivalry: ..."* (see [Your rival](features/rival.md)). As a mercenary, your service shows as *"In the service of the crown of ..."*, and each task the ruler sends you has an entry of its own (see [Mercenary contracts](features/mercenary-contracts.md)).
+Also in your quest log. A rivalry has its own entry, *"The feud with {rival}"* (see [Your rival](features/rival.md)). As a mercenary, your service shows as *"In the service of the crown of ..."*, and each task the ruler sends you has an entry of its own (see [Mercenary contracts](features/mercenary-contracts.md)).
 
 **Where are the mod's new tabs?**
 In the kingdom screen (**K**), after Diplomacy: **Court** ([The royal court](features/royal-court.md)), **Plots** ([Civil war](features/civil-war.md)) and **Vassals** ([Vassal realms](features/vassal-realms.md)).

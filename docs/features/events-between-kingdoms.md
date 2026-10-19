@@ -79,7 +79,7 @@ However the two rulers answer, one event never moves the tension by more than on
 
 When an event involves the kingdom you rule or serve, the game's own event window opens with the story, where things now stand, and up to three choices. As a mercenary you are only told.
 
-The window says, for example, *"The recent incidents between your realm and the Vlandians have left grievances 42/100, which weighs considerably toward war."* ("a little" below 20, "considerably" from 20 to 49, "heavily" from 50), and reminds you that this is only one of the things weighed when war is talked of.
+The window says, for example, *"Your steward reckons that the recent incidents between your realm and the Vlandians have left grievances 42/100, and that they lean the realm considerably toward war."* ("a little" below 20, "considerably" from 20 to 49, "heavily" from 50), and reminds you that this is only one of the things weighed when war is talked of.
 
 **As ruler** you answer instead of your kingdom's AI, and your answer weighs a lot: it moves the tension by a further 75% of what the event moved it.
 

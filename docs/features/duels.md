@@ -21,6 +21,8 @@ The duel is held in the arena of the challenger's ruler: their most prosperous t
 
 If you fight in person, the arena town is marked on your map and you have **10 days** to get there. Once inside the town, the menu shows **"Go to the arena to meet {challenger}"**.
 
+Once you agree to fight, in person or by a champion, the duel has its own entry in your quest log: *"A duel with {challenger} at {town}"*, or *"The reckoning with {challenger} at {town}"* for your rival's. It names the arena town. If that arena can no longer be used because its lords go to war with you, the duel is not called off: it **moves to another arena**, chosen the same way, and the entry tells you where. A siege of the town only holds the duel back, as below.
+
 !!! warning
     Not turning up counts as refusing, and the challenger tells everyone who will listen.
 
@@ -32,7 +34,7 @@ If you fight in person, the arena town is marked on your map and you have **10 d
 ### When you cannot fight
 Every hour you could not fight moves the day back by an hour. That covers: the challenger is in a battle or a siege, the arena town is under siege, you are wounded, or you are a prisoner. While you are wounded or the challenger is in the field, the arena option is greyed out with the reason.
 
-After **10 days** of such delays, or if you are a prisoner when the day comes, the duel is called off with no penalty: *"The duel with {challenger} will not take place."* It is also called off if your realms go to war. Your rival does not give up: they challenge you again later, once there is peace.
+After **10 days** of such delays, or if you are a prisoner when the day comes, the duel is called off with no penalty: *"The duel with {challenger} will not take place."* If your realms go to war with each other, it is called off. Your rival does not give up: they challenge you again later, once there is peace.
 
 ## Sending a champion
 - Any adult **companion or family member**, wherever they are, as long as they are not a prisoner, not away (as an envoy, on an errand or solving a quest), not tied up in a quest, and not pregnant (for women of your family). Being wounded does not stop them.
@@ -73,5 +75,6 @@ In the settings file, set the switch to `false`. See [Settings](../settings.md).
 
 - `DuelsEnabled`: the duels between AI lords, and the challenges from houses that hate you (if you turned those on). Your rival's duel has its own switch, `RivalDuelEnabled` (see [Your rival](rival.md)).
 - `AiDuelsEnabled`: only the duels between AI lords.
+- `DuelQuestLogEnabled`: no quest log entry for your duels, and a duel whose arena turns hostile is called off instead of moved.
 
 Three related switches are off by default: `DuelPlayerChallengesEnabled` (set to `true` to let houses that hate you challenge you), `DuelRulersCanChallengePlayer` (set to `true` to let kings and queens challenge you) and `AiDuelsCanKillRulers` (set to `true` to let rulers fight in AI duels).

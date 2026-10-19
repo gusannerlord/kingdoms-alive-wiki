@@ -9,6 +9,14 @@ Every feature can be switched off on its own (see [Settings](settings.md)).
 !!! warning "Start a new campaign with it"
     Play the mod from the start of a campaign and keep it until the end. Removing it from a campaign in progress can break that save. See [Getting started](getting-started.md#new-or-existing-campaign).
 
+## New in 0.72
+- **[Squire service](features/squire.md)**: early in a campaign, ride as a lord's squire: run their errands, answer every call to arms, fight at their side and earn your spurs. Now you can also stay on in their service after your errands, your lord is always marked on the map, you are called when they ride out to raid, besiege or relieve a place, warned when they go into battle without you, and start at their side in siege assaults and sallies too. Years later they still remember you were their squire.
+- **[Lords who remember you](features/memories.md)**: lords bring up what you did to them and theirs, in their own voice: the tournament, the battle side by side, the kinsman you killed.
+- **[Captives](features/captives.md)**: a lord you capture has a house that acts (a price to name, sellswords on your trail, knives in the streets), and noble prisoners talk to you every few days.
+- **[Alayen](features/alayen.md)**: the first companion with a story and a quest of his own.
+- **Everything in the journal**: affairs of your kingdom, duels, feasts, hunts, envoys, petitions, oaths and the rest now have their own quest log entry, with places marked on the map; the texts of the whole mod speak in the voice of whoever says them.
+- **Fixes**: [mercenary contracts](features/mercenary-contracts.md) (rescues in town dungeons, a share for taking part in the siege, an escort to a named town, the ruler's own rescue, a clear castle rule), [affairs of your kingdom](features/realm-affairs.md) every 15 to 20 days of peace, [duels](features/duels.md) that move to another arena, and [vassal realms](features/vassal-realms.md) that take a crushing defeat: 40% of the loser's fiefs.
+
 ## What the mod does
 
 ### War and diplomacy
@@ -25,12 +33,16 @@ Every feature can be switched off on its own (see [Settings](settings.md)).
 - **[Envoys](features/envoys.md)**: send a family member or companion to a lord with a message.
 - **[Your rival](features/rival.md)**: beat a lord in a tournament final, or earn their hatred, and they may swear a blood feud against you: taunts, hired blades on your trail, ambushes in town streets, and at the end a duel to the death.
 - **[Duels](features/duels.md)**: your rival challenges you to a duel in the arena, and AI lords who hate each other fight their own. The loser dies, unless it is you: you are only badly hurt.
+- **[Lords who remember you](features/memories.md)**: lords bring up what you did, good and bad; small things fade in days, a dead kinsman never.
+- **[Captives](features/captives.md)**: the house of a lord you hold may bargain, hunt you or send knives; and your noble prisoners talk, remember how they were kept, and may swear vengeance.
 
 ### Your realm and household
 - **[The royal court](features/royal-court.md)**: from the Court tab of the kingdom screen, name a Marshal, Steward, Master of Works and Chancellor; choose **Hold court** in one of your own towns or castles to hear the petitioners, then the notables with tasks for you; win the oath of every house when a new ruler takes the throne; and think twice before taking a fief from a vassal, or quietly win the votes first.
 - **[Affairs of your kingdom](features/realm-affairs.md)**: in peacetime a messenger stops you on the road with news of sellswords, a revolt, a famine, a feud or a great work. Deal with it yourself, send a companion or one of your kin with men you pick, or, if you rule, hand it to one of your vassals' houses. Whoever you send shows in your quest log until they are back.
 - **[Companion errands](features/companion-errands.md)**: companions ask for leave and a few men you pick to settle matters of their own.
-- **[Mercenary contracts and the Unsworn](features/mercenary-contracts.md)**: while your clan serves a realm as mercenaries, its ruler sends you tasks (raids, escorts, guarding a village, Unsworn hideouts and bands, rescues); fulfil enough of them and you are offered vassalage. Taverns now also hire out the Unsworn, a new tree of sellswords.
+- **[Alayen](features/alayen.md)**: help a Sturgian village generously and a young smith's son asks to ride with you; his past, and his quest *The Grey Wolf*, come out by the campfire.
+- **[Squire service](features/squire.md)**: serve a lord as their squire: errands by messenger, their armies, their battles, and in the end your knighthood, a life in their service, or a rival if you walk out.
+- **[Mercenary contracts and the Unsworn](features/mercenary-contracts.md)**: while your clan serves a realm as mercenaries, its ruler sends you tasks (raids, escorts, guarding a village, Unsworn hideouts and bands, rescues); fulfil enough of them and you are offered vassalage, and maybe a castle. If the ruler is captured, their house asks you to bring them home. Taverns now also hire out the Unsworn, a new tree of sellswords.
 
 ### Campaign
 - **[Fast mode families](features/fast-mode.md)**: in fast mode, noble houses no longer die out.
