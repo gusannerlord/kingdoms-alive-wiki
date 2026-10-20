@@ -69,6 +69,7 @@ nav:
       - Alayen: features/alayen.md
       - Squire service: features/squire.md
       - Mercenary contracts and the Unsworn: features/mercenary-contracts.md
+      - Companies for hire: features/free-companies.md
   - Campaign:
       - Fast mode families: features/fast-mode.md
       - Other changes: features/other-changes.md

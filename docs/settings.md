@@ -137,6 +137,18 @@ See [Mercenary contracts](features/mercenary-contracts.md).
 | `UnswornTroopsEnabled` | Taverns sometimes offer Unsworn sellswords for hire. Off = they are no longer offered, and there are no Unsworn tasks. |
 | `FixMercHideoutMenEnabled` | The hideouts of the Unsworn and of your rival hold 35 to 40 men. Off = only as many as the game's own hideouts. |
 
+### Companies for hire
+See [Companies for hire](features/free-companies.md).
+
+| Switch | What it does |
+|---|---|
+| `CompanyHireEnabled` | The four sellsword companies can be hired. Off = nobody hires them any more; a contract under way runs to its end. |
+| `CompanyAiHireEnabled` | AI lords hard pressed in a war can hire them too. |
+| `CompanyCourierEnabled` | You can send a rider from a tavern to hire a company without going to its town. |
+| `CompanyBloodMoneyEnabled` | At the end of a contract you pay blood money for each of their men who died. |
+| `CompanyRelocateEnabled` | Companies move to another town every couple of months, drawn to the wars. |
+| `CompanyRemounts` | A company brings spare horses that keep your party from slowing to a crawl. |
+
 ### Squire service
 See [Squire service](features/squire.md).
 
@@ -154,11 +166,13 @@ See [Squire service](features/squire.md).
 | `SquireArmyCall` | You are called to every army your lord raises or joins. |
 | `SquireRescue` | Your lord's house asks you to free them when they are captured. |
 | `SquireBattleSide` | In battle your lord is outlined in gold, and you start at their side. |
-| `SquireStayOn` | After your errands you may stay on as squire instead of going for your spurs. |
+| `SquireStayOn` | When your lord sends for you after your errands, you may stay on as their squire instead of kneeling for your spurs. |
 | `SquireMarkLord` | Your lord carries the game's map arrow while you serve. |
 | `SquireMarchCall` | Word when your lord's own party rides out to raid or besiege. |
 | `SquireMarchDefend` | The same when they ride out to relieve a place of their realm. |
+| `SquireMarchPatrol` | The same when they take their ships to harry an enemy coast (War Sails). |
 | `SquireBattleAlarm` | A quick notice when your lord goes into battle without you. |
+| `SquireArmyLearn` | Riding in the same army as your lord, you learn a little of their best skills each day. |
 
 ### Lords who remember you, captives and companions with a story
 
@@ -174,6 +188,9 @@ See [Squire service](features/squire.md).
 | `CaptiveTalksEnabled` | Noble prisoners in your party speak to you, and how you keep them matters. | [Captives](features/captives.md) |
 | `CaptiveTalkNews` | You can ask captives about their realm. | [Captives](features/captives.md) |
 | `CaptiveGrudges` | Captives leave grateful or bitter, and a bitter one can become your rival. | [Captives](features/captives.md) |
+| `CaptiveTalkWorldNews` | Captives speak of what happened to their kin, house and realm since they last spoke. | [Captives](features/captives.md) |
+| `CaptiveTalkRansom` | A well-treated captive can name their own ransom. | [Captives](features/captives.md) |
+| `CaptiveTalkParole` | You can free a well-treated captive on their word not to fight you again in this war. | [Captives](features/captives.md) |
 | `StoryCompanionsEnabled` | Companions with a story of their own can appear. | [Alayen](features/alayen.md) |
 | `AlayenEnabled` | Alayen can appear. | [Alayen](features/alayen.md) |
 | `AlayenQuestEnabled` | His quest, "The Grey Wolf". | [Alayen](features/alayen.md) |
@@ -209,4 +226,4 @@ See [The royal court](features/royal-court.md).
 | `ApplyToWeapons` | Weapons get cheaper too. Off = only armour. |
 
 ### Logs
-`EventLogEnabled`, `DiplomacyLogEnabled`, `CourtMeasureLogEnabled`, `RivalLogEnabled`, `MercContractLogEnabled`, `SquireLogEnabled`, `NobleMemoryLogEnabled`, `CaptiveLogEnabled`, `StoryLogEnabled` and `FixRealmLogEnabled` write detailed lines to the game's log, useful only when I ask you for a log to track a bug. Off by default.
+`EventLogEnabled`, `DiplomacyLogEnabled`, `CourtMeasureLogEnabled`, `RivalLogEnabled`, `MercContractLogEnabled`, `SquireLogEnabled`, `NobleMemoryLogEnabled`, `CaptiveLogEnabled`, `StoryLogEnabled`, `FixRealmLogEnabled` and `CompanyLogEnabled` write detailed lines to the game's log, useful only when I ask you for a log to track a bug. Off by default.

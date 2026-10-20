@@ -1,6 +1,6 @@
 # Squire service
 
-Kneel to no crown yet: ride instead at the side of a great lord as their squire. They dress you in the colours of their house, pay part of your company's keep and send you on errands by messenger. You ride to their wars, fight beside them, and one day kneel for your spurs, stay on at their side, or walk out and make an enemy of them.
+Kneel to no crown yet: ride instead at the side of a great lord as their squire. They dress you in the colours of their house, pay part of your company's keep and send you on errands by messenger. You ride to their wars, fight beside them, learn from them, and one day kneel for your spurs, stay on at their side, or walk out and make an enemy of them.
 
 ## Offering yourself
 
@@ -68,13 +68,17 @@ Whenever your lord **raises a host or joins one**, a rider tells you at once and
 
 ### When your lord rides out alone
 
-When your lord's own party (not a host) sets out to **raid** an enemy village, **besiege** an enemy town or castle, or **relieve** a place of their kingdom under siege or raid, a rider brings word in their voice. A journal entry opens, **"At {lord}'s side: the raid on {place}"** (or *the siege of*, *the relief of*), with the place and your lord marked. If they turn elsewhere, the entry follows.
+When your lord's own party (not a host) sets out to **raid** an enemy village, **besiege** an enemy town or castle, or **relieve** a place of their kingdom under siege or raid, or (with War Sails) takes their ships to **harry the enemy coast** off a port, a rider brings word in their voice. A journal entry opens, **"At {lord}'s side: the raid on {place}"** (or *the siege of*, *the relief of*, *off the coast of*), with the place and your lord marked. If they turn elsewhere, the entry follows.
 
 Reach them in time (in their raid, their siege camp, their battle, or riding beside them) for **+1 relation**. If you cannot make it, nothing is lost. The word only comes when you are not already with them, not in a host, not a prisoner and not too far away. The same place is not called again within a week.
 
 ### When your lord fights without you
 
 When your lord's party goes into battle against an enemy kingdom or clan and you are not there, you get the game's own quick notice, with their portrait: *"{lord} is raiding {village}."*, *"{lord} is storming the walls of {town}!"*, or the game's own text when they are attacked. Once per battle, never for fights with bandits.
+
+## Learning from your lord
+
+Every day you ride **in the same host** as your lord (as their squire or after staying on), you learn a little from them: **40 to 80 experience** in one of their three best skills among the weapon skills, Riding, Tactics and Leadership (their very best the likeliest). Your usual learning rate applies, so a month in the field gives about **1,800** in all: roughly ten days in a host teach you what one day of drill does. Now and then a short message tells you what you picked up, such as *"Watching {lord} order the march and place the camp, you learn something of Tactics."*
 
 ## In battle at their side
 
@@ -88,21 +92,33 @@ If your lord is taken, **2 days** later a messenger of their house finds you: *"
 
 Freeing them gives **3,000 denars**, **+10 relation** and counts as an errand. Failing costs nothing. While the rescue is on, your lord rarely escapes on their own. Other errands wait while they are held.
 
-## Kneeling for your spurs
+## Summoned by your lord
 
-After **10 errands**, your lord sends word. If they rule (or serve no crown), they knight you themselves; otherwise they write to their ruler, and you must go there. Choose **"{lord} sent me to you, your Majesty. I have come to be knighted."** (or *"The errands are done, my lord. I have come for what you promised me."*), hear the speech, then:
+When your **10th errand** is done, a rider in your lord's colours finds you: your lord wishes to see you. The journal says so and your lord stays marked on your map. There is no hurry. No more errands come, but you are still called to their hosts, raids, sieges and reliefs, and to their rescue. If they are a prisoner when word comes, go to them once they are free.
+
+Ride to them and choose **"You sent for me, my lord."** (*"my lady"*). They praise your service, in a voice that fits their character (and honestly: if some errands went wrong, they say so), and give you their reward:
+
+- **A knight's kit.** The full battle gear of the **tier 4 troop of the noble line** of their kingdom's culture (the same line as the tier 3 gear of your first day), put straight into your inventory: *"{lord} has had a full kit of arms and armour put in your baggage, the same that her/his household knights wear (...)"*. Once per campaign.
+- **The accolade.** They offer to knight you. Your answers:
+    - **"(Kneel before him/her) I am ready."** They dub you with their own hand. If they rule the realm (or serve no crown), they take your oath on the spot. Otherwise: *"Now go to {ruler} and swear your oath: a knight without a liege is only half a knight."* A journal entry tells you to swear your oath to the ruler, who is marked on your map.
+    - **"Not yet, my lord. Let me ride at your side a while longer, as your squire."** You stay on (see below). The gear is yours anyway.
+    - **"Give me a little time before I kneel."** The offer keeps; talk to them again.
+
+## Swearing your oath
+
+Speak with the ruler: **"{lord} has made me a knight of your realm, your Majesty. I have come to swear my oath to you."** (to your own lord, if they rule: *"You made me a knight, my lord. Now take my oath, and I am yours and the realm's."*). Hear their speech, then:
 
 - **"(Kneel) I swear to serve you and your realm, with my sword and my house, for as long as I draw breath."** You become a **vassal** in the game's own way, with its gifts of gear and troops (once per campaign) and influence. **+10 relation** with your lord and **+10 renown**.
 - **"Not yet. Give me a little time before I bend the knee."** The word stands; come back later.
-- **"I am honoured beyond words, but I would keep my sword my own."** You leave with your lord's blessing (**+5 relation, +5 renown**) and stay a mercenary of the kingdom, now with its usual pay.
+- **"I am honoured beyond words, but I would keep my sword my own."** You stay a knight sworn to no one, and a mercenary of the kingdom, now with its usual pay. Your lord lets you go with their blessing (**+5 relation, +5 renown**).
 
-If your lord dies after **7 or more** errands, their ruler keeps the promise. With fewer, the service ends with no blame. If you swear to the crown by your own word first, the service ends well. If your lord's house changes kingdom, you follow them.
+Once you are dubbed (and did not stay on), you are no longer called to your lord's hosts and marches until you swear. Swearing to the crown through the game's own vassal talk instead counts just the same.
+
+If your lord dies after **7 or more** errands, their ruler keeps the promise: go to them to be knighted, and the knight's kit comes when you swear. With fewer errands, the service ends with no blame. If you leave the kingdom after the summons or the dubbing, the promise lapses quietly. If your lord's house changes kingdom, you follow them.
 
 ## Staying on
 
-When the errands are done, a window opens: **"A letter from {lord}"**. They offer the spurs, or to keep you at their side a while longer, without the oath. The buttons: **"I will ride to {ruler} for my spurs"** and **"I will stay at her/his side"**. While the knighting waits, you can also tell them in person: **"My lady/lord, I would rather not leave your side yet. Let me stay on as your squire."**
-
-Staying gives **+5 relation**. "Squire to {lord}" closes as a success and **"In {lord}'s service"** opens:
+Staying on gives **+5 relation**. "Squire to {lord}" closes as a success and **"In {lord}'s service"** opens:
 
 - No more errands.
 - Still called to every host, to their raids, sieges and reliefs, to fight at their side and to rescue them.
@@ -111,7 +127,7 @@ Staying gives **+5 relation**. "Squire to {lord}" closes as a success and **"In 
 
 Later, in their conversation:
 
-- **"I think I am ready for my spurs now, my lord, if you will still speak for me."** The knighting is due again, by their hand or the ruler's. Until you kneel you still ride with them.
+- **"I think I am ready for my spurs now, my lord, if you will still speak for me."** The same talk as the summons: praise, the kit if you never got it, and the accolade.
 - **"It is time I rode my own road, my lord. I have come to ask your leave."** You part with their blessing: no anger, no rival, and you stay a mercenary of the kingdom with its usual pay. Leaving their kingdom after staying on counts the same way.
 
 ## Walking out
@@ -147,8 +163,10 @@ In the settings file, set the switch to `false`. See [Settings](../settings.md).
 - `SquireArmyCall`: you are not called to your lord's hosts.
 - `SquireRescue`: no word comes when your lord is taken.
 - `SquireBattleSide`: no gold outline, and you start where the game puts you.
-- `SquireStayOn`: no letter and no choice to stay on: after your errands you go for your spurs.
+- `SquireStayOn`: no choice to stay on: after your errands you go for your spurs.
 - `SquireMarkLord`: your lord is no longer marked with the map arrow.
 - `SquireMarchCall`: no word when your lord rides out alone to raid or besiege.
 - `SquireMarchDefend`: no word when your lord rides out to relieve a place of their kingdom.
+- `SquireMarchPatrol`: no word when your lord takes their ships to harry an enemy coast.
 - `SquireBattleAlarm`: no notice when your lord goes into battle without you.
+- `SquireArmyLearn`: you learn nothing from your lord in their host.

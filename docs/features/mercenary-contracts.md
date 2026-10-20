@@ -108,6 +108,9 @@ Where to get them:
 - AI lords and caravans hire them from the same taverns, so you will also meet Unsworn in other parties.
 - **Prisoners.** Like any regular troop of **tier 2 or higher**: every Unsworn except the Recruit.
 
+!!! tip
+    Need hundreds of men at once, for a few weeks? Hire a whole company instead: see [Companies for hire](free-companies.md).
+
 ## Turn it off
 In the settings file, set the switch to `false`. See [Settings](../settings.md).
 

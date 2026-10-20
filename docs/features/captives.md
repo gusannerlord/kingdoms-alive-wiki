@@ -7,7 +7,10 @@ A lord in your baggage train is no longer just a ransom waiting to be paid. Thei
 ### How it starts
 
 - Your **own party** takes a lord of another house prisoner in battle (not a companion, not a bandit chief).
-- About **1 in 3** times (35%), the captive's house does something about it, **1 to 3 days** later, once the news has reached them.
+- The captive's house may do something about it, **1 to 3 days** later, once the news has reached them. How likely depends on who the captive is:
+    - the **head of a house**, or the **ruler** or their close kin (spouse, children, brothers and sisters): **3 in 4**;
+    - a **young** lord (under 25) who does not head the house, or anyone of a small house (clan tier 0 or 1): about **1 in 3** (35%);
+    - anyone else: **1 in 2**.
 - Only **one such matter at a time**. While one is under way, other captures bring no reaction.
 - It needs a war: the captive must still be in your hands (your party, the dungeon of one of your fiefs, or a party of your house), and their realm still at war with yours.
 
@@ -98,10 +101,25 @@ Your answer is how you treat them. Each captive keeps a tally of their keeping:
 | *[Have her/him put in irons...]* | Treatment **-1.5**, and **-0.2** each day in irons. Their chance to escape, and the game's ransom offers for them, drop to about **40%** of usual. |
 | *[Have the irons struck off.]* | Treatment **+1**. |
 | *[Drag her/him out before your men and make sport of...]* | Treatment **-4**. Party morale **+3**. You lose some **Mercy**, and **2 relation** with the head of their house. They never forget it. |
-| *"Tell me about your realm. Where are its walls thin, and its lords weak?"* | See below. Once every **8 days** per captive. |
+| *"Tell me about your realm. Where are its walls thin, and its lords weak?"* | See below. Once every **8 days** per captive. Only when neither of the next two is on offer. |
+| *"Remember who holds the key to your irons. Now tell me about your realm."* | Only for a captive in irons or humiliated. They talk more readily and lie less, but treatment **-1.5**. |
+| *"Your house has not sent a single coin for you. Have you asked yourself why? Talk to me instead."* | Only after **15 days** held, if their house has offered nothing for them meanwhile. They talk a little more readily and lie far less, but **-2 relation** (and a little worse treatment). |
+| *"Name your ransom. I will hear it."* | Only for a well-treated captive (treatment **+3** or more). See below. |
+| *"Give me your word that you will not take up arms against me again in this war, and you may go."* | Only for a well-treated captive. See below. |
 | *[Say nothing, and leave her/him to her/his thoughts.]* | Nothing. |
 
 A **starving** party costs every noble captive **1** point of treatment a day.
+
+### News from the world
+
+A captive does not live in a void. When they speak, they may first bring up one thing that happened since they last spoke (or since they were taken), as long as it is still true: a kinsman dead or a child born, a wedding in their family, their realm going to war or making peace, a battle won or lost by a lord of their realm, their ruler taken prisoner, or a town or castle of their house taken by another realm's siege. They say it in a voice that fits their character. If there is nothing new, they open as before.
+
+### Ransom and parole
+
+A captive you have treated well (treatment **+3** or more) can offer you two ways out:
+
+- **"Name your ransom."** They name the game's own ransom value for themselves (or, if their house cannot pay that much but can pay at least half, all it can raise). **"Agreed. Send for the coin, and you ride home."** When the talk ends, their house pays and they ride home. **"Not for that. We will speak of it again."** keeps them. If their house is too poor, they say so honestly and you answer **"Then you will stay my guest a while longer."** Not offered while their house is already bargaining with you over them.
+- **Parole.** They give their word not to fight you again in this war and ride out of your camp: **+3 relation**. An honourable captive keeps it. A **dishonest** one breaks it about **1 in 2** times, and a merely **calculating** one about **1 in 7**: **5 to 15 days** later, if their realm is still at war with yours and they are back in the field, word reaches you that they broke it, and you lose **8 relation** with them.
 
 ### What they tell
 
@@ -139,5 +157,8 @@ In the settings file, set the switch to `false`. See [Settings](../settings.md).
 - `CaptiveRescueParty`: no sellswords hunting you.
 - `CaptiveTownThugs`: no knives in the towns.
 - `CaptiveTalksEnabled`: captives never speak to you, and irons have no effect.
-- `CaptiveTalkNews`: you cannot ask captives about their realm.
+- `CaptiveTalkNews`: you cannot ask captives about their realm (nor remind them of the key or of their house's silence).
 - `CaptiveGrudges`: captives are neither grateful nor bitter when they leave, and none becomes your rival.
+- `CaptiveTalkWorldNews`: captives never speak of what happened in the world since they last spoke.
+- `CaptiveTalkRansom`: captives never name their own ransom.
+- `CaptiveTalkParole`: you cannot free captives on their word.
