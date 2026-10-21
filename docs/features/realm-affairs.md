@@ -1,6 +1,6 @@
 # Affairs of your kingdom
 
-When your kingdom is at peace, trouble comes up inside it: a band of sellswords takes a village, peasants rise, a town starves, two houses feud, or the crown wants to build. A messenger brings you the news, and you can ride there yourself, send someone in your name, or let it run its course. Each way ends differently.
+When your kingdom is at peace, trouble comes up inside it: a band of sellswords takes a village, peasants rise, a town starves, two houses feud, the crown wants to build, or a rival crown sends hired killers against your ruler. A messenger brings you the news, and you can ride there yourself, send someone in your name, or let it run its course. Each way ends differently.
 
 ## When they happen
 
@@ -10,6 +10,7 @@ When your kingdom is at peace, trouble comes up inside it: a band of sellswords 
 - **One affair at a time**, never the same kind twice in a row. None starts while you are a prisoner.
 - Feasts, hunts and petitions do not hold them back: they can fall in the same days.
 - If the place stops being part of your kingdom, or you leave the kingdom, the affair simply ends.
+- *The enemies of the crown* comes only to a **vassal**, never to the ruler.
 
 **Ruler or vassal:** the affairs are the same, but some answers read differently, cost different amounts or carry more weight when you rule. The differences are given below.
 
@@ -28,11 +29,11 @@ You answer him as you answer someone who brings you a quest in the base game:
 
 Answers you cannot afford are greyed out: *"You do not have the denars."* or *"You do not have the influence."* Hovering over an answer shows what it costs and gives. Places you have to go to are marked on the map.
 
-If you hold an office in an AI ruler's court and the affair belongs to it, the messenger comes from the ruler (see [The ruler's charge](#the-rulers-charge)).
+If you hold an office in an AI ruler's court and the affair belongs to it, the messenger comes from the ruler (see [The ruler's charge](#the-rulers-charge)). The enemies of the crown always comes from the ruler: *"I ride from {ruler}."*
 
 ## In your journal
 
-Once you have heard the messenger, the affair has its own entry in your quest log for as long as it lasts: *"Sellswords at {village}"*, *"The villages of {town} rise"*, *"Hunger in {town}"*, *"Bad blood: {first} and {second}"* or *"A work of the realm at {town}"*. It says what is happening, where, what can still be done about it and how much time is left, and it changes when your answer changes. The place is marked on your map while you are dealing with it yourself, and the rebel bands of a revolt carry an arrow on the map. A revolt has a bar of the bands broken, a famine a bar of the loads of grain handed over.
+Once you have heard the messenger, the affair has its own entry in your quest log for as long as it lasts: *"Sellswords at {village}"*, *"The villages of {town} rise"*, *"Hunger in {town}"*, *"Bad blood: {first} and {second}"*, *"A work of the realm at {town}"*, or for the enemies of the crown the Blackhand job itself (for example *"Knives in the hall of {place}"*). It says what is happening, where, what can still be done about it and how much time is left, and it changes when your answer changes. The place is marked on your map while you are dealing with it yourself, and the rebel bands of a revolt carry an arrow on the map. A revolt has a bar of the bands broken, a famine a bar of the loads of grain handed over.
 
 ## A free company
 
@@ -116,6 +117,27 @@ If it is built, the building goes up **one level**. If you gave:
 
 If it is abandoned, your money is not returned. The work of the realm cannot be handed to anyone else: only your money counts.
 
+## The enemies of the crown
+
+**Only while you are a vassal** (never as ruler, and never as a mercenary). A rival crown has paid a crew of the Blackhand Company to strike at your ruler: a kingdom whose ruler is on bad terms with yours, or one that made peace with your realm in the last 120 days. Without such a rival, this affair does not come up.
+
+The messenger tells you what the killers mean to do, and adds that your ruler *"asks it of you, as one of the sworn lords of the realm, and not of a hired sword."*
+
+| Answer | What happens |
+|---|---|
+| *"Tell {ruler} I will see to it myself."* | It goes into your journal, with where to go and the days you have. |
+| *"I cannot be spared for this. The crown has other swords."* | **−2** with your ruler, and the affair ends. |
+
+The job is one of the five ways of [the Blackhand's knives](lords-enemies.md): killers in your ruler's hall (your ruler rides to a castle or town of their house and waits there), an ambush in the lanes of a town, the Blackhand's champion in an arena, a crew squeezing a village of the realm, or a trap in a tavern. That page has every choice and fight.
+
+- **Done:** a rider of the royal household brings **4,000 denars** and a letter. **+5** with your ruler, **3 renown**, **10 influence**.
+- **Done the lesser way** (the crew bought off, the long way round, the duel lost): **2,000 denars**, half the renown and influence, no relation.
+- **Failed, or out of time:** **−3** with your ruler.
+- If your ruler is cut down in their hall, there is a small chance (1 in 20) that they die of it.
+- It ends with no blame if you become ruler, leave the kingdom, or the crown passes to someone else.
+
+Nobody else can be sent: your ruler asked you.
+
 ## Someone else sees to it
 
 For the free company, the revolt, the hunger and the feud, you can tell the messenger that someone else will deal with it. After a list of names comes a confirmation, *"So be it."* or *"No, wait. Let me think again."*, and the messenger rides off with your answer.
@@ -193,6 +215,7 @@ In the settings file (see [Settings](../settings.md)):
 - `RealmAffairFamine`: hunger in a town.
 - `RealmAffairClanFeud`: the feud between two clans.
 - `RealmAffairRealmWorks`: the work of the realm.
+- `RealmAffairEnemies`: the enemies of the crown.
 - `AffairDelegationEnabled`: no sending companions, kin or houses; only the affairs' own answers.
 - `CourtChargeEnabled`: holding an office for an AI ruler does not turn its affairs into the ruler's charge.
 - `RealmAffairQuestLogEnabled`: no journal entry for the affair itself.

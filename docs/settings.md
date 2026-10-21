@@ -114,7 +114,7 @@ See [Vassal realms](features/vassal-realms.md).
 
 | Switch | What it does |
 |---|---|
-| `RealmAffairsEnabled` | [Affairs of your kingdom](features/realm-affairs.md), brought to you by a messenger on the road. Each affair also has its own switch: `RealmAffairFreeCompany`, `RealmAffairPeasantRevolt`, `RealmAffairFamine`, `RealmAffairClanFeud`, `RealmAffairRealmWorks`. |
+| `RealmAffairsEnabled` | [Affairs of your kingdom](features/realm-affairs.md), brought to you by a messenger on the road. Each affair also has its own switch: `RealmAffairFreeCompany`, `RealmAffairPeasantRevolt`, `RealmAffairFamine`, `RealmAffairClanFeud`, `RealmAffairRealmWorks`, `RealmAffairEnemies` (the enemies of the crown, for vassals; see [The Blackhand's knives](features/lords-enemies.md)). |
 | `RealmAffairQuestLogEnabled` | Each affair of your kingdom has its own quest log entry for as long as it lasts, with its places and rebel bands marked on the map. |
 | `AffairDelegationEnabled` | The messenger's answers *"One of my companions or kin will see to it."* and, if you rule, *"My vassals will see to it."*: send someone of yours with men you pick, or hand the affair to a house of your realm. Off = you deal with affairs yourself. See [Affairs of your kingdom](features/realm-affairs.md). |
 | `CompanionErrandsEnabled` | [Companion errands](features/companion-errands.md). |
@@ -148,6 +148,7 @@ See [Companies for hire](features/free-companies.md).
 | `CompanyBloodMoneyEnabled` | At the end of a contract you pay blood money for each of their men who died. |
 | `CompanyRelocateEnabled` | Companies move to another town every couple of months, drawn to the wars. |
 | `CompanyRemounts` | A company brings spare horses that keep your party from slowing to a crawl. |
+| `CompanySeaPassageEnabled` | With War Sails, a company takes ship to reach you across the sea (you pay the passage). |
 
 ### Squire service
 See [Squire service](features/squire.md).
@@ -161,8 +162,13 @@ See [Squire service](features/squire.md).
 | `SquireBand` | The errand of destroying a company of sellswords sent against your lord's lands. |
 | `SquireTaxes` | The game's own "Revenue Farming" quest, given by your lord. |
 | `SquireGarrison` | The game's own "Lord Needs Garrison Troops" quest, given by your lord. |
-| `SquireTraining` | The errand of drilling a day with your lord's men at one of their fortresses. |
+| `SquireHorses` | The game's own "Lord Needs Horses" quest, given by your lord when their men lack mounts. |
+| `SquireTraining` | The errand of facing a garrison's men one after another in a castle yard or a town arena. |
 | `SquireHideout` | The errand of clearing a bandit hideout near your lord's lands. |
+| `SquirePatrol` | The errand of walking the rounds with the watch of a town, where Skolderbroda lie in wait. |
+| `SquirePatrolCastles` | Off by default. On = those rounds can also be walked in castles. |
+| `SquireEnemies` | The errand of stopping Blackhand killers paid by your lord's enemies. See [The Blackhand's knives](features/lords-enemies.md). |
+| `EnemiesHall`, `EnemiesAlley`, `EnemiesChampion`, `EnemiesVillage`, `EnemiesTavern` | Each of the five ways of the Blackhand's jobs (the hall, the lanes, the arena, the village, the tavern), for your lord's errand and for the enemies of the crown alike. |
 | `SquireArmyCall` | You are called to every army your lord raises or joins. |
 | `SquireRescue` | Your lord's house asks you to free them when they are captured. |
 | `SquireBattleSide` | In battle your lord is outlined in gold, and you start at their side. |
@@ -173,6 +179,14 @@ See [Squire service](features/squire.md).
 | `SquireMarchPatrol` | The same when they take their ships to harry an enemy coast (War Sails). |
 | `SquireBattleAlarm` | A quick notice when your lord goes into battle without you. |
 | `SquireArmyLearn` | Riding in the same army as your lord, you learn a little of their best skills each day. |
+| `SquireFireEnabled` | Talks with your lord by the fire, in their host, every few evenings. |
+| `SquireJudgeEnabled` | After a battle at their side your lord tells you how you fought, and calls on you to stand over them when they fall. |
+| `SquireBannerEnabled` | Now and then your lord gives you their colours to carry in a field battle. |
+| `SquireYardEnabled` | Practice bouts with your lord (or one of their house) when you are both in a castle. |
+| `SquireYardInTowns` | The same on the sand of a town's arena. |
+| `SquireYardPeaceOnly` | Bouts only in peacetime. Off = bouts by chance in wartime too (invitations are always peace-only). |
+| `SquireYardArrivalNotice` | The word that your lord is in the castle or town also comes as a big notice with their portrait. |
+| `SquireYardInvites` | In peacetime your lord sends for you to come for a bout, and waits for you. |
 
 ### Lords who remember you, captives and companions with a story
 

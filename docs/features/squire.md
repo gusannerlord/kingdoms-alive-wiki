@@ -1,6 +1,6 @@
 # Squire service
 
-Kneel to no crown yet: ride instead at the side of a great lord as their squire. They dress you in the colours of their house, pay part of your company's keep and send you on errands by messenger. You ride to their wars, fight beside them, learn from them, and one day kneel for your spurs, stay on at their side, or walk out and make an enemy of them.
+Kneel to no crown yet: ride instead at the side of a great lord as their squire. They dress you in the colours of their house, pay part of your company's keep and send you on errands by messenger. You ride to their wars, fight beside them, share their fire, cross practice blades with them, and one day kneel for your spurs, stay on at their side, or walk out and make an enemy of them.
 
 ## Offering yourself
 
@@ -28,7 +28,7 @@ The lord states the terms, in a voice that fits their character. Answer **"Then 
 
 A messenger brings the first errand about **3 days** after you swear, then one every **6 to 12 days**, never sooner than **3 days** after the last one ended. One errand at a time. The messenger waits until you are free on the map, and gives up after **5 days** with no blame.
 
-The lord picks at random among the errands that make sense near you. Answer **"Tell her/him it will be done."** (it goes into your journal) or **"Tell her/him I cannot do this."**
+The lord picks at random among the errands that make sense near you (a letter comes up less often than the rest). Answer **"Tell her/him it will be done."** (it goes into your journal) or **"Tell her/him I cannot do this."**
 
 | Errand | What to do | Time | Reward |
 |---|---|---|---|
@@ -37,13 +37,40 @@ The lord picks at random among the errands that make sense near you. Answer **"T
 | **A letter** | Find the lord it is for (marked on the map) and choose **"I bring you a letter from {lord}."** They think a little better of you. | the ride and a few days | 500 |
 | **A threat** (a lord without honour) | The same, but the letter is a threat: the reader thinks less of you, and it costs you a little Honor. | the ride and a few days | 500 |
 | **A feast** | Spend **12 hours** in the hall of a [feast](feasts.md) of their kingdom while it lasts. | until the feast ends | — |
-| **Sellswords** | Hunt down a company of **Skolderbroda** sellswords loosed on their lands by their enemies, some of them veterans. Marked on the map. | 15 days plus the ride | 2,500 |
+| **Sellswords** | Hunt down a company of **40 to 45 Skolderbroda** sellswords loosed on their lands by their enemies, some of them veterans. Marked on the map. | 15 days plus the ride | 2,500 |
 | **Taxes** | The game's own **Revenue Farming** quest, for one of their towns. | the game's | the game's |
 | **Garrison** | The game's own **Lord Needs Garrison Troops** quest, for one of their thin garrisons. | the game's | the game's |
-| **Drill** | Ride to one of their fortresses and choose **"Drill with the men-at-arms"**: a day in the yard gives experience in **3** weapon skills (150 to 300 each). | the ride and a few days | — |
+| **Horses** | The game's own **Lord Needs Horses** quest, only when too many of their own men march on foot. Buy the breed they name and hand it over to them or at any of their house's fortresses (marked on the map). | the game's | the game's |
+| **Drill** | Ride to one of their fortresses (or the realm's) and face its garrison with blunted steel (see [Drill](#drill)). | the ride and a few days | — |
 | **A hideout** | Clear a bandit hideout near their lands. Marked on the map. | 15 days plus the ride | 2,000 |
+| **Knives in the streets** | Rumours of enemies of their house inside one of their towns: walk the rounds with the watch (see [Knives in the streets](#knives-in-the-streets)). | the ride and half again, plus 4 days | 2,000 |
+| **The lord's enemies** | Hired killers of the Blackhand Company, paid by a house that hates your lord, in a hall, an alley, an arena, a village or a tavern. See [The Blackhand's knives](lords-enemies.md). | the ride and half again, plus 4 days | 2,500 |
+
+**Everything counts towards the 10**: every errand done (the game's own quests too), every host you ride out with them, and freeing them when they are taken. Bouts in the yard and talks by the fire do not.
 
 Every errand done also gives **+3 relation** with the lord (+1 for the game's own quests, which pay their own reward) and a little renown. A **generous** lord pays a quarter more; a **closefisted** one a quarter less.
+
+### Drill
+
+Ride to the place named and choose **"Drill with the men-at-arms"** in its menu. In a castle you fight in its yard; in a town, on the sand of its arena (barred at night and while a tournament is on). Not while you are wounded.
+
+The garrison's sergeant meets you with an armful of blunted steel: *"My lads will come at you one after another, and I come last, if you are still standing. Nobody gets water in between. Pick your weapon."* Choose sword and shield, a two-handed blade or spear and shield. Then **3 men of the garrison** come at you on foot, one after another, the most seasoned last: the sergeant. Your wounds are not healed between them.
+
+- You learn by what you do: about **150** experience in the skill of your weapon, **20** more for each blow you land (up to 15 blows) and **100** for each man you put down, plus **100** in Athletics. Falling to the first man without landing a blow gives only half of the base. The game's usual learning rate applies.
+- The sergeant tells you what they thought, and your lord hears of it and adds a word of their own.
+- It counts as done **even if you fall to the first man**. Walking off before the first blow is traded counts as nothing; walking off after it is taking your beating, and the sergeant says so.
+
+### Knives in the streets
+
+Your lord has word that enemies of their house have slipped into one of their towns (or one of their realm's). Ride there and choose **"Walk the rounds with the watch"** in the town menu. The captain of the watch will not let you walk alone with killers loose: **5 or 6 men of the garrison** fall in behind you. You go in your battle gear.
+
+Halfway along the rounds, **10 Skolderbroda** come out of the lanes, mostly green ones. A street fight:
+
+- **Win** and the errand is done. Men of the watch who fall are only wounded: the garrison loses nobody.
+- **Knocked down:** you wake in the guardhouse, wounded, and the errand lapses with no blame: *"But you stood, and my lads saw it."*
+- **Run** from the lane and it fails.
+
+Not while you are wounded or in disguise.
 
 Errands that cannot be finished through no fault of yours lapse with no blame: you were a prisoner, the reader died, the feast was called off, someone else cleared the hideout.
 
@@ -78,13 +105,81 @@ When your lord's party goes into battle against an enemy kingdom or clan and you
 
 ## Learning from your lord
 
-Every day you ride **in the same host** as your lord (as their squire or after staying on), you learn a little from them: **40 to 80 experience** in one of their three best skills among the weapon skills, Riding, Tactics and Leadership (their very best the likeliest). Your usual learning rate applies, so a month in the field gives about **1,800** in all: roughly ten days in a host teach you what one day of drill does. Now and then a short message tells you what you picked up, such as *"Watching {lord} order the march and place the camp, you learn something of Tactics."*
+Every day you ride **in the same host** as your lord (as their squire or after staying on), you learn a little from them: **40 to 80 experience** in one of their three best skills among the weapon skills, Riding, Tactics and Leadership (their very best the likeliest). Your usual learning rate applies, so a month in the field gives about **1,800** in all. Now and then a short message tells you what you picked up, such as *"Watching {lord} order the march and place the camp, you learn something of Tactics."*
+
+## By the fire
+
+Every **4 to 7 days** that you ride in the same host as your lord, they call you to their fire of an evening, while the host waits in camp (never in a battle, a siege, a town or at sea): *"Sit down, the fire is warm and the night is long."* Answer **"Gladly, my lord."** or excuse yourself (a proud lord takes that a little badly).
+
+They talk about something real in the world: a town or castle their realm has taken or lost, a kinsman of theirs, their ruler, the lord they hate most, a battle the two of you fought together, your own deeds, or their youth. You have **three answers**, and how they take each one depends on their character: an honest word pleases an honest lord, a bold one a valorous lord, and so on.
+
+- A good answer: **+1** relation (+2 from a lord strong in that trait). A bad one: −1 (or −2). What the fire can earn you is held to **+3 in any 30 days**; losses are not.
+- Now and then the answer you give nudges your own character a little, as the game's own incidents do.
+- Sometimes they tell you something true and useful: an enemy town or castle near you that is **thinly held**, where a lord is riding, or who at court does not love the ruler. Asking what they would have done differently in a battle teaches you some **Tactics**.
+- A talk they liked may stay with them, and they bring it up in later greetings for a few months.
 
 ## In battle at their side
 
 - Your lord is **outlined in gold**, rider and horse, seen through walls and crowds, in every battle they fight on your side.
 - Once deployment is over, you are moved **to their side** in field battles, siege assaults and sallies, wherever the ground allows (never at the foot of a wall or across it, and not while either of you is on a ladder or a siege engine). Not at sea. *"You take your place at {lord}'s side. Keep her/him in sight: her/his colours shine gold above the press."*
-- **Stand over them** when they fall (within about 12 metres): **+4 relation**. Otherwise, stay near them for most of the fight: **+1**.
+
+### What your lord thought
+
+Back on the map after a battle at their side, your lord tells you what they made of it, in a window titled **"{lord}, after the battle"**, when there is something worth saying (at most once every **5 days**, except for the two cases that are always told: when they fell, and when you ran).
+
+| How you fought | Relation |
+|---|---|
+| Hard, at their side (3 or more foes downed near them) | **+2**, and renown in a battle of 300 men or more |
+| Rash: alone among the enemy, far from them | +1 from a valorous lord; −1 from a shrewd, honest or cautious one |
+| Hanging back, far from them and out of the fighting | **−2** (−3 from a valorous lord) |
+| Knocked out early | −1 from a valorous or cruel lord who is not kind; nothing from the rest |
+| Leaving the field while they still fought | **−3** |
+| Simply at their side the whole time | **+1**, in a short message |
+
+What battles (and the banner below) earn you is held to **+8 in any 30 days**; losses are not.
+
+### When your lord falls
+
+If your lord is knocked down, a cry tells you where: *"{lord} is down, {where}! Stand over her/him!"*, and the gold outline stays on them.
+
+- **Stand over them:** reach them within **30 seconds** and stay close for most of the next 40 (or cut down a man who comes for them). **+4 relation**, **5 renown**, and they never forget it.
+- **Let them lie:** if you were on your feet close by, nothing kept you busy, and you never went to them, it costs **−5** and they never forget that either. Being too far away, fighting for your life or down yourself is no blame.
+- Coming to them and then leaving them again costs −1. Leaving the field with them on the ground counts as running.
+
+### Their colours
+
+Before a field battle at their side, about **1 time in 5** (at most once every 10 days), your lord offers you their banner: **"I will carry it, my lord."** or **"Give it to another, my lord."** You carry a banner with their arms in your hand for that battle only. It gives no bonus to the troops (in this version of the game only the banner bearers the game picks for each formation do that).
+
+- Still in your hand at the end: **+2** relation and a little renown.
+- Dropped, lost when you fall, or carried off the field while they still fight: **−2**.
+- Still in your hand in a lost battle: nothing.
+- Refusing costs −1 with a proud lord.
+
+At sea and in hideouts the lord does not judge your fighting: there you get **+4** for standing over them when they fall (within about 12 metres), or **+1** for staying near them for most of the fight.
+
+## The practice yard
+
+When you and your lord are really inside the same castle, its menu has **"Seek out {lord} in the yard"**. When they are in a town with an arena, use **"Seek out {lord} at the arena"** in the town menu or **"Cross blades with {lord} on the sand"** in the arena's menu. When you ride into the place, a word tells you they are there (with the game's big notice and their portrait).
+
+- **Only in peacetime**, by day, with neither of you wounded, not under siege, not while a tournament holds the arena, not in disguise. At most once every **7 days**.
+- About **1 time in 4**, an adult of their house who is there fights you instead, and your lord watches (from the wall, or the front row of the stands). A lord who is old or with child never fights in person.
+- Pick your weapon: **Sword and shield**, **A two-handed blade** or **Spear and shield**, the game's blunted tournament weapons. Your lord fights with one of their two best weapons, at random.
+- On foot, until one of you is knocked out, as in the arena. Nobody is wounded afterwards. Walking off before the other is down is **yielding**, and they will judge it so.
+
+Their verdict, in their own voice, depends on how it went and on their character: a fair win, a win with three or more kicks (an honourable lord frowns on the boot), a loss after taking half their strength (losing well), a plain loss, or yielding (a valorous lord despises it).
+
+- Relation from **+2 to −2**. What the yard earns you is held to **+4 in any 60 days**.
+- Experience: **200** in the skill of your weapon, **20** more for each blow you land (up to 10), and **100** in Athletics. Half if you yielded.
+- A **generous** lord beaten fairly tosses you a purse of **300** denars.
+- They remember the bout for a few months (a dirty win or yielding, twice as long).
+
+### Their invitation
+
+In peacetime, every **6 to 10 days**, if your lord is in a castle (or a town with an arena) with their men fed and nothing else on their hands, and you are somewhere else, their messenger finds you: they will be at {place} a few days and want their squire there for a bout. Answer **"Tell her/him I will come."** or **"Tell her/him I cannot, not this time."** (no blame).
+
+- If you accept, a journal entry **"A bout at {place}"** opens, with the place and your lord marked. They **wait there** for your ride plus **5 days** (at most 12).
+- If they are on their way to a feast or a hunt, the invitation is for that place, for as long as it lasts.
+- They are let go, with no blame on you and a line in their voice, if war comes, they are called to a host, their food runs short, the place is besieged or changes hands, or another duty calls them.
 
 ## Rescuing your lord
 
@@ -121,7 +216,7 @@ If your lord dies after **7 or more** errands, their ruler keeps the promise: go
 Staying on gives **+5 relation**. "Squire to {lord}" closes as a success and **"In {lord}'s service"** opens:
 
 - No more errands.
-- Still called to every host, to their raids, sieges and reliefs, to fight at their side and to rescue them.
+- Still called to every host, to their raids, sieges and reliefs, to fight at their side and to rescue them, and still welcome at their fire and in their yard.
 - They still pay half your wages, and they stay marked on your map.
 - Deserting can still get you sent away.
 
@@ -158,8 +253,11 @@ In the settings file, set the switch to `false`. See [Settings](../settings.md).
 - `SquireBand`: no Skolderbroda sellswords to hunt.
 - `SquireTaxes`: no Revenue Farming errand.
 - `SquireGarrison`: no garrison errand.
-- `SquireTraining`: no day of drill.
+- `SquireHorses`: no horses errand.
+- `SquireTraining`: no drill with a garrison.
 - `SquireHideout`: no hideouts to clear.
+- `SquirePatrol`: no rounds with the watch. (`SquirePatrolCastles`, off by default, lets the rounds be walked in castles too.)
+- `SquireEnemies`: no Blackhand killers (see [The Blackhand's knives](lords-enemies.md) for each of the five ways).
 - `SquireArmyCall`: you are not called to your lord's hosts.
 - `SquireRescue`: no word comes when your lord is taken.
 - `SquireBattleSide`: no gold outline, and you start where the game puts you.
@@ -170,3 +268,7 @@ In the settings file, set the switch to `false`. See [Settings](../settings.md).
 - `SquireMarchPatrol`: no word when your lord takes their ships to harry an enemy coast.
 - `SquireBattleAlarm`: no notice when your lord goes into battle without you.
 - `SquireArmyLearn`: you learn nothing from your lord in their host.
+- `SquireFireEnabled`: no talks by the fire.
+- `SquireJudgeEnabled`: your lord does not judge how you fought, nor call when they fall (the simple reward of standing over them applies instead).
+- `SquireBannerEnabled`: your lord never hands you their colours.
+- `SquireYardEnabled`: no practice bouts with your lord. `SquireYardInTowns`: bouts only in castles, not in town arenas. `SquireYardPeaceOnly`: bouts by chance also in wartime (invitations stay peace-only). `SquireYardArrivalNotice`: the word on arriving is only a line in the log. `SquireYardInvites`: your lord never invites you to a bout.

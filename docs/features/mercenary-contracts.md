@@ -30,7 +30,7 @@ Each task given, fulfilled, failed or refused gets a line in it. With **5 tasks 
 
 | Task | Deadline | Reward |
 |---|---|---|
-| Raid an enemy territory | 60 days | The game's own: 15,000 denars, 5 renown, 20 influence, honor, +10 with the ruler |
+| Raid an enemy territory | 60 days | 5,000 denars, 5 renown, 20 influence, honor, +10 with the ruler |
 | Escort a caravan | 30 days | 2,000 denars, 3 renown, +5 with the ruler |
 | Guard a border village | 30 days | 3,000 denars, 3 renown, +5 with the ruler |
 | Clear an Unsworn hideout | 30 days | 4,000 denars, 3 renown, +5 with the ruler |
@@ -38,7 +38,7 @@ Each task given, fulfilled, failed or refused gets a line in it. With **5 tasks 
 | Rescue a lord | 50 days | 8,000 denars (12,000 for one of the ruler's house), 5 renown, +3 with the ruler, +5 with the lord |
 
 ### Raid an enemy territory
-The game's own **"Raid an Enemy Territory"** quest, given by messenger: burn **3 villages** of the enemy kingdom whose villages lie nearest to you. The game pays its usual reward the moment the third village burns. A village burnt in a fight as time runs out still counts. Only offered while the ruler has no other quest of their own open.
+The game's own **"Raid an Enemy Territory"** quest, given by messenger: burn **one village** of the enemy kingdom whose villages lie nearest to you (the game's own quest asks three; here one is enough, for a third of its gold). The reward is paid the moment it burns. A village burnt in a fight as time runs out still counts. Only offered while the ruler has no other quest of their own open.
 
 ### Escort a caravan
 One of the realm's caravans on the road near you, bound for a **named town** no more than about three towns' ride away. The town is marked on your map and named in your journal, and the caravan carries an arrow on your map. Ride with it and **be close by when it enters a town**, within 30 days. You are warned when you are losing sight of it.

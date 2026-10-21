@@ -1,5 +1,5 @@
 site_name: Kingdoms Alive Wiki
-site_description: Player guide for the Bannerlord mod "Diplomacy - Kingdoms Alive", which turns your campaign into a living medieval realm in the spirit of Crusader Kings.
+site_description: Player guide for the Bannerlord mod "Kingdoms Alive - Campaign and Diplomacy Overhaul", which turns your campaign into a living medieval realm in the spirit of Crusader Kings.
 site_url: https://gusannerlord.github.io/kingdoms-alive-wiki/
 repo_url: https://github.com/gusannerlord/kingdoms-alive-wiki
 repo_name: kingdoms-alive-wiki
@@ -68,6 +68,7 @@ nav:
       - Companion errands: features/companion-errands.md
       - Alayen: features/alayen.md
       - Squire service: features/squire.md
+      - The Blackhand's knives: features/lords-enemies.md
       - Mercenary contracts and the Unsworn: features/mercenary-contracts.md
       - Companies for hire: features/free-companies.md
   - Campaign:

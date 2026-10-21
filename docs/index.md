@@ -1,4 +1,4 @@
-# Diplomacy - Kingdoms Alive
+# Kingdoms Alive
 
 **Kingdoms Alive turns your Bannerlord campaign into a living medieval realm, in the spirit of Crusader Kings:** a court to fill, oaths to demand, houses that scheme and feud, and kingdoms that remember what you did.
 
@@ -8,6 +8,13 @@ Every feature can be switched off on its own (see [Settings](settings.md)).
 
 !!! warning "Start a new campaign with it"
     Play the mod from the start of a campaign and keep it until the end. Removing it from a campaign in progress can break that save. See [Getting started](getting-started.md#new-or-existing-campaign).
+
+## New in 0.82
+- **[Squire service](features/squire.md)**: your lord calls you to their fire of an evening to talk of the war, their kin and their enemies; tells you after each battle how you fought, and remembers for ever whether you stood over them when they fell; now and then hands you their colours to carry; and spars with you in the castle yard or the town arena, or sends for you to come for a bout. The drill is now a real fight against a garrison's men, sergeant last. New errands: walk the rounds with a town's watch into a Skolderbroda ambush, or stop Blackhand killers paid by your lord's enemies. The lord also asks for horses (the game's own quest), and a letter comes up less often.
+- **[The Blackhand's knives](features/lords-enemies.md)**: five short fights in real scenes: killers in your lord's hall, an ambush in the lanes, a champion on the sand, a crew squeezing a village, a trap in a tavern. They come from your lord as a squire, or from your ruler as an affair of your kingdom when you are a vassal: *[The enemies of the crown](features/realm-affairs.md#the-enemies-of-the-crown)*.
+- **[Companies for hire](features/free-companies.md)**: with War Sails, a company takes ship to reach you across the sea.
+- **[Mercenary contracts](features/mercenary-contracts.md)**: a raid now asks for one village, for 5,000 denars.
+- **Two game versions**: there is a download for Bannerlord 1.5.5 and one for 1.4.8 (see [Getting started](getting-started.md)).
 
 ## New in 0.76
 - **[Companies for hire](features/free-companies.md)**: four sellsword companies of 170 to 250 men, each with troops of its own (pikes and crossbows, heavy horse, horse archers, axes), quartered in the towns of Calradia. Ask a tavern keeper where they are, strike a deal with their captain or send a rider, and watch them march to you across the map: dear, slow to come, and worth it when a siege must be broken. AI lords in trouble hire them too.
@@ -43,10 +50,11 @@ Every feature can be switched off on its own (see [Settings](settings.md)).
 
 ### Your realm and household
 - **[The royal court](features/royal-court.md)**: from the Court tab of the kingdom screen, name a Marshal, Steward, Master of Works and Chancellor; choose **Hold court** in one of your own towns or castles to hear the petitioners, then the notables with tasks for you; win the oath of every house when a new ruler takes the throne; and think twice before taking a fief from a vassal, or quietly win the votes first.
-- **[Affairs of your kingdom](features/realm-affairs.md)**: in peacetime a messenger stops you on the road with news of sellswords, a revolt, a famine, a feud or a great work. Deal with it yourself, send a companion or one of your kin with men you pick, or, if you rule, hand it to one of your vassals' houses. Whoever you send shows in your quest log until they are back.
+- **[Affairs of your kingdom](features/realm-affairs.md)**: in peacetime a messenger stops you on the road with news of sellswords, a revolt, a famine, a feud, a great work or, for a vassal, hired killers sent against the crown. Deal with it yourself, send a companion or one of your kin with men you pick, or, if you rule, hand it to one of your vassals' houses. Whoever you send shows in your quest log until they are back.
 - **[Companion errands](features/companion-errands.md)**: companions ask for leave and a few men you pick to settle matters of their own.
 - **[Alayen](features/alayen.md)**: help a Sturgian village generously and a young smith's son asks to ride with you; his past, and his quest *The Grey Wolf*, come out by the campfire.
-- **[Squire service](features/squire.md)**: serve a lord as their squire: errands by messenger, their armies, their battles, lessons in their army, and in the end their household knight's arms, the accolade from their hand, a life in their service, or a rival if you walk out.
+- **[Squire service](features/squire.md)**: serve a lord as their squire: errands by messenger, their armies, their battles, talks by their fire, bouts in their yard, lessons in their army, and in the end their household knight's arms, the accolade from their hand, a life in their service, or a rival if you walk out.
+- **[The Blackhand's knives](features/lords-enemies.md)**: hired killers sent against your lord or your ruler, and five ways to stop them: in a hall, a street, an arena, a village or a tavern.
 - **[Mercenary contracts and the Unsworn](features/mercenary-contracts.md)**: while your clan serves a realm as mercenaries, its ruler sends you tasks (raids, escorts, guarding a village, Unsworn hideouts and bands, rescues); fulfil enough of them and you are offered vassalage, and maybe a castle. If the ruler is captured, their house asks you to bring them home. Taverns now also hire out the Unsworn, a new tree of sellswords.
 - **[Companies for hire](features/free-companies.md)**: hire one of four sellsword companies, hundreds of men at once, for 30, 40 or 50 days; they march to you on the map, cost a fortune and leave when the term is up.
 

@@ -42,6 +42,8 @@ When you talk to a lord, they may open the conversation with a memory of you, in
 | You executed a kinsman of theirs | the whole family and house | **forever** |
 | You, or someone of your house, married into their family | the whole family and house | **forever** |
 | You served them as their squire | that lord | **forever** |
+| As their squire, you stood over them when they fell in battle, or let them lie | that lord | **forever** |
+| As their squire, a talk by their fire they took well (or badly), or a bout in their yard | that lord | about 4 months (2 for a talk taken badly; 8 for a dirty win or yielding in the yard) |
 
 Only lords who took part remember a battle, and only lords of a realm at war with you remember being captured. Ransoms remember how they were paid: sold to a ransom broker in a tavern, bought back by their house, an heirloom given in place of coin, or a tip about a caravan. Each has its own words.
 

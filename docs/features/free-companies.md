@@ -21,7 +21,7 @@ These are not the tavern mercenaries of the base game, nor the [Unsworn](mercena
 
 Ask any tavern keeper in a town: **"I need swords. Many of them, and soon. Who is selling?"** They tell you what the road says of each company: where it is quartered and how many men it has, or that it is on the road, or that someone else has hired it, or that it will not take your coin.
 
-This opens a journal entry, **"Swords for hire"**, which marks on your map the towns where a company is ready to sign with you. The news goes stale after **10 days**. Ask again for fresh news.
+When you take your leave with **"That is all I needed to know. My thanks."**, a journal entry opens, **"Swords for hire"**, which marks on your map the towns where a company would sign with you today: one that is free, will take your coin, and whose earnest for the shortest term you have in your purse. If none would, no entry opens and the tavern keeper tells you why. The news goes stale after **10 days**. Ask again for fresh news.
 
 ## Hiring in person
 
@@ -68,6 +68,7 @@ After you sign, the company **musters for 12 hours** in its town. Then it marche
 - It is a real party. Enemies can attack it on the way. If they cut it to pieces, the contract ends.
 - **If you are inside a besieged town or castle**, the company will not march through the siege camp. It waits outside, out of the besiegers' reach, until you come out or the siege is lifted.
 - **If you are at sea**, it waits on the shore.
+- **Across the sea** (with War Sails): if there is open water between you and the company, its captain sends word that they will take ship, and the port is marked on your map. They sail from a harbour where a lord of their side could, or else from the coast by a port; they come ashore the same way on your side, never on a coast held or besieged by an enemy or watched by an enemy army. While at sea they cannot be seen or reached, and the voyage takes its real time. **You pay their passage**, as for the game's own ferry: **500 denars plus 10 a man**. If you cross back to their shore, they give up the passage and come by road.
 - **The march has a deadline**: twice as long as the road to you should take, plus three days. Time spent waiting outside your siege does not count, and neither do up to 10 days of you being at sea. If you lead them on too long a chase, they give up and go home, and **half the earnest comes back** to you.
 - If you are captured while they muster, you get the whole earnest back. If it happens while they march, you get half.
 
@@ -119,3 +120,4 @@ In the settings file, set the switch to `false`. See [Settings](../settings.md).
 - `CompanyBloodMoneyEnabled`: no blood money for the dead.
 - `CompanyRelocateEnabled`: companies stay in their town. They still leave it if it comes under siege.
 - `CompanyRemounts`: no spare horses.
+- `CompanySeaPassageEnabled`: companies never take ship. A company that could only reach you by sea is not offered, and one already marching waits on its shore while you are across the water.

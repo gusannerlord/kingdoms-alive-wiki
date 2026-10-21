@@ -1,7 +1,7 @@
 # Getting started
 
 ## Requirements
-- Mount & Blade II: Bannerlord **1.5.5**. Works with the War Sails expansion.
+- Mount & Blade II: Bannerlord **1.5.5** (works with the War Sails expansion) or **1.4.8**. There is one download for each: take the one for your game version.
 - [Harmony](https://www.nexusmods.com/mountandblade2bannerlord/mods/2006), loaded above this mod in the launcher.
 
 ## Installing
@@ -9,7 +9,7 @@
 2. Extract the **CampaignImprovements** folder into your game's **Modules** folder, for example:
    `C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules`
 3. If Windows blocks the file: right-click `Modules\CampaignImprovements\bin\Win64_Shipping_Client\CampaignImprovements.dll`, choose **Properties** and tick **Unblock**.
-4. Open the launcher, go to the **Mods** tab and enable **Diplomacy - Kingdoms Alive**, with Harmony above it.
+4. Open the launcher, go to the **Mods** tab and enable **Kingdoms Alive - Campaign and Diplomacy Overhaul**, with Harmony above it.
 
 !!! note "Why is the folder called CampaignImprovements?"
     That was the mod's first name. The folder and the settings file keep it so that updates and saves keep working.
@@ -31,7 +31,8 @@ Do not remove it from a campaign you want to keep playing. If you do, keep a cop
 ## Compatibility
 - **Not compatible with the "Diplomacy" mod** or other mods that replace how AI kingdoms decide on war and peace. Despite the name, this is not an add-on for it.
 - If a game update changes the game's war formula, the mod's war scoring switches itself off instead of breaking.
-- The launcher may show a version warning on game versions other than 1.5.5. The mod has not been tested there.
+- The launcher may show a version warning on game versions other than 1.5.5 and 1.4.8. The mod has not been tested there.
+- **On 1.4.8** there is no War Sails and no sea to cross, so everything about ships and coasts does not come up. That version of the game also has no blood feuds: your [rival](features/rival.md)'s house cannot be paid off at a ransom broker, and a [hunting accident](features/hunts.md) that is found out costs relation and Honor instead.
 
 ## Story mode, sandbox, normal or fast mode
 Everything works in all of them. Most testing was done in sandbox campaigns in fast mode. While a story quest is under way, you cannot raise a rebellion or ride with one: the option is greyed out and tells you why. Leaving your kingdom would break the quest.
