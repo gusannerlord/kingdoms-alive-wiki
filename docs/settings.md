@@ -115,6 +115,7 @@ See [Vassal realms](features/vassal-realms.md).
 | Switch | What it does |
 |---|---|
 | `RealmAffairsEnabled` | [Affairs of your kingdom](features/realm-affairs.md), brought to you by a messenger on the road. Each affair also has its own switch: `RealmAffairFreeCompany`, `RealmAffairPeasantRevolt`, `RealmAffairFamine`, `RealmAffairClanFeud`, `RealmAffairRealmWorks`, `RealmAffairEnemies` (the enemies of the crown, for vassals; see [The Blackhand's knives](features/lords-enemies.md)). |
+| `RealmRescueRuler` | While you are a vassal, the ruler's house asks you to free the ruler when they are taken and held in an enemy town or castle. No blame of any kind. See [The crown in chains](features/realm-affairs.md#the-crown-in-chains). |
 | `RealmAffairQuestLogEnabled` | Each affair of your kingdom has its own quest log entry for as long as it lasts, with its places and rebel bands marked on the map. |
 | `AffairDelegationEnabled` | The messenger's answers *"One of my companions or kin will see to it."* and, if you rule, *"My vassals will see to it."*: send someone of yours with men you pick, or hand the affair to a house of your realm. Off = you deal with affairs yourself. See [Affairs of your kingdom](features/realm-affairs.md). |
 | `CompanionErrandsEnabled` | [Companion errands](features/companion-errands.md). |
@@ -129,13 +130,36 @@ See [Mercenary contracts](features/mercenary-contracts.md).
 | `MercContractsEnabled` | While you serve a realm as a mercenary, its ruler sends you tasks by messenger. Off = no new tasks and no "In the service of the crown" quest; one under way ends as usual. |
 | `MercContractRaid` | The task of raiding enemy villages (the game's own "Raid an Enemy Territory" quest). |
 | `MercContractProtect` | The tasks of escorting a caravan of the realm and guarding a border village. |
-| `MercContractUnswornHideout` | The task of clearing a hideout of the Unsworn. |
-| `MercContractUnswornSweep` | The task of beating three bands of the Unsworn that roam the realm's villages. |
+| `MercContractUnswornHideout` | The task of clearing a hideout of the Unsworn. Only offered to a mercenary when the King's Writ contracts are off (`WritEnabled` or `WritContractsEnabled`); otherwise it is a contract of the writ. |
+| `MercContractUnswornSweep` | The task of beating three bands of the Unsworn that roam the realm's villages. The same rule as above. |
 | `MercContractRescue` | The task of freeing a lord of the realm from an enemy town's dungeon. |
 | `MercContractRescueRuler` | When the ruler is held in an enemy town, their house asks you to bring them home. Off = no task while the ruler is a prisoner. |
 | `MercContractVassalPath` | After 5 tasks fulfilled, with your clan at tier 2 or more, the ruler offers you vassalage, and maybe a castle. |
-| `UnswornTroopsEnabled` | Taverns sometimes offer Unsworn sellswords for hire. Off = they are no longer offered, and there are no Unsworn tasks. |
+| `UnswornTroopsEnabled` | Taverns sometimes offer Unsworn sellswords for hire. Off = they are no longer offered, and there are no Unsworn tasks or contracts. |
 | `FixMercHideoutMenEnabled` | The hideouts of the Unsworn and of your rival hold 35 to 40 men. Off = only as many as the game's own hideouts. |
+
+### The King's Writ
+See [The King's Writ](features/kings-writ.md).
+
+| Switch | What it does |
+|---|---|
+| `WritEnabled` | The whole feature: a free hunter can ask a ruler for their writ. Off = no writ can be asked for, and one you carry is laid aside quietly (what the crown owes you is paid). |
+| `WritRewardsEnabled` | The crown pays for outlaw bands, dens and prisoners in its lands, collected from the sheriff. |
+| `WritNativeQuestBonusEnabled` | The game's own outlaw quests done in the king's lands bring a bonus from the crown. |
+| `WritOutsideNoticeEnabled` | A word when a fight that would have paid was out of the king's lands. |
+| `WritContractsEnabled` | The king's contracts: the Unsworn's den and bands, deserters after a peace, a prisoner taken to trial. Off = the two Unsworn tasks go back to the mercenary contracts. |
+| `WritWantedEnabled` | Outlaw chiefs with a name and a price, who grow and raid while nobody hunts them. |
+| `WritTrialEnabled` | A captured chief is judged in the lord's hall before the king's justiciar. Off = the verdict comes in a window. |
+| `WritFameEnabled` | Fame among the outlaws: small bands keep away, and weaker ones may yield in the king's name. |
+| `WritAssassinsEnabled` | With great fame, the outlaws put a price on your head and send hired blades. |
+| `WritBribesEnabled` | With fame, a wanted chief may try to buy you off. |
+| `WritCompanyRulesEnabled` | The writ covers a hunting company (30, 50, 70 or 90 men by rank) and pays in full only with half your soldiers sworn manhunters. Off = no limit and no such rule. |
+| `WritRanksEnabled` | The ranks of the writ: King's Hunter, Hunter of the March, High Justice of the Roads, with more pay and rights. |
+| `WritPatrolEnabled` | From Hunter of the March, a patrol of a town's garrison rides with you for some days. |
+| `WritTroopsEnabled` | The manhunters' troop tree, hired from the sheriff or freed from the outlaws. |
+| `WritOutlawKingEnabled` | After four chiefs taken in a realm, its outlaws crown a king of their own. |
+| `WritVassalOfferEnabled` | At the end of a long service, the ruler sends for you and offers a castle, vassalage and the title of Master of the King's Hunt. |
+| `WritCaptainsEnabled` | As Master of the King's Hunt, companions and kin leading your clan's parties can hunt as your captains. |
 
 ### Companies for hire
 See [Companies for hire](features/free-companies.md).
@@ -164,6 +188,8 @@ See [Squire service](features/squire.md).
 | `SquireGarrison` | The game's own "Lord Needs Garrison Troops" quest, given by your lord. |
 | `SquireHorses` | The game's own "Lord Needs Horses" quest, given by your lord when their men lack mounts. |
 | `SquireTraining` | The errand of facing a garrison's men one after another in a castle yard or a town arena. |
+| `SquireDrillVeterans` | The men of that drill fight as veterans, each better than the last, the sergeant hardest. Off = as well as the game would make them. |
+| `SquireDrillInView` | The men of that drill wait in a row by the wall in plain sight, the sergeant last. Off = each steps in when called. |
 | `SquireHideout` | The errand of clearing a bandit hideout near your lord's lands. |
 | `SquirePatrol` | The errand of walking the rounds with the watch of a town, where Skolderbroda lie in wait. |
 | `SquirePatrolCastles` | Off by default. On = those rounds can also be walked in castles. |
@@ -215,7 +241,7 @@ See [The royal court](features/royal-court.md).
 
 | Switch | What it does |
 |---|---|
-| `CourtOfficesEnabled` | The four offices of the court (Marshal, Steward, Master of Works, Chancellor) and what they give. |
+| `CourtOfficesEnabled` | The five offices of the court (Marshal, Steward, Master of Works, Chancellor, Warden of the King's Peace) and what they give. |
 | `CourtAiAppointEnabled` | AI rulers name their own court and may offer you an office. |
 | `CourtChargeEnabled` | When you hold an office for an AI ruler, the affairs of that office come to you as the ruler's charge, with greater rewards. |
 | `AudiencesEnabled` | Petitioners come to you with requests, and **Hold court** in your own towns and castles calls them in and hears them, then the notables of the place with tasks for you. |

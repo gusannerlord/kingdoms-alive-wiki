@@ -11,6 +11,7 @@ When your kingdom is at peace, trouble comes up inside it: a band of sellswords 
 - Feasts, hunts and petitions do not hold them back: they can fall in the same days.
 - If the place stops being part of your kingdom, or you leave the kingdom, the affair simply ends.
 - *The enemies of the crown* comes only to a **vassal**, never to the ruler.
+- Apart from these affairs, a vassal is also asked to free the ruler when they are taken prisoner, in war as in peace: see [The crown in chains](#the-crown-in-chains).
 
 **Ruler or vassal:** the affairs are the same, but some answers read differently, cost different amounts or carry more weight when you rule. The differences are given below.
 
@@ -138,6 +139,29 @@ The job is one of the five ways of [the Blackhand's knives](lords-enemies.md): k
 
 Nobody else can be sent: your ruler asked you.
 
+## The crown in chains
+
+**Only while you are a vassal** (never as ruler, and never as a mercenary, who has [a rescue of their own](mercenary-contracts.md#the-rulers-rescue)). This is not one of the affairs above: it does not wait for peace or take an affair's turn, because a captured ruler cannot wait.
+
+When your ruler lies in the **dungeon of an enemy town or castle** within a long ride of you (and reachable by land), the one who holds their house together meanwhile (their spouse, or else their eldest child, or the eldest lord of the house) sends a messenger about half a day after the capture. If the ruler is still carried by the enemy's party, or held out of reach, the house looks again every few days. If you are serving the ruler as their [squire](squire.md), you get the squire's rescue instead.
+
+- **On the road**, the messenger speaks to you on the map: *"Tell {sender} I ride at once. I will bring her/him home."* or *"I cannot, not now. Tell {sender} my heart is with the house, but my men are needed elsewhere."*
+- **In an army**, where no messenger can reach you, a letter comes instead, **"A letter from {sender}"**: *"Send word that you ride at once"* or *"Send word that you cannot"*.
+- If the messenger cannot reach you for 10 days, they ride back, and come again later.
+
+Accept and the journal opens **"The crown in chains: free {ruler}"**, with the place marked on your map, for **50 days**. If the enemy moves the ruler, you are told where, and the new place or party is marked. While the ruler is carried by sea, the days wait.
+
+- **In a town:** get in and reach the cells (the game's own prison break), or take the town.
+- **In a castle:** storm it with your own men, or ride with the host of the realm that does.
+- While you are on it, the ruler almost never slips out on their own.
+
+| How the ruler goes free | Reward |
+|---|---|
+| By your own hand: the prison break, a battle or assault you lead | **12,000** denars, **10 renown**, **40 influence**, **+10** with the ruler |
+| The place falls, or the party holding them is beaten, under another's command, with you in the fight | 40% of each (at least +1 with the ruler) |
+
+The ruler thanks you in their own voice. **There is no blame of any kind**: refusing, running out of time, being a prisoner yourself, the ruler going free another way (a ransom, a peace, an escape) or dying, or your leaving the realm all end it with nothing held against you: *"Nobody at court will hold it against you if it cannot be done."* You are asked once per captivity.
+
 ## Someone else sees to it
 
 For the free company, the revolt, the hunger and the feud, you can tell the messenger that someone else will deal with it. After a list of names comes a confirmation, *"So be it."* or *"No, wait. Let me think again."*, and the messenger rides off with your answer.
@@ -216,6 +240,7 @@ In the settings file (see [Settings](../settings.md)):
 - `RealmAffairClanFeud`: the feud between two clans.
 - `RealmAffairRealmWorks`: the work of the realm.
 - `RealmAffairEnemies`: the enemies of the crown.
+- `RealmRescueRuler`: no rescue of your captured ruler is asked of you as a vassal.
 - `AffairDelegationEnabled`: no sending companions, kin or houses; only the affairs' own answers.
 - `CourtChargeEnabled`: holding an office for an AI ruler does not turn its affairs into the ruler's charge.
 - `RealmAffairQuestLogEnabled`: no journal entry for the affair itself.

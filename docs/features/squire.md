@@ -52,9 +52,12 @@ Every errand done also gives **+3 relation** with the lord (+1 for the game's ow
 
 ### Drill
 
-Ride to the place named and choose **"Drill with the men-at-arms"** in its menu. In a castle you fight in its yard; in a town, on the sand of its arena (barred at night and while a tournament is on). Not while you are wounded.
+Ride to the place named and choose **"Drill with the men-at-arms"** in its menu. In a castle you fight inside its courtyard; in a town, on the sand of its arena (barred at night and while a tournament is on). Not while you are wounded. If a castle's yard has no room for a bout, the sergeant says so and the errand waits.
 
 The garrison's sergeant meets you with an armful of blunted steel: *"My lads will come at you one after another, and I come last, if you are still standing. Nobody gets water in between. Pick your weapon."* Choose sword and shield, a two-handed blade or spear and shield. Then **3 men of the garrison** come at you on foot, one after another, the most seasoned last: the sergeant. Your wounds are not healed between them.
+
+- **All in sight from the start.** The men who will face you stand in a row by the wall of the yard (or at the edge of the arena), in the order they will come, the sergeant last: *"See my lads by the wall? They will come at you one after another..."* When one goes down, he is dragged off and the next steps out of the row and walks at you.
+- **They fight like veterans**, each better than the last: they block, parry and read your blows far better than common soldiers. The sergeant is the hardest of all, and tougher than the others. He is the best foot soldier of the garrison, or, if the garrison has none good enough, a veteran of the place's own culture (in Vlandia, a Vlandian Sergeant or Voulgier). The game's combat difficulty setting softens them as it softens every enemy.
 
 - You learn by what you do: about **150** experience in the skill of your weapon, **20** more for each blow you land (up to 15 blows) and **100** for each man you put down, plus **100** in Athletics. Falling to the first man without landing a blow gives only half of the base. The game's usual learning rate applies.
 - The sergeant tells you what they thought, and your lord hears of it and adds a word of their own.
@@ -254,7 +257,7 @@ In the settings file, set the switch to `false`. See [Settings](../settings.md).
 - `SquireTaxes`: no Revenue Farming errand.
 - `SquireGarrison`: no garrison errand.
 - `SquireHorses`: no horses errand.
-- `SquireTraining`: no drill with a garrison.
+- `SquireTraining`: no drill with a garrison. `SquireDrillVeterans`: the drill's men fight only as well as the game would make them. `SquireDrillInView`: the men do not wait in a row; each steps in when called.
 - `SquireHideout`: no hideouts to clear.
 - `SquirePatrol`: no rounds with the watch. (`SquirePatrolCastles`, off by default, lets the rounds be walked in castles too.)
 - `SquireEnemies`: no Blackhand killers (see [The Blackhand's knives](lords-enemies.md) for each of the five ways).

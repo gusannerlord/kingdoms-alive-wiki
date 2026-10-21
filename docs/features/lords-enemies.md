@@ -23,9 +23,9 @@ The job takes one of five shapes, picked at random among those that fit where yo
 
 *"Knives in the hall of {place}"*. Your lord will not hide behind their walls: they ride to one of their castles or towns and sit in the hall to wait for the killers. **Only in peacetime.**
 
-- Your lord's arrow shows the way. When they get there you are told: *"{lord} has reached {place} and sits in her/his hall. Go to the lord's hall when you get there."*
+- Your lord's arrow shows the way. When they get there you are told: *"{lord} has reached {place} and sits in her/his hall. When you get there, choose "Join {lord} in the hall" in its menu."*
 - Your lord **stays there** until it is done (as long as the ride plus 5 days, at most 12). They are let go with no blame on you if war breaks out, they are called to a host, their men run short of food, they are taken, or the place changes hands.
-- Enter the town or castle and go to the **lord's hall**. The servants are no servants: **3 or 4 killers** draw axes from under their aprons. You fight beside your lord and **3 of their guards**, with up to **2 of your companions** if they walk in with you. If you came unarmed, you find a sword in your hand.
+- Enter the town or castle and choose **"Join {lord} in the hall"** in its menu. No bribe at the door: your lord is expecting you. Until your lord has arrived the option is greyed out, and the steward tells you so at the gate: *"Not come yet... Wait here; I will send for you the moment she/he rides in and goes up to the hall."* Once they are in, the steward meets you: *"Go in as if nothing were amiss. There are new faces among the servants tonight..."* The servants are no servants: **3 or 4 killers** draw axes from under their aprons. You fight beside your lord and **3 of their guards**, with up to **2 of your companions** if they walk in with you. If you came unarmed, you find a sword in your hand.
 - **If your lord is cut down**, they are carried off wounded. There is a small chance (**1 in 20**) that they die of it. If they die after you won, the job still counts as done.
 
 ### A letter or a purse
@@ -50,7 +50,7 @@ The job takes one of five shapes, picked at random among those that fit where yo
 
 *"Blackhand men at {village}"*. A crew squeezes one of your lord's villages for coin and grain.
 
-- Ride there, choose to take a walk in the village and find their leader among his men. He offers you a deal. Your answers:
+- Ride there. At the first fences a villager tells you where the crew is drinking and how many of your best men could follow you: **"Seek them out"** or **"Not yet"**. In the village menu the same is **"Seek out the Blackhand crew"**. Their leader is marked when you walk in; his men only tell you to speak to him. He offers you a deal. Your answers:
     - **"Here is 1000. Take it, and be gone from these lands."** They leave. Done the lesser way.
     - **"Look at my men, and count your own. Leave now, while you still can."** A threat. The odds rest on the better of your **Roguery** and **Leadership**: about 15% with no skill, 50% at 100, 65% at 150, never more than 85%. If he backs down, they leave and it counts in full. If not, he draws.
     - **"Enough talk."** A fight.
@@ -61,7 +61,7 @@ The job takes one of five shapes, picked at random among those that fit where yo
 
 *"A name for sale at {town}"*. A stranger in a town's tavern says he will sell the name of the house that pays the Blackhand, to you and nobody else. Here the house that pays is hidden until the end.
 
-- Go to the tavern and find him: **"I am listening. Who pays the Blackhand?"** It is a trap: **3 or 4** men at the next tables draw on you. Up to **2 of your companions** walking with you in the town fight at your side.
+- At the gate a pot-boy or a guard tells you a man is waiting for you in the tavern: **"Go to the tavern"** or **"Not yet"**. In the town menu the same is **"Look for the stranger in the tavern"**. He sits alone by the wall, marked when you walk in. Speak to him (**"I am listening. Who pays the Blackhand?"**), or to any of the Blackhand men in the room, who know you on sight. It is a trap either way: **3 or 4** men at the next tables draw on you. Up to **2 of your companions** walking with you in the town fight at your side.
 - **Win** and the stranger, found shaking under a table, gives up the name. Your lord learns which house it was and thinks a good deal worse of its head (**−10**).
 - Lose and the stranger is gone, and the name with him: the job fails.
 

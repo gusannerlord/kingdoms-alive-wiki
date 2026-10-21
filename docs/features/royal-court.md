@@ -1,6 +1,6 @@
 # The royal court
 
-Every kingdom now has a court. Four offices, held by real people whose skills matter, help run the realm. A ruler does not have to see to every small matter in person: they can send others to deal with the affairs of the realm, hold court in their own halls to hear petitions, and must win the oath of every house when they come to the throne. As a vassal you can be offered an office, hold court in your own fiefs and swear (or not) to each new ruler.
+Every kingdom now has a court. Five offices, held by real people whose skills matter, help run the realm. A ruler does not have to see to every small matter in person: they can send others to deal with the affairs of the realm, hold court in their own halls to hear petitions, and must win the oath of every house when they come to the throne. As a vassal you can be offered an office, hold court in your own fiefs and swear (or not) to each new ruler.
 
 ## The kingdom screen
 
@@ -8,7 +8,7 @@ The kingdom screen (**K**) has three new tabs after Diplomacy: **Court**, **Plot
 
 The **Court** tab lists:
 
-- the four **offices**, with each holder's portrait and name, or *Vacant*. Pick one to see who holds it, their skill, how much of the full effect they give (*"... 50% of the full effect"*) and what it gives right now;
+- the five **offices**, with each holder's portrait and name, or *Vacant*. Pick one to see who holds it, their skill, how much of the full effect they give (*"... 50% of the full effect"*) and what it gives right now;
 - **Petitions**: how many people are waiting for you to [hold court](#holding-court) (*"N waiting"*, or *"N waiting, fiefs losing loyalty"* once the wait starts to cost you);
 - **Oaths of fealty**: while the houses are swearing to a new ruler, where each one stands.
 
@@ -25,6 +25,10 @@ The **Plots** tab shows what you know of a plot in your realm, and is where you 
 | **Steward** | Steward and Trade (the average) | +4% tax in the towns and castles of the ruler's own clan |
 | **Master of Works** | Engineering | +8% construction in the towns and castles of the ruler's own clan |
 | **Chancellor** | Charm | +0.5 influence a day for the ruler's clan, and 15% less [discontent](civil-war.md#discontent) among the lords when the realm is too large |
+| **Warden of the King's Peace** | Scouting and Leadership (the average) | +0.3 security a day in every town and castle of the realm, whoever holds it |
+
+!!! note "The Warden and the King's Writ"
+    A free man-hunter who carries an AI ruler's [writ](kings-writ.md) holds that realm's Warden seat for as long as the writ lasts, without being of the realm. AI rulers never give the Warden seat to your house any other way.
 
 - **Skill decides how much.** A holder with skill 30 or less gives nothing; at 250 or more, the full effect. In between it grows steadily: about half at 140.
 - **A place at court is an honour.** The clan of each holder gets **+0.3 influence a day** (once per clan, however many offices it holds). The ruler's own clan does not get this.

@@ -1,6 +1,6 @@
 # Mercenary contracts and the Unsworn
 
-The ruler who pays you now puts you to work: a messenger stops you on the road with a task, and a good record opens the way to vassalage, and maybe a castle. Some tasks pit you against the **Unsworn**, a new company of sellswords who answer to no crown and who you can also hire.
+The ruler who pays you now puts you to work: a messenger stops you on the road with a task, and a good record opens the way to vassalage, and maybe a castle. The **Unsworn**, a new company of sellswords who answer to no crown, can also be hired in the taverns.
 
 ## How tasks arrive
 
@@ -33,8 +33,6 @@ Each task given, fulfilled, failed or refused gets a line in it. With **5 tasks 
 | Raid an enemy territory | 60 days | 5,000 denars, 5 renown, 20 influence, honor, +10 with the ruler |
 | Escort a caravan | 30 days | 2,000 denars, 3 renown, +5 with the ruler |
 | Guard a border village | 30 days | 3,000 denars, 3 renown, +5 with the ruler |
-| Clear an Unsworn hideout | 30 days | 4,000 denars, 3 renown, +5 with the ruler |
-| Sweep of the Unsworn bands | 50 days | 2,000 denars, 3 renown, +5 with the ruler |
 | Rescue a lord | 50 days | 8,000 denars (12,000 for one of the ruler's house), 5 renown, +3 with the ruler, +5 with the lord |
 
 ### Raid an enemy territory
@@ -51,11 +49,14 @@ One of the realm's caravans on the road near you, bound for a **named town** no 
 ### Guard a border village
 A village of the realm near you and close to an enemy town or castle. Keep it **in sight for 3 days in all** within 30 days, like the game's quest to scout enemy garrisons: every hour it is within your party's sight counts. A message marks each day (for example *"Another day of watch over {VILLAGE} is done (1/3)."*). If the village is looted first, it fails, unless it was looted before you could have got there: then it lapses with no penalty. Beating an enemy lord's party at or near the village fulfils it at once.
 
+!!! note "The Unsworn tasks moved to the King's Writ"
+    Clearing an Unsworn hideout and sweeping three Unsworn bands are no longer mercenary tasks: they are now contracts of [the King's Writ](kings-writ.md#the-kings-contracts), for a free man-hunter. A task of either kind already under way runs to its end as described below. With the writ's contracts turned off (`WritContractsEnabled` or `WritEnabled` set to `false`), they are mercenary tasks again.
+
 ### Clear an Unsworn hideout
-A hideout near the realm's villages, taken over by the Unsworn and marked on your map as **"Unsworn Hideout"**. Inside are **35 to 40** Unsworn on foot, more as your campaign advances, and no common bandits. Attack it as any hideout, or use "Send troops". The last fight is against the **Unsworn Captain**, the hideout's own chief, with the game's usual duel offer.
+Reward: 4,000 denars, 3 renown, +5 with the ruler, within 30 days. A hideout near the realm's villages, taken over by the Unsworn and marked on your map as **"Unsworn Hideout"**. Inside are **35 to 40** Unsworn on foot, more as your campaign advances, and no common bandits. Attack it as any hideout, or use "Send troops". The last fight is against the **Unsworn Captain**, the hideout's own chief, with the game's usual duel offer.
 
 ### Sweep of the Unsworn bands
-**Three bands** of Unsworn, each of **20 to 40** men (more as your campaign advances) and led by a veteran, roam around villages of the realm away from you. Each has an arrow on the edge of the map pointing to it. Beat all three within 50 days. They ride a little faster than a lord's party, will not talk or surrender, and come after you if you are near and they are clearly stronger (more than 1.2 times your strength). The lords of the map leave them alone, so it is up to you.
+Reward: 2,000 denars, 3 renown, +5 with the ruler. **Three bands** of Unsworn, each of **20 to 40** men (more as your campaign advances) and led by a veteran, roam around villages of the realm away from you. Each has an arrow on the edge of the map pointing to it. Beat all three within 50 days. They ride a little faster than a lord's party, will not talk or surrender, and come after you if you are near and they are clearly stronger (more than 1.2 times your strength). The lords of the map leave them alone, so it is up to you.
 
 ### Rescue a lord
 A lord of the realm held in the **dungeon of an enemy town** within a few days' ride (never a castle, which a sellsword cannot slip into, and never one carried by a party). One of the ruler's own house is picked first, then the nearest. Where they are held is marked on the map. Free them:
@@ -74,8 +75,8 @@ If the ruler themselves lies in the dungeon of an enemy town within a long ride 
 
 Each task has its weight in the draw, and **the kind you were given last is much less likely to come again** next time.
 
-- **In war**, a lord to rescue comes first: when there is one, the rescue weighs 4 times as much as a raid (8 times for one of the ruler's house). The caravan escort and the border village weigh a little more than a raid each. The two Unsworn tasks are rare at war (about a third of their weight in peace).
-- **In peace**, there are no raids, border villages or rescues: you get the caravan escort and the two Unsworn tasks.
+- **In war**, a lord to rescue comes first: when there is one, the rescue weighs 4 times as much as a raid (8 times for one of the ruler's house). The caravan escort and the border village weigh a little more than a raid each.
+- **In peace**, there are no raids, border villages or rescues: you get the caravan escort.
 
 ## Failing and refusing
 
@@ -117,8 +118,7 @@ In the settings file, set the switch to `false`. See [Settings](../settings.md).
 - `MercContractsEnabled`: no more tasks by messenger, and no "In the service of the crown" quest. A task under way still ends as usual.
 - `MercContractRaid`: no raid tasks.
 - `MercContractProtect`: no caravan escorts or border villages to guard.
-- `MercContractUnswornHideout`: no Unsworn hideouts to clear.
-- `MercContractUnswornSweep`: no sweeps of Unsworn bands.
+- `MercContractUnswornHideout`, `MercContractUnswornSweep`: only matter with the King's Writ contracts turned off (see above).
 - `MercContractRescue`: no rescues of lords.
 - `MercContractRescueRuler`: no rescue of a captured ruler; no task comes while the ruler is a prisoner.
 - `MercContractVassalPath`: no "In the service of the crown" quest, no vassalage offer or castle; the tasks go on.
