@@ -134,7 +134,7 @@ See [Mercenary contracts](features/mercenary-contracts.md).
 | `MercContractUnswornSweep` | The task of beating three bands of the Unsworn that roam the realm's villages. The same rule as above. |
 | `MercContractRescue` | The task of freeing a lord of the realm from an enemy town's dungeon. |
 | `MercContractRescueRuler` | When the ruler is held in an enemy town, their house asks you to bring them home. Off = no task while the ruler is a prisoner. |
-| `MercContractVassalPath` | After 5 tasks fulfilled, with your clan at tier 2 or more, the ruler offers you vassalage, and maybe a castle. |
+| `MercContractVassalPath` | After 5 tasks fulfilled, with your clan at tier 2 or more, the ruler offers you vassalage. |
 | `UnswornTroopsEnabled` | Taverns sometimes offer Unsworn sellswords for hire. Off = they are no longer offered, and there are no Unsworn tasks or contracts. |
 | `FixMercHideoutMenEnabled` | The hideouts of the Unsworn and of your rival hold 35 to 40 men. Off = only as many as the game's own hideouts. |
 
@@ -147,19 +147,31 @@ See [The King's Writ](features/kings-writ.md).
 | `WritRewardsEnabled` | The crown pays for outlaw bands, dens and prisoners in its lands, collected from the sheriff. |
 | `WritNativeQuestBonusEnabled` | The game's own outlaw quests done in the king's lands bring a bonus from the crown. |
 | `WritOutsideNoticeEnabled` | A word when a fight that would have paid was out of the king's lands. |
-| `WritContractsEnabled` | The king's contracts: the Unsworn's den and bands, deserters after a peace, a prisoner taken to trial. Off = the two Unsworn tasks go back to the mercenary contracts. |
+| `WritSheriffEnabled` | A king's sheriff, a notable you talk to, in every town: he pays you, takes your prisoners and keeps the manhunters' yard. Off = no new sheriffs; a "Sheriff's House" in the town menu does their work. |
+| `WritSheriffNativeCompensation` | The sheriff takes no place from the town's own merchants, artisans and gang leaders. |
+| `WritContractsEnabled` | The king's contracts: the Unsworn's den and bands, deserters after a peace, a prisoner taken to trial, a raid in a town. Off = the two Unsworn tasks go back to the mercenary contracts. |
+| `WritRaidEnabled` | The raid on a gang hiding inside one of the realm's towns, fought in its streets. |
+| `WritRaidTownsfolkEnabled` | Townsfolk walk the raid's streets and run when the fight starts. Off = the curfew bell rings and the streets are empty. |
 | `WritWantedEnabled` | Outlaw chiefs with a name and a price, who grow and raid while nobody hunts them. |
 | `WritTrialEnabled` | A captured chief is judged in the lord's hall before the king's justiciar. Off = the verdict comes in a window. |
+| `WritGallowsEnabled` | A chief sentenced to the rope may draw his gang to the town: walk him to the gallows yourself, and ride after them if they carry him off. |
 | `WritFameEnabled` | Fame among the outlaws: small bands keep away, and weaker ones may yield in the king's name. |
 | `WritAssassinsEnabled` | With great fame, the outlaws put a price on your head and send hired blades. |
 | `WritBribesEnabled` | With fame, a wanted chief may try to buy you off. |
-| `WritCompanyRulesEnabled` | The writ covers a hunting company (30, 50, 70 or 90 men by rank) and pays in full only with half your soldiers sworn manhunters. Off = no limit and no such rule. |
+| `WritCompanyRulesEnabled` | Every soldier in your company must be a sworn manhunter, or the crown pays nothing (not for the Master of the King's Hunt). Off = anyone may ride with you. |
+| `WritCompanyLimitEnabled` | Off by default. On = the writ also limits the size of your company by rank, with a bar in the journal (`WritCompanyBarEnabled`). |
+| `WritBandVanillaScaling` | The writ's bands and dens are sized the way the game sizes the outlaws of its own quests: small early in a campaign, bigger later. Off = they are sized against the strength of your company. |
 | `WritRanksEnabled` | The ranks of the writ: King's Hunter, Hunter of the March, High Justice of the Roads, with more pay and rights. |
-| `WritPatrolEnabled` | From Hunter of the March, a patrol of a town's garrison rides with you for some days. |
-| `WritTroopsEnabled` | The manhunters' troop tree, hired from the sheriff or freed from the outlaws. |
+| `WritRankBarEnabled` | A bar in the writ's journal entry shows your progress toward the next rank (the king's summons has its own bars, `WritSummonsBarsEnabled`). |
+| `WritSummonsBarsEnabled` | The writ's journal entry shows bars for what the king wants before he sends for you: his trust, the days in his service, contracts, named chiefs and dens. |
+| `WritTroopsEnabled` | The manhunters' troop tree (mounted, on foot and crossbow), hired from the sheriff or freed from the outlaws. |
+| `WritWageAsRegular` | Manhunters cost the wages of regular soldiers of their tier. Off = they cost what hired swords cost. |
+| `WritGearGiftsEnabled` | The sheriffs' master-at-arms gives you a manhunter's kit with the writ, and better ones as your work for the crown adds up. |
+| `WritArmouryEnabled` | The crown's armoury: every piece of the manhunters' gear for sale at any sheriff of the realm. |
+| `WritArmouryWeapons` | The armoury sells their weapons and shields too. Off = armour only. |
 | `WritOutlawKingEnabled` | After four chiefs taken in a realm, its outlaws crown a king of their own. |
 | `WritVassalOfferEnabled` | At the end of a long service, the ruler sends for you and offers a castle, vassalage and the title of Master of the King's Hunt. |
-| `WritCaptainsEnabled` | As Master of the King's Hunt, companions and kin leading your clan's parties can hunt as your captains. |
+| `WritCaptainsEnabled` | Companions and kin leading your clan's parties can hunt as your captains: one from High Justice of the Roads, up to three as Master of the King's Hunt. |
 
 ### Companies for hire
 See [Companies for hire](features/free-companies.md).

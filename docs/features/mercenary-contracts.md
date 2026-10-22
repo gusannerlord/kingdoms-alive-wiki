@@ -1,6 +1,6 @@
 # Mercenary contracts and the Unsworn
 
-The ruler who pays you now puts you to work: a messenger stops you on the road with a task, and a good record opens the way to vassalage, and maybe a castle. The **Unsworn**, a new company of sellswords who answer to no crown, can also be hired in the taverns.
+The ruler who pays you now puts you to work: a messenger stops you on the road with a task, and a good record opens the way to vassalage. The **Unsworn**, a new company of sellswords who answer to no crown, can also be hired in the taverns.
 
 ## How tasks arrive
 
@@ -24,7 +24,7 @@ The first messenger of each service also tells you the deal and opens a quest in
 
 Each task given, fulfilled, failed or refused gets a line in it. With **5 tasks fulfilled** and your clan at tier 2, the quest is complete and the ruler makes you **the game's own offer of vassalage** (or tells you to go and ask): go and speak with them in person to swear. If you swear to that ruler some other way first, the quest still ends well.
 
-**The castle.** If the ruler's own house holds **at least 3 towns and castles in all, and at least one castle**, they promise you one: swear within **60 days** and they give you the least prosperous castle of their house (never a town). If the castle cannot change hands at that moment (someone is inside it, it is under siege, or a vote on it is open), they hand it over as soon as they can while the promise lasts. If their house holds fewer fiefs, or only towns, the ruler tells you plainly why there is no castle for you, both when they offer vassalage and when you swear.
+Vassalage comes without land: a sworn sellsword starts as a lord of the realm with no fief of their own, and earns one the way any vassal does.
 
 ## The tasks
 
@@ -121,6 +121,6 @@ In the settings file, set the switch to `false`. See [Settings](../settings.md).
 - `MercContractUnswornHideout`, `MercContractUnswornSweep`: only matter with the King's Writ contracts turned off (see above).
 - `MercContractRescue`: no rescues of lords.
 - `MercContractRescueRuler`: no rescue of a captured ruler; no task comes while the ruler is a prisoner.
-- `MercContractVassalPath`: no "In the service of the crown" quest, no vassalage offer or castle; the tasks go on.
+- `MercContractVassalPath`: no "In the service of the crown" quest, no vassalage offer; the tasks go on.
 - `UnswornTroopsEnabled`: taverns no longer offer the Unsworn, and the two Unsworn tasks are not given.
 - `FixMercHideoutMenEnabled`: the hideouts of the Unsworn and of [your rival](rival.md) hold only as many men as the game's own hideouts.

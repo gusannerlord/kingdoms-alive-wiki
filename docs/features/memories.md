@@ -41,7 +41,7 @@ When you talk to a lord, they may open the conversation with a memory of you, in
 | You killed a kinsman of theirs, in battle or in a duel | the whole family and house | **forever** |
 | You executed a kinsman of theirs | the whole family and house | **forever** |
 | You, or someone of your house, married into their family | the whole family and house | **forever** |
-| While you carried a [king's writ](kings-writ.md#nobles-freed-from-the-outlaws), you, your patrol or your captains freed them from outlaws | that lord | **forever** |
+| While you carried a [king's writ](kings-writ.md#nobles-freed-from-the-outlaws), you or your captains freed them from outlaws | that lord | **forever** |
 | You served them as their squire | that lord | **forever** |
 | As their squire, you stood over them when they fell in battle, or let them lie | that lord | **forever** |
 | As their squire, a talk by their fire they took well (or badly), or a bout in their yard | that lord | about 4 months (2 for a talk taken badly; 8 for a dirty win or yielding in the yard) |
