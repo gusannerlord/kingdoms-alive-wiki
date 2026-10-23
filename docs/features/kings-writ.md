@@ -85,7 +85,7 @@ The writ's own troops, as in Warband: hard riders, gaolers and crossbowmen with 
 - **On foot**: the shock line, with a two-handed mace besides mace and shield, and the heavier armour (the riders carry a two-handed mace too).
 - **Crossbow**: a light crossbow to drop a runner, a mace and a small round shield, in padding and leather, a step lighter than the foot line.
 
-**Hiring them.** Only the holder of the writ can hire manhunters: no lord, no garrison. Men come to the realm's sheriffs' yards over time, about one a day as King's Hunter, two as Hunter of the March, three as High Justice, up to 6, 12 or 18 waiting in all. Some arrive as tier 2 of one of the three branches (more of them at higher ranks). Talk to a sheriff of the realm, or use the town's own **Recruit** screen, where he stands with the other notables: how many you may take from him depends on how far he trusts you and on your rank, once a day. The price is the game's own for a hireling.
+**Hiring them.** Only the holder of the writ can hire manhunters: no lord, no garrison. Men come to the realm's sheriffs' yards over time, about one every two days as King's Hunter, one a day as Hunter of the March, a little under one and a half as High Justice, up to 6, 12 or 18 waiting in all. Some arrive as tier 2 of one of the three branches (more of them at higher ranks). Talk to a sheriff of the realm, or use the town's own **Recruit** screen, where he stands with the other notables: how many you may take from him depends on how far he trusts you and on your rank, once a day. The price is the game's own for a hireling.
 
 **Freeing them.** Some outlaw bands near you hold manhunters captive. Beat the band and free them in the prisoner screen after the battle.
 
@@ -122,7 +122,7 @@ Bands, dens, contracts, gallows and errands go untold at court while men not swo
 
 ## The king's contracts
 
-About **6 days** after you get the writ, and then every **12 to 20 days**, a rider of the crown brings a contract: **"Take the contract"** or **"Not this one"**. One at a time, and they take turns: never the same kind twice running. Refusing or failing costs you nothing but the pay.
+About **6 days** after you get the writ, and then every **12 to 20 days**, a rider of the crown brings a contract: **"Take the contract"** or **"Not this one"**. One at a time, and they take turns: never the same kind twice running, and the Unsworn's den comes up more often than the rest. Refusing or failing costs you nothing but the pay.
 
 | Contract | Time | The crown owes |
 |---|---|---|
@@ -147,7 +147,7 @@ You fight in the town's own streets. The gang waits in **one or two knots** not 
 - The chief gets out by the gate, you break off the raid, or you leave the streets: no pay, and no blame.
 
 !!! note "How big the outlaws are"
-    The writ's own bands and dens (the contracts, the wanted chiefs, the hired blades, the Outlaw King) are sized the way the game sizes the outlaws of its own quests: smaller early in a campaign, bigger as it goes on, whatever the size of your party. Expect bands of about 25 to 35 men early on, and a chief's band up to about 40. The raid and the gallows are sized on the few who go into the streets with you.
+    The writ's own bands and dens (the contracts, the wanted chiefs, the hired blades, the Outlaw King) are sized the way the game sizes the outlaws of its own quests: smaller early in a campaign, bigger as it goes on, whatever the size of your party. Expect bands of about 35 to 40 men early on, a chief's band up to about 55, and dens of about 35 to 45. The raid and the gallows are sized on the few who go into the streets with you.
 
 ## Wanted: the chiefs with a name
 
@@ -224,7 +224,7 @@ Outlaws sometimes carry lords as captives. When you or your captains beat such a
 
 ## Master of the King's Hunt
 
-The end of the road, and a long one. As **High Justice**, with **"The king's trust"** full, after holding the writ for **120 days** with **6 contracts**, **4 wanted chiefs** and **8 dens** behind you, and if the ruler's house holds at least 3 towns and castles with a castle to spare, a herald finds you: **"Summoned by {ruler}"**, with the ruler marked on the map. Go and say *"There is something I'd like to discuss."*, then *"You sent for me"*.
+The end of the road, and a long one. As **High Justice**, with **"The king's trust"** full, after holding the writ for **120 days** with **6 contracts**, **4 wanted chiefs** and **8 dens** behind you (a den cleared for a crown contract counts among them), and if the ruler's house holds at least 3 towns and castles with a castle to spare, a herald finds you: **"Summoned by {ruler}"**, with the ruler marked on the map. Go and say *"There is something I'd like to discuss."*, then *"You sent for me"*.
 
 The ruler offers you a castle of their house, their hand as your liege and the title **Master of the King's Hunt**:
 
@@ -233,13 +233,30 @@ The ruler offers you a castle of their house, their hand as your liege and the t
 
 If there is no castle to spare when you arrive, the ruler says so and sends for you again when there is.
 
+### The hunters' castle
+
+Your castle can raise three works of its own, built from its **Manage** screen like any other project, three levels each:
+
+- **Hunters' Lodge**: now and then manhunters come to its garrison, more often as it grows.
+- **Gaol Tower**: a larger dungeon, and the crown's cart takes the outlaws you leave there and books their price to your name.
+- **Watchtower**: a safer castle, the outlaw bands about it marked on your map, and earlier word of any host coming for you.
+
+They work while the castle is yours and you are Master of the King's Hunt.
+
+### The outlaws' host
+
+Every month or so, the outlaws of the realm gather a great host under a warlord to take back the roads from you. A rider of the ruler brings word some days ahead: **"A Host at the Gates of {castle}"** opens in your journal with your castle marked. You are always given time to ride home.
+
+Inside the castle, choose **"Man the walls against the outlaws' host"** and wait for them. When the horns sound, **"To the yard!"**: they break in through the gate in waves, the warlord with the last, and you hold the courtyard with your company and half the garrison. Win and the crown pays well, the ruler is pleased and the warlord is yours, alive or dead. Lose and the castle bleeds, but it is never taken. If you are not there when they come, the garrison fights alone and the villages suffer; if you are a captive or riding in another lord's army, the host loses its nerve and scatters.
+
 ## Captains of the King's Hunt
 
 From **High Justice of the Roads** you may name **one captain**, and as Master **up to three**. You are told when the right comes. A captain is a companion or kin who already leads a party of your clan (made in the clan screen, as usual), with at least half manhunters in it; your clan must be large enough to field another party. Talk to them: *"I would have you ride as one of my captains of the King's Hunt."* Release one with *"I release you from your captaincy."*
 
 - Each keeps the march around the nearest town of the realm, falls on the outlaw bands there that they can beat, and now and then clears a den of that march. Each has a journal entry, **"Captain of the King's Hunt: {name}"**, following their party.
 - The crown owes you about **half** of what it would pay you for their work, less if their company is not all sworn men. A wanted chief they take goes to the nearest dungeon, for his full price (half, with his ring).
-- When their company is worn down, they rest a few days in a town, heal and refill with manhunters, paid from your purse (you are told how much).
+- When their company is worn down, they rest a few days in a town, heal and refill with manhunters, paid from your purse (you are told how much). They take no other recruits: no village or town volunteers, none of their prisoners, and captives they free go home.
+- A captain rides at the crown's den only with a company at least as strong as the outlaws in it. If the den holds against them, they keep the march for a few days to mend and then try again on their own.
 - At the sheriff, *"I need riders sent to my captains of the hunt."*: hunt a wanted chief, see to the crown's contract, or go back to the march.
 
 ## When the writ ends
@@ -264,6 +281,7 @@ In the settings file, set the switch to `false`. See [Settings](../settings.md).
 - `WritOutsideNoticeEnabled`: no word when a fight was out of the king's lands.
 - `WritSheriffEnabled`: no sheriffs in the towns; a **"Sheriff's House"** in the town menu does their work instead.
 - `WritContractsEnabled`: no contracts. The Unsworn's den and bands go back to the mercenary's tasks. (With `UnswornTroopsEnabled` off, those two contracts are never offered.)
+- `WritCastleBuildingsEnabled`: no Hunters' Lodge, Gaol Tower or Watchtower. `WritHordeEnabled`: no outlaws' host against your castle.
 - `WritRaidEnabled`: no raids in towns. `WritRaidTownsfolkEnabled`: no townsfolk in the raid's streets; the curfew bell rings and the streets are empty.
 - `WritWantedEnabled`: no wanted chiefs.
 - `WritTrialEnabled`: no trial in the hall; the verdict comes in a window.

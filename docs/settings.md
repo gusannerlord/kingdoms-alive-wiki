@@ -150,6 +150,8 @@ See [The King's Writ](features/kings-writ.md).
 | `WritSheriffEnabled` | A king's sheriff, a notable you talk to, in every town: he pays you, takes your prisoners and keeps the manhunters' yard. Off = no new sheriffs; a "Sheriff's House" in the town menu does their work. |
 | `WritSheriffNativeCompensation` | The sheriff takes no place from the town's own merchants, artisans and gang leaders. |
 | `WritContractsEnabled` | The king's contracts: the Unsworn's den and bands, deserters after a peace, a prisoner taken to trial, a raid in a town. Off = the two Unsworn tasks go back to the mercenary contracts. |
+| `WritCastleBuildingsEnabled` | The Hunters' Lodge, Gaol Tower and Watchtower of the Master's castle. |
+| `WritHordeEnabled` | The outlaws' host that comes for the Master's castle. |
 | `WritRaidEnabled` | The raid on a gang hiding inside one of the realm's towns, fought in its streets. |
 | `WritRaidTownsfolkEnabled` | Townsfolk walk the raid's streets and run when the fight starts. Off = the curfew bell rings and the streets are empty. |
 | `WritWantedEnabled` | Outlaw chiefs with a name and a price, who grow and raid while nobody hunts them. |
