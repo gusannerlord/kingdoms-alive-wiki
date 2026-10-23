@@ -2,6 +2,11 @@
 
 Every feature has an on/off switch. You do not need to touch anything: the defaults are what the mod is designed and tested with.
 
+## In the game's options (Mod Configuration Menu)
+If you use [Mod Configuration Menu](https://www.nexusmods.com/mountandblade2bannerlord/mods/612) **5.13 or later**, every switch below (and a few numbers: truce days, peace rules, siege preparations, children's culture) is also under **Options > Mod Options > Kingdoms Alive**, grouped as on this page. MCM is not required: without it, everything works as before through the file.
+
+Changes made there are written to the same settings file and apply the next time you start the game. Settings you put in the file by hand are kept, and the menu shows them.
+
 ## Where the file is
 The first time you start the game with the mod, it creates:
 
@@ -127,14 +132,25 @@ See [Mercenary contracts](features/mercenary-contracts.md).
 
 | Switch | What it does |
 |---|---|
-| `MercContractsEnabled` | While you serve a realm as a mercenary, its ruler sends you tasks by messenger. Off = no new tasks and no "In the service of the crown" quest; one under way ends as usual. |
-| `MercContractRaid` | The task of raiding enemy villages (the game's own "Raid an Enemy Territory" quest). |
+| `MercContractsEnabled` | While you serve a realm as a mercenary, its ruler sends you tasks by messenger and summons you to the realm's armies. Off = none of that, and none of the company's career below; a task under way ends as usual. |
+| `MercContractRaid` | The task of raiding an enemy village (the game's own "Raid an Enemy Territory" quest). |
 | `MercContractProtect` | The tasks of escorting a caravan of the realm and guarding a border village. |
-| `MercContractUnswornHideout` | The task of clearing a hideout of the Unsworn. Only offered to a mercenary when the King's Writ contracts are off (`WritEnabled` or `WritContractsEnabled`); otherwise it is a contract of the writ. |
-| `MercContractUnswornSweep` | The task of beating three bands of the Unsworn that roam the realm's villages. The same rule as above. |
+| `MercContractCapture` | The task of taking a lord of an enemy realm captive and handing them over to the crown. |
 | `MercContractRescue` | The task of freeing a lord of the realm from an enemy town's dungeon. |
 | `MercContractRescueRuler` | When the ruler is held in an enemy town, their house asks you to bring them home. Off = no task while the ruler is a prisoner. |
-| `MercContractVassalPath` | After 5 tasks fulfilled, with your clan at tier 2 or more, the ruler offers you vassalage. |
+| `MercContractArmy` | When a lord of the realm raises an army, the ruler may summon your company to ride in it, for pay. |
+| `MercContractUnswornHideout` | The task of clearing a hideout of the Unsworn. Only offered to a mercenary when the King's Writ contracts are off (`WritEnabled` or `WritContractsEnabled`); otherwise it is a contract of the writ. |
+| `MercContractUnswornSweep` | The task of beating three bands of the Unsworn that roam the realm's villages. The same rule as above. |
+| `MercInfluencePayEnabled` | The game's own mercenary pay: the influence you earn is paid in silver. Off = no silver for influence while you serve as a mercenary; your pay is the contract's advance, the tasks and the armies. AI mercenaries are not affected. |
+| `MercCareerEnabled` | The company's career: a record of service with every crown, your company's name, and the switches below. Off = only the tasks and summons. |
+| `MercFamePayEnabled` | Your company's name raises its pay. |
+| `MercTermsEnabled` | Contracts of 30, 60 or 100 days with an advance. Off = you serve and leave as in the base game, with no leave in peacetime, offers from other rulers or enemy purse on the road. |
+| `MercPeaceReleaseEnabled` | When the realm has been at peace for a week, its ruler sends word that you may go with the crown's thanks. |
+| `MercBidsEnabled` | Rulers at war send for a company with a name. |
+| `MercGearRewardsEnabled` | Serve one crown long enough and its ruler gives you the harness of a noble warrior of the realm, in person. |
+| `MercTurncoatEnabled` | An enemy ruler's messenger may offer a renowned company a purse to change sides. |
+| `MercSiegeBribeEnabled` | At a siege, the defenders may try to buy your company the night before the assault. |
+| `MercTurncoatBloodFeud` | Changing sides brings a blood feud with the betrayed ruler's house (not on game version 1.4.8). |
 | `UnswornTroopsEnabled` | Taverns sometimes offer Unsworn sellswords for hire. Off = they are no longer offered, and there are no Unsworn tasks or contracts. |
 | `FixMercHideoutMenEnabled` | The hideouts of the Unsworn and of your rival hold 35 to 40 men. Off = only as many as the game's own hideouts. |
 
