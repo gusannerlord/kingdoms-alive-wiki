@@ -54,6 +54,7 @@ Every feature can be switched off on its own (see [Settings](settings.md)).
 - **[Feasts and the grand tournament](features/feasts.md)**: lords gather in peacetime; you can attend or hold your own, and a ruler can add a grand tournament.
 - **[Hunts](features/hunts.md)**: in peacetime lords invite friendly houses to hunt in the woods of their fiefs; ride along or host your own, win friends, have a quiet word about a plot, and once in a long while someone does not come back.
 - **[Events between clans](features/clan-events.md)**: the clans of a kingdom fall out and make up.
+- **[The crown and its claim](features/succession.md)**: every kingdom follows its own law of succession, drawn from history: the Senate, the army, the dynasty, the eldest of the house, the eldest son, the strongest chief, the sheikhs, the founder's blood or the Thing. Every lord has a claim to the crown, and a ruler with a weak one faces plots, grudging oaths and hungry neighbours.
 - **[Civil war](features/civil-war.md)**: large kingdoms crack, powerful clans plot for the throne, and you can join, oppose or lead the plot from the Plots tab of the kingdom screen.
 - **[Envoys](features/envoys.md)**: send a family member or companion to a lord with a message.
 - **[Your rival](features/rival.md)**: beat a lord in a tournament final, or earn their hatred, and they may swear a blood feud against you: taunts, hired blades on your trail, ambushes in town streets, and at the end a duel to the death.

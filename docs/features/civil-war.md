@@ -39,10 +39,10 @@ Every 7 days (the mod's own count, not the game's week, which is only 3 days in 
 
 ## How a plot starts
 
-Every 7 days, in each kingdom that is too large and has no plot yet, the AI clan leaders may start one. A clan leader can start a plot if:
+Every 7 days, in each kingdom that is too large, or whose ruler has a [weak claim](succession.md#what-a-claim-does), and has no plot yet, the AI clan leaders may start one. A clan leader can start a plot if:
 
 - their clan has a **Clan Strength of 1,000 or more** (the figure shown on the clan's page in the Encyclopedia);
-- their relation with the ruler is **−5 or worse**;
+- their relation with the ruler is **−5 or worse** (**+5 or worse** if the ruler's claim is weak and theirs is better);
 - they are not the ruler's clan or close kin, nor a mercenary, nor sworn to the crown at the moment (see below).
 
 Each such leader has a **10% chance** a week, plus 5% for each level of Calculating and of Valor, minus 10% for each level of Honor. A plot starts only if at least one other clan would join it straight away. There is only one plot per kingdom at a time.
@@ -68,6 +68,7 @@ Every 7 days, each clan leader of the kingdom weighs the plot. The ruler's own c
 | Swore the [oath of fealty](royal-court.md#the-oath-to-a-new-ruler) to the current ruler | −10, for 120 days |
 | Refused that oath, or let the time pass | +20, for 180 days |
 | Dismissed from the [court](royal-court.md#the-offices) | up to +8, fading over about 120 days |
+| The [claims](succession.md) of the plot's leader and the ruler | up to +10 when the leader's claim is the better one; up to −10 when the ruler's claim is beyond question |
 
 A lord **joins at 25** and **leaves below 5**. Example: a lord with −20 toward the ruler (+14) and +10 toward the plotter (+5), with the plot holding 30% of the realm (+6), reaches 25 and joins.
 

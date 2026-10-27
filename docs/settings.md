@@ -100,6 +100,13 @@ See [Vassal realms](features/vassal-realms.md).
 | `ConspiracyEnabled` | Plots and civil wars. | [Civil war](features/civil-war.md) |
 | `CivilWarOutsideRestraintEnabled` | Other kingdoms hold back from attacking either side of a civil war. | [Civil war](features/civil-war.md) |
 | `CivilWarNotifyPlayer` | A notice in the middle of the screen when any kingdom falls into civil war. | [Civil war](features/civil-war.md) |
+| `SuccessionLawsEnabled` | Each realm follows its own law of succession when its ruler dies. Off: the base game's vote everywhere. | [The crown and its claim](features/succession.md) |
+| `RightToRuleEnabled` | Every lord has a claim to the crown, and the ruler's claim has the effects below. | [The crown and its claim](features/succession.md#what-makes-a-claim) |
+| `RightToRulePlotsEnabled` | A weak claim breeds plots, even in a kingdom that is not too large. | [The crown and its claim](features/succession.md#what-a-claim-does) |
+| `RightToRuleOathEnabled` | The new ruler's claim weighs in every house's oath. | [The crown and its claim](features/succession.md#what-a-claim-does) |
+| `RightToRuleWarEnabled` | The claim weighs in war and peace. | [The crown and its claim](features/succession.md#what-a-claim-does) |
+| `RightToRuleCouncilEnabled` | The claim weighs in the council's support for the ruler's proposals. | [The crown and its claim](features/succession.md#what-a-claim-does) |
+| `RightToRuleNotifyPlayer` | A line in your messages whenever a crown passes anywhere in Calradia. | [The crown and its claim](features/succession.md) |
 | `EnvoysEnabled` | Envoys (all errands). | [Envoys](features/envoys.md) |
 | `EnvoyCouncilEnabled`, `EnvoyRecruitEnabled`, `EnvoyMarriageEnabled`, `EnvoyTradeEnabled`, `EnvoySoundEnabled`, `EnvoyMeetingEnabled`, `EnvoyGiftEnabled`, `EnvoyPlotJoinEnabled`, `EnvoyPlotLoyalEnabled` | Each envoy errand on its own. | [Envoys](features/envoys.md) |
 | `DuelsEnabled` | Duels between AI lords, and the challenges from houses that hate you (if those are on). Your rival's duel has its own switch. | [Duels](features/duels.md) |

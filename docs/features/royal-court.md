@@ -140,6 +140,8 @@ As ruler, with a Chancellor able to act, the Court tab offers **"Let the chancel
 
 When a kingdom gets a new ruler (by succession, by election or by winning a civil war), every house of the realm has **15 days** to swear fealty. A brand-new kingdom has no oath. Nor is there one when a [vassal realm](vassal-realms.md)'s council chooses its overlord's ruler: the realm is joined to the overlord's and its houses swear no oath.
 
+A new ruler's [claim to the crown](succession.md) weighs in every house's answer: a ruler with a strong claim finds most houses ready to swear, one with a weak claim hears more demands and more refusals.
+
 Each AI house weighs it up: its relation with the new ruler, its Honor, whether it voted for them, whether it stood against them for the throne or fought them in a civil war, how close it is to plotting, and kinship.
 
 | A house... | What happens |
