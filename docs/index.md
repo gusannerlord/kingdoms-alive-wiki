@@ -48,6 +48,7 @@ Every feature can be switched off on its own (see [Settings](settings.md)).
 - **[Events between kingdoms](features/events-between-kingdoms.md)**: raids, insults and gifts between neighbours build tension that can lead to war, or prevent it.
 - **[Winning the council over](features/council.md)**: talk lords into backing your war or your peace, or your house when a fief is shared out (now with four candidates, and the conqueror always among them); council votes bring modest, fair goodwill.
 - **[Vassal realms and annexation](features/vassal-realms.md)**: a beaten kingdom can bend the knee instead of being wiped out. A vassal realm keeps its ruler, pays tribute and marches in its overlord's wars, and may in time be joined to the overlord's realm for good, or rebel. Your own realm can take vassals, or become one. Everything shows in the Vassals tab of the kingdom screen.
+- **[Command your armies](features/command-your-armies.md)**: the Marshal of your court leads the realm's armies. As ruler, give the war its aims through your Marshal or order one army to besiege, stand guard or come home; as a vassal, become Marshal and carry your liege's orders to the lords. Riders take your word anywhere. Optional, off by default: smarter AI lords who see as you do, lift lost sieges, take refuge and hunt armies they can catch.
 
 ### Life at court
 - **[Feasts and the grand tournament](features/feasts.md)**: lords gather in peacetime; you can attend or hold your own, and a ruler can add a grand tournament.

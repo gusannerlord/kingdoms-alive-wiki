@@ -115,6 +115,18 @@ See [Vassal realms](features/vassal-realms.md).
 | `RivalDuelEnabled` | The rivalry ends in a duel to the death in the arena. | [Your rival](features/rival.md) |
 | `RivalSmearEnabled` | Your rival can speak against you to the ruler of their realm (-3 relation, once). | [Your rival](features/rival.md) |
 
+### The Marshal and the realm's command
+See [Command your armies](features/command-your-armies.md).
+
+| Switch | What it does |
+|---|---|
+| `PrudenceRealmEnabled` | The whole realm's command: orders as ruler or as Marshal, orders to one army, riders, and your liege's words. Off = none of it. |
+| `PrudenceOfficeEnabled` | The Marshal leads the realm's armies: you give orders through your Marshal, or take your liege's as Marshal. Off = no orders, no orders to one army and no riders. |
+| `PrudenceArmyOrdersEnabled` | Order one army of the realm to besiege a place, stand guard over one of yours, or come home. |
+| `PrudenceRiderEnabled` | Send riders with your word from any town or castle of your realm (needed for riders from your party too). |
+| `PrudenceFieldRiderEnabled` | A companion or family member riding with you finds you a rider, wherever you are. |
+| `PrudenceMarshalEnabled` | Your liege tells you how the war goes, and the leader of the army you ride in tells you why it acts. |
+
 ### Your realm and household
 
 | Switch | What it does |
@@ -282,6 +294,27 @@ See [The royal court](features/royal-court.md).
 | `FiefClaimEnabled` | Ask a lord for their voice for your house when the next fief is shared out. |
 | `FiefClaimFriendshipEnabled` | Every lord's vote for your house rises a little with how much they like you. |
 
+### Smarter warlords (off by default)
+See [Smarter warlords](features/command-your-armies.md#smarter-warlords-off-by-default). The pieces below do nothing while `PrudenceEnabled` is off.
+
+| Switch | What it does |
+|---|---|
+| `PrudenceEnabled` | AI lords and armies see as you do and wage war more wisely. **Off by default** = the AI decides as in the base game. |
+| `PrudenceNoticesEnabled` | A line on screen when a siege is lifted for fear of a relief and your realm is on either side. |
+| `PrudenceSiegeRetreatEnabled` | A besieger lifts a siege it sees lost. Off = the next three do nothing either. |
+| `PrudenceWithdrawEnabled` | A siege camp losing a battle at the walls breaks off and leaves. |
+| `PrudenceStartSeenEnabled` | No siege begun where the danger already in sight would lift it at once. |
+| `PrudenceRememberDefendersEnabled` | A lord remembers an enemy lord seen riding into the place he means to besiege. |
+| `PrudenceRefugeEnabled` | A lord fleeing a stronger host takes refuge in the nearest friendly fortress. Off = the next two do nothing either. |
+| `PrudenceEarlyWarningEnabled` | He sees a stronger host coming from as far as he can see, and stays inside while it is in sight. |
+| `PrudenceWaitOutThreatEnabled` | After taking refuge, he lays no siege the host he fled could reach until it is far, weaker or gone. |
+| `PrudenceHuntEnabled` | An AI army rides at an enemy army it sees and can beat and catch. |
+| `PrudenceHuntPlayerArmy` | Your army is prey too, if you lead one. |
+| `PrudenceHuntGatheringEnabled` | Armies still gathering are prey. |
+| `PrudenceHuntBesiegersEnabled` | Armies besieging a third realm are prey. |
+| `PrudenceReliefWaitEnabled` | A relief gathers a few hours from the besiegers' camp until it is strong enough (game version 1.5.5 only). |
+| `PrudenceRallyEnabled` | An AI army too weak for its siege or relief calls more lords. |
+
 ### Campaign
 
 | Switch | What it does |
@@ -296,4 +329,4 @@ See [The royal court](features/royal-court.md).
 | `ApplyToWeapons` | Weapons get cheaper too. Off = only armour. |
 
 ### Logs
-`EventLogEnabled`, `DiplomacyLogEnabled`, `CourtMeasureLogEnabled`, `RivalLogEnabled`, `MercContractLogEnabled`, `SquireLogEnabled`, `NobleMemoryLogEnabled`, `CaptiveLogEnabled`, `StoryLogEnabled`, `FixRealmLogEnabled` and `CompanyLogEnabled` write detailed lines to the game's log, useful only when I ask you for a log to track a bug. Off by default.
+`EventLogEnabled`, `DiplomacyLogEnabled`, `CourtMeasureLogEnabled`, `RivalLogEnabled`, `MercContractLogEnabled`, `SquireLogEnabled`, `NobleMemoryLogEnabled`, `CaptiveLogEnabled`, `StoryLogEnabled`, `FixRealmLogEnabled`, `CompanyLogEnabled` and `PrudenceLogEnabled` (AI armies, the realm's Marshals and their orders) write detailed lines to the game's log, useful only when I ask you for a log to track a bug. Off by default.
