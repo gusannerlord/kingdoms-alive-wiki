@@ -107,6 +107,14 @@ See [Vassal realms](features/vassal-realms.md).
 | `RightToRuleWarEnabled` | The claim weighs in war and peace. | [The crown and its claim](features/succession.md#what-a-claim-does) |
 | `RightToRuleCouncilEnabled` | The claim weighs in the council's support for the ruler's proposals. | [The crown and its claim](features/succession.md#what-a-claim-does) |
 | `RightToRuleNotifyPlayer` | A line in your messages whenever a crown passes anywhere in Calradia. | [The crown and its claim](features/succession.md) |
+| `FactionsEnabled` | Factions: charters, reckonings, the demand to step down, grievances. Off: the plots and civil wars of before, alone. | [Factions and grievances](features/factions.md) |
+| `FactionGrievancesEnabled` | Every house remembers what the crown did to it. | [Factions and grievances](features/factions.md#lords-remember) |
+| `FactionCharterEnabled` | The Charter: lords who would bind the ruler's hands. | [Factions and grievances](features/factions.md#the-charter) |
+| `FactionReckoningEnabled` | The Reckoning: lords who would bring down an overmighty house. | [Factions and grievances](features/factions.md#the-reckoning-of-a-house) |
+| `FactionAbdicationEnabled` | A strong plot asks the ruler to step down before it rises. | [Factions and grievances](features/factions.md#asking-a-ruler-to-step-down) |
+| `FactionConfidantsEnabled` | Friends tell you what is afoot in their realm, and write when it comes to a head. | [Factions and grievances](features/factions.md#you-and-the-factions) |
+| `FactionsInAiRealms` | Factions in the AI kingdoms too, not only in yours. | [Factions and grievances](features/factions.md) |
+| `FactionAiInternalWarLimit` | Only one civil war at a time among the AI kingdoms, and not too soon after another. | [Factions and grievances](features/factions.md#not-too-many-civil-wars) |
 | `EnvoysEnabled` | Envoys (all errands). | [Envoys](features/envoys.md) |
 | `EnvoyCouncilEnabled`, `EnvoyRecruitEnabled`, `EnvoyMarriageEnabled`, `EnvoyTradeEnabled`, `EnvoySoundEnabled`, `EnvoyMeetingEnabled`, `EnvoyGiftEnabled`, `EnvoyPlotJoinEnabled`, `EnvoyPlotLoyalEnabled` | Each envoy errand on its own. | [Envoys](features/envoys.md) |
 | `DuelsEnabled` | Duels between AI lords, and the challenges from houses that hate you (if those are on). Your rival's duel has its own switch. | [Duels](features/duels.md) |
@@ -121,6 +129,20 @@ See [Vassal realms](features/vassal-realms.md).
 | `RivalTownAmbushEnabled` | Your rival's thugs can ambush you in a town's streets. | [Your rival](features/rival.md) |
 | `RivalDuelEnabled` | The rivalry ends in a duel to the death in the arena. | [Your rival](features/rival.md) |
 | `RivalSmearEnabled` | Your rival can speak against you to the ruler of their realm (-3 relation, once). | [Your rival](features/rival.md) |
+
+### Faiths
+See [The faiths of Calradia](features/faiths.md).
+
+| Switch | What it does |
+|---|---|
+| `FaithEnabled` | Every people keeps a faith: priests, festivals, the sacred months, pilgrimages and blessings. Off: none of it. |
+| `FaithPriestsEnabled` | A priest of the town's faith in every town, who gives the faithful his recruits. |
+| `FaithFestivalsEnabled` | Each faith's great festival, once a year in its holy town. |
+| `FaithSacredMonthsEnabled` | Every autumn the Aserai realms go to no war and raid nothing, and whoever attacks them then is cursed. |
+| `FaithPilgrimageEnabled` | You can ask a priest of your faith to send you on pilgrimage. |
+| `FaithBlessingsEnabled` | Festivals and pilgrimages leave a blessing on your company: morale, march or healing. |
+| `FaithConversionEnabled` | You can take up another faith with one of its priests. |
+| `FaithRelationsEnabled` | Lords of the same faith quarrel less, and marry across faiths less often. |
 
 ### The Marshal and the realm's command
 See [Command your armies](features/command-your-armies.md).
@@ -336,4 +358,4 @@ See [Smarter warlords](features/command-your-armies.md#smarter-warlords-off-by-d
 | `ApplyToWeapons` | Weapons get cheaper too. Off = only armour. |
 
 ### Logs
-`EventLogEnabled`, `DiplomacyLogEnabled`, `CourtMeasureLogEnabled`, `RivalLogEnabled`, `MercContractLogEnabled`, `SquireLogEnabled`, `NobleMemoryLogEnabled`, `CaptiveLogEnabled`, `StoryLogEnabled`, `FixRealmLogEnabled`, `CompanyLogEnabled` and `PrudenceLogEnabled` (AI armies, the realm's Marshals and their orders) write detailed lines to the game's log, useful only when I ask you for a log to track a bug. Off by default.
+`EventLogEnabled`, `DiplomacyLogEnabled`, `CourtMeasureLogEnabled`, `RivalLogEnabled`, `MercContractLogEnabled`, `SquireLogEnabled`, `NobleMemoryLogEnabled`, `CaptiveLogEnabled`, `StoryLogEnabled`, `FixRealmLogEnabled`, `CompanyLogEnabled`, `PrudenceLogEnabled` (AI armies, the realm's Marshals and their orders) and `FaithLogEnabled` (faiths) write detailed lines to the game's log, useful only when I ask you for a log to track a bug. Off by default.
