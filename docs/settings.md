@@ -118,6 +118,17 @@ See [Vassal realms](features/vassal-realms.md).
 | `FactionFeudsEnabled` | A reckoning the ruler refused may take up arms: a feud between two houses of the realm over the fief. | [Factions and grievances](features/factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses) |
 | `FactionStripRebelsEnabled` | A house that loses a fief to a reckoning's vote may refuse it and break with the realm. | [Factions and grievances](features/factions.md#the-reckoning-of-a-house) |
 | `FactionGrievanceRelationsEnabled` | A wrong between two AI houses sours their heads at once. | [Factions and grievances](features/factions.md#lords-remember) |
+| `FiefRightsEnabled` | Rights to fiefs: old rights to lost fiefs, rights by blood, by leading the siege, old claims of a line. Off: rights count for nothing. | [Rights to fiefs](features/fief-rights.md) |
+| `FiefRightsVotesEnabled` | Rights weigh when a fief is shared out and in a reckoning's vote. | [Rights to fiefs](features/fief-rights.md#in-the-council) |
+| `FiefRightsVoicesEnabled` | Win a weak right to a fief with a forged grant its people swear to. | [Rights to fiefs](features/fief-rights.md#a-forged-claim) |
+| `FiefRightsForgerEnabled` | The grant must first be forged by a gang leader of the town (of the nearest town for a castle). | [Rights to fiefs](features/fief-rights.md#the-forger) |
+| `FiefRightsEnvoyEnabled` | Send an envoy with the forged grant to find witnesses for you. | [Rights to fiefs](features/fief-rights.md#sending-an-envoy) |
+| `FiefRightsReckoningNeedsRight` | A reckoning can only be raised over a fief one of its houses has a right to. | [Factions and grievances](features/factions.md#the-reckoning-of-a-house) |
+| `FiefRightsNativeRevokeNeedsRight` | Only the ruler may put any house's fief to the council; a vassal needs a right (their own or their reckoning's). | [Rights to fiefs](features/fief-rights.md#in-the-council) |
+| `FiefRightsAncestralEnabled` | Many AI houses start with an old claim to a fief of another house. | [Rights to fiefs](features/fief-rights.md#old-claims-of-a-line) |
+| `FiefRightsAiVoicesEnabled` | AI houses forge claims to fiefs they covet; you hear of it when the fief is yours. | [Rights to fiefs](features/fief-rights.md#when-others-court-your-people) |
+| `FiefRightsFeudHonourEnabled` | Honourable houses with no ties to either side may stand with the holder in a feud over a weaker right. | [Rights to fiefs](features/fief-rights.md#in-the-council) |
+| `FiefRightsEncyclopediaEnabled` | Rights in the encyclopedia pages of houses and fiefs. | [Rights to fiefs](features/fief-rights.md#where-to-see-it) |
 | `EnvoysEnabled` | Envoys (all errands). | [Envoys](features/envoys.md) |
 | `EnvoyCouncilEnabled`, `EnvoyRecruitEnabled`, `EnvoyMarriageEnabled`, `EnvoyTradeEnabled`, `EnvoySoundEnabled`, `EnvoyMeetingEnabled`, `EnvoyGiftEnabled`, `EnvoyPlotJoinEnabled`, `EnvoyPlotLoyalEnabled` | Each envoy errand on its own. | [Envoys](features/envoys.md) |
 | `DuelsEnabled` | Duels between AI lords, and the challenges from houses that hate you (if those are on). Your rival's duel has its own switch. | [Duels](features/duels.md) |
@@ -152,6 +163,21 @@ See [The faiths of Calradia](features/faiths.md).
 | `FaithBlessingsEnabled` | Festivals and pilgrimages leave a blessing on your company: morale, march or healing. |
 | `FaithConversionEnabled` | You can take up another faith with one of its priests. |
 | `FaithRelationsEnabled` | Lords of the same faith quarrel less, and marry across faiths less often. |
+
+### The faith and ways of a fief
+See [The faith and ways of a fief](features/faith-and-ways.md).
+
+| Switch | What it does |
+|---|---|
+| `FiefWaysEnabled` | A town or castle slowly takes up the faith and the culture of its realm; until then its people are restless. Off: nothing more changes (fiefs already changed stay so). |
+| `FiefWaysTempleEnabled` | Who takes a town of another faith by siege decides what becomes of its temple. |
+| `FiefWaysOldPriestEnabled` | The old faith's priest can be left in peace, banished or won over. |
+| `FiefWaysMissionsEnabled` | A priest of the realm's faith, paid, sends preachers to a fief. |
+| `FiefWaysAlmsEnabled` | Alms for the people of a fief in hard times. |
+| `FiefWaysOldLawsEnabled` | A fief's old laws, granted and revoked through its governor. |
+| `FiefWaysUnrestEnabled` | Now and then trouble in a fief of another faith or culture. |
+| `FiefWaysRebellionEnabled` | A town of another faith and culture rises sooner. |
+| `FiefWaysLogEnabled` | Lines `Ways:` in the log (with the diplomacy log on). |
 
 ### The Marshal and the realm's command
 See [Command your armies](features/command-your-armies.md).

@@ -187,7 +187,7 @@ Open the kingdom screen (**K**) and pick the **Factions** tab, from anywhere. It
 
 If you are in the plot, the top line and a bar give its exact share of the realm's strength and when it can rise. If you are not, you only learn who leads it, and only once you have found out.
 
-The tab also lists, under **Votes you have won**, the votes you have won: lords who will vote to [take a fief from a house](royal-court.md#winning-the-votes-first), and lords who will back your house when the next [fief is shared out](council.md#who-gets-a-fief), with the days they have left.
+As ruler, the tab lists under **The crown's will** the lords who will vote with you to [take a fief from a house](royal-court.md#winning-the-votes-first), with the days they have left. Under **Fiefs and rights**, **Your house's rights** shows your [rights to fiefs](fief-rights.md), the forged grants still looking for witnesses, who claims your fiefs, and the lords who will back your house when the next [fief is shared out](council.md#who-gets-a-fief).
 
 ### Leading your own plot
 

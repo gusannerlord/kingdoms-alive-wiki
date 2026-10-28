@@ -2,6 +2,8 @@
 
 Every people of Calradia now keeps a faith of its own. Each faith grows out of what the game already tells about it, in the encyclopedia and in the stories of its companions, and out of the real people that culture is drawn from in the years 600 to 1100. Priests live in every town, each faith holds a great festival once a year, and the Aserai keep their sacred months. You can go on pilgrimage, take a blessing home, or even change your faith.
 
+A town or castle keeps the faith of its people, not of its lord: one taken by another realm comes round to that realm's faith only slowly (see [The faith and ways of a fief](faith-and-ways.md)).
+
 None of it is shown as a number. How the faithful see you is told in words: *unknown to the priests*, *known at the shrines*, *one of the faithful*, or *a pillar* of your faith.
 
 ## The seven faiths

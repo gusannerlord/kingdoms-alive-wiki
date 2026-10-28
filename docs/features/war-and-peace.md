@@ -40,7 +40,7 @@ Your own kingdom counts like any other.
 ## Wars that stop and start sensibly
 
 - **Weariness.** The men a kingdom has lost in its current wars, and each peace it has signed lately (the effect fades over 60 days), make it expect up to 30% less from a new war. The same losses make it want peace in the war it is fighting, whether it is winning or losing.
-- **Restlessness.** A kingdom with no war against another kingdom for more than 30 days starts to expect more from a war: 2% more for each further day, up to 60% more after 60 days of peace. This is a last resort against endless peace; most wars should come from real causes.
+- **Restlessness.** A kingdom with no war against another kingdom for more than 40 days starts to expect more from a war: 1.5% more for each further day, up to 45% more after 70 days of peace. This is a last resort against endless peace; most wars should come from real causes.
 - **Civil war.** While a kingdom is in a [civil war](civil-war.md), other AI kingdoms find it harder (not impossible) to attack either side, and its war is never "the right moment" for them.
 
 ## Peace needs both sides

@@ -33,6 +33,7 @@ You cannot send anyone while you are a prisoner or in the middle of a battle.
 | **Sound a lord out** | Anyone | Learns where a lord stands (see below). |
 | **Arrange a meeting with a lord** | Anyone | The lord rides to a town or castle about halfway between you and waits there for you. |
 | **Carry a gift of gold to a lord** | Anyone | Gold for a clan leader, for relation (see the gift table). |
+| **Find witnesses for our forged grant** | Anyone | Carries a grant you have had forged, and asks the notables (and priest and sheriff) of a town or castle to swear to it, with silver, for a [right to the fief](fief-rights.md#sending-an-envoy). Uses the same odds you would have in person, with the envoy's Charm, skills and character instead of the steps below. |
 
 Two more errands appear during a plot in your realm: **"Win a lord over to our plot"** (when you are in a plot) and **"Keep a lord loyal to the crown"** (when you know of a plot you are not part of). See [Civil war](civil-war.md).
 
@@ -138,3 +139,4 @@ In the settings file, set the switch to `false`. See [Settings](../settings.md).
 - `EnvoyMeetingEnabled`: meetings halfway.
 - `EnvoyGiftEnabled`: gifts of gold.
 - `EnvoyPlotJoinEnabled` and `EnvoyPlotLoyalEnabled`: the two plot errands.
+- `FiefRightsEnvoyEnabled`: finding witnesses for a forged claim (see [Rights to fiefs](fief-rights.md)).

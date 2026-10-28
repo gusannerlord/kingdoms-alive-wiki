@@ -182,7 +182,7 @@ As ruler, you can still put a vassal's town or castle to the council's vote (the
 
 The council usually votes against taking a fief: every lord sides with the holder unless they truly hate them. As ruler you can still force it through with influence, but you can also prepare the ground. This is the second kind of plot, next to the [civil war](civil-war.md).
 
-Talk to the head of another house of your realm and say *"There is a house in this realm that holds more than it deserves."*, then pick the house you have in mind.
+This is the crown's own business, not a plot: a ruler needs no [right](fief-rights.md) to take a fief back. Talk to the head of another house of your realm and say *"I mean to take a fief back into the crown's hands. When it comes before the council, will your house stand with its king?"*, then pick the house you have in mind. The house you take it from keeps an old right to it.
 
 - **Only a lord with few scruples listens.** Below **30** relation with you they say *"That is not talk for the two of us"*. A lord who is honorable, merciful or generous (any level of Honor, Mercy or Generosity) will not be party to it at all. Valor does not count against them.
 - **They will not move against a friend.** If they like the head of that house 20 points or more above you, they refuse outright. The better they like that house, the harder they are to win; if they hate it (−30 or worse), it gets easier.
