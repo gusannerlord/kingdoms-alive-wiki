@@ -24,6 +24,7 @@ None of it is shown as a number. How the faithful see you is told in words: *unk
 
 Every town has a priest of its people's faith: a Father or Mother of the churches, a Volkhv of the forest, a Godi or Gydja, a Druid, a Kahin or Kahina, a Kam of the steppe. They stand in the square with the town's notables, and **Visit the church** (or the sacred grove, the hof, the shrine...) in the town menu takes you straight to them.
 
+- Most priests are men. The churches keep their altars almost wholly for men; the older faiths have their seeresses, druidesses and shamans, though fewer than their men.
 - They greet you by your faith and their own character: warmly, sternly, shrewdly or coldly.
 - **Tell me of your faith**: the story of their gods, in their own voice.
 - **What does your faith ask**: the two virtues their faith holds dear, and the deeds it weighs.
