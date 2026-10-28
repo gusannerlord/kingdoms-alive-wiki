@@ -4,15 +4,16 @@ Every kingdom now has a court. Five offices, held by real people whose skills ma
 
 ## The kingdom screen
 
-The kingdom screen (**K**) has three new tabs after Diplomacy: **Court**, **Plots** and **Vassals** (see [Vassal realms and annexation](vassal-realms.md)). The usual tabs are unchanged, and with War Sails the Fiefs tab still shows your ships.
+The kingdom screen (**K**) has three new tabs after Diplomacy: **Court**, **Factions** and **Vassals** (see [Vassal realms and annexation](vassal-realms.md)). The usual tabs are unchanged, and with War Sails the Fiefs tab still shows your ships.
 
 The **Court** tab lists:
 
+- **The Crown**, picked first: the ruler's portrait, the realm's law of succession, the ruler's [right to rule](succession.md) as a bar with the words the lords use for it, and the portraits of the heir and of the strongest pretender;
 - the five **offices**, with each holder's portrait and name, or *Vacant*. Pick one to see who holds it, their skill, how much of the full effect they give (*"... 50% of the full effect"*) and what it gives right now;
 - **Petitions**: how many people are waiting for you to [hold court](#holding-court) (*"N waiting"*, or *"N waiting, fiefs losing loyalty"* once the wait starts to cost you);
 - **Oaths of fealty**: while the houses are swearing to a new ruler, where each one stands.
 
-The **Plots** tab shows what you know of a plot in your realm, and is where you raise the banner if you lead one. See [Civil war](civil-war.md#the-plots-tab).
+The **Factions** tab shows the mood of the houses and what you know of the feuds, factions and plots in your realm, and is where you raise the banner if you lead a plot. See [Civil war](civil-war.md#the-factions-tab) and [Factions and grievances](factions.md).
 
 !!! note
     If another mod also replaces the kingdom screen, only one of them can work.
@@ -197,7 +198,7 @@ Your chances against a house they have no feelings about:
 
 If they hate that house, the 30–54 row becomes 7%, 32% and 48%.
 
-- **Won over**, they vote to take a fief from that house the next time you put one to the council, within **60 days**. That vote uses up the promises against that house, whatever comes of it. The [Plots tab](civil-war.md#the-plots-tab) lists them.
+- **Won over**, they vote to take a fief from that house the next time you put one to the council, within **60 days**. That vote uses up the promises against that house, whatever comes of it. The [Factions tab](civil-war.md#the-factions-tab) lists them.
 - **Failed**, they will not hear of it again for 45 days; a bad failure means 60 days and −4 relation.
 - **Word may get out.** Every attempt, won or lost, has a **1 in 5** chance of reaching the house you mean to rob: its head loses **10** relation with you, and you are told.
 - Proposing the vote still costs you with every vassal, accomplices included, and the holder may still refuse and break away. Lords who vote to take a fief also lose relation with its holder, as in the base game.

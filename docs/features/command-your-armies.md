@@ -60,7 +60,7 @@ A new order replaces any the army holds. Your own orders are always taken up.
 
 ### The ruler's orders
 
-When no order stands, your ruler gives you one, at most every 3 days: relieve the nearest of the realm's besieged fortresses or, if none is besieged, take the least defended of the enemy fortresses on the border near you (*"Marshal, our next aim is {PLACE}. Speak to the lords and lead them there."*, or, for a hard one, *"... It will not fall easily: gather enough lords before you march on it."*). The place is marked on your map.
+When no order stands, your ruler gives you one, at most every 3 days: relieve the nearest of the realm's besieged fortresses or, if none is besieged, take the least defended of the enemy fortresses on the border near you (*"Marshal, our next aim is {PLACE}. Speak to the lords and lead them there."*, or, for a hard one, *"... It will not fall easily: gather enough lords before you march on it."*). The place is marked on your map, and the order goes in your quest log with the time you have left.
 
 Pass it on:
 
@@ -93,6 +93,15 @@ While you serve a realm you do not rule, as a vassal or a mercenary, your liege 
 
 You can also ask your liege in person: *"My liege, what is our plan for this war?"*
 
+## Running from you (on by default)
+
+In the base game, a party running from you that is slower than you, and every bandit party, has no real plan to get away. It runs straight away from you, and when a river, a hill or a dead end gets in the way it turns about, drifts, and often walks straight back into you. Now:
+
+- **They find a way out.** A party running from you looks at the open ways around it, from straight away to well aside, and takes the one that leaves it farthest from you, going along rivers and round hills instead of turning back. It never picks a way that would take it past you. A party faster than you keeps the base game's flight, which already works for it.
+- **They run for cover.** If there is a place it can reach before you, it makes for it and goes in: bandits a hideout of their own kind close by (looters have none, and once in, bandits mostly stay and add to it), villagers their own village first, and everyone else a town or castle not at war with them. Inside, they stay while you are about.
+
+Only parties running from you or the army you lead, on land. Parties on a quest are left alone. This works whether **Smarter warlords** is on or off; switch it off with `FleeRouteEnabled` and `FleeRefugeEnabled` (see [Settings](../settings.md)).
+
 ## Smarter warlords (off by default)
 
 This part changes how every AI lord and army wages war. It plays by the same rules as you: what a lord does depends on what they can see.
@@ -101,9 +110,9 @@ This part changes how every AI lord and army wages war. It plays by the same rul
 - **They lift sieges they cannot win.** A besieger who sees a relief coming, or defenders too strong for them, lifts the siege instead of dying at the walls: once the danger outweighs the camp by about a tenth. A siege all but won (the garrison down to a fifth) is kept unless the danger is twice the camp. A camp that sees itself losing a battle at the walls breaks off and leaves; if you ride in an AI lord's army, you go with it. They do not start a siege they would lift at once, and they remember an enemy lord they saw ride into the place while that lord stays nearby.
 - **They take refuge.** A lord fleeing a stronger host (they stand their ground from about 95% of its strength, a little less for a brave lord, a little more for a cautious one) rides into the nearest fortress of a friendly realm they can reach first, instead of running across the map. They stay inside while the host is in sight, and lay no siege it could reach until it is far, weaker or gone. Not your clan, and not lords riding in an army.
 - **They hunt armies they can catch.** An AI army may ride at an enemy army it sees, when it is at least as strong and no more than twice as strong (stronger than that and the enemy would only run), and only if it can catch it within about 12 hours. Your army is fair game if you lead one, and so are armies still gathering and armies besieging a third realm.
-- **A relief waits out of reach.** Lords riding to relieve a place gather about 4 hours' march from the besiegers' camp until they are strong enough, instead of right beside it. (Only on game version 1.5.5.)
-- **They call more lords.** An AI army set on a siege or on relieving one of its places, but too weak for it, calls free lords within a day's ride, a few a day, paying the influence as you would. It never calls when its own men are below 70% of full strength (50% for a relief waiting out of reach).
-- **The army leader tells you why.** Riding in an AI army, you hear from its leader why they lift a siege, break off a battle, ride at an enemy army or let one go. A line on screen tells you when a siege is lifted for fear of a relief and your realm is on either side.
+- **A relief waits out of reach.** Lords riding to relieve a place gather about 4 hours' march from the besiegers' camp until they are strong enough, instead of right beside it. If the place is yours, or you are inside it, word reaches you that the relief waits and why. (Not on game version 1.4.8, where reliefs wait as in the base game.)
+- **They call more lords.** An AI army set on a siege or on relieving one of its places, but too weak for it, calls free lords within a day's ride, a few a day, paying the influence as you would. If you ride in that army, its leader tells you when they send for more lords, and why. It never calls when its own men are below 70% of full strength (50% for a relief waiting out of reach).
+- **The army leader tells you why.** Riding in an AI army, you hear from its leader why they lift a siege, break off a battle, ride at an enemy army or let one go. When an enemy army turns toward the army you lead or ride in, your scouts ride in to warn you. A line on screen tells you when a siege is lifted for fear of a relief and your realm is on either side.
 
 ### Is it for you?
 

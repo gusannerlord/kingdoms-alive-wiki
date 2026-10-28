@@ -45,7 +45,9 @@ Every 7 days, in each kingdom that is too large, or whose ruler has a [weak clai
 - their relation with the ruler is **−5 or worse** (**+5 or worse** if the ruler's claim is weak and theirs is better);
 - they are not the ruler's clan or close kin, nor a mercenary, nor sworn to the crown at the moment (see below).
 
-Each such leader has a **10% chance** a week, plus 5% for each level of Calculating and of Valor, minus 10% for each level of Honor. A plot starts only if at least one other clan would join it straight away. There is only one plot per kingdom at a time.
+Each such leader has a **10% chance** a week, plus 5% for each level of Calculating and of Valor, minus 10% for each level of Honor. A plot starts only if at least one other clan would join it straight away.
+
+A kingdom can hold **up to three plots at once**, each behind its own pretender. A house is in one plot at most, the one it leans to most, and goes over to another only if it leans to it clearly more (a house that gave its word stays where it swore). The **first plot to rise ends all the others**.
 
 No new plot starts for **60 days** after a plot ends, nor for **100 days** after a civil war.
 
@@ -53,7 +55,7 @@ A [vassal realm](vassal-realms.md) never has a plot or a civil war: a plot under
 
 ## Who joins, and why
 
-Every 7 days, each clan leader of the kingdom weighs the plot. The ruler's own clan and close kin never join. The rest add up a score:
+Every 7 days, each clan leader of the kingdom weighs every plot. The ruler's own clan and close kin never join. The rest add up a score:
 
 | What counts | Effect |
 |---|---|
@@ -179,9 +181,9 @@ The four arguments for staying loyal:
 - A lord you keep loyal is sworn to the crown for **30 days**, or **60 days** if you are the ruler.
 - If you fail, you must wait **45 days** before trying that lord again. A bad failure means **60 days** and **−4** relation.
 
-### The Plots tab
+### The Factions tab
 
-Open the kingdom screen (**K**) and pick the **Plots** tab, from anywhere. If you know of no plot, it says *"No whispers reach you."* Once you know of one, it lists every house of the realm by strength with what you know of its stance: *leads the plot* (only once you have found out who leads it), *in the plot*, *in the plot, sworn*, *loyal*, *loyal, sworn*, *wavering* (could still go either way), *the ruler*, *the crown's own* (the ruler's close kin), or *unknown*.
+Open the kingdom screen (**K**) and pick the **Factions** tab, from anywhere. It is laid out like the game's Diplomacy tab: on the left, the mood of every house of the realm, the feuds and factions, and the plots against the crown, one entry each; on the right, the two sides face to face with the game's comparison bars (strength, fiefs, houses) and the list of their houses. If you know of nothing, it says *"No whispers reach you."* Once you know of a plot, its entry lists every house of the realm by strength with what you know of its stance: *leads the plot* (only once you have found out who leads it), *in the plot*, *in the plot, sworn*, *loyal*, *loyal, sworn*, *wavering* (could still go either way), *the ruler*, *the crown's own* (the ruler's close kin), or *unknown*.
 
 If you are in the plot, the top line and a bar give its exact share of the realm's strength and when it can rise. If you are not, you only learn who leads it, and only once you have found out.
 
@@ -189,13 +191,13 @@ The tab also lists, under **Votes you have won**, the votes you have won: lords 
 
 ### Leading your own plot
 
-- Your clan needs a Clan Strength of 1,000. Unlike the AI, you can plot in **any** kingdom, large or not, as long as you are neither its ruler nor the ruler's close kin.
+- You cannot start a plot while you are in another. Your clan needs a Clan Strength of 1,000. Unlike the AI, you can plot in **any** kingdom, large or not, as long as you are neither its ruler nor the ruler's close kin.
 - Lords also join and leave your plot by themselves each week, using the same scores as above. An AI ruler tries to win your members back.
-- Your plot only fails if it has not reached 25% within 60 days. It does not give up after 120 days, and it does not die when the realm shrinks. While it exists, no AI plot can start in that kingdom.
+- Your plot only fails if it has not reached 25% within 60 days. It does not give up after 120 days, and it does not die when the realm shrinks. Other plots may grow beside yours, and lords weigh yours against theirs; whichever rises first ends the rest.
 
 ### Raise the banner
 
-When you lead the plot, the **Plots** tab has a **"Raise the banner"** button. It works only:
+When you lead the plot, its entry in the **Factions** tab has a **"Raise the banner"** button. It works only:
 
 - while you are **inside a town or castle** of your kingdom held by a house of your plot (yours included);
 - with the plot holding **40%** of the realm's strength (the AI needs 50%);
@@ -218,7 +220,7 @@ During a story quest you can only stay, with no penalty.
 
 - Discontent wears on your lords' relation with you, but never on your own clan or close kin, and those never plot against you.
 - Nobody wins lords back for you: talk to them yourself (*"There is a plot against {your name}. Stay loyal to the crown."*), or send an envoy. A lord you keep loyal stays so for 60 days. Talking the plot's leader out of it ends the plot.
-- When the rumour reaches you, ask around, and watch the **Plots** tab, to find who is behind it.
+- When the rumour reaches you, ask around, and watch the **Factions** tab, to find who is behind it.
 - **You can lose the crown.** If the rebels win, their leader rules your kingdom and your house stays on as a vassal.
 
 ### Envoys

@@ -26,10 +26,47 @@ Every town has a priest of its people's faith: a Father or Mother of the churche
 
 - They greet you by your faith and their own character: warmly, sternly, shrewdly or coldly.
 - **Tell me of your faith**: the story of their gods, in their own voice.
+- **What does your faith ask**: the two virtues their faith holds dear, and the deeds it weighs.
+- **Is there some service I could do**: the priest's own tasks (see below).
 - **An offering**: give to the faith, once a season (and once more at each festival).
 - **A pilgrimage**: if you share their faith (see below).
 - **Taking up their faith**: if you do not (see below).
-- **Their recruits are the faithful.** A priest gives men only to those of their faith, and to you as many as your standing with the faith earns, not your friendship with the priest.
+- **Their recruits are for the most devout.** A priest gives men to no lord and to no garrison, and to you only once you are *a pillar* of their faith, whatever your friendship with the priest. Until then they are not among those you can recruit from.
+
+### Warriors of the faith
+
+A priest's recruits are not village lads: they are the sworn warriors of the faith, a line of their own for each faith, as the nobles have theirs. A priest gives only the first of them, already a veteran; the next two ranks are earned in battle.
+
+| Faith | Veteran | Seasoned | Elite |
+|---|---|---|---|
+| The Imperial Church | Cloister Guard | Warden of the Decree | Champion of the Decree |
+| The Church of Paravenos | Sergeant of Paravenos | Brother of Paravenos | Knight of Paravenos |
+| The Forest Gods | Oak-Sworn | Oak Warden | Keeper of the Grove |
+| The Gods of the North | Stone-Sworn | Bear-Shirt | God-Touched |
+| The Old Ways | Woad-Painted | Lake-Sworn | Champion of the Deep |
+| The Faith of the Sacred Months | Well Guard | Rider of the Truce | Sword of Asera |
+| The Sky Father | Kam's Rider | Sky-Sworn | Rider of Mount Iltan |
+
+They are few and slow to come: a priest has only a handful waiting at most, and a long while passes before another answers the call. They fight for their gods more than for silver, and ask far less pay than other soldiers of their rank.
+
+The Gods of the North are kept in the Nord towns of **War Sails**. With War Sails, their warriors are Nords and seafarers, in the berserkers' helms and cloaks and the Ulfhednar's wolf; without it, they wear what the old Nords left in Calradia.
+
+## Priests' missions
+
+A priest asks the faithful for help, as the townsfolk do: ask what service you can do for the church (or the grove, the hof, the shrine...). The task goes into your quest log, with the place marked on the map.
+
+| Mission | What the priest asks |
+|---|---|
+| **Pilgrims to the holy place** | See a band of pilgrims safely to the holy town of the faith. Raiders know the road too. |
+| **Alms of grain** | Bring grain to a village of the faith that is going hungry. |
+| **The stolen relic** | Bandits carried off a relic to their hideout near a village of the faith. Clear the hideout and bring it home. |
+| **The heretic** | A preacher of false words goes from village to village gathering followers. Talk him round, break his band, or let him go, and the priest will not forget it. |
+| **The shrine** | Raiders burned a village of the faith. Bring tools and timber to rebuild its shrine. |
+
+- What the faithful think of you rises with every task done, and the priest thinks better of you. A task left undone or abandoned costs you both.
+- The priest offers silver for your trouble. You may leave it to the temple instead, and the faithful will think the more of you.
+- You may send a companion with some of your men, as with the townsfolk's tasks. The priest is grateful and pays in full, but the faithful would rather have seen you there yourself. If the place is held by your enemies, the priest will not let you go in person; then whoever you send serves just as well.
+- A priest of another faith may ask a stranger who is thinking of joining it for help, one task at a time. It wins only the priest's friendship.
 
 ## Festivals
 
@@ -60,18 +97,42 @@ Every autumn the Aserai keep the sacred months, as the clans of Asera's sons hav
 
 ## Pilgrimage
 
-Ask a priest of your faith to send you on pilgrimage, once a year and never from the holy place itself. A quest log entry marks the holy place and how long your vow allows. There, **Go up to** the shrine and choose your prayer:
+Ask a priest of your faith to send you on pilgrimage, once a year and never from the holy place itself. A quest log entry marks the holy place and how long your vow allows. There, **Go up to** the shrine and keep the **vigil**: two days and two nights at the holy place, waiting in the town. Leave the town and the vigil is undone; you can break it off and take it up again while you stay. When it is kept, choose your prayer:
 
 - **for victory**: your men's morale is higher;
 - **for the wounded**: your company heals faster;
 - **for the road**: your company marches faster.
 
-The blessing lasts half a year, the faithful think better of you, and so does the priest of the holy place.
+The blessing lasts half a year, and the priest of the holy place thinks better of you. The faithful think a little better of you too, but a pilgrimage is the beginning of devotion, not the whole of it.
 
 ## Your standing with your faith
 
-- It rises with every festival kept, every offering and every pilgrimage. Among the most devout, it fades a little with every season, so it has to be kept up. Raiding a village of your own faith costs you dearly.
-- It decides how many of the priests' recruits will follow you, how much the lords of your faith warm to you at a festival, and how the priests greet you.
+How the faithful see you follows how you live and what you do, more than where you go.
+
+**Virtues.** Each faith holds two virtues of character dear, the game's own traits, and their opposites are its sins. With every season the priests weigh yours: the more of its virtues you have, the higher you stand; the more of its sins, the lower. Your traits change with what you do in the game, as always: sparing or executing prisoners, keeping or breaking your word, standing or fleeing, giving or keeping.
+
+| Faith | Its virtues |
+|---|---|
+| The Imperial Church | mercy, generosity |
+| The Church of Paravenos | honour, valour |
+| The Forest Gods | generosity, valour |
+| The Gods of the North | valour, honour |
+| The Old Ways | honour, generosity |
+| The Faith of the Sacred Months | generosity, mercy |
+| The Sky Father | honour, calculation |
+
+**Deeds.** Your standing rises when you clear a bandits' hideout near a village of your faith, when you beat off a raid on a village of your faith, and above all when your army takes your faith's holy town back from another faith. Clearing bandits and defending villages only counts so much in one season. It falls when you raid a village of your own faith, or when you execute a lord who keeps it.
+
+**And the rest.** Festivals, offerings and pilgrimages raise it too. Among the most devout, it fades a little with every season, so it has to be kept up.
+
+### What it is worth
+
+- **The lords of your faith.** One of the faithful is better liked by the lords who keep the same faith, and a pillar more still; the most devout of them, those whose own character holds to the faith's virtues, warm to you most of all. It weighs wherever their goodwill does: whether a house will join your realm or stay in it, the fiefs they would give you, the matches they will arrange with your family, and how they hear you out. If you are a lord of some name and the priests do not know you, the most devout of the lords you have met think less of you.
+- **Your towns and castles of your faith** hold more loyally to a lord they see at their altars.
+- **The priests' recruits** follow only a pillar of the faith.
+- At a festival, the lords of your faith warm to you faster, and the priests greet you as you stand.
+
+It is not kept: if your standing falls, so does their esteem.
 
 ## Changing your faith
 

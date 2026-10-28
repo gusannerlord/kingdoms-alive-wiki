@@ -120,7 +120,7 @@ If your house belongs to the annexed realm but is not its crown, a window **"A n
 
 ## The Vassals tab
 
-The kingdom screen (**K**) has a **Vassals** tab after Court and Plots. It lists your vassals (loyalty, mood and tribute a day), your overlord and its other vassals, the enemies you could ask fealty of, any enemy that *"Demands your fealty"*, and every other vassal realm in Calradia (*"Vassal of the {overlord}"*). Pick one for the details, the loyalty breakdown and its history. Only a ruler gets the buttons.
+The kingdom screen (**K**) has a **Vassals** tab after Court and Factions. It lists your vassals (loyalty, mood and tribute a day), your overlord and its other vassals, the enemies you could ask fealty of, any enemy that *"Demands your fealty"*, and every other vassal realm in Calradia (*"Vassal of the {overlord}"*). Pick one for the details, the loyalty breakdown and its history. Only a ruler gets the buttons.
 
 The encyclopedia page of a kingdom also says *"Vassal realm of the {overlord} since day {N} ({mood})."* or *"Overlord of the {list}."*
 

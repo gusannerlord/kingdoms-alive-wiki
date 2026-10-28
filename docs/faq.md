@@ -34,7 +34,7 @@ In your quest log as well: almost everything the mod asks of you (a feast or hun
 Also in your quest log. A rivalry has its own entry, *"The feud with {rival}"* (see [Your rival](features/rival.md)). As a mercenary, your service shows as *"In the service of the crown of ..."*, and each task the ruler sends you has an entry of its own (see [Mercenary contracts](features/mercenary-contracts.md)).
 
 **Where are the mod's new tabs?**
-In the kingdom screen (**K**), after Diplomacy: **Court** ([The royal court](features/royal-court.md)), **Plots** ([Civil war](features/civil-war.md)) and **Vassals** ([Vassal realms](features/vassal-realms.md)).
+In the kingdom screen (**K**), after Diplomacy: **Court** ([The royal court](features/royal-court.md)), **Factions** ([Factions and grievances](features/factions.md), [Civil war](features/civil-war.md)) and **Vassals** ([Vassal realms](features/vassal-realms.md)).
 
 **Does it work with the Diplomacy mod?**
 No. Both change how kingdoms decide on war and peace. Use one or the other.

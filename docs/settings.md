@@ -115,6 +115,9 @@ See [Vassal realms](features/vassal-realms.md).
 | `FactionConfidantsEnabled` | Friends tell you what is afoot in their realm, and write when it comes to a head. | [Factions and grievances](features/factions.md#you-and-the-factions) |
 | `FactionsInAiRealms` | Factions in the AI kingdoms too, not only in yours. | [Factions and grievances](features/factions.md) |
 | `FactionAiInternalWarLimit` | Only one civil war at a time among the AI kingdoms, and not too soon after another. | [Factions and grievances](features/factions.md#not-too-many-civil-wars) |
+| `FactionFeudsEnabled` | A reckoning the ruler refused may take up arms: a feud between two houses of the realm over the fief. | [Factions and grievances](features/factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses) |
+| `FactionStripRebelsEnabled` | A house that loses a fief to a reckoning's vote may refuse it and break with the realm. | [Factions and grievances](features/factions.md#the-reckoning-of-a-house) |
+| `FactionGrievanceRelationsEnabled` | A wrong between two AI houses sours their heads at once. | [Factions and grievances](features/factions.md#lords-remember) |
 | `EnvoysEnabled` | Envoys (all errands). | [Envoys](features/envoys.md) |
 | `EnvoyCouncilEnabled`, `EnvoyRecruitEnabled`, `EnvoyMarriageEnabled`, `EnvoyTradeEnabled`, `EnvoySoundEnabled`, `EnvoyMeetingEnabled`, `EnvoyGiftEnabled`, `EnvoyPlotJoinEnabled`, `EnvoyPlotLoyalEnabled` | Each envoy errand on its own. | [Envoys](features/envoys.md) |
 | `DuelsEnabled` | Duels between AI lords, and the challenges from houses that hate you (if those are on). Your rival's duel has its own switch. | [Duels](features/duels.md) |
@@ -136,10 +139,16 @@ See [The faiths of Calradia](features/faiths.md).
 | Switch | What it does |
 |---|---|
 | `FaithEnabled` | Every people keeps a faith: priests, festivals, the sacred months, pilgrimages and blessings. Off: none of it. |
-| `FaithPriestsEnabled` | A priest of the town's faith in every town, who gives the faithful his recruits. |
+| `FaithPriestsEnabled` | A priest of the town's faith in every town, who gives their recruits only to a pillar of their faith. |
+| `FaithPietyEnabled` | The lords of your faith think better of you the more devoutly you keep it, the most devout think less of you if you do not, and your towns of your faith hold more loyally to you. |
+| `FaithTroopsWageEnabled` | The warriors of the faiths ask far less pay than other soldiers. |
+| `FaithTroopsEnabled` | A priest's recruits are his faith's own warriors, a line of three for each faith. |
 | `FaithFestivalsEnabled` | Each faith's great festival, once a year in its holy town. |
 | `FaithSacredMonthsEnabled` | Every autumn the Aserai realms go to no war and raid nothing, and whoever attacks them then is cursed. |
-| `FaithPilgrimageEnabled` | You can ask a priest of your faith to send you on pilgrimage. |
+| `FaithMissionsEnabled` | Priests ask the faithful for help, as the townsfolk do. Each mission has its own switch: `FaithMissionPilgrimsEnabled`, `FaithMissionGrainEnabled`, `FaithMissionRelicEnabled`, `FaithMissionHereticEnabled`, `FaithMissionShrineEnabled`. Off: no new ones are offered; those under way can still be finished. |
+| `FaithPilgrimageEnabled` | You can ask a priest of your faith to send you on pilgrimage, to keep a vigil at its holy place. |
+| `FaithVirtuesEnabled` | Each faith holds two virtues of character dear; the way you live raises you among its faithful, or lowers you. |
+| `FaithDeedsEnabled` | Clearing bandits from the lands of your faith, defending its villages and winning back its holy town raise you among the faithful; executing its lords does not. |
 | `FaithBlessingsEnabled` | Festivals and pilgrimages leave a blessing on your company: morale, march or healing. |
 | `FaithConversionEnabled` | You can take up another faith with one of its priests. |
 | `FaithRelationsEnabled` | Lords of the same faith quarrel less, and marry across faiths less often. |
@@ -343,6 +352,14 @@ See [Smarter warlords](features/command-your-armies.md#smarter-warlords-off-by-d
 | `PrudenceHuntBesiegersEnabled` | Armies besieging a third realm are prey. |
 | `PrudenceReliefWaitEnabled` | A relief gathers a few hours from the besiegers' camp until it is strong enough (game version 1.5.5 only). |
 | `PrudenceRallyEnabled` | An AI army too weak for its siege or relief calls more lords. |
+
+### Running from you (on by default)
+See [Running from you](features/command-your-armies.md#running-from-you-on-by-default). These work whether `PrudenceEnabled` is on or off.
+
+| Switch | What it does |
+|---|---|
+| `FleeRouteEnabled` | A party running from you that is no faster than you, or any bandit party, takes the open way that leaves it farthest from you instead of turning about in a dead end. |
+| `FleeRefugeEnabled` | A party running from you makes for a place it reaches before you: bandits a hideout of their own kind, villagers their village, others a town or castle not at war with them. |
 
 ### Campaign
 

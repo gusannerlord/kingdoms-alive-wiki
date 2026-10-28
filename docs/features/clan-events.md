@@ -4,7 +4,7 @@ The clans of a kingdom do not just sit side by side. Now and then two of them sh
 
 ## How often
 
-- In **every kingdom**, one event every **15 to 25 days**.
+- In **every kingdom**, one event every **15 to 25 days**; in [fast mode](fast-mode.md), where a year passes much faster, every **7 to 13 days**.
 - In a kingdom with fewer than 8 clans the wait is longer, so that each pair of clans sees events about as often as in a kingdom of 8. With 4 clans, for example, it is roughly 70 to 120 days. The wait is never more than 6 times the usual one.
 
 ## Who is involved

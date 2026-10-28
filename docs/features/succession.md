@@ -73,7 +73,7 @@ A ruler with a strong claim is the opposite, more gently: lords lean away from p
 
 ## Where you see it
 
-- **The Plots tab** of the kingdom screen opens with the law of your realm, the words the lords use for your ruler's claim (or yours) and whose claim comes next.
+- **The Crown**, the first entry of the Court tab of the kingdom screen, shows the law of your realm, your ruler's claim (or yours) as a bar with the words the lords use for it, and the portraits of the heir and of the strongest pretender.
 - **Ask any lord** *"What do the lords say of {ruler}'s right to the throne?"*. Honest lords, plain-spoken ones, a rival with an eye on the throne and the ruler themselves all answer in their own way.
 
 ## Settings
