@@ -1,13 +1,13 @@
 # Rights to fiefs
 
-Every house holds its towns and castles by right, and remembers the ones it lost. Other houses may claim a fief too: by blood, by having led the siege that took it, through an old claim of their line, or by winning over the fief's own people. A right weighs in the council, and it is what a [reckoning](factions.md#the-reckoning-of-a-house) needs before it can be raised.
+Every house holds its towns and castles by right, and remembers the ones it lost. Other houses may claim a fief too: by blood, by marriage, by having led the siege that took it, through an old claim of their line, or with a claim forged at the holder's own court. A right weighs in the council, and it is what a [reckoning](factions.md#the-reckoning-of-a-house) needs before it can be raised.
 
 ## Firm and weak rights
 
 A right is either **firm** or **weak**.
 
 - A firm right weighs fully in the council. A weak one weighs half.
-- A right belongs to the head of the house who held it. When that head dies, a firm right passes to the next head as a weak one, and a weak right is forgotten. Old claims of a line are the exception (see below).
+- A right belongs to the head of the house who held it. When that head dies, a firm right passes to the next head as a weak one, and a weak right is forgotten. Old claims of a line are the exception (see below), and a claim by marriage belongs to the spouse instead (it dies with them).
 - The holder of a fief always has a firm right to it. A fief just taken and waiting for the council to share it out has no rightful holder until then.
 
 ## How a house comes by a right
@@ -18,76 +18,56 @@ A right is either **firm** or **weak**.
 | **The realm took it back**: a fief lost to a foe, retaken by the realm and given to another house. Both the house that now holds it and the house that lost it have a firm right | Firm |
 | **It led the siege** that took the fief, and the council gave it to another house | Weak |
 | **By blood**: a house died out, and the nearest houses of its kin (by marriage first) take up its claims | Weak |
-| **Old claims of a line**: given to many AI houses when the campaign starts (see below) | Firm or weak |
-| **A forged grant**: an old grant that never was, sworn to by people of the fief (see below) | Weak |
+| **By marriage**: the head of a house or you marry; the house that takes in the spouse claims every fief their house of birth held on the wedding day, for as long as the spouse lives (see below) | Weak |
+| **Old claims of a line**: given to a few AI houses in each kingdom when the campaign starts (see below) | Firm or weak |
+| **A forged claim**: found, or made, at the holder's own court (see below) | Weak |
 
 A house that gives a fief away, leaves its realm, or dies out keeps no right to it.
 
 ## Old claims of a line
 
-When a campaign starts (or the first time you load a save with this version), about **7 in 10** AI houses get an old claim to a town or castle of another house of their own kingdom. Fiefs near their seat and of their own culture are likelier, and the ruler's fiefs much less likely. About **1 in 4** houses also get one in a neighbouring kingdom. About a third of these claims are firm.
+When a campaign starts, **two or three** AI houses in each kingdom get an old claim to a town or castle of another house of their own kingdom, or now and then to one in a neighbouring kingdom. Fiefs near their seat and of their own culture are likelier, and the ruler's fiefs much less likely. About a third of these claims are firm.
 
 These claims are never forgotten: a firm one becomes weak when the head who held it dies, and a weak one stays with the house. This is trouble waiting to happen: a house with a firm claim and no love for the holder can raise a reckoning on its own.
 
 Your house gets none. Yours you win.
 
-## A forged claim
+## A claim by marriage
 
-You can give your house a weak right to another house's fief with an old grant that never was: forged in the back streets, then sworn to by people of the fief.
+When the head of a noble house, or you yourself, marry into another noble house during the campaign, the house that takes in the bride or groom gains a weak claim to every town and castle the spouse's house of birth holds on the wedding day. This goes for your house as much as for the AI: marry well, and you marry into claims. Marriages of sons, daughters and other kin bring nothing, and neither do marriages that already existed when the campaign started.
 
-### The forger
+The claim lasts as long as the spouse lives, and dies with them; it never passes on.
 
-- **Who.** A gang leader of the town (for a castle, of the nearest town). Talk to them: *"I need an old grant drawn up, the kind that names my house as lord of a fief."*, and choose the fief. They must have at least **30** relation with you. If you ask a witness first, they point you to the back streets, and the journal opens an entry, **"A forged claim to {fief}"**, with the town marked.
-- **The talk** works as below (silver, game's persuasion, 2 of 4 arguments): silver, your friendship, the streets left alone under your house, and the holder's fall (easier with a gang leader who dislikes the holder).
-- **If they agree**, the grant is drawn up at once and the journal entry (**"A forged claim to {fief}"**) turns to the witnesses. If it goes badly, the holder hears that you went looking for a forger.
-- Only in person: an envoy can carry a grant, not make one.
+When one of your own marries out this way, you hear that the other house now claims your fiefs.
 
-### The witnesses
+You can press a claim by marriage whenever you like (in a [reckoning](factions.md#the-reckoning-of-a-house), or to put the fief to the council yourself), though your in-laws will not forgive it easily. The AI houses press theirs only when the heads of the two houses are on bad terms: a house will raise a reckoning against its in-laws only over a fief it claims through that marriage, on bad terms with them. Blood kin never.
 
-- **Who they are, and how many.** For a town: **3** people of the town itself (its notables, its priest with the [faiths](faiths.md) on, and its sheriff with [The King's Writ](kings-writ.md) on) **and 4** notables of its villages. For a castle: **4** notables of its villages. Gang leaders forge; they don't swear. Where there are fewer (one town has a single village), you need all there are.
-- **How to ask.** Talk to one of them: *"I have a grant of {fief} to my house; never mind where it came from. When the time comes, would you swear you knew of it?"*. Before the grant exists, they tell you they have seen no such grant, and hint at the back streets. They must have at least **30** relation with you; otherwise they send you away.
-- **The silver.** You offer **4,000**, **9,000** or **18,000** denars (a village notable takes half). You pay only if they agree. The forger takes the same.
-- **The talk.** It uses the game's persuasion, with the odds shown on each argument. You need 2 of 4 arguments to land:
-    - silver;
-    - your friendship;
-    - good lordship, which weighs more where the holder rules badly (low loyalty or security);
-    - one that suits what they are: the temple's old rolls for a priest, a sheriff's seal for a sheriff, trade for a merchant or artisan, the village's old dues for a village notable.
-- **Who listens.** Their character matters. A calculating or closefisted notable likes silver, and an honest one is put off by it (and offended by a lavish purse). A merciful one likes good lordship.
-- **Friendship.** At 30 to 49 relation every argument is a step harder; from 50 they are normal, and from 75 a step easier.
-- **Who you are.** Being good at an argument's skill (Trade for silver, Charm for friendship, Leadership for good lordship, Roguery for the streets) makes it a step easier. So does a lot of Charm, and so does a character that suits the argument; the wrong character makes it a step harder.
-- **When they agree**, they tell you what is still needed, for example *"you will need two more witnesses in {fief} itself, and four from its villages"*. One whose side has sworn enough already tells you so, and takes no silver.
-- **If they say no**, they will not hear it again for **72 days**. If it goes badly, the holder of the fief hears of the forgery and thinks **5** less of you. Leaving before your first argument costs nothing.
+## A claim forged at a foreign court
 
-A rough idea, per notable, with the middle purse:
+Leave a companion or a member of your family in a town or castle of another house with the game's own **"+"** in the town or castle panel. As in the base game, they win friends among the notables and lords there. You can also speak with them there (in the town, or with **"Seek out {name} at the court of the {house}"** in the town or castle menu) and ask them to **forge a claim to that fief**: *"Their archive must be full of old parchment. Find me a claim to {fief}, one the council will have to hear."* Only towns and castles, only the fief they are in, and never one of a kingdom at war with yours.
 
-| Relation | A new character | A charming, skilled one |
-|---|---|---|
-| 30 | about 1 in 4 to 1 in 2 | about 2 in 3 to 4 in 5 |
-| 50 | about 1 in 2 to 2 in 3 | almost always |
-| 75 | almost always | almost always |
+- **An honourable guest refuses**, in their own words, and goes on making friends.
+- **Forging.** It cannot be hurried. Every day there is a small chance that they find (or make) the grant, and the chance depends on their **Charm**: a charming courtier may manage it in a season or two, one with little Charm may take years, or never. There is no time limit, and asking them how it goes gives you an idea in their own words. While they work on the parchment they make no new friends among the notables there; tell them to leave it be and they go back to it.
+- **When it can be done**, a letter tells you what it will cost: clerks, witnesses and seals are not cheap. The price is about a twentieth of what the fief itself is worth in a trade between kingdoms, so tens of thousands of denars for a castle and well over a hundred thousand for a rich town. Pay, and your house has a weak claim to the fief. Do not pay (or cannot), and they keep looking: the chance comes again some other day, as in Crusader Kings. They stay where they are until you call them back through the clan screen.
+- **It stops** if they leave the fief, are taken or die, if the house loses the fief, if your house comes to hold it or a claim to it by other means, or if your kingdom and theirs go to war. You hear of it in their words when it matters to you.
+- **The journal** keeps an entry for each of them while they forge, **"{name} seeks a claim to {fief}"**, with the fief marked on the map.
 
-The hard part is making friends of them first, in the town and out in its villages. The journal entry keeps count of the witnesses on each side and how many you still need.
+## When others forge claims to your fiefs
 
-### Sending an envoy
-
-Once the grant is forged, you don't have to find the witnesses yourself. Ask a companion or kinsman *"I need you to carry a message for me"* and choose **"Find witnesses for our forged grant"**. Pick the fief (only those with a grant ready and where enough of the people, in the town and in its villages, are friends of your house) and the purse. The envoy rides there with the grant, asks everyone who would hear you and is still needed, with the same arguments and the same odds you would have, but with **their own** Charm, skills and character. They carry the silver for the witnesses still needed and bring back what they don't spend. The window before you send them gives the odds of finding witnesses enough on that visit. As with any [envoy](envoys.md), they can be taken prisoner on a road through enemy land, and the silver is lost with them.
-
-### When others court your people
-
-AI houses forge grants of fiefs they covet in their own kingdom, and look for witnesses. It takes them a month or two, and about 6 times in 10 it works. If the fief is yours, word reaches you: *"men of the {house} have been seen with its notables, with silver and an old grant nobody had heard of before"*. Talk to a notable of that fief who is your friend (30 relation or more) and ask *"I hear someone has been going among the people of {fief} with silver."*. They tell you who it is, and the courting comes to nothing. A claim won on your fief matters if it ever leaves your hands: the council will hear that house.
+AI houses forge claims too. Now and then a house whose head is not honourable quietly works on a claim to a fief near its own, in any kingdom, yours included; a house that bears a grudge against the holder is likelier to choose that house's fief. They pay the same price as you, from the purse of the house's head, and wait until they have it. You see nothing of it until it succeeds. If the fief is yours, word reaches you: *"the {house} have found an old grant to {fief} in their name, sealed and witnessed, though nobody had heard of it before."* A claim on your fief matters if it ever leaves your hands: the council will hear that house.
 
 ## In the council
 
 - **Sharing out a fief.** A house with a firm right counts double when the council picks the candidates and weighs them; a weak right counts half as much again. Honourable lords care most about this. It is never a sure thing: a house that already holds a lot is still weighed down by it, and the ruler has the last word.
 - **Putting a fief to the council yourself.** The ruler can propose taking any house's fief (the kingdom screen's **Annex**). A vassal, you or an AI lord, can only do it for a fief their house has a right to, or that a reckoning they are in claims. Otherwise the button is greyed: *"Your house has no right to {fief}..."*. With a right but no reckoning you can still try alone, but nobody is bound to vote with you.
-- **A reckoning's vote.** When a reckoning puts a fief to the council, the houses outside it lean towards the reckoning's right, firm or weak, and the more honourable they are the more they lean. Most still side with the holder unless they have no love for them.
+- **A reckoning's vote.** When a reckoning puts a fief to the council, the houses outside it lean a little towards the reckoning's right, firm or weak, and the more honourable they are the more they lean. It tips a close vote, no more: a house that is on fair terms with the holder still sides with them, and only one that dislikes the holder goes over to the reckoning.
 - **Joining a reckoning.** A right draws lords to it, honourable ones most.
 - **A feud.** If a reckoning takes up arms over a fief and its right is only weak (or it has none), honourable houses with no ties to either side may stand with the holder, whose right is firm. Never a house that counts the holder an enemy (no love for its head, or an old grudge against its house). When one does, you hear it in their own words. It doesn't always happen: about 1 in 7 for an honourable lord, about 1 in 3 for a very honourable one. A reckoning with a firm right draws nobody in this way.
 
 ## Where to see it
 
-- **Encyclopedia.** A house's page says what it claims beyond what it holds, how firmly, and why. A fief's page says who holds it by right, who else claims it and why, and, if you have a forged grant of it, how many witnesses have sworn to it.
-- **Kingdom screen, Factions tab.** Under **Fiefs and rights**, **Your house's rights**: your rights, the forged grants still looking for witnesses, who is courting the people of your fiefs, who claims your fiefs, and the lords who will back you when the next fief is shared out.
+- **Encyclopedia.** A house's page says what it claims beyond what it holds, how firmly, and why. A fief's page says who holds it by right, and who else claims it and why.
+- **Kingdom screen, Factions tab.** Under **Fiefs and rights**, **Your house's rights**: your rights, who of your house is forging a claim at a foreign court, who claims your fiefs, and the lords who will back you when the next fief is shared out.
 
 ## Turn it off
 
@@ -95,10 +75,11 @@ In the [settings file](../settings.md), set to `false`:
 
 - `FiefRightsEnabled`: all of it (rights are still kept, but count for nothing, and a reckoning needs none);
 - `FiefRightsVotesEnabled`: rights in the council;
-- `FiefRightsVoicesEnabled`: forged claims; `FiefRightsForgerEnabled`: the grant must first be forged by a gang leader (off: no forger, and gang leaders can be witnesses); `FiefRightsEnvoyEnabled`: sending an envoy to find witnesses;
+- `FiefRightsForgeEnabled`: forging claims at a foreign court;
+- `FiefRightsMarriageEnabled`: claims by marriage;
 - `FiefRightsReckoningNeedsRight`: a reckoning needs a right;
 - `FiefRightsNativeRevokeNeedsRight`: a vassal needs a right to put a fief to the council;
 - `FiefRightsAncestralEnabled`: old claims of a line for the AI;
-- `FiefRightsAiVoicesEnabled`: AI houses forging claims too;
+- `FiefRightsAiForgeEnabled`: AI houses forging claims too;
 - `FiefRightsFeudHonourEnabled`: honourable houses standing with the better right in a feud;
 - `FiefRightsEncyclopediaEnabled`: rights in the encyclopedia.

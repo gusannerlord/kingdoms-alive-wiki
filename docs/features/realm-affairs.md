@@ -6,7 +6,7 @@ When your kingdom is at peace, trouble comes up inside it: a band of sellswords 
 
 - Only in the kingdom you **rule or serve as a vassal**. Mercenaries and AI kingdoms have none.
 - Your kingdom must have been at peace with every other kingdom for **8 days**.
-- A new affair comes up **15 to 20 days** after the last one came up. If the last one is still going on by then, the next comes the day after it is over.
+- A new affair comes up **50 to 65 days** after the last one came up. If the last one is still going on by then, the next comes the day after it is over.
 - **One affair at a time**, never the same kind twice in a row. None starts while you are a prisoner.
 - Feasts, hunts and petitions do not hold them back: they can fall in the same days.
 - If the place stops being part of your kingdom, or you leave the kingdom, the affair simply ends.

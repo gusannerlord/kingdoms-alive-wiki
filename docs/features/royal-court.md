@@ -8,7 +8,7 @@ The kingdom screen (**K**) has three new tabs after Diplomacy: **Court**, **Fact
 
 The **Court** tab lists:
 
-- **The Crown**, picked first: the ruler's portrait, the realm's law of succession, the ruler's [right to rule](succession.md) as a bar with the words the lords use for it, and the portraits of the heir and of the strongest pretender;
+- **The Crown**, picked first: the ruler's portrait, the realm's law of succession, the ruler's [right to rule](succession.md) as a bar with the words the lords use for it, the portraits of the heir and of the strongest pretender, and the houses with a [claim to the throne](succession.md#claims-to-the-throne) and why;
 - the five **offices**, with each holder's portrait and name, or *Vacant*. Pick one to see who holds it, their skill, how much of the full effect they give (*"... 50% of the full effect"*) and what it gives right now;
 - **Petitions**: how many people are waiting for you to [hold court](#holding-court) (*"N waiting"*, or *"N waiting, fiefs losing loyalty"* once the wait starts to cost you);
 - **Oaths of fealty**: while the houses are swearing to a new ruler, where each one stands.
@@ -25,7 +25,7 @@ The **Factions** tab shows the mood of the houses and what you know of the feuds
 | **Marshal** | Leadership and Tactics (the average) | +0.5 militia and +0.5 security a day in every town and castle of the realm, whoever holds it; villages +0.125 militia a day. Also leads the realm's armies and carries the ruler's orders to the lords (see [Command your armies](command-your-armies.md)) |
 | **Steward** | Steward and Trade (the average) | +4% tax in the towns and castles of the ruler's own clan |
 | **Master of Works** | Engineering | +8% construction in the towns and castles of the ruler's own clan |
-| **Chancellor** | Charm | +0.5 influence a day for the ruler's clan, and 15% less [discontent](civil-war.md#discontent) among the lords when the realm is too large |
+| **Chancellor** | Charm | +0.5 influence a day for the ruler's clan; less of the goodwill toward the ruler a house loses over the [crown's wrongs](factions.md#lords-remember): a good one spares about a third, and only a truly exceptional one half (a small wrong may then cost no goodwill at all, now and then; the grievance itself is remembered just the same); with the old [discontent of large kingdoms](civil-war.md#discontent-off-by-default) turned on (off by default since 1.27.1), also 15% less of it |
 | **Warden of the King's Peace** | Scouting and Leadership (the average) | +0.3 security a day in every town and castle of the realm, whoever holds it |
 
 !!! note "The Warden and the King's Writ"
@@ -56,7 +56,7 @@ Who says no:
 
 What it costs or gives:
 
-- Naming a lord of another house pleases that house: **+10** with its head (once every 120 days per house).
+- Naming a lord of another house pleases that house: **+5** with its head (once every 120 days per house).
 - Clan leaders with more renown than the house you chose, and less than 30 relation with you, feel passed over: **−3** each.
 - Dismissing or replacing someone of another house costs **−15** relation, they cannot be named again for 60 days, and their house leans a little towards plots for a while. Dismissing your own family or companions costs nothing.
 
@@ -69,6 +69,11 @@ When you come to the throne, you inherit the old ruler's court and can keep it o
 - For **Marshal** they prefer a lord who leads their own party in the field over one who keeps to their hall, whatever the skill; they look elsewhere only if no such lord is to be had. When the Marshal's seat falls empty, the ruler fills it within a day or two, not at the next monthly look.
 - They dismiss a holder who leads a plot once it is talked about in the realm.
 - A new AI ruler keeps the old court for 15 days before changing it.
+- An empty office does not wait for the monthly look: an AI ruler fills it within a few days (4 to 8), once a new ruler's first 15 days are over. If the best choice is of your house while an office is already being offered to you, the seat goes to the best of the others instead of staying empty.
+
+### The Marshal's burden
+
+When a fief of the realm falls to a siege and no army of the realm marched to it or lingered near it, nor any lord fought for it or stood within its walls, its house blames the crown and the **Marshal** too: a smaller grudge against the Marshal's house, and the head of the house thinks less of the Marshal (about half of what the ruler loses for it, a good Chancellor or not). Not when the Marshal is of the house that lost it, or of the ruler's own house or family: then the crown already answers for it. If you are the Marshal, you will hear of it. See [Factions and grievances](factions.md#lords-remember).
 
 **Offers to you.** If you or a noble of your family is the best choice for an office, the ruler sends a letter, **"An office at court"**, saying what the office would give. **Accept** for the office and **+10** relation with the ruler. **Decline** costs **−5** relation, and that ruler will not ask again for 60 days. Your companions are never offered offices by an AI ruler.
 
@@ -90,10 +95,10 @@ People come to ask you for things, and you hear them by holding court in one of 
 
 ### Who comes, and how often
 
-- As **ruler**, a new request arrives every **25 to 30 days**, from anywhere in the realm. As a **vassal** with fiefs of your own, every **40 to 48 days**, only from your own fiefs, and never the requests marked "ruler" below.
+- As **ruler**, a new request arrives every **25 to 30 days**, from anywhere in the realm. As a **vassal** with fiefs of your own, every **62 to 75 days**, only from your own fiefs, and never the requests marked "ruler" below.
 - You are told who asks and for what, for example: *"{Who} has come to ask you for {what}, and waits to be heard at {place}."* As ruler, a lord's request reads *"... Hold court in one of your own towns or castles and they will ride there to be heard."*
 - Up to **5** can wait at once. The Court tab lists them under **Petitions**, by where they come from.
-- While your realm is at war, requests still come, but the waiting does not count: nobody gives up and nothing is held against you. A ruler with no town or castle of their own gets no new requests, and the waiting does not count either.
+- While your realm is at war, no new request comes, and the waiting of those already there does not count: nobody gives up and nothing is held against you. A ruler with no town or castle of their own gets no new requests, and the waiting does not count either.
 
 ### "Hold court"
 
@@ -115,7 +120,7 @@ In the menu of one of **your own** towns or castles, choose **"Hold court"**. Ho
 | **gold to raise troops** (ruler) | a lord whose party is under half strength | Give 3,000 denars plus 1,000 per clan tier, at most 8,000 (**+6**), or refuse (−2). |
 | **abuses of a lord** (ruler) | a village notable, against the lord who holds their town or castle | Reprimand the lord yourself (−8 with them, +10 loyalty there, +5 with the notable), send it back to the lord (−5 with the notable), or have your **Marshal** look into it: after 5 days the complaint may turn out false. |
 | **freedom from dues** | a merchant of your town | Grant 60 days without dues (10% less tax there, **+1 prosperity a day**, shown as *"Merchants' exemption"*, and +6), lend 5,000 denars to be repaid in 60 days (+3), or refuse (−4). |
-| **a quarrel over land** | two notables of one place | Give the land to one or the other (+6 / −6), split it (+2 each), or let them settle it. |
+| **a quarrel over land** | two notables of one place | Give the land to one or the other (+6 / −6; the two also grow **5** closer to each other), split it (+2 each; the two grow **15** closer), or let them settle it. Heard or not, the same two do not bring it again for 120 days. |
 | **a widow's pension** | a soldier's widow, after a battle you fought | Pay 500 denars (+2 loyalty there) or refuse. |
 | **a prisoner's freedom** | the house of a lord you hold prisoner | Free them (+10 with the house head), ransom them for twice the usual price, or keep them (−5). |
 | **a place in your guard** | an old soldier | Take him: a seasoned (tier 5) soldier of your culture joins you. |
@@ -173,10 +178,11 @@ You can also talk to a house that has not sworn: persuade it (*"Hear me out befo
 As ruler, you can still put a vassal's town or castle to the council's vote (the **Propose** button on the Fiefs tab of the kingdom screen), but it is no longer free of consequences.
 
 - **Every vassal house worries it is next.** The moment you propose it, you lose **5** relation with the head of every house of your realm: *"Word spreads that you mean to take {fief} from the {clan}. Your vassals wonder whose fief is next..."* What this costs you with any one lord never goes past **−25** in all, and it comes back slowly, about 5 points every 120 days.
-- **The holder may refuse.** If the vote passes, the house that held the fief may refuse to give it up, renounce its oath to you and leave your kingdom **with all its fiefs**, at war with you. A window **"A house in revolt"** tells you. The chance is about **60%**, lower if its head likes you or is honorable (−10% per level of Honor), higher if they hate you or are valorous (+5% per level of Valor), and always between 20% and 90%. A house that refuses keeps the fief; the vote on who gets it is dropped.
+- **The holder may refuse.** If the vote passes, the house that held the fief may refuse to give it up, renounce its oath to you and leave your kingdom **with all its fiefs**, at war with you. A window **"A house in revolt"** tells you. Few houses dare it: one house alone against a whole kingdom is a desperate thing. The chance starts at only **10%**. It is higher for a brave, proud head (+15% per level of Valor) or one who hates you, and lower for an honorable one (−10% per level of Honor) or a calculating one (−10% per level of Calculating), who will not take on a kingdom alone. It never goes past 70%. A house that refuses keeps the fief; the vote on who gets it is dropped.
 - Otherwise the house **bows** and yields the fief, and the vote on its new holder goes ahead as usual.
 - A house that is part of a [plot](civil-war.md) does not break away alone: it bows and waits for the rising. During a [civil war](civil-war.md), a house that refuses goes over to the other side instead.
 - A house riding at your side (in your army, your battle or your siege, or while you are in one of its towns or castles) waits until it is no longer with you before it breaks away.
+- **No easy way back.** A house that broke away over a fief does not slip back into peace with the kingdom it left on a whim, as houses without a kingdom do in the base game. It makes peace on the same terms as two kingdoms (see [Peace needs both sides](war-and-peace.md#peace-needs-both-sides)): the crown must be willing, or the war must be clearly decided, or it must have lasted 80 days.
 
 ### Winning the votes first
 
@@ -214,3 +220,4 @@ In the settings file (see [Settings](../settings.md)):
 - `AudiencesEnabled` to `false`: no petitions and no "Hold court".
 - `OathEnabled` to `false`: no oath of fealty when a ruler changes.
 - `FiefRevocationEnabled` to `false`: taking a fief from a vassal works as in the base game, with no lost relations and no revolt.
+- `BreakawayPeaceRulesEnabled` to `false`: a house that broke away makes peace with its old kingdom as easily as in the base game.

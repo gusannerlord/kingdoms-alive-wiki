@@ -7,7 +7,7 @@ The game has no wild animals to hunt in a scene, so the hunt is told on the camp
 ## When the AI holds a hunt
 
 - A kingdom must have been at peace with every other kingdom for **5 days**.
-- Each day there is a **1 in 10** chance that one of its houses calls a hunt (1 in about 7 with the **Hunting Rights** policy).
+- Each day there is a **1 in 20** chance that one of its houses calls a hunt (1 in about 13 with the **Hunting Rights** policy).
 - After a hunt ends, that kingdom holds no other for **15 days**.
 - Any house of the kingdom can host, the higher-tier houses a little more often. Unlike feasts, it is not mostly the ruler. The host must be leading a party of their own (not with an army), have **3,000 denars**, and be able to reach the fief in time.
 - The host pays **1,000 denars for each house invited**.

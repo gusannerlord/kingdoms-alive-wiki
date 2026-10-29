@@ -21,6 +21,7 @@ A war with none of these behind it needs clearly better odds. Causes that are st
 - **Allies deter.** Half the strength of the target's allies counts on the target's side.
 - **Spoils are shared.** A target that others are already fighting promises less: the first kingdom already at war with it lowers the expected gain by a tenth, and each one after that by a quarter.
 - **A kingdom is a little less afraid of a stronger one** (up to 10% less, when the other side is twice as strong).
+- **"We are stronger" is not reason enough.** When a kingdom at peace weighs a new war, what it simply stands to win ("Right now we are stronger than them", "their lands are rich") counts for less than in the base game; a real cause weighs as before, and so does the fear of losing. Wars already under way, and the making of peace, are weighed as before: kingdoms only start fewer wars of plain greed, and rest longer between them. The number is `WarSpoilsWeight` (0.7) in the [settings file](../settings.md).
 
 ## A kingdom that grows too much
 
@@ -52,6 +53,8 @@ In the base game the kingdom that wants out just leaves, usually paying tribute.
 - the war has lasted 80 days. After that either side can leave as in the base game.
 
 A peace offered to your kingdom always comes to you or to your council, as in the base game.
+
+The same rule holds for a house that [broke away](royal-court.md#taking-a-fief-from-a-vassal) from its kingdom over a fief it would not give up: it cannot buy its way back to peace with that kingdom on a whim, as houses without a kingdom do in the base game. The crown must be willing, or the war must be decided, or it must have lasted 80 days. Other houses without a kingdom (rebels of the base game, mercenaries) make peace as before.
 
 ## Truce and tribute
 
@@ -105,6 +108,7 @@ In the [settings file](../settings.md), set any of these to `false`:
 - `WarWearinessEnabled`: war weariness and the wish for peace after losses.
 - `WarAmbitionEnabled`: restlessness after a long peace.
 - `PeaceNeedsOtherSideConsent`: peace needing both sides.
+- `BreakawayPeaceRulesEnabled`: the same rule for a house that broke away over a fief.
 - `TruceEnabled`: the 45-day truce.
 - `NoWarOnTributePayers`: protection while paying tribute.
 - `DiplomacyRulesApplyToPlayerKingdom`: the truce, tribute and peace rules also binding your kingdom.

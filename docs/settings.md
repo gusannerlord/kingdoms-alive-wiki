@@ -29,6 +29,7 @@ See [War and peace](features/war-and-peace.md).
 |---|---|
 | `WarScoringEnabled` | The mod's way of deciding wars. Off = the base game decides. |
 | `WarStrengthEnabled` | A kingdom that just lost men is not seen as easy prey. |
+| `WarSpoilsWeight` (a number, 0.7) | How much what a kingdom simply stands to win counts when it weighs a new war (1 = base game). Wars under way, peace and allies joining a war are not affected. |
 | `WarSharedSpoilsEnabled` | A kingdom already at war promises less to one more attacker (less piling on). |
 | `WarRulerRelationEnabled` | The relation between rulers counts much more. |
 | `WarRelationIgnoresStrength` | That relation counts the same whatever the kingdoms' strengths. |
@@ -96,13 +97,16 @@ See [Vassal realms](features/vassal-realms.md).
 | `ClanEventsEnabled` | Events between clans. | [Events between clans](features/clan-events.md) |
 | `VoteRelationsEnabled` | Your council votes, and your decisions as ruler, change relations by the mod's fairer rules. | [Council](features/council.md#relations-from-council-votes) |
 | `VoteRelationsAiEnabled` | AI lords' votes change relations between them too. | [Council](features/council.md#relations-from-council-votes) |
-| `RealmDiscontentEnabled` | Discontent in kingdoms grown too large. | [Civil war](features/civil-war.md) |
+| `RealmDiscontentEnabled` | Discontent in kingdoms grown too large (off by default since 1.27.1). | [Civil war](features/civil-war.md) |
 | `ConspiracyEnabled` | Plots and civil wars. | [Civil war](features/civil-war.md) |
+| `RealmSizeAmbitionEnabled` | The larger a kingdom grows beyond its fair share, the more its lords resent the crown's wrongs, the sooner they plot or band together and the more readily they join. Numbers you can change: `RealmSizeFullAtTimesShare` (2), `RealmSizeGrievanceBoost` (1), `RealmSizePlotRelationBoost` (10), `RealmSizeJoinBoost` (10), `RealmSizeReckoningGrudgeCut` (0.3). | [Civil war](features/civil-war.md#great-realms-restless-lords) |
+| `PlotsOnlyInLargeRealms` | Off by default. On: the old way, where the AI plots only in a kingdom grown too large or under a weak ruler, and a plot ends once its kingdom shrinks. | [Civil war](features/civil-war.md#too-large) |
+| `ThroneClaimsEnabled` | Claims to the throne: every plot names from the start the house it would crown, a house with a claim (blood, marriage, a crown once worn or the law of the realm). Any discontented house may start a plot; the pretender needs the strength. Numbers you can change: `PlotMinStrength` (500, the Clan Strength a pretender needs), `PlotPretenderRelation` (10, the best relation with the ruler a pretender may have), `PlotPretenderBonus` (10, what being the one crowned adds to a pretender's wish to join) and `PlotClaimElectiveTop` (3, how many of the best claims to rule count as claims to the throne under an elective law), `PlotClaimBloodTop` (2, the same under a hereditary law or the founder's blood). Off: the house that starts a plot is its pretender and needs `PlotMinStrength`, and the ruler's close kin never plot. | [Civil war](features/civil-war.md#how-a-plot-starts) |
 | `CivilWarOutsideRestraintEnabled` | Other kingdoms hold back from attacking either side of a civil war. | [Civil war](features/civil-war.md) |
 | `CivilWarNotifyPlayer` | A notice in the middle of the screen when any kingdom falls into civil war. | [Civil war](features/civil-war.md) |
 | `SuccessionLawsEnabled` | Each realm follows its own law of succession when its ruler dies. Off: the base game's vote everywhere. | [The crown and its claim](features/succession.md) |
 | `RightToRuleEnabled` | Every lord has a claim to the crown, and the ruler's claim has the effects below. | [The crown and its claim](features/succession.md#what-makes-a-claim) |
-| `RightToRulePlotsEnabled` | A weak claim breeds plots, even in a kingdom that is not too large. | [The crown and its claim](features/succession.md#what-a-claim-does) |
+| `RightToRulePlotsEnabled` | A weak claim breeds plots: a lord with a better claim than the ruler starts one with less bad blood. | [The crown and its claim](features/succession.md#what-a-claim-does) |
 | `RightToRuleOathEnabled` | The new ruler's claim weighs in every house's oath. | [The crown and its claim](features/succession.md#what-a-claim-does) |
 | `RightToRuleWarEnabled` | The claim weighs in war and peace. | [The crown and its claim](features/succession.md#what-a-claim-does) |
 | `RightToRuleCouncilEnabled` | The claim weighs in the council's support for the ruler's proposals. | [The crown and its claim](features/succession.md#what-a-claim-does) |
@@ -116,17 +120,33 @@ See [Vassal realms](features/vassal-realms.md).
 | `FactionsInAiRealms` | Factions in the AI kingdoms too, not only in yours. | [Factions and grievances](features/factions.md) |
 | `FactionAiInternalWarLimit` | Only one civil war at a time among the AI kingdoms, and not too soon after another. | [Factions and grievances](features/factions.md#not-too-many-civil-wars) |
 | `FactionFeudsEnabled` | A reckoning the ruler refused may take up arms: a feud between two houses of the realm over the fief. | [Factions and grievances](features/factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses) |
+| `FactionFeudDefyCouncilEnabled` | An AI reckoning the council turns down may take up arms all the same. | [Factions and grievances](features/factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses) |
+| `FactionFeudPressRightEnabled` | A house of the AI with a right to a fief another house of its realm holds may press it by the sword, with no reckoning. | [Factions and grievances](features/factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses) |
+| `FactionFeudPlayerJoinEnabled` | Kin and friends of either side of a feud ask your help when it breaks out, and you may offer your sword (or hire out your company as a mercenary) to either house at any time, in person or by an envoy. | [Factions and grievances](features/factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses) |
+| `FactionFeudMusterEnabled` | When a feud breaks out, the lords of both sides whose companies are thin make recruiting their first care for some days: they ride to towns and villages with volunteers for them and recruit there as always. Their garrisons are left as they are. Numbers you can change: `FactionFeudMusterDays` (10), `FactionFeudMusterUntilRatio` (0.9 of what a company is filled to: its size, or less when its house cannot pay more wages), `FactionFeudMusterPriority` (3), `FactionFeudMusterReachDays` (2, how far from its lands a house is reckoned to find men when it weighs a feud). | [Factions and grievances](features/factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses) |
+| `FactionFeudHireMercenariesEnabled` | Each side of a feud hires free companies of sellswords, paid once by its richest house. Numbers you can change: `FactionFeudSellswordsMax` (4, counting the companies for hire below), `FactionFeudSellswordFeePerMan` (25), `FactionFeudSellswordFeeMin` (1000), `FactionFeudSellswordGoldShare` (0.3 of the payer's gold at most). | [Factions and grievances](features/factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses) |
+| `FactionFeudHireCompaniesEnabled` | Once a feud is declared, the lords of the claimants may also hire the [companies for hire](features/free-companies.md), as any lord at war does, if their purses can bear it; never so many that fewer than `CompanyFeudLeaveFree` (2) stay free, and never with fewer than `FactionFeudCompanyMinDaysLeft` (15) days of the feud left or once the claimants hold the fief. Needs `FactionFeudHireMercenariesEnabled`, `CompanyHireEnabled` and `CompanyAiHireEnabled`. | [Factions and grievances](features/factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses) |
+| `FactionFeudArmyRulesEnabled` | The lords of a feud's host can gather an army with lighter companies than a realm asks. Numbers you can change: `FactionFeudArmySizeRatio` (0.3 of a company's size; the game asks 0.6), `FactionFeudArmyMinStrength` (0; the game asks 1000). | [Factions and grievances](features/factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses) |
+| `FactionFeudPrepareEnabled` | A house of the AI that means to take up arms first gathers its men in silence and declares only when its lords' companies are nearly full and it can reach the walls; it lets the quarrel be if it cannot in time. Numbers you can change: `FactionFeudPrepareRatio` (0.9 of what the companies are filled to, wounded men counted), `FactionFeudPrepareDays` (30, not counted while the realm waits out a war or a foe stands at its walls). | [Factions and grievances](features/factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses) |
+| `FactionFeudFeasibleOnlyEnabled` | A house of the AI does not take up arms over a fief its side could never besiege. Numbers you can change: `FactionFeudFeasibleMargin` (0.9: a side that could bring nine tenths of what the siege asks, the sellswords it could hire included, may take up arms; it keeps recruiting and hiring while the feud lasts), `FactionFeudSiegeFactor` (1.25: how many times the strength within its walls a host brings before it lays siege to the fief in dispute, and what a house weighs when it decides; the game asks 2 for any siege, and this changes no other siege). | [Factions and grievances](features/factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses) |
+| `FactionFeudGiveBackEnabled` | When a feud ends, fiefs taken that were not the one in dispute go back to their houses, unless the taker refuses. | [Factions and grievances](features/factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses) |
 | `FactionStripRebelsEnabled` | A house that loses a fief to a reckoning's vote may refuse it and break with the realm. | [Factions and grievances](features/factions.md#the-reckoning-of-a-house) |
+| `RevokeFeudEnabled` | A house that loses a fief to a reckoning's vote but will not break with the realm may hold it by force; the reckoning then takes up arms in a feud the ruler lets them settle. Needs `FiefRevocationEnabled`, `FactionStripRebelsEnabled` and `FactionFeudsEnabled`. | [Factions and grievances](features/factions.md#the-reckoning-of-a-house) |
+| `ReckoningsWaitForPeaceEnabled` | While the realm is at war with another kingdom, reckonings bring no vote, demand or feud to a head, unless the war drags on past 60 days (`ReckoningWarPatienceDays`). | [Factions and grievances](features/factions.md#the-reckoning-of-a-house) |
 | `FactionGrievanceRelationsEnabled` | A wrong between two AI houses sours their heads at once. | [Factions and grievances](features/factions.md#lords-remember) |
-| `FiefRightsEnabled` | Rights to fiefs: old rights to lost fiefs, rights by blood, by leading the siege, old claims of a line. Off: rights count for nothing. | [Rights to fiefs](features/fief-rights.md) |
+| `FactionGrievanceRelationsWithPlayer` | The same against your house: an AI house you wrong thinks less of you. | [Factions and grievances](features/factions.md#lords-remember) |
+| `FactionAbandonedGrievanceEnabled` | A house whose fief falls to a siege blames each army of the realm that lingered within `FactionAbandonedRideDays` (1 day) for `FactionAbandonedMinHours` (12) hours while free to come (not besieging elsewhere, not in a battle, not holding or relieving another besieged fief, not gathering, not marching to the fief) and never fought for it, you included; against the crown if it was the ruler's army. The crown alone is blamed only when no army marched to the fief or lingered near it and no lord fought or stood within its walls. Numbers you can change: `FactionGrievanceAbandoned` (10), `FactionAbandonedRelation` (5), `FactionAbandonedComingMinHours` (3, hours on its way for an army to count as coming). Off: the rule of before (any lord within `FactionUndefendedRideDays`, 1.5 days, spares the crown). | [Factions and grievances](features/factions.md#lords-remember) |
+| `FactionMarshalBlameEnabled` | A fief that falls with no army near and no lord fighting for it is held against the realm's Marshal too. Number you can change: `FactionMarshalBlameShare` (0.5 of the crown's grievance and of the goodwill the ruler loses). | [The royal court](features/royal-court.md#the-marshals-burden) |
+| `PleaToRelieveEnabled` | When you lead an army, a lord in it whose house has a fief besieged nearby asks you to relieve it. Numbers you can change: `PleaMaxRideDays` (3), `PleaRefuseRelation` (3), `PleaBrokenRelation` (6), `PleaKeptRelation` (5), `PleaUnaskedHelpRelation` (3). | [Factions and grievances](features/factions.md#lords-remember) |
+| `FactionCrownGrievanceRelationsEnabled` | A wrong against the crown costs a little of the house head's goodwill toward the ruler (AI or you). Numbers you can change: `FactionCrownGrievanceRelationShare` (0.35 of the grievance), `FactionUndefendedRelationTown` (5) and `FactionUndefendedRelationCastle` (3) for a fief lost with no help sent. | [Factions and grievances](features/factions.md#lords-remember) |
+| `FiefRightsEnabled` | Rights to fiefs: old rights to lost fiefs, rights by blood, by marriage, by leading the siege, old claims of a line, forged claims. Off: rights count for nothing. | [Rights to fiefs](features/fief-rights.md) |
 | `FiefRightsVotesEnabled` | Rights weigh when a fief is shared out and in a reckoning's vote. | [Rights to fiefs](features/fief-rights.md#in-the-council) |
-| `FiefRightsVoicesEnabled` | Win a weak right to a fief with a forged grant its people swear to. | [Rights to fiefs](features/fief-rights.md#a-forged-claim) |
-| `FiefRightsForgerEnabled` | The grant must first be forged by a gang leader of the town (of the nearest town for a castle). | [Rights to fiefs](features/fief-rights.md#the-forger) |
-| `FiefRightsEnvoyEnabled` | Send an envoy with the forged grant to find witnesses for you. | [Rights to fiefs](features/fief-rights.md#sending-an-envoy) |
+| `FiefRightsForgeEnabled` | Someone of your house left in a town or castle of another house (the game's "+") can forge a weak claim to it there. Numbers you can change: `FiefRightForgeCharmPoints` and `FiefRightForgeDailyChances` (the daily chance by Charm). | [Rights to fiefs](features/fief-rights.md#a-claim-forged-at-a-foreign-court) |
+| `FiefRightsMarriageEnabled` | When the head of a house or you marry into another noble house, a weak claim to the fiefs of the spouse's house of birth, for the spouse's life. Number you can change: `FiefRightMarriageReckoningRelation` (-20, how bad the heads' relation must be for an AI house to press such a claim; you press yours at any time). | [Rights to fiefs](features/fief-rights.md#a-claim-by-marriage) |
 | `FiefRightsReckoningNeedsRight` | A reckoning can only be raised over a fief one of its houses has a right to. | [Factions and grievances](features/factions.md#the-reckoning-of-a-house) |
 | `FiefRightsNativeRevokeNeedsRight` | Only the ruler may put any house's fief to the council; a vassal needs a right (their own or their reckoning's). | [Rights to fiefs](features/fief-rights.md#in-the-council) |
-| `FiefRightsAncestralEnabled` | Many AI houses start with an old claim to a fief of another house. | [Rights to fiefs](features/fief-rights.md#old-claims-of-a-line) |
-| `FiefRightsAiVoicesEnabled` | AI houses forge claims to fiefs they covet; you hear of it when the fief is yours. | [Rights to fiefs](features/fief-rights.md#when-others-court-your-people) |
+| `FiefRightsAncestralEnabled` | Two or three AI houses in each kingdom start with an old claim to a fief of another house. Numbers you can change: `FiefRightAncestralPerRealmMin` and `FiefRightAncestralPerRealmMax` (2 and 3). | [Rights to fiefs](features/fief-rights.md#old-claims-of-a-line) |
+| `FiefRightsAiForgeEnabled` | AI houses quietly forge claims to fiefs near their own; you hear of it when the fief is yours. Numbers you can change: `FiefRightAiForgeDailyChance`, `FiefRightAiForgePerRealm` (2), `FiefRightAiForgeNearest` (6). | [Rights to fiefs](features/fief-rights.md#when-others-forge-claims-to-your-fiefs) |
 | `FiefRightsFeudHonourEnabled` | Honourable houses with no ties to either side may stand with the holder in a feud over a weaker right. | [Rights to fiefs](features/fief-rights.md#in-the-council) |
 | `FiefRightsEncyclopediaEnabled` | Rights in the encyclopedia pages of houses and fiefs. | [Rights to fiefs](features/fief-rights.md#where-to-see-it) |
 | `EnvoysEnabled` | Envoys (all errands). | [Envoys](features/envoys.md) |
@@ -154,7 +174,7 @@ See [The faiths of Calradia](features/faiths.md).
 | `FaithPietyEnabled` | The lords of your faith think better of you the more devoutly you keep it, the most devout think less of you if you do not, and your towns of your faith hold more loyally to you. |
 | `FaithTroopsWageEnabled` | The warriors of the faiths ask far less pay than other soldiers. |
 | `FaithTroopsEnabled` | A priest's recruits are his faith's own warriors, a line of three for each faith. |
-| `FaithFestivalsEnabled` | Each faith's great festival, once a year in its holy town. |
+| `FaithFestivalsEnabled` | Each faith's great festival, once a year in its holy town (every second year in fast mode). |
 | `FaithSacredMonthsEnabled` | Every autumn the Aserai realms go to no war and raid nothing, and whoever attacks them then is cursed. |
 | `FaithMissionsEnabled` | Priests ask the faithful for help, as the townsfolk do. Each mission has its own switch: `FaithMissionPilgrimsEnabled`, `FaithMissionGrainEnabled`, `FaithMissionRelicEnabled`, `FaithMissionHereticEnabled`, `FaithMissionShrineEnabled`. Off: no new ones are offered; those under way can still be finished. |
 | `FaithPilgrimageEnabled` | You can ask a priest of your faith to send you on pilgrimage, to keep a vigil at its holy place. |
@@ -272,7 +292,7 @@ See [Companies for hire](features/free-companies.md).
 
 | Switch | What it does |
 |---|---|
-| `CompanyHireEnabled` | The four sellsword companies can be hired. Off = nobody hires them any more; a contract under way runs to its end. |
+| `CompanyHireEnabled` | The sellsword companies can be hired. Off = nobody hires them any more; a contract under way runs to its end. |
 | `CompanyAiHireEnabled` | AI lords hard pressed in a war can hire them too. |
 | `CompanyCourierEnabled` | You can send a rider from a tavern to hire a company without going to its town. |
 | `CompanyBloodMoneyEnabled` | At the end of a contract you pay blood money for each of their men who died. |
@@ -347,14 +367,16 @@ See [The royal court](features/royal-court.md).
 
 | Switch | What it does |
 |---|---|
-| `CourtOfficesEnabled` | The five offices of the court (Marshal, Steward, Master of Works, Chancellor, Warden of the King's Peace) and what they give. |
-| `CourtAiAppointEnabled` | AI rulers name their own court and may offer you an office. |
+| `CourtOfficesEnabled` | The five offices of the court (Marshal, Steward, Master of Works, Chancellor, Warden of the King's Peace) and what they give. Number you can change: `CourtChancellorMaxGrievanceCut` (0.5, the most of the goodwill lost over the crown's wrongs a chancellor spares the ruler, reached only at `CourtChancellorGrievanceFullSkill` Charm, 300; below it the cut falls off with `CourtChancellorGrievanceCurve`, 2, so Charm 240 spares about 30%; up to 0.9). |
+| `CourtAiAppointEnabled` | AI rulers name their own court and may offer you an office. Numbers you can change: `CourtVacancyFillMinDays` (4) and `CourtVacancyFillMaxDays` (8; 0 = off), how soon an empty office is filled. |
 | `CourtChargeEnabled` | When you hold an office for an AI ruler, the affairs of that office come to you as the ruler's charge, with greater rewards. |
 | `AudiencesEnabled` | Petitioners come to you with requests, and **Hold court** in your own towns and castles calls them in and hears them, then the notables of the place with tasks for you. |
 | `OathEnabled` | When a kingdom gets a new ruler, every house swears to them, asks for something or refuses. |
 | `FiefRevocationEnabled` | Proposing to take a fief from a vassal worries your other vassals, and the holder may break away with its fiefs. |
+| `BreakawayPeaceRulesEnabled` | A house that broke away over a fief makes peace with its old kingdom only on the terms between kingdoms (the crown willing, the war decided, or 80 days of war). |
 | `FiefPlotEnabled` | As ruler, win lords over to vote for taking a fief from another house. |
 | `FiefClaimFourCandidates` | Four candidates when a fief is shared out; right after a conquest, the house that led it always stands. See [Council](features/council.md#who-gets-a-fief). |
+| `FiefClaimRulerStands` | One more candidate when a fief is shared out: the ruler's house always stands for a fief not its own, unless the realm's charter gives fiefs to the realm. See [Council](features/council.md#who-gets-a-fief). |
 | `FiefClaimEnabled` | Ask a lord for their voice for your house when the next fief is shared out. |
 | `FiefClaimFriendshipEnabled` | Every lord's vote for your house rises a little with how much they like you. |
 
@@ -394,7 +416,7 @@ See [Running from you](features/command-your-armies.md#running-from-you-on-by-de
 | `FastModeMarriagesEnabled` | More AI marriages in fast mode. See [Fast mode families](features/fast-mode.md). |
 | `FastModeChildrenEnabled` | More AI children in fast mode. |
 | `ChildCultureEnabled` | A child of two AI characters takes the father's culture 9 times out of 10. |
-| `SiegePreparationEnabled` | Siege preparations take twice as long. See [Other changes](features/other-changes.md). |
+| `SiegePreparationEnabled` | Siege preparations take 1.5 times as long. See [Other changes](features/other-changes.md). |
 | `SiegePatienceIgnoresAddedPreparationTime` | The AI besieger is not made impatient by that extra time. |
 | `AiPeaceTrainingEnabled` | Once their kingdom has been at peace for 10 days, AI troops get only a quarter of their free daily training. |
 | `GearPricesEnabled` | Fairer prices of weapons and armour for the player. |

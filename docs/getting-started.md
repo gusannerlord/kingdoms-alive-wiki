@@ -23,7 +23,7 @@ Overwrite the same **CampaignImprovements** folder. Your campaign carries on. Ne
     The mod is best played from the first day of a campaign, and it is **not meant to be removed halfway**. Taking it out of a campaign in progress can break that save.
 
 - It can be added to a campaign in progress, and everything starts working from the day you load it, but a new campaign is the way it is meant to be played.
-- Some features build up over time (tension between kingdoms, discontent in large kingdoms, plots, the courts of AI rulers, vassal realms), so give them a few weeks of game time.
+- Some features build up over time (tension between kingdoms, the grievances of the lords, plots, the courts of AI rulers, vassal realms), so give them a few weeks of game time.
 
 ## Removing the mod
 Do not remove it from a campaign you want to keep playing. If you do, keep a copy of your save first: the campaign may no longer load, or may misbehave. Things the mod had under way (an envoy or companion away on an errand and its quest log entry, a feast or hunt, a civil war, a court, a vassal realm) stay as they were at that moment or are lost. Some of these are kept in your save as quests of the mod's own (your rival, your mercenary service and its tasks, anyone you sent away), and the Unsworn troops are the mod's own too: without the mod, a save that holds them may not load.

@@ -101,7 +101,7 @@ Hovering over a choice shows the cost and where things will stand afterwards, su
 
 A choice that would change nothing is not offered: if the grievances or the goodwill are already at 100 that way, or you have no gold (as ruler, toward peace) or no influence (as a vassal) to pay with. If neither paid choice would change anything, no window opens; you only get the message.
 
-After a window, the next one comes no sooner than 30 to 50 days later (an event that only brings a message does not start this wait). Events of your kingdom in between still happen, and you get a message such as *"... Recent incidents with the Sturgians: grievances 42/100."* If the window cannot open within 2 days (for example because you are in a battle), the event takes its course without you.
+After a window, the next one comes no sooner than 40 to 60 days later (an event that only brings a message does not start this wait). Events of your kingdom in between still happen, and you get a message such as *"... Recent incidents with the Sturgians: grievances 42/100."* If the window cannot open within 2 days (for example because you are in a battle), the event takes its course without you.
 
 !!! tip
     As ruler, a cheap way to keep a strong neighbour off your back is to smooth over the small incidents. A gift of 5,000 denars to their ruler can undo most of a cattle raid.

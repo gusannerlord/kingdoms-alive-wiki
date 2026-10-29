@@ -169,6 +169,8 @@ A lord of the realm held in the **dungeon of an enemy town** within a few days' 
 
 While the task is under way, the lord almost never escapes on their own (about 1 in 8 over the 50 days, instead of nearly always in the base game). If they go free some other way (ransom, peace, someone else) or die, the task lapses with no penalty.
 
+A rescue is asked, never owed: turning it down, failing it or running out of time **costs nothing** (*"Then someone else will have to go. I will carry your answer, captain, and no grudge with it."*).
+
 ### The ruler's rescue
 If the ruler themselves lies in the dungeon of an enemy town within a long ride of you, someone of their house sends the messenger in their place: their spouse, or failing that their eldest child, or the eldest lord of the house. Bringing the ruler home is then the only task offered. It works as a rescue of a lord of the ruler's house (12,000 denars), and the ruler pays and thanks you once free. If the ruler is held somewhere you cannot reach, or carried by a party, the house waits and looks again every few days.
 
@@ -209,7 +211,7 @@ Done, it counts as a task for the crown, with 4 renown, +5 with the ruler and +3
 
 ## Failing and refusing
 
-A refusal or a failed task (time ran out, the caravan lost, the village looted, the army left):
+A refusal or a failed task (time ran out, the caravan lost, the village looted, the army left), except a rescue and a summons to a host:
 
 - your **mercenary pay is cut by half for 12 days**;
 - **-2 relation** with the ruler, but never more than **-5** in all with the same ruler;

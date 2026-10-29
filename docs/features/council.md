@@ -104,7 +104,8 @@ When a vote is settled:
 
 When a town or castle is conquered, or taken from a vassal, the council votes on who gets it. In the base game only the **three** houses the game finds most deserving stand, and that favours houses with little land: once you hold a few fiefs, you often do not even stand for the one you just conquered. The mod gives you ways to play for it.
 
-- **Four candidates instead of three.** Right after a conquest, the fourth is the house that **led** the conquest, if it is not already among the first three. Conquer it yourself and you always stand. Otherwise the fourth is the next most deserving house. (The voting cards are a little narrower to fit four candidates and "abstain".)
+- **Five candidates instead of three.** Right after a conquest, the fourth is the house that **led** the conquest, if it is not already among the first three. Conquer it yourself and you always stand. The fifth is the **ruler's house**, unless the fief was the ruler's own or the realm's charter gives fiefs to the realm. When either of them is already among the first three, their place goes to the next most deserving house. (The voting cards are narrower to fit five candidates and "abstain".)
+- A house promised the fief in a reckoning takes the place of the least deserving candidate, never the conqueror's or the ruler's.
 - **Friendship counts.** Every lord's vote for your house rises a little with how much they like you: at 50 relation, about as much as a house's own merit weighs with a lord who does not care either way.
 - **Ask for a lord's voice.** Talk to the head of another house of your realm, as ruler or vassal: *"When the next fief of this realm is shared out, I would have your voice for my house."* Any lord with 0 relation or more listens, then you argue it out. The more towns and castles your house already holds, the harder it is (one step for every 2); your Charm and a shared feast or hunt make it easier; an honorable lord, who votes by merit, is harder.
 
@@ -130,7 +131,9 @@ Your chances with a lord who has no special traits:
 In the [settings file](../settings.md):
 
 - `CouncilPersuasionEnabled` to `false`: the conversation is no longer offered.
-- `FiefClaimFourCandidates` to `false`: three candidates, as in the base game.
+- `FiefClaimFourCandidates` to `false`: no place kept for the conqueror.
+- `FiefClaimRulerStands` to `false`: no place kept for the ruler's house.
+- Both to `false`: three candidates, as in the base game.
 - `FiefClaimEnabled` to `false`: you cannot ask for a lord's voice for your house.
 - `FiefClaimFriendshipEnabled` to `false`: friendship counts in the vote only as in the base game.
 - `VoteRelationsEnabled` to `false`: your votes and your decisions as ruler change relations as in the base game.

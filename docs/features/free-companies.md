@@ -1,10 +1,10 @@
 # Companies for hire
 
-When a siege is about to fall and you need two hundred swords by next week, the tavern is where you look. Four sellsword companies sit in the towns of Calradia, waiting for someone rich and desperate enough to pay them. They are expensive, they take days to reach you, and they leave the day your silver runs out.
+When a siege is about to fall and you need two hundred swords by next week, the tavern is where you look. Eight sellsword companies sit in the towns of Calradia, waiting for someone rich and desperate enough to pay them. They are expensive, they take days to reach you, and they leave the day your silver runs out.
 
 These are not the tavern mercenaries of the base game, nor the [Unsworn](mercenary-contracts.md) of the mercenary contracts, nor the [free company](realm-affairs.md#a-free-company) that squats in a village in the affairs of your kingdom. You hire a whole company at once, under its own captain, for a fixed term.
 
-## The four companies
+## The eight companies
 
 | Company | Troops |
 |---|---|
@@ -12,6 +12,12 @@ These are not the tavern mercenaries of the base game, nor the [Unsworn](mercena
 | **Grey Lances** | Heavy horse. Grey Lance Squire, then Lancer, Man-at-Arms, Knight; or Mounted Sergeant, Sergeant-at-Arms, Ironhand. |
 | **Sons of the Wind** | Steppe riders. Wind Outrider, then Horse Archer, Bowrider, Wind Archer; or Wind Raider, Wind Lancer, Storm Lancer. |
 | **Blackhand Company** | Axemen. Blackhand Hireling, then Axeman, Shieldbreaker, Ironwall (axe and shield); or Cleaver, Reaver, Headsman (great axe). |
+| **The Last Cohort** | What is left of a broken imperial legion. Cohort Tiro, then Legionary, Veteran Legionary, Triarius; or Archer, Sagittarius, Palatine Bowman. |
+| **The Sand Hawks** | Aserai horse. Sand Hawk Rider, then Faris, Mamluke, Heavy Mamluke; or Skirmisher, Jereed Rider, Desert Falcon. |
+| **The Raven Fianna** | Battanian highlanders. Raven Kern, then Archer, Fian, Chosen Fian (longbows); or Falxman, Veteran Falxman, Champion. |
+| **The Bronze Bucellarii** | Imperial heavy horse. Bucellarii Groom, then Lancer, Cataphract, Clibanarius; or Horse Archer, Veteran Horse Archer, Household Archer. |
+
+- Each company wears the arms of one people only, and never better than that realm's own soldiers of the same rank: what they sell is numbers, ready at once, not finer steel.
 
 - In the party screen every name carries the company's mark (Thornwall Pikeman, Grey Lance Knight, Wind Storm Lancer, Blackhand Headsman...).
 - Each company has **170 to 250 men**, its captain included. Most are tier 3 and 4, with some tier 2 recruits and some tier 5 veterans.
@@ -109,7 +115,7 @@ Prisoners are not dead. If a company's men are captured anywhere, the company bu
 
 Every day, each company for hire has a **1 in 10 chance** of being hired by a lord in need. Only clan leaders whose realm is at war and who are within a rider's reach can hire them, the most hard-pressed first (a besieged fief, a fief just lost, a realm much weaker than its enemy).
 
-A lord only signs if, after the earnest, the whole term's pay and the blood money, they would still keep **200,000 denars**. In practice this means rulers and rich houses. The AI can have **at most 2 companies** at once. If the lord is of your realm or near you, you hear of it: *"Word on the road: ... has hired the Thornwall Company..."*. You may meet their column on the road, and if it is your enemy's, you can attack it.
+A lord only signs if, after the earnest, the whole term's pay and the blood money, they would still keep **80,000 denars**. In practice this means rulers and well-off houses. The AI can have **at most 4 companies** at once. The claimants of a [feud](factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses) may hire them too once they have declared it, by the same reckoning, but never so many that fewer than two stay free for you. If the lord is of your realm or near you, you hear of it: *"Word on the road: ... has hired the Thornwall Company..."*. You may meet their column on the road, and if it is your enemy's, you can attack it.
 
 ## Turn it off
 In the settings file, set the switch to `false`. See [Settings](../settings.md).

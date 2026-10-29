@@ -1,6 +1,6 @@
 # The faiths of Calradia
 
-Every people of Calradia now keeps a faith of its own. Each faith grows out of what the game already tells about it, in the encyclopedia and in the stories of its companions, and out of the real people that culture is drawn from in the years 600 to 1100. Priests live in every town, each faith holds a great festival once a year, and the Aserai keep their sacred months. You can go on pilgrimage, take a blessing home, or even change your faith.
+Every people of Calradia now keeps a faith of its own. Each faith grows out of what the game already tells about it, in the encyclopedia and in the stories of its companions, and out of the real people that culture is drawn from in the years 600 to 1100. Priests live in every town, each faith holds a great festival once a year (every second year in fast mode), and the Aserai keep their sacred months. You can go on pilgrimage, take a blessing home, or even change your faith.
 
 A town or castle keeps the faith of its people, not of its lord: one taken by another realm comes round to that realm's faith only slowly (see [The faith and ways of a fief](faith-and-ways.md)).
 
@@ -73,7 +73,7 @@ A priest asks the faithful for help, as the townsfolk do: ask what service you c
 
 ## Festivals
 
-Each faith holds one great festival a year, always at the same time of year, in its holy town:
+Each faith holds one great festival a year, always at the same time of year, in its holy town. In a fast mode campaign, where a year lasts only 24 days, each faith holds it **every second year**:
 
 | Festival | Faith | When |
 |---|---|---|
@@ -87,7 +87,7 @@ Each faith holds one great festival a year, always at the same time of year, in 
 
 - The lords of that faith ride to it from every realm that is not at war with the town's owner, unless their own wars keep them too far away. The lords of different realms who pray together leave as friends more often, and their realms think a little better of each other: the three empires meet at Diathma.
 - If the holy town is in the hands of another faith, the festival is held **in exile** in a town of the faithful, and every prayer ends with the same plea.
-- **If it is your faith**, word comes a few days before and a quest log entry marks the town. There, **Join the festival**: keep the rites day by day, make an offering, speak with the priest. Each day you keep raises your standing and wins the lords of your faith who are there, the more so the better the faithful think of you. When it ends you take home its **blessing**.
+- **If it is your faith**, word comes a few days before and a quest log entry marks the town. There, **Join the festival**: keep the rites day by day, make an offering, speak with the priest. Each day you keep raises your standing and wins the lords of your faith who are there, the more so the better the faithful think of you. When it ends you take home its **blessing**. The quest log entry tells you beforehand which blessing the festival gives. When it ends, it tells you where you now stand among the faithful, which lords you prayed beside, and what the blessing does and how long it stays with you (half a year).
 - **If it is not**, you may **Watch the festival** from the edge of the crowd.
 
 ## The sacred months

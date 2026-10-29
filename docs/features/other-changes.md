@@ -3,28 +3,28 @@
 Three smaller changes to the campaign: sieges give relief armies time to arrive, AI armies are forged in war rather than in idle peace, and good weapons and armour cost something a player can actually save up for.
 
 ## Longer siege preparations
-**Siege Preparations** (the first thing a siege camp builds, before any siege engine and before it can assault) take **twice as long**, for you and for the AI, in any campaign.
+**Siege Preparations** (the first thing a siege camp builds, before any siege engine and before it can assault) take **half as long again** (1.5 times as long), for you and for the AI, in any campaign.
 
 In the base game, preparations take roughly 48 days divided by the square root of the healthy besiegers, before Engineering bonuses:
 
 | Besiegers | Base game | With the mod |
 |---|---|---|
-| 100 | about 4.8 days | about 9.6 days |
-| 400 | about 2.4 days | about 4.8 days |
-| 1,000 | about 1.5 days | about 3 days |
+| 100 | about 4.8 days | about 7.2 days |
+| 400 | about 2.4 days | about 3.6 days |
+| 1,000 | about 1.5 days | about 2.3 days |
 
 What this means in play:
 
 - Defenders have more time to build their own engines and for help to arrive.
 - Besiegers spend more food and wages before they can assault, so more sieges are lifted.
-- When you besiege, you wait twice as long too. If you send your troops in without fighting yourself and that assault ends with no winner, the base game resets your preparations, and rebuilding them also takes twice as long.
-- The tooltip still shows the same "Build Cost" (48), but the progress bar fills at half speed.
+- When you besiege, you wait longer too. If you send your troops in without fighting yourself and that assault ends with no winner, the base game resets your preparations, and rebuilding them also takes longer.
+- The tooltip still shows the same "Build Cost" (48), but the progress bar fills at two thirds of the speed.
 - Only the preparations change. Siege engines built afterwards, and everything the defenders build, are as in the base game.
 
 ### AI assault patience
-In the base game, the AI starts to accept worse odds for an assault after 96 hours of siege, counted from the start. With doubled preparations, small and medium armies would finish them with that patience already spent and storm the walls too soon. The mod does not count the extra preparation time, so after its preparations the AI is about as patient as in the base game.
+In the base game, the AI starts to accept worse odds for an assault after 96 hours of siege, counted from the start. With longer preparations, small and medium armies would finish them with that patience already spent and storm the walls too soon. The mod does not count the extra preparation time, so after its preparations the AI is about as patient as in the base game.
 
-In a 249-day test campaign, AI armies first assaulted at a median of 81 hours into the siege, always with 2 to 4 siege engines built: no rushed assaults.
+In a 249-day test campaign (with the earlier doubled preparations), AI armies first assaulted at a median of 81 hours into the siege, always with 2 to 4 siege engines built: no rushed assaults.
 
 ## Less free training for AI troops in peace
 In the base game, troops in AI lords' parties gain experience every day without fighting: 15 + 3 x tier per troop in a clan leader's party, 10 + 2 x tier in other lords' parties. A recruit reaches tier 5 on its own in about 135 days with a clan leader and about 205 days with other lords.

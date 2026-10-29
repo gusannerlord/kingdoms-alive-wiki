@@ -63,17 +63,22 @@ On top of that, a ruler's claim grows or shrinks with the reign:
 
 A ruler with a **weak** claim:
 
-- can be plotted against even in a kingdom that is not [too large](civil-war.md#when-a-kingdom-is-too-large). A lord with a better claim than the ruler starts a plot with less hatred for them;
+- faces lords who start a plot with less hatred for them: a lord with a better claim than the ruler needs 10 less bad blood to start one (and, with `PlotsOnlyInLargeRealms` on, a weak ruler can be plotted against even in a kingdom that is not [too large](civil-war.md#too-large));
 - is a worse cause to swear to: more houses ask for something or refuse the oath;
 - is slow to start a war, unless it would win back land of their own culture, and quicker to want peace;
 - tempts neighbours who already have a quarrel with the realm, above all in the first months after a succession. A weak crown is never a reason for war on its own;
 - finds the council slower to back their proposals of war, peace and laws.
 
-A ruler with a strong claim is the opposite, more gently: lords lean away from plots against them, houses swear more readily and the council follows them a little more. Lords lean towards a plot whose leader has a better claim than the ruler.
+A ruler with a strong claim is the opposite, more gently: lords lean away from plots against them, houses swear more readily and the council follows them a little more. Lords lean towards a plot whose pretender (the house it would crown) has a better claim than the ruler.
+
+## Claims to the throne
+
+A good claim to rule is not the same as a **claim to the throne**: only some houses could ever be put on the throne by a [plot](civil-war.md#claims-to-the-throne). A house has a claim to the throne when its head is close kin of the ruler at the head of a house of their own (father or mother, son or daughter, brother or sister, husband or wife), when it married into the royal house, when it once ruled the realm, or, under the Senate, acclamation, tanistry, the sheikhs' council and the Thing, when it is among the three houses with the best claim to rule besides the ruler's; under the hereditary laws and the founder's blood, the two houses with the best claim to rule besides the ruler's are of the old blood of the realm and have a claim too.
 
 ## Where you see it
 
-- **The Crown**, the first entry of the Court tab of the kingdom screen, shows the law of your realm, your ruler's claim (or yours) as a bar with the words the lords use for it, and the portraits of the heir and of the strongest pretender.
+- **The Crown**, the first entry of the Court tab of the kingdom screen, shows the law of your realm, your ruler's claim (or yours) as a bar with the words the lords use for it, and the portraits of the heir and of the strongest pretender. Below it, **"Claimants to the throne, should the crown ever be contested"** lists each house with a claim to the throne and its reason, in words: *"The {Clan}: {head}, brother to {ruler}."*, *"... son of {ruler}"*, *"... through marriage to the royal house"*, *"... of a house that once ruled {Kingdom}"*, or by the law of the realm, such as *"named among the worthy by the law of the Thing"* or *"a name the council of sheikhs would hear, should it gather to choose"*, or *"of the old blood of {Kingdom}, near enough to the throne to be named for it"*. Your own house is listed as *"Your own house, the {Clan}: ..."*. With no claimant, it says that no other house has a claim.
+- **The Encyclopedia**: a clan's page opens with *"The {Clan} have a claim to the throne of {Kingdom}, {reason}."* when it has one.
 - **Ask any lord** *"What do the lords say of {ruler}'s right to the throne?"*. Honest lords, plain-spoken ones, a rival with an eye on the throne and the ruler themselves all answer in their own way.
 
 ## Settings

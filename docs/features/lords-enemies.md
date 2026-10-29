@@ -61,7 +61,7 @@ The job takes one of five shapes, picked at random among those that fit where yo
 
 *"A name for sale at {town}"*. A stranger in a town's tavern says he will sell the name of the house that pays the Blackhand, to you and nobody else. Here the house that pays is hidden until the end.
 
-- At the gate a pot-boy or a guard tells you a man is waiting for you in the tavern: **"Go to the tavern"** or **"Not yet"**. In the town menu the same is **"Look for the stranger in the tavern"**. He sits alone by the wall, marked when you walk in. Speak to him (**"I am listening. Who pays the Blackhand?"**), or to any of the Blackhand men in the room, who know you on sight. It is a trap either way: **3 or 4** men at the next tables draw on you. Up to **2 of your companions** walking with you in the town fight at your side.
+- At the gate a pot-boy or a guard tells you a man is waiting for you in the tavern: **"Go to the tavern"** or **"Not yet"**. In the town menu the same is **"Look for the stranger in the tavern"**. He sits alone by the wall, marked when you walk in. Speak to him (**"I am listening. Who pays the Blackhand?"**), or to any of the Blackhand men in the room, who know you on sight. It is a trap either way: **2 or 3** men at the next tables draw on you, a Headsman and his Reavers. Everyone is in town clothes. Up to **2 of the companions** riding with you walk into the tavern with you and fight at your side; whoever came without a blade is handed a sword.
 - **Win** and the stranger, found shaking under a table, gives up the name. Your lord learns which house it was and thinks a good deal worse of its head (**−10**).
 - Lose and the stranger is gone, and the name with him: the job fails.
 

@@ -33,9 +33,10 @@ You cannot send anyone while you are a prisoner or in the middle of a battle.
 | **Sound a lord out** | Anyone | Learns where a lord stands (see below). |
 | **Arrange a meeting with a lord** | Anyone | The lord rides to a town or castle about halfway between you and waits there for you. |
 | **Carry a gift of gold to a lord** | Anyone | Gold for a clan leader, for relation (see the gift table). |
-| **Find witnesses for our forged grant** | Anyone | Carries a grant you have had forged, and asks the notables (and priest and sheriff) of a town or castle to swear to it, with silver, for a [right to the fief](fief-rights.md#sending-an-envoy). Uses the same odds you would have in person, with the envoy's Charm, skills and character instead of the steps below. |
 
 Two more errands appear during a plot in your realm: **"Win a lord over to our plot"** (when you are in a plot) and **"Keep a lord loyal to the crown"** (when you know of a plot you are not part of). See [Civil war](civil-war.md).
+
+During a feud between two houses of your realm, **"Offer our swords to a house at feud"** carries your offer to either house: to its head, or to a grown lord of the house while the head is a prisoner. Whether they take it is up to them, not to your envoy; as a mercenary, you offer your company for their silver. See [Factions and grievances](factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses).
 
 ### Prices and dowries
 A good envoy gets a better price. The price to join or the dowry is cut by about 4% for each half step in the envoy's favour (see below), down to 70% of the base game's figure, and raised the same way for a poor envoy, up to 130%.
@@ -139,4 +140,3 @@ In the settings file, set the switch to `false`. See [Settings](../settings.md).
 - `EnvoyMeetingEnabled`: meetings halfway.
 - `EnvoyGiftEnabled`: gifts of gold.
 - `EnvoyPlotJoinEnabled` and `EnvoyPlotLoyalEnabled`: the two plot errands.
-- `FiefRightsEnvoyEnabled`: finding witnesses for a forged claim (see [Rights to fiefs](fief-rights.md)).
