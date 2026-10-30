@@ -49,7 +49,7 @@ Yes. Only the extra AI marriages and children on the [fast mode families](featur
 Yes.
 
 **Is it in English only?**
-For now, yes.
+For now, yes, but it can be translated. Every text of the mod is listed with its id in `CampaignImprovements/ModuleData/Languages/ci_strings.xml`, and `TRANSLATING.txt` next to it explains how to make a translation as its own small mod. Only the settings menu of Mod Configuration Menu stays in English.
 
 ## Roadmap
 - Fix any bugs that turn up.
