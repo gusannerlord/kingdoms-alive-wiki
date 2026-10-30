@@ -33,7 +33,7 @@ Every town has a priest of its people's faith: a Father or Mother of the churche
 - **Is there some service I could do**: the priest's own tasks (see below).
 - **An offering**: give to the faith, once a season (and once more at each festival).
 - **Taking up their faith**: if you do not (see below).
-- **Their recruits are for the most devout.** A priest gives men to no lord and to no garrison, and to you only once you are *a pillar* of their faith, whatever your friendship with the priest. Until then they are not among those you can recruit from.
+- **Their recruits are for the most devout.** A priest gives men to no lord and to no garrison, and to you only once you are *a pillar* of their faith. Until then they are not among those you can recruit from. Once you are, a priest is like any other notable: how many of their warriors they trust you with depends on your friendship with them.
 
 ### Warriors of the faith
 
@@ -59,14 +59,15 @@ A priest asks the faithful for help, as the townsfolk do: ask what service you c
 
 | Mission | What the priest asks |
 |---|---|
-| **Pilgrims to the holy place** | See a band of pilgrims safely to the holy town of the faith. Raiders know the road too. |
+| **Pilgrims to the holy place** | See a band of pilgrims safely to the holy town of the faith. They walk at their own pace and wait for you whenever they lose sight of your banner. Raiders know the road too, and some of them ride. |
 | **Alms of grain** | Bring grain to a village of the faith that is going hungry. |
 | **The stolen relic** | Bandits carried off a relic to their hideout near a village of the faith. Clear the hideout and bring it home. |
-| **The heretic** | A preacher of false words goes from village to village gathering followers. Talk him round, break his band, or let him go, and the priest will not forget it. |
+| **The heretic** | A preacher of false words goes from village to village gathering followers, starting at the far end of his round, with a hard core of zealots. Talk him round, break his band, or let him go, and the priest will not forget it. |
 | **The shrine** | Raiders burned a village of the faith. Bring tools and timber to rebuild its shrine. |
 
-- What the faithful think of you rises with every task done, and the priest thinks better of you. A task left undone or abandoned costs you both.
-- The priest offers silver for your trouble. You may leave it to the temple instead, and the faithful will think the more of you.
+- What the faithful think of you rises with every task done, a little with each; the errands of grain and timber count for less than the deeds on the road. The priest thinks better of you too. A task left undone or abandoned costs you both. Missions alone will not make you a pillar of the faith: that takes the festivals, the virtues and the deeds as well.
+- A priest does not always have a task to give.
+- The priest offers silver for your trouble; for an errand, what the goods cost and a little more. You may leave it to the temple instead, and the faithful will think the more of you.
 - You may send a companion with some of your men, as with the townsfolk's tasks. The priest is grateful and pays in full, but the faithful would rather have seen you there yourself. If the place is held by your enemies, the priest will not let you go in person; then whoever you send serves just as well.
 - A priest of another faith may ask a stranger who is thinking of joining it for help, one task at a time. It wins only the priest's friendship.
 

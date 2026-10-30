@@ -238,6 +238,24 @@ Before the errands are done, you can say **"I must ask you to release me from yo
 
 If you leave the kingdom while the knighting waits (and you had not stayed on), the promise lapses quietly.
 
+## A squire of your own
+
+Once your lord has knighted you (not if you stayed on as their squire), their house remembers it. Some days later a messenger comes: your old lord, or the head of their house if they are dead or held, offers you a youth of the house as **your own squire**. It is the game's "Lord Needs a Tutor" made into a proper apprenticeship.
+
+- **"Tell him I will take him, and gladly."** He joins your household. He takes a companion's place; if you have none free, the house waits until you do.
+- **"Tell him I am honoured, but I cannot take a squire now."** No ill will. Another offer may come in time.
+
+He serves you for **five years**, counted only while he is free (a prisoner's time stands still). The journal follows how he is coming along, in words.
+
+- **One of your own.** He rides as a normal companion of your house: you can send him on quests' alternative solutions or give him a party of your house to lead. His arms and armour are his own; you cannot take them from him in the inventory, and he will not marry while in your service. Name him governor and he leaves the post to come back to you.
+- **By the fire.** Some nights he comes to your fire with a question: what to do with prisoners, whether a word given to an enemy binds, when to run from a lost battle… What you answer shapes him, and if you keep answering the same way he grows into it (Honor, Mercy, Valor, Generosity, Calculating).
+- **In battle.** He starts at your side, outlined in **pale blue**, seen through walls and men. If he falls you are told where: reach him and stand over him and he will not forget it; leave him lying and he will not forget that either. Back on the map he tells you what he saw.
+- **The practice yard.** In a castle or a town's arena, at peace, **"Spar with {him} in the yard"** (or **"on the sand"** in a town's arena) is the same bout as with your lord, with him as your opponent: at most every few days, by day, neither of you wounded.
+- **War with his house.** If war comes between your realm and his house, he goes home. If you brought it on them, his house holds it against you.
+- **If he dies** in your service, his house will not forgive it easily (**−40 relation** with its head). Sending him away early: **−10**.
+
+When his time is served, talk to him: **"Kneel, {name}."** Knight him with a charge of your own choosing (honour, valour, mercy or cunning). He goes home a knight, shaped by you: **+25 relation** with the head of his house, **+15** with him, **+5 renown**, and both he and the lord who gave him remember it for good. **"Not yet."** keeps him a while longer.
+
 ## They remember
 
 A lord you served remembers it for good (see [Lords who remember you](memories.md)). What they say depends on what you have become (still their squire, a modest knight, a great lord, a ruler, a sellsword) and on how you get on now: proud, cool, or bitter. One you walked out on, or who sent you away, remembers that instead.
@@ -274,4 +292,5 @@ In the settings file, set the switch to `false`. See [Settings](../settings.md).
 - `SquireFireEnabled`: no talks by the fire.
 - `SquireJudgeEnabled`: your lord does not judge how you fought, nor call when they fall (the simple reward of standing over them applies instead).
 - `SquireBannerEnabled`: your lord never hands you their colours.
+- `SquirePupil`: no squire of your own is offered. `SquirePupilKeepsGear`: you can take his gear in the inventory. `SquirePupilFire`: he does not come to your fire. `SquirePupilBattle`: no outline, and he starts where the game puts him. `SquirePupilYard`: no bouts with him. `SquirePupilYardPeaceOnly`: bouts with him also in wartime.
 - `SquireYardEnabled`: no practice bouts with your lord. `SquireYardInTowns`: bouts only in castles, not in town arenas. `SquireYardPeaceOnly`: bouts by chance also in wartime (invitations stay peace-only). `SquireYardArrivalNotice`: the word on arriving is only a line in the log. `SquireYardInvites`: your lord never invites you to a bout.
