@@ -67,7 +67,7 @@ The garrison's sergeant meets you with an armful of blunted steel: *"My lads wil
 
 Your lord has word that enemies of their house have slipped into one of their towns (or one of their realm's). Ride there and choose **"Walk the rounds with the watch"** in the town menu. The captain of the watch will not let you walk alone with killers loose: **5 or 6 men of the garrison** fall in behind you. You go in your battle gear.
 
-Halfway along the rounds, **8 Skolderbroda** come out of the lanes, mostly green ones. A street fight:
+Halfway along the rounds, **7 Skolderbroda** come out of the lanes, mostly green ones. A street fight:
 
 - **Win** and the errand is done. Men of the watch who fall are only wounded: the garrison loses nobody.
 - **Knocked down:** you wake in the guardhouse, wounded, and the errand lapses with no blame: *"But you stood, and my lads saw it."*

@@ -11,7 +11,7 @@ Needs [the faiths](faiths.md) on for everything about faith; the ways (culture) 
 
 A house with no realm brings its own faith and ways. A fief that passes to another realm starts over toward the new one; a fief that goes back to a realm of its own faith and ways is at peace again.
 
-With nothing to help or hinder it, the faith takes about **150 days** and the ways about **250 days** (a related faith comes round about a third faster). What its lord does can make that much shorter or much longer.
+With nothing to help or hinder it, the faith takes about **300 days** and the ways about **400 days** (a related faith comes round about a third faster). What its lord does can make the faith come sooner, but never quickly: a lord who does everything in his power still waits about **200 days**. A lord who leaves the old temple and its priest to its people waits more than twice as long.
 
 In a campaign started before this version, fiefs already held by a realm of another faith are taken to have come half way already.
 
@@ -45,13 +45,13 @@ While a town of yours keeps the old faith, its priest is still there. Speak with
 
 - **Leave them in peace.** They keep their people from foolishness: less trouble, but the new faith comes a little slower.
 - **Banish them** (only if you gave the temple to your priests or destroyed it). They go to preach in one of the town's villages for a couple of months, and there is more trouble while they do. Ride to that village and you can **seize** them: the preaching ends, and the town is angry for a while.
-- **Win them over**, with the game's persuasion. It is easier the further the new faith has come, with a related faith, and if they like you; harder with an honourable priest or a destroyed temple. If they agree, they keep the realm's faith from then on and the town comes a long way round at once. If they refuse, they will not hear it again for a while; if it goes badly, they think much less of you and the people hear of it.
+- **Win them over**, with the game's persuasion. It is easier the further the new faith has come, with a related faith, and if they like you; harder with an honourable priest or a destroyed temple. If they agree, they keep the realm's faith from then on and the town comes some way round at once. If they refuse, they will not hear it again for a while; if it goes badly, they think much less of you and the people hear of it.
 
 AI lords do the same by their character and their Charm.
 
 ## Helping it along, and calming the people
 
-- **A mission.** Ask a priest of your realm's faith: *"Some of my lands do not yet keep our faith. Would you send preachers there?"*. Choose the fief and the purse; for a month or so the faith takes hold faster there. Where the people are angry, the preachers may be stoned in the street and flee. A town whose temple you left to its people gets its first priest of your faith this way.
+- **A mission.** Ask a priest of your realm's faith: *"Some of my lands do not yet keep our faith. Would you send preachers there?"*. Choose the fief and the purse; for a month or so the faith takes hold faster there. Where the people are angry, the preachers may be stoned in the street and flee, and no one will go back there for a month. A town whose temple you left to its people gets its first priest of your faith this way.
 - **Alms.** In hard times (the town is starving, or was besieged or its village raided lately) a new option in the town or castle menu: *Give alms to the people*. Two purses. Loyalty rises, and where a new faith is taking hold, the people listen a little more. Once a month.
 - **The old laws.** Through the fief's governor (*Speak with ... about the old laws*): grant the fief its old laws by charter, for some influence. While the charter stands, the people do not feel the game's loss of loyalty for a lord of another culture, there is less trouble, but the fief keeps its ways about five times as long. Revoking the charter costs loyalty at once, the notables think less of you, the town is readier to rise for a while, and no new charter is believed for some months. Without a governor there is no one to keep the laws in your name.
 - **The governor.** A governor of the fief's own ways calms its people; one of the realm's faith helps the faith along.

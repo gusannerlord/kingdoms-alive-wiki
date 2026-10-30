@@ -1,6 +1,6 @@
 # The faiths of Calradia
 
-Every people of Calradia now keeps a faith of its own. Each faith grows out of what the game already tells about it, in the encyclopedia and in the stories of its companions, and out of the real people that culture is drawn from in the years 600 to 1100. Priests live in every town, each faith holds a great festival once a year (every second year in fast mode), and the Aserai keep their sacred months. You can go on pilgrimage, take a blessing home, or even change your faith.
+Every people of Calradia now keeps a faith of its own. Each faith grows out of what the game already tells about it, in the encyclopedia and in the stories of its companions, and out of the real people that culture is drawn from in the years 600 to 1100. Priests live in every town, each faith holds a great festival once a year (every second year in fast mode), and the Aserai keep their sacred months. You can take a blessing home from a festival, or even change your faith.
 
 A town or castle keeps the faith of its people, not of its lord: one taken by another realm comes round to that realm's faith only slowly (see [The faith and ways of a fief](faith-and-ways.md)).
 
@@ -32,7 +32,6 @@ Every town has a priest of its people's faith: a Father or Mother of the churche
 - **What does your faith ask**: the two virtues their faith holds dear, and the deeds it weighs.
 - **Is there some service I could do**: the priest's own tasks (see below).
 - **An offering**: give to the faith, once a season (and once more at each festival).
-- **A pilgrimage**: if you share their faith (see below).
 - **Taking up their faith**: if you do not (see below).
 - **Their recruits are for the most devout.** A priest gives men to no lord and to no garrison, and to you only once you are *a pillar* of their faith, whatever your friendship with the priest. Until then they are not among those you can recruit from.
 
@@ -98,15 +97,15 @@ Every autumn the Aserai keep the sacred months, as the clans of Asera's sons hav
 - **Whoever strikes the Aserai in those months is cursed.** Declaring war on an Aserai realm, raiding one of its villages or laying siege to one of its towns or castles turns every Aserai house against the ruler of the realm that did it, and more against the lord who led it. The Aserai realms keep it as a grievance, even after the war, and a grievance is a reason for war.
 - If you keep the faith of Asera, raiding in the sacred months costs you your standing.
 
-## Pilgrimage
+## Blessings
 
-Ask a priest of your faith to send you on pilgrimage, once a year and never from the holy place itself. A quest log entry marks the holy place and how long your vow allows. There, **Go up to** the shrine and keep the **vigil**: two days and two nights at the holy place, waiting in the town. Leave the town and the vigil is undone; you can break it off and take it up again while you stay. When it is kept, choose your prayer:
+Each festival gives the blessing of its faith, for half a year:
 
-- **for victory**: your men's morale is higher;
-- **for the wounded**: your company heals faster;
-- **for the road**: your company marches faster.
+- **of valour** (the Church of Paravenos and the Gods of the North): your men's morale is higher;
+- **of mending** (the Imperial Church and the Old Ways): your company heals faster;
+- **of the road** (the Forest Gods, the Faith of the Sacred Months and the Sky Father): your company marches faster.
 
-The blessing lasts half a year, and the priest of the holy place thinks better of you. The faithful think a little better of you too, but a pilgrimage is the beginning of devotion, not the whole of it.
+You carry one blessing at a time.
 
 ## Your standing with your faith
 
@@ -126,7 +125,7 @@ How the faithful see you follows how you live and what you do, more than where y
 
 **Deeds.** Your standing rises when you clear a bandits' hideout near a village of your faith, when you beat off a raid on a village of your faith, and above all when your army takes your faith's holy town back from another faith. Clearing bandits and defending villages only counts so much in one season. It falls when you raid a village of your own faith, or when you execute a lord who keeps it.
 
-**And the rest.** Festivals, offerings and pilgrimages raise it too. Among the most devout, it fades a little with every season, so it has to be kept up.
+**And the rest.** Festivals and offerings raise it too. Among the most devout, it fades a little with every season, so it has to be kept up.
 
 ### What it is worth
 
@@ -153,4 +152,4 @@ Ask a priest of another faith to take you in. They will tell you plainly what it
 
 ## Settings
 
-Everything is under **Faiths** in the mod's options, one switch for each part: priests, festivals, the sacred months, pilgrimage, blessings, changing faith, and faith among the lords. See [Settings](../settings.md#faiths).
+Everything is under **Faiths** in the mod's options, one switch for each part: priests, festivals, the sacred months, blessings, changing faith, and faith among the lords. See [Settings](../settings.md#faiths).

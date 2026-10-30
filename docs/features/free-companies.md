@@ -1,10 +1,10 @@
 # Companies for hire
 
-When a siege is about to fall and you need two hundred swords by next week, the tavern is where you look. Eight sellsword companies sit in the towns of Calradia, waiting for someone rich and desperate enough to pay them. They are expensive, they take days to reach you, and they leave the day your silver runs out.
+When a siege is about to fall and you need two hundred swords by next week, the tavern is where you look. Nine sellsword companies sit in the towns of Calradia, waiting for someone rich and desperate enough to pay them. They are expensive, they take days to reach you, and they leave the day your silver runs out.
 
-These are not the tavern mercenaries of the base game, nor the [Unsworn](mercenary-contracts.md) of the mercenary contracts, nor the [free company](realm-affairs.md#a-free-company) that squats in a village in the affairs of your kingdom. You hire a whole company at once, under its own captain, for a fixed term.
+These are not the tavern mercenaries of the base game, nor the loose [Unsworn](mercenary-contracts.md) who sell themselves a few at a time in taverns or roam as bands, nor the [free company](realm-affairs.md#a-free-company) that squats in a village in the affairs of your kingdom. You hire a whole company at once, under its own captain, for a fixed term.
 
-## The eight companies
+## The nine companies
 
 | Company | Troops |
 |---|---|
@@ -16,10 +16,11 @@ These are not the tavern mercenaries of the base game, nor the [Unsworn](mercena
 | **The Sand Hawks** | Aserai horse. Sand Hawk Rider, then Faris, Mamluke, Heavy Mamluke; or Skirmisher, Jereed Rider, Desert Falcon. |
 | **The Raven Fianna** | Battanian highlanders. Raven Kern, then Archer, Fian, Chosen Fian (longbows); or Falxman, Veteran Falxman, Champion. |
 | **The Bronze Bucellarii** | Imperial heavy horse. Bucellarii Groom, then Lancer, Cataphract, Clibanarius; or Horse Archer, Veteran Horse Archer, Household Archer. |
+| **The Unsworn Free Company** | Deserters and outlaws of every realm who swear to no one and sell their swords whole. Unsworn Sellsword, then Hired Bow, Oathbreaker, Veteran (bows first, then axe and shield or great sword); or Horse Bow, Freerider, Free Lance (horse archers who rise to lancers). |
 
-- Each company wears the arms of one people only, and never better than that realm's own soldiers of the same rank: what they sell is numbers, ready at once, not finer steel.
+- Each company wears the arms of one people only, and never better than that realm's own soldiers of the same rank: what they sell is numbers, ready at once, not finer steel. The Unsworn Free Company is the exception: they carry whatever they brought with them from every realm, a Sturgian helm over an Aserai coat, but still nothing finer than the soldiers of those realms wear at the same rank.
 
-- In the party screen every name carries the company's mark (Thornwall Pikeman, Grey Lance Knight, Wind Storm Lancer, Blackhand Headsman...).
+- In the party screen every name carries the company's mark (Thornwall Pikeman, Grey Lance Knight, Wind Storm Lancer, Blackhand Headsman, Unsworn Free Lance...). The **Unsworn Free Company**, led by its Unsworn Free Captain, is not to be confused with the Unsworn bands of the mercenary contracts.
 - Each company has **170 to 250 men**, its captain included. Most are tier 3 and 4, with some tier 2 recruits and some tier 5 veterans.
 - A company lives **in a town**, not on the map. Its captain drinks in that town's tavern.
 

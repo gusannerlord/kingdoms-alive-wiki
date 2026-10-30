@@ -23,6 +23,9 @@ How much likelier a couple of the same age is to marry than in the base game:
 
 So young lords marry a little sooner, and older bachelors and widowers much sooner.
 
+### Smaller wedding bonds
+In the base game a wedding brings the heads of the two houses much closer: about **+50** to their relation, and far more with Charm and honour. With so many weddings in fast mode, the royal family married into one house after another and every house ended up the ruler's fast friend. In fast mode a wedding now gives exactly **+20**, whatever the Charm of the bride or groom. This one applies to every wedding, yours too.
+
 ### The older-woman rule
 More marriages should mean more children, not men who could still father children tied to wives who can no longer bear them. When the man is **under 60**:
 
@@ -55,5 +58,6 @@ In the base game, a child of two parents takes the father's or the mother's cult
 In the settings file, set the switch to `false`. See [Settings](../settings.md).
 
 - `FastModeMarriagesEnabled`: AI lords marry at the base game's pace in fast mode (also turns off the older-woman rule).
+- `FastModeMarriageRelationEnabled`: a wedding brings the two houses as close as in the base game.
 - `FastModeChildrenEnabled`: AI couples have children at the base game's pace in fast mode.
 - `ChildCultureEnabled`: children take the father's or the mother's culture at a coin flip again.
