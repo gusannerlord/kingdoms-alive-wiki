@@ -1,6 +1,20 @@
 # Other changes
 
-Three smaller changes to the campaign: sieges give relief armies time to arrive, AI armies are forged in war rather than in idle peace, and good weapons and armour cost something a player can actually save up for.
+Smaller changes to the campaign: a wide demesne breeds corruption, sieges give relief armies time to arrive, AI armies are forged in war rather than in idle peace, and good weapons and armour cost something a player can actually save up for.
+
+## Corruption in a wide demesne
+The base game knows corruption only from low security or loyalty. With the mod, a house that holds **two or more towns and castles** also loses part of their taxes, and of their villages', to the people who run them: **5%** with two, **2.5% more** for each one beyond, **30%** at most (from twelve). It shows as **"Corruption, too many holdings to watch"** in each fief's tax breakdown.
+
+| Towns and castles | Lost from each |
+|---|---|
+| 1 | nothing |
+| 2 | 5% |
+| 4 | 10% |
+| 6 | 15% |
+| 10 | 25% |
+| 12 or more | 30% |
+
+A **governor** cuts it in his own fief by his Steward: half at 75, none at all at **150**. It is the same for every house, AI or yours (AI houses put their idle lords in as governors as in the base game).
 
 ## Longer siege preparations
 **Siege Preparations** (the first thing a siege camp builds, before any siege engine and before it can assault) take **half as long again** (1.5 times as long), for you and for the AI, in any campaign.
@@ -79,6 +93,7 @@ Weapons are cut a little less than armour:
 ## Turn it off
 In the settings file, set the switch to `false`. See [Settings](../settings.md).
 
+- `CorruptionEnabled`: no corruption from holding many towns and castles. Numbers you can change: `CorruptionFromFiefs` (2), `CorruptionBase` (0.05), `CorruptionPerFief` (0.025), `CorruptionMax` (0.3), `CorruptionStewardForNone` (150).
 - `SiegePreparationEnabled`: siege preparations take as long as in the base game.
 - `SiegePatienceIgnoresAddedPreparationTime`: the AI's assault patience counts the extra preparation time (only matters while longer preparations are on).
 - `AiPeaceTrainingEnabled`: AI troops gain their full free experience in peace.

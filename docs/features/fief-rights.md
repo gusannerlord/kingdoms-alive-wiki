@@ -26,7 +26,7 @@ A house that gives a fief away, leaves its realm, or dies out keeps no right to 
 
 ## Old claims of a line
 
-When a campaign starts, **two or three** AI houses in each kingdom get an old claim to a town or castle of another house of their own kingdom, or now and then to one in a neighbouring kingdom. Fiefs near their seat and of their own culture are likelier, and the ruler's fiefs much less likely. About a third of these claims are firm.
+When a campaign starts, **two or three** AI houses in each kingdom get an old claim to a town or castle of another house of their own kingdom, or now and then to one in a neighbouring kingdom. The claim is to one of the four fiefs of their kingdom nearest their own lands (their seat, if they have none); of those, nearer ones and those of their own culture are likelier, and the ruler's fiefs much less likely. About a third of these claims are firm.
 
 These claims are never forgotten: a firm one becomes weak when the head who held it dies, and a weak one stays with the house. This is trouble waiting to happen: a house with a firm claim and no love for the holder can raise a reckoning on its own.
 
@@ -34,11 +34,11 @@ Your house gets none. Yours you win.
 
 ## A claim by marriage
 
-When the head of a noble house, or you yourself, marry into another noble house during the campaign, the house that takes in the bride or groom gains a weak claim to every town and castle the spouse's house of birth holds on the wedding day. This goes for your house as much as for the AI: marry well, and you marry into claims. Marriages of sons, daughters and other kin bring nothing, and neither do marriages that already existed when the campaign started.
+When the head of a noble house, or you yourself, marry into another noble house during the campaign, the house that takes in the bride or groom gains a weak claim to the two towns and castles of the spouse's house of birth nearest its own lands on the wedding day. This goes for your house as much as for the AI: marry well, and you marry into claims. Marriages of sons, daughters and other kin bring nothing, and neither do marriages that already existed when the campaign started.
 
 The claim lasts as long as the spouse lives, and dies with them; it never passes on.
 
-When one of your own marries out this way, you hear that the other house now claims your fiefs.
+When one of your own marries out this way, you hear that the other house now claims the fiefs of yours nearest its lands.
 
 You can press a claim by marriage whenever you like (in a [reckoning](factions.md#the-reckoning-of-a-house), or to put the fief to the council yourself), though your in-laws will not forgive it easily. The AI houses press theirs only when the heads of the two houses are on bad terms: a house will raise a reckoning against its in-laws only over a fief it claims through that marriage, on bad terms with them. Blood kin never.
 
@@ -54,7 +54,7 @@ Leave a companion or a member of your family in a town or castle of another hous
 
 ## When others forge claims to your fiefs
 
-AI houses forge claims too. Now and then a house whose head is not honourable quietly works on a claim to a fief near its own, in any kingdom, yours included; a house that bears a grudge against the holder is likelier to choose that house's fief. They pay the same price as you, from the purse of the house's head, and wait until they have it. You see nothing of it until it succeeds. If the fief is yours, word reaches you: *"the {house} have found an old grant to {fief} in their name, sealed and witnessed, though nobody had heard of it before."* A claim on your fief matters if it ever leaves your hands: the council will hear that house.
+AI houses forge claims too. Now and then a house whose head is not honourable quietly works on a claim to one of the four fiefs nearest its own, in any kingdom, yours included; a house that bears a grudge against the holder is likelier to choose that house's fief. They pay the same price as you, from the purse of the house's head, and wait until they have it. You see nothing of it until it succeeds. If the fief is yours, word reaches you: *"the {house} have found an old grant to {fief} in their name, sealed and witnessed, though nobody had heard of it before."* A claim on your fief matters if it ever leaves your hands: the council will hear that house. And if you are the ruler, in peace, the head of that house may come to [your court](royal-court.md#the-requests) to ask you for it.
 
 ## In the council
 

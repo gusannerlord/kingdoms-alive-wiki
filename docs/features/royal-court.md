@@ -128,6 +128,7 @@ In the menu of one of **your own** towns or castles, choose **"Hold court"**. Ho
 | **refuge in your realm** (ruler) | a lord of a foreign kingdom at war with another | Shelter them: **+8** with their ruler, but tension with the enemy kingdom rises (see [Events between kingdoms](events-between-kingdoms.md)). Or stay out of it. |
 | **a place in your house** | a distant kinsman (needs a free companion slot; at most once every 3 courts) | Take them in: a new companion of your culture joins your party. |
 | **help with a marriage** (ruler) | two unmarried lords of different houses | Speak to both houses: a Charm roll; on success they marry and both house heads think better of you (+5). |
+| **a fief of yours their house claims by right** (ruler) | the head of a house of your realm with a [right](fief-rights.md) to one of your own towns or castles; most often one near its own lands, and a firm right more often than a weak one | Grant it: the fief is theirs (**+15**; not your last town or castle, nor one under siege). Put it off: a Charm roll, −3 if it fails. Refuse: **−6**, and the house holds it against the crown (see [Lords remember](factions.md#lords-remember)). Heard or left waiting, the same house does not ask for the same fief again for 120 days. |
 
 Charm rolls show their odds in the answer: 35%, plus 0.25% per point of Charm (+25% per 100), up to 85% at 200 Charm.
 

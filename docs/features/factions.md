@@ -20,6 +20,11 @@ Every house keeps a short list of wrongs, each with a name, a place and a date. 
 | A kinsman was executed | the crown, or the house that did it |
 | The crown shielded a house they wanted brought down, or spurned their charter | the crown |
 | The crown took a conquered fief for itself while a charter forbade it | the crown |
+| The ruler's house holds **6 or more** towns and castles, more than **15%** of the realm's | the crown |
+| A vassal house holds **4 or more** towns and castles, more than **10%** of the realm's | that house (not the crown) |
+| They came to your court to ask for a fief of yours they claim by right, and you refused | the crown |
+
+**Too much land in one hand.** Every 30 days, while the ruler's house holds more than five towns and castles and more than 15% of the realm's, every other house (not the ruler's kin) holds it a little more against the crown: 2 for each fief beyond the fifth. A vassal house with more than three that are more than 10% of the realm's is begrudged the same way, against that house alone (its own kin excepted). It is one grudge per house that keeps growing while the hoard lasts, and fades like any other once it ends; it costs goodwill only while it is still rising, so a hoard that lasts costs the ruler (or that house) a fair amount of goodwill over the first months and nothing more after that, though the grudge stays. It counts the same for you, as ruler or vassal, and a hoarding house is the natural target of a [reckoning](#the-reckoning-of-a-house).
 
 **Grudges between houses.** When one house of an AI realm comes to hold a wrong against another, their heads fall out at once: a house passed over in a share-out thinks less of the house that got the fief; a house that left the realm alone with a foe at the walls during a feud loses the goodwill of every other house, and much more if it defies the crown to the end or goes over to the foe. The same holds against your house: a house you beat to a share-out, or leave alone against a foe in a feud, thinks less of you; and if your house defies the crown to the end, or goes over to the foe, in a feud, every house of the realm turns against you at once, as it would against any other. Your own feelings are never moved for you: whom you like is up to you.
 
@@ -95,6 +100,9 @@ If you are the ruler, you are asked too, with no year of grace and from 35% of t
 
 Talk to the head of another house of your realm:
 
+These talks are under one line of the game's *"There is something I'd like to discuss."*: **"There are matters of the realm I would speak of, away from other ears. (Plots and factions)"**, shown only when one of them is open to you. Every line the mod adds to a lord's talk ends with a tag in brackets saying what it belongs to: *(Plot against the crown)*, *(Factions)*, *(Fief vote)*, *(Feud)*, *(Squire path)*, *(Manhunter path)*, *(Marshal)*, *(Royal court)* and so on.
+
+- **What news from the realms of Calradia? (News of the realms)** Any lord, of any kingdom, unless he dislikes you: pick a realm and he tells you who rules it and how strong it is, its wars (with whom, for how long, who declared it and the reason its lords gave, and how it goes), its alliances, and its troubles within as far as they are known abroad: a civil war, a feud between two of its houses, a charter or a reckoning pressed in the open, lords demanding the ruler step down, talk of a plot (never who is in it), traitors being judged.
 - **What news of the realm, my friend?** Any lord who is your friend, of any kingdom (not its ruler), tells you who is pressing whom: the factions, their aims, who stands with them, how far along they are, whether there is a darker plot against the throne, and what his own house holds against the crown. A good friend tells you more; an honourable one keeps the secrets of his own cause unless you are in it; a calculating one may remember more for a consideration. When a faction a friend is in comes to a head, he may write to you.
 - **Join** a lord's charter or reckoning, or **leave** it.
 - **Start a charter**, or **start a reckoning**: you choose the house, then the fief, then who should have it. (The AI never starts a reckoning against your house.) Win other lords over one by one; how likely they are to agree is said in words.
