@@ -58,6 +58,7 @@ nav:
       - Hunts: features/hunts.md
       - Events between clans: features/clan-events.md
       - Civil war: features/civil-war.md
+      - Traitors and the houses of a realm: features/realm-houses.md
       - Factions and grievances: features/factions.md
       - Rights to fiefs: features/fief-rights.md
       - The crown and its claim: features/succession.md
@@ -69,6 +70,7 @@ nav:
       - Lords who remember you: features/memories.md
       - Captives: features/captives.md
   - Your realm and household:
+      - Your house at a glance: features/house-tab.md
       - The royal court: features/royal-court.md
       - Affairs of your kingdom: features/realm-affairs.md
       - Companion errands: features/companion-errands.md

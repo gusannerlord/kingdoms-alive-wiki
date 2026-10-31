@@ -93,8 +93,8 @@ Two clans of your kingdom (never your own) start a feud. One of them usually pic
 
 | Answer | What happens |
 |---|---|
-| *"Summon both and make them take each other's hand."* (ruler) / *"Offer yourself as go-between."* (vassal) | Costs **20 influence**. Chance of success: 35 + Charm ÷ 4 + (your relation with each of them) ÷ 4, **+25 if you rule**, or +25 if you are the Chancellor of an AI ruler, between 15% and 92%. The hint shows your chance. Success: **+25** between them, **+6** with you from each, **45 influence**. Failure: **−4** with you from each, and the feud runs on. |
-| *"Hear the case and give judgement."* (ruler) / *"Take a side."* (vassal) | The messenger asks whose part you take: *"For {name}."* (either of them) or *"On second thoughts, for neither."* |
+| *"Write to both and bid them take each other's hand."* (ruler) / *"Offer yourself as go-between."* (vassal) | Costs **20 influence**. Chance of success: 35 + Charm ÷ 4 + (your relation with each of them) ÷ 4, **+25 if you rule**, or +25 if you are the Chancellor of an AI ruler, between 15% and 92%. The hint shows your chance. Success: **+25** between them, **+6** with you from each, **45 influence**. Failure: **−4** with you from each, and the feud runs on. |
+| *"Send both houses your judgement."* (ruler) / *"Take a side."* (vassal) | The messenger asks whose part you take: *"For {name}."* (either of them) or *"On second thoughts, for neither."* |
 | *"It is their quarrel."* | The feud runs its course. |
 
 **Taking a side:** the winner gains **+12** with you. The loser loses **15** with you, and the loser's clan loses **40 renown and 40 influence** (60 each if you rule). The winner's clan gains **20 influence** (30 if you rule). The two leaders lose another **10** with each other.
