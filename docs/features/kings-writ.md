@@ -16,7 +16,7 @@ Speak to the ruler, the ruler's heir, or the noble who keeps the king's peace at
 
 *"The roads of your realm are thick with outlaws. I would hunt them under the king's writ, for the price on their heads."*
 
-If you qualify, they agree in their own voice, honourable, cruel, generous or cunning. If not, they tell you why. Any other lord of the realm tells you whom to ask. A journal entry opens, **"The King's Writ of {kingdom}"**, with your title and what the crown owes you. You start as **King's Hunter**.
+The line only appears if you qualify (not while sworn to a realm, serving as a mercenary, a squire, at war with the realm, banished, wanted or still unknown); then they agree in their own voice, honourable, cruel, generous or cunning. Any other lord of the realm tells you whom to ask. A journal entry opens, **"The King's Writ of {kingdom}"**, with your title and what the crown owes you. You start as **King's Hunter**.
 
 With the writ come **15 manhunters** from the sheriff's yard (once a campaign). Those who do not fit in your party wait in the yard until you send for them at any sheriff of the realm.
 

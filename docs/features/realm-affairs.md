@@ -28,7 +28,7 @@ You answer him as you answer someone who brings you a quest in the base game:
 - *"My vassals will see to it."*, if you rule;
 - and last, letting it be.
 
-Answers you cannot afford are greyed out: *"You do not have the denars."* or *"You do not have the influence."* Hovering over an answer shows what it costs and gives. Places you have to go to are marked on the map.
+Answers you cannot afford do not appear. Hovering over an answer shows what it costs and gives. Places you have to go to are marked on the map.
 
 If you hold an office in an AI ruler's court and the affair belongs to it, the messenger comes from the ruler (see [The ruler's charge](#the-rulers-charge)). The enemies of the crown always comes from the ruler: *"I ride from {ruler}."*
 
@@ -168,7 +168,7 @@ For the free company, the revolt, the hunger and the feud, you can tell the mess
 
 ### One of your companions or kin
 
-*"One of my companions or kin will see to it."* lists everyone of your family and companions **riding in your party**. Each line shows the skill that counts, how many men they want, how many days the whole errand lasts and the risk. Those who cannot go are greyed out with the reason (wounded, a governor, leading a party of their own, already away on another errand...). Works as ruler or vassal.
+*"One of my companions or kin will see to it."* lists everyone of your family and companions **riding in your party**. Each line shows the skill that counts, how many men they want, how many days the whole errand lasts and the risk. Only those who can go are listed (not the wounded, a governor, one leading a party of their own or already away on another errand...); if nobody can, the line does not appear. Works as ruler or vassal.
 
 - **Pick the men.** For the free company, the revolt and the grain, the game's troop screen opens (*"Men for {name} ({N} wanted)"*), as when you send a companion on one of the game's quests. Only healthy men, never more than are wanted, and your party always keeps at least 10. Sending fewer than wanted adds risk. Cancelling the screen takes you back to the answers. The bad blood needs no men.
 - **Grain** costs gold: they take it with them when they leave, at the market price of your realm's other towns (never less than about 34 a load).
@@ -197,7 +197,7 @@ For the free company, the revolt, the hunger and the feud, you can tell the mess
 - Fewer men than wanted adds more risk (up to +50%). The risk is never above 90%.
 - Some of the men sent die in the fighting, more with a weak leader.
 - While they are away, the affair keeps doing harm (the village keeps losing hearths, the town keeps starving), but its time waits for them.
-- Only one errand at a time. While someone is out, both ways of sending are greyed out: *"{name} is not back yet from the last errand; there is nobody else to send until then."*
+- Only one errand at a time. While someone is out, neither way of sending appears.
 
 ### In the quest log
 

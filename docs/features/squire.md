@@ -6,7 +6,7 @@ Kneel to no crown yet: ride instead at the side of a great lord as their squire.
 
 Talk to a lord, choose *"There is something I'd like to discuss"* and then **"My lord, I would ride in your service, as your squire."** (*"My lady"* for a woman).
 
-The lord must belong to a noble house of a kingdom (not a mercenary company or a minor clan), be free and not of your house. A ruler can take you too. If you cannot ask, the line is greyed out and tells you why:
+The lord must belong to a noble house of a kingdom (not a mercenary company or a minor clan), be free and not of your house. A ruler can take you too. The line only appears if you can ask; it does not if:
 
 - You are sworn to a kingdom, or serve **another** kingdom as a mercenary. (Already a mercenary of **their** kingdom is fine.)
 - Your clan is still at **tier 0**.
