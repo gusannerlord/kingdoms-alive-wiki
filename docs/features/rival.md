@@ -2,7 +2,7 @@
 
 Beat the wrong lord in a tournament, or let a hatred fester, and someone may swear a feud against you. Over the following weeks they come at you in their own way: taunts, tales told to their ruler, hired blades in a hideout, bands hunting you, ambushes in town streets. At the end, always, a duel to the death in the arena.
 
-You have at most one rival at a time. Each rivalry opens a quest in your journal, **"The feud with {rival}"**, with your rival tracked on the map. If you meet your rival's party on the map, they greet you with a few sharp words before the usual talk.
+You have at most one rival at a time. Each rivalry opens a quest in your journal, **"The feud with {rival}"**, with your rival tracked on the map. If you meet your rival's party on the map, they greet you with a few sharp words before the usual talk. **(very soon in 2.0.0)** They do so wherever you speak to them (their hall, a town, a camp, an army), and the first time you ever speak, right after they introduce themselves.
 
 ## How a rival appears
 
@@ -109,16 +109,43 @@ The last step is always a duel to the death in the arena, fought by your rival i
 !!! note
     If your kingdom and theirs are at **war**, there is no arena to meet in: the duel waits for peace.
 
+## Face to face (very soon in 2.0.0)
+
+When you talk to your rival, two new options let you settle it yourself.
+
+### Call them out
+
+*"Enough of this. Name the day, and let us finish it in the arena."* Your rival takes it up at once: the same duel that would end the plan (see above), in the same arena, with the same **10 days** to come, but without waiting for the plan to run its course. The arena is marked on your map and the duel has its journal entry. Not coming shames you as if you had refused their challenge.
+
+You only see the option when the duel could be fought now: not at war with their kingdom, not a ruler, neither of you wounded or in a battle, no other challenge already on, and not in the **30 days** after a duel your rival survived or a challenge of theirs you refused.
+
+### Offer amends
+
+*"This feud serves neither of us. What would it take to end it?"* Your rival answers by their character, and what they say is what decides:
+
+| Your rival is... | They want |
+|---|---|
+| Cruel | Nothing but your blood. They refuse. |
+| Calculating or dishonest | The blood price: the same as the ransom broker asks (**5,000**, plus **50,000** for each member of their house you executed beyond those of yours they executed), paid into their own hand. |
+| Honourable | An apology before witnesses. It costs you **15 renown**. |
+| Brave but not honourable | Steel. They refuse, and tell you to call them out if you could. |
+| Anyone else | An apology if merciful, the blood price if greedy; otherwise they refuse. |
+
+If blood has been spilled between your houses (an execution on either side, a murder found out, or a blood feud older than the rivalry), words are not enough: those who would take an apology want the blood price instead.
+
+Accepted, the rivalry ends there as a success: the hired men are sent away, any challenge is called off, and the blood feud ends with it, as with the ransom broker. Your relation with the head of their house does not change.
+
 ## How a rivalry ends
 
 - **The duel**, won or lost.
 - **The blood feud ends** (see above).
+- **(very soon in 2.0.0)** **You make amends** face to face (see above).
 - **Your rival dies** some other way, or becomes **family** (by marriage).
 - **Your rival, or their house, comes to rule a kingdom**, or their house joins **your** kingdom while you rule it.
 - **It goes cold**: **150 days** with nothing coming of it (say, a long war that keeps the duel away).
 - Your heir takes over: the feud was with the one before.
 
-A blood feud that began with the rivalry ends with it, unless it has become an ordinary blood feud (see the warning above). The quest closes as a success if you win the duel or the blood feud ends, as a failure if you lose the duel, and is cancelled otherwise.
+A blood feud that began with the rivalry ends with it, unless it has become an ordinary blood feud (see the warning above). The quest closes as a success if you win the duel, the blood feud ends or you make amends, as a failure if you lose the duel, and is cancelled otherwise.
 
 ## Turn it off
 
@@ -130,3 +157,7 @@ In the settings file, set the switch to `false`. See [Settings](../settings.md).
 - `RivalTownAmbushEnabled`: no street ambushes.
 - `RivalDuelEnabled`: no duel at the end. The rivalry then lasts until the blood feud ends, your rival dies, or it goes cold.
 - `RivalSmearEnabled`: your rival never speaks against you to their ruler.
+- `RivalCallOutEnabled` (very soon in 2.0.0): you cannot call your rival out yourself.
+- `RivalAmendsEnabled` (very soon in 2.0.0): you cannot ask your rival what would end the feud.
+
+Number you can change: `RivalApologyRenown` (15, the renown an apology costs).

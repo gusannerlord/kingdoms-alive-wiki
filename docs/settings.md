@@ -198,6 +198,8 @@ See [Vassal realms](features/vassal-realms.md).
 | `RivalTownAmbushEnabled` | Your rival's thugs can ambush you in a town's streets. | [Your rival](features/rival.md) |
 | `RivalDuelEnabled` | The rivalry ends in a duel to the death in the arena. | [Your rival](features/rival.md) |
 | `RivalSmearEnabled` | Your rival can speak against you to the ruler of their realm (-3 relation, once). | [Your rival](features/rival.md) |
+| `RivalCallOutEnabled` | (very soon in 2.0.0) Face to face, you can call your rival out to the arena at once (needs `RivalDuelEnabled`). | [Your rival](features/rival.md) |
+| `RivalAmendsEnabled` | (very soon in 2.0.0) Face to face, you can ask your rival what would end the feud: an apology (costs `RivalApologyRenown`, 15 renown), the blood price, or a refusal, by their character. | [Your rival](features/rival.md) |
 
 ### The Empire's own ways (very soon in 2.0.0) {#the-empires-own-ways}
 See [The Empire's own ways](features/empire.md). In the three realms of the Empire there are no reckonings, no feuds between houses and no vassal's Annex; these have no switch. The rest:

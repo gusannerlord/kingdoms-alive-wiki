@@ -17,6 +17,7 @@ Every feature can be switched off on its own (see [Settings](settings.md)).
 - **[Civil war](features/civil-war.md)**: plots for independence, a peace that mends the realm, and your own lord calling you to ride with him.
 - **[Sparring with nobles](features/sparring.md)**: practice bouts with the lords of your realm in a castle yard or the arena, best of three falls, for skill, friendship and now and then a wager.
 - **[Lords who remember you](features/memories.md)**: lords remember each other too.
+- **[Your rival](features/rival.md)**: your rival names the feud wherever you meet, and face to face you can call them out to the arena or ask what would end it.
 
 ## What the mod does
 
