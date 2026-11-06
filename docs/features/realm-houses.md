@@ -12,21 +12,31 @@ If **you** led the rising and lost, the same awaits you: you are brought before 
 
 His house is not banished: it comes back to the realm with its towns and castles, under its new head, and is marked as traitor like the others.
 
-### Houses marked as traitors
+### Houses marked as traitors (very soon in 2.0.0) {#houses-marked-as-traitors}
 
-Every rebel house that comes back is marked as traitor for **60 days**. While the mark lasts, the ruler may judge it **by decree**: no vote of the council, no influence spent, and the rest of the realm does not hold it against the ruler.
+Every rebel house that comes back is marked as traitor for **60 days**, and the house that led the rising is remembered as such. While the mark lasts, the ruler may judge it **by decree**: no vote of the council, no influence spent, and the rest of the realm does not hold it against the ruler.
 
 - **Pardon**: the house keeps everything and its head is grateful.
+- **Rebuke before the court**: the house keeps its lands, but its head thinks less of the ruler and the house holds the shame against the crown (*"the crown shamed our house before the whole court for the part we had in the rising"*).
 - **Take a town or castle**, or **all of them**: they go before the council to be granted anew (or to a new house, below). The house stays in the realm and holds a grievance against the crown.
 - **Banish**: like an expulsion by the council, but with no vote and no influence to spend: its towns and castles go before the council to be granted anew and the house leaves the realm with nothing. Its head, and its kin and friends among the realm's houses, think less of the ruler, though less than the lords who vote an expulsion. If no other kingdom takes it in, it fades away within a month, as any house without land or kingdom does in the base game.
 
-The house may **refuse** the judgment and break with the realm, holding its fiefs by the sword, by the same odds as when a fief is taken from it (its character and how it gets on with the ruler; banishment is refused more readily, the loss of one fief less). If it bows and the sentence is carried out, its kin and friends among the realm's houses think a little less of the ruler.
+A house that has just lost a war **rarely dares to defy** the judgment: its men came home beaten and few would follow it against the crown so soon. Now and then one still breaks with the realm and holds its fiefs by the sword, never more than about **1 in 10**; its character and how it gets on with the ruler weigh in, and banishment is defied more readily, the loss of one fief least. A house that is to lose land may instead **leave the realm with nothing**: it gives up every town and castle it holds, which go before the council, and goes into exile like a banished house. A bold house (Valor), or one that bears the ruler ill will, takes that road more often: about 1 in 10 to begin with, never more than 4 in 10. If it bows and the sentence is carried out, its kin and friends among the realm's houses think a little less of the ruler; an exile costs the ruler the same.
 
-As ruler, a window asks you about each house when the war ends; choose *"Not yet"* to decide later, then speak to the head of the house: *"Your house rose against the crown. Hear my judgment."* You can also banish a marked house from the **Clans** tab of the kingdom screen: while the mark lasts, its **Expel** button reads *Banish*, costs no influence and needs no vote.
+Among the Khuzaits, a house that holds an [ulus](titles.md#the-ulus-of-the-khuzaits) loses it with any sentence that takes land or banishes it, and keeps it with a pardon or a rebuke. In an empire, a [strategos](titles.md#themes-of-the-empires) who rose has already lost his command. A [landed knight](landed-knights.md) rode with its lord and is not judged on its own.
 
-An AI ruler judges each house the day after the war, by its character: a merciful one pardons more often, a cruel one takes everything; it banishes only now and then, and only when its realm has houses to spare. If your house rose and the AI ruler judges it, a herald brings the sentence: bow to it, or defy the crown.
+**An AI ruler** judges the houses **one at a time**: the house that led the rising the day after the war, then another every **4 days**, the one with the most towns and castles first (sooner, if the mark would run out before all are judged). It judges by its character, and it is hardest on the house that led the rising:
 
-## New houses
+- **The house that led it**: pardoned about 3 times in 10, more for each level of Mercy; otherwise a cruel ruler takes everything and others take one town or castle; it banishes (1 time in 4) only when its realm has 10 houses or more.
+- **The houses that followed**: pardoned half the time, more for each level of Mercy, never banished and never stripped of more than one town or castle (about 3 times in 10 at first). Each house that already lost land in the same judgment makes the ruler less likely to take from another; and a ruler with 5 or fewer landed houses to serve it does not take land at all. When it spares their land, it rebukes them before the court instead.
+- **A house with no land** to take is rebuked, the house that led the rising too (the death sentence on its head stands apart).
+- **A costly judgment softens the ruler**: every house that defies it or leaves for exile makes the ruler readier to pardon the rest, and slower to take land from those that followed.
+
+**If your house is judged by an AI ruler**, the same rules apply. A pardon or a rebuke is simply announced. Otherwise a herald brings the sentence in the window *"The crown's judgment"*: *"Bow to it"*, *"Leave the realm with nothing"* (when land is taken from you) and *"Defy the crown"*. Like an AI house, you can defy only if your men would follow you: most of the time the option is greyed out (*"Your men came home beaten from the last war and want no more of it: none would follow you against the crown now."*). It is greyed out too if you have no town or castle left to hold, or if your house is sworn to a plot.
+
+**As ruler**, a window asks you about each house when the war ends, the house that led the rising first, and tells you whether it led or followed: *"Rebuke the {Clan} before the court"*, take a town or castle, take them all, banish, pardon, or *"Not yet"* to decide later, then speak to the head of the house: *"Your house rose against the crown. Hear my judgment."* Your choices are your own, whether the house led or followed; the houses you judge may defy you or leave for exile by the same odds as under an AI ruler. You can also banish a marked house from the **Clans** tab of the kingdom screen: while the mark lasts, its **Expel** button reads *Banish*, costs no influence and needs no vote.
+
+## New houses (very soon in 2.0.0) {#new-houses}
 
 When an AI kingdom has a town or castle to share out (taken in a war, taken from a traitor, or left by a house expelled or gone; never a fief voted away from a house, nor one you took) and holds many more fiefs than houses to hold them, its ruler **raises a new house** and grants it that fief instead of putting it to the vote: *"{Ruler} has raised {Lord} to the nobility of {Kingdom}. The new house of the {Clan} holds {Fief}."*
 
@@ -35,7 +45,10 @@ When an AI kingdom has a town or castle to share out (taken in a war, taken from
 - At most one new house every **30** days per kingdom, and never during a civil war.
 - The house is born from nothing, as in the game's own rebellions: three lords of the kingdom's culture, one of them its head, at **clan tier 3** (two parties), with some silver to raise its men.
 
+If the kingdom has a [landed knight](landed-knights.md) ready to rise, the fief goes to that knight's house first, and no new house is raised for it.
+
 Your own kingdom is left to you: as in the base game, you make a new house by granting a fief to a companion.
+
 
 ## A kingdom takes in a house only with land for it
 

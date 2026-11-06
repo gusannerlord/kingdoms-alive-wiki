@@ -64,6 +64,12 @@ The AI does all of this too: it grants the old laws when a fief is near rising, 
 - **The encyclopedia.** A fief's page says how far the new faith has come and whether its notables still keep the old ways, what became of its temple, and whether it keeps its old laws.
 - **The loyalty breakdown** of the fief: *Of another faith*, *Their temple given over*, *Their temple torn down*, *Their old laws kept*, *Their old festival honoured*.
 
+### On the fief's own screens (very soon in 2.0.0) { #on-the-fiefs-own-screens }
+
+- **The town's Manage screen.** Under the town's figures, *Culture* and *Faith* show what its people keep now; while it is taking up the realm's, a second line shows the new one and how many keep it already, e.g. *Battanian 43%*. The faith turns once all its people have come round; the culture once half of its notables (those of its villages too) keep the new ways.
+- **The clan's Fiefs tab.** For each town and castle, *Faith* and *Culture*; while it turns, *New faith* and *New ways* with how many keep them already.
+- Hover over any of these rows for the rest, in words: what it is turning from and to, what became of its temple and its old priest, preachers at work, a governor of the new faith, its old laws, and how many of its notables keep the new ways.
+
 ## Turn it off
 
 In the [settings file](../settings.md), set to `false`:
@@ -76,3 +82,4 @@ In the [settings file](../settings.md), set to `false`:
 - `FiefWaysOldLawsEnabled`: the old laws;
 - `FiefWaysUnrestEnabled`: trouble in the streets;
 - `FiefWaysRebellionEnabled`: towns rising sooner.
+- `FiefWaysScreensEnabled`: the rows on the Manage screen and in the Fiefs tab (very soon in 2.0.0).

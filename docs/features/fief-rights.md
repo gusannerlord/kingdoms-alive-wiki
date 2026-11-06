@@ -1,6 +1,6 @@
 # Rights to fiefs
 
-Every house holds its towns and castles by right, and remembers the ones it lost. Other houses may claim a fief too: by blood, by marriage, by having led the siege that took it, through an old claim of their line, or with a claim forged at the holder's own court. A right weighs in the council, and it is what a [reckoning](factions.md#the-reckoning-of-a-house) needs before it can be raised.
+Every house holds its towns and castles by right, and remembers the ones it lost. Other houses may claim a fief too: by blood, by marriage, by having led the siege that took it, through an old claim of their line, by the [title](titles.md#rights-of-a-duchy-and-of-a-county) of the duchy or county it lies in, or with a claim forged at the holder's own court. A house may also claim a [duke's title](titles.md#claims-to-a-title) itself. A right weighs in the council, and it is what a [reckoning](factions.md#the-reckoning-of-a-house) needs before it can be raised.
 
 ## Firm and weak rights
 
@@ -10,7 +10,7 @@ A right is either **firm** or **weak**.
 - A right belongs to the head of the house who held it. When that head dies, a firm right passes to the next head as a weak one, and a weak right is forgotten. Old claims of a line are the exception (see below), and a claim by marriage belongs to the spouse instead (it dies with them).
 - The holder of a fief always has a firm right to it. A fief just taken and waiting for the council to share it out has no rightful holder until then.
 
-## How a house comes by a right
+## How a house comes by a right (very soon in 2.0.0) {#how-a-house-comes-by-a-right}
 
 | How | Strength |
 |---|---|
@@ -21,12 +21,14 @@ A right is either **firm** or **weak**.
 | **By marriage**: the head of a house or you marry; the house that takes in the spouse claims every fief their house of birth held on the wedding day, for as long as the spouse lives (see below) | Weak |
 | **Old claims of a line**: given to a few AI houses in each kingdom when the campaign starts (see below) | Firm or weak |
 | **A forged claim**: found, or made, at the holder's own court (see below) | Weak |
+| **Of our duchy**: a duke or noyan, to a county (by its town) or castle of his duchy held by a house of his realm that does not answer to him (see [Rights of a duchy and of a county](titles.md#rights-of-a-duchy-and-of-a-county)) | Weak, for as long as that lasts |
+| **Of our county**: a count, to a castle of his county held by a house of his realm that does not answer to him | Weak, for as long as that lasts |
 
 A house that gives a fief away, leaves its realm, or dies out keeps no right to it.
 
-## Old claims of a line
+## Old claims of a line (very soon in 2.0.0) {#old-claims-of-a-line}
 
-When a campaign starts, **two or three** AI houses in each kingdom get an old claim to a town or castle of another house of their own kingdom, or now and then to one in a neighbouring kingdom. The claim is to one of the four fiefs of their kingdom nearest their own lands (their seat, if they have none); of those, nearer ones and those of their own culture are likelier, and the ruler's fiefs much less likely. About a third of these claims are firm.
+When a campaign starts, **four or five** AI houses in each kingdom get an old claim to a town or castle of another house of their own kingdom, or now and then to one in a neighbouring kingdom (about 40 on the map). The claim is to one of the four fiefs of their kingdom nearest their own lands (their seat, if they have none); of those, nearer ones and those of their own culture are likelier. A claim within the kingdom is always one that can be pressed: never to a fief of the ruler's house or of the claimant's own kin or in-laws; and the ruler's house and the ruler's close kin get none within the kingdom (they may still get one abroad). About a third of these claims are firm. Only a new campaign gets them: a campaign already under way keeps the ones it started with.
 
 These claims are never forgotten: a firm one becomes weak when the head who held it dies, and a weak one stays with the house. This is trouble waiting to happen: a house with a firm claim and no love for the holder can raise a reckoning on its own.
 
@@ -52,22 +54,27 @@ Leave a companion or a member of your family in a town or castle of another hous
 - **It stops** if they leave the fief, are taken or die, if the house loses the fief, if your house comes to hold it or a claim to it by other means, or if your kingdom and theirs go to war. You hear of it in their words when it matters to you.
 - **The journal** keeps an entry for each of them while they forge, **"{name} seeks a claim to {fief}"**, with the fief marked on the map.
 
+## A claim to a title forged at its seat (very soon in 2.0.0) {#a-claim-to-a-title-forged-at-its-seat}
+
+The same can be done for a **duke's title**: leave your companion or kinsman at the seat of a duke (or a noyan) of your own realm, and ask them there for an old grant of his title to your house (*"Their lord holds {title}. Find me an old grant of it to our house, one the realm will have to hear."*). Never a title of your own house or of the ruler's, nor one you already claim, and your house must hold a town or castle somewhere (not necessarily in that duchy). It works like a claim to a fief, but takes **twice as long**, and its price is that of the duchy's chief town. The claim is weak, and pressed only by the sword, in a [feud for the title](titles.md#a-feud-for-a-title). Houses of the AI forge such claims now and then too, to a duchy near their own lands.
+
 ## When others forge claims to your fiefs
 
 AI houses forge claims too. Now and then a house whose head is not honourable quietly works on a claim to one of the four fiefs nearest its own, in any kingdom, yours included; a house that bears a grudge against the holder is likelier to choose that house's fief. They pay the same price as you, from the purse of the house's head, and wait until they have it. You see nothing of it until it succeeds. If the fief is yours, word reaches you: *"the {house} have found an old grant to {fief} in their name, sealed and witnessed, though nobody had heard of it before."* A claim on your fief matters if it ever leaves your hands: the council will hear that house. And if you are the ruler, in peace, the head of that house may come to [your court](royal-court.md#the-requests) to ask you for it.
 
-## In the council
+## In the council (very soon in 2.0.0) {#in-the-council}
 
 - **Sharing out a fief.** A house with a firm right counts double when the council picks the candidates and weighs them; a weak right counts half as much again. Honourable lords care most about this. It is never a sure thing: a house that already holds a lot is still weighed down by it, and the ruler has the last word.
-- **Putting a fief to the council yourself.** The ruler can propose taking any house's fief (the kingdom screen's **Annex**). A vassal, you or an AI lord, can only do it for a fief their house has a right to, or that a reckoning they are in claims. Otherwise the button is greyed: *"Your house has no right to {fief}..."*. With a right but no reckoning you can still try alone, but nobody is bound to vote with you.
+- **Putting a fief to the council yourself.** The ruler can propose taking any house's fief (the kingdom screen's **Annex**). A vassal, you or an AI lord, can only do it for a fief their house has a right to, or that a reckoning they are in claims. So can a house's own lord, for a fief in his duchy or county (see [A lord takes back a vassal's fief](titles.md#a-lord-takes-back-a-vassals-fief)). Otherwise the button is greyed: *"Your house has no right to {fief}..."*. With a right but no reckoning you can still try alone, but nobody is bound to vote with you. This holds in war as in peace.
 - **A reckoning's vote.** When a reckoning puts a fief to the council, the houses outside it lean a little towards the reckoning's right, firm or weak, and the more honourable they are the more they lean. It tips a close vote, no more: a house that is on fair terms with the holder still sides with them, and only one that dislikes the holder goes over to the reckoning.
 - **Joining a reckoning.** A right draws lords to it, honourable ones most.
+- **In the empires** there are no reckonings and no feuds, and nobody but the emperor puts another house's fief before the council: the button is greyed, and a right to a fief held by another house of the realm is laid before the throne as a **petition** instead, in person, by an envoy or from your house's rights in the Factions tab. See [The Empire's own ways](empire.md).
 - **A feud.** If a reckoning takes up arms over a fief and its right is only weak (or it has none), honourable houses with no ties to either side may stand with the holder, whose right is firm. Never a house that counts the holder an enemy (no love for its head, or an old grudge against its house). When one does, you hear it in their own words. It doesn't always happen: about 1 in 7 for an honourable lord, about 1 in 3 for a very honourable one. A reckoning with a firm right draws nobody in this way.
 
-## Where to see it
+## Where to see it (very soon in 2.0.0) {#where-to-see-it}
 
 - **Encyclopedia.** A house's page says what it claims beyond what it holds, how firmly, and why. A fief's page says who holds it by right, and who else claims it and why.
-- **Kingdom screen, Factions tab.** Under **Fiefs and rights**, **Your house's rights**: your rights, who of your house is forging a claim at a foreign court, who claims your fiefs, and the lords who will back you when the next fief is shared out.
+- **Kingdom screen, Factions tab.** Under **Fiefs and rights**, **Your house's rights**: your rights (to titles too), who of your house is forging a claim at a foreign court, who claims your fiefs and titles, and the lords who will back you when the next fief is shared out. Each of your rights against a house of your realm has a **Press by the sword** button (see [Three ways to press a right](factions.md#three-ways-to-press-a-right)); in the empires, **Petition the throne** instead.
 
 ## Turn it off
 

@@ -45,6 +45,7 @@ When you talk to a lord, they may open the conversation with a memory of you, in
 | You served them as their squire | that lord | **forever** |
 | As their squire, you stood over them when they fell in battle, or let them lie | that lord | **forever** |
 | As their squire, a talk by their fire they took well (or badly), or a bout in their yard | that lord | about 4 months (2 for a talk taken badly; 8 for a dirty win or yielding in the yard) |
+| You [sparred](sparring.md) with them, whoever won (very soon in 2.0.0) | that lord | 2 months |
 
 Only lords who took part remember a battle, and only lords of a realm at war with you remember being captured. Ransoms remember how they were paid: sold to a ransom broker in a tavern, bought back by their house, an heirloom given in place of coin, or a tip about a caravan. Each has its own words.
 
@@ -96,9 +97,30 @@ It also depends on **how you get on now**: **proud** if they like you (relation 
 
 **Walking out.** If you leave their service before your spurs are won, or they send you away, the proud memory is gone. In its place they keep a bitter one, forever: *"Ah, the squire who ran. I tell the story at table sometimes. It always gets a laugh."* If you rise high after walking out, they notice that too: *"You left my service before your spurs were won, and now you wear a crown. I do not know whether to curse you or bow. I do both, quietly."*
 
+## Lords remember each other (very soon in 2.0.0) { #lords-remember-each-other }
+
+The lords keep in mind what other lords did to them and to theirs, by the same rules as what you did, and it warms or sours the two houses (the relation between their heads) for as long as it is remembered:
+
+- **A tournament** another lord won, while they rode in it: a small sting, for about a month.
+- **A battle under another lord's banner**, on the same side: a little warmth, for about a month.
+- **Help in a fight already under way**, when another lord rode in and they won: gratitude, for about 3 months.
+- **Taken prisoner** by another lord: resentment, for about 4 months.
+- **Freed from their captors** by another lord's host in a battle: gratitude, for about 8 months.
+- **A kinsman fallen in battle** against another lord's host, or **put to death** by another lord: never forgotten, and it never fades.
+- **A town or castle stormed** by another lord: remembered and spoken of (the game itself already makes them bitter for it).
+- **A bout with the practice blades** against another lord ([sparring](sparring.md)): remembered and spoken of for about 2 months (the bout itself brings the two a little closer).
+
+A small thing between the same two houses counts once: a second tournament or battle together refreshes the memory instead of adding to it. When a memory is forgotten, the warmth or bitterness it brought goes with it; a death never is. When a house changes head, the new head takes up what the house remembers. Duels are not counted as deaths in battle.
+
+This is between the lords themselves. What lords do to you or your house, and what you do to them, is remembered as above and brings their words, but moves your relations only as the game itself does.
+
+**They tell you of it.** When a lord greets you and has nothing weightier to say about you, they may bring up something another lord did to them: *"{Lord} took me prisoner near {place}, some weeks ago. I have not forgotten the inside of her baggage train."*, *"{Lord} put my brother to death, and called it justice. Perhaps it was. I will never forgive it all the same."*
+
 ## Turn it off
 
 In the settings file, set `NobleMemoryEnabled` to `false`: lords stop noting what you do and stop bringing up memories. What they already remember is kept in your save, in case you turn it back on.
+
+Set `LordMemoriesEnabled` to `false` and lords stop remembering each other: nothing new is noted, and the warmth or bitterness of what they already remember stays as it is until you turn it back on. Its numbers are on the [Settings](../settings.md) page.
 
 How long each memory lasts can be changed with the `Memory...Days` numbers (a negative number means never forgotten), and how often lasting memories come back with `MemoryRepeatDays`, `MemoryRepeatChance` and `MemoryQuietHours`.
 

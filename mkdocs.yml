@@ -59,6 +59,10 @@ nav:
       - Events between clans: features/clan-events.md
       - Civil war: features/civil-war.md
       - Traitors and the houses of a realm: features/realm-houses.md
+      - Landed knights: features/landed-knights.md
+      - Works in a village: features/village-works.md
+      - Dukes, counts and castellans: features/titles.md
+      - The Empire's own ways: features/empire.md
       - Factions and grievances: features/factions.md
       - Rights to fiefs: features/fief-rights.md
       - The crown and its claim: features/succession.md
@@ -67,6 +71,7 @@ nav:
       - Envoys: features/envoys.md
       - Your rival: features/rival.md
       - Duels: features/duels.md
+      - Sparring with nobles: features/sparring.md
       - Lords who remember you: features/memories.md
       - Captives: features/captives.md
   - Your realm and household:

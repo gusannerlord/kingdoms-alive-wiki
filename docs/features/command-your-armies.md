@@ -2,6 +2,8 @@
 
 Your realm now has someone at the head of its armies: the **Marshal** of the [royal court](royal-court.md). As ruler, you give your war aims to your Marshal and they carry them to the lords. As a vassal, you can be that Marshal yourself, take your liege's orders and see them done. Orders go by word of mouth or by riders who find the lords wherever they are, and every lord answers in their own voice.
 
+AI realms that are losing a war now fight it on the defence, as you can set a war of yours: see [Realms on the back foot](#realms-on-the-back-foot-on-by-default).
+
 A second part, **Smarter warlords**, changes how AI lords wage war. It is **off by default**: see [below](#smarter-warlords-off-by-default).
 
 ## One Marshal
@@ -87,11 +89,19 @@ You do not have to chase lords across the map. Riders go **twice as fast as a lo
 
 The window **The realm's riders** offers, as ruler: *"Offer a lord the office of Marshal"* and *"Send orders to your Marshal"*. As Marshal: *"Carry the king's order for {PLACE} to the lords"* (pick as many lords as you like, nearest to the place first) and *"Send your orders to one of the realm's armies"*.
 
-## Your liege explains the war
+## Your liege explains the war (very soon in 2.0.0) { #your-liege-explains-the-war }
 
 While you serve a realm you do not rule, as a vassal or a mercenary, your liege tells you how the war goes, in their own voice and with their portrait: when the realm is losing and turns to the defence, when it is all but beaten, when it takes heart again or presses a beaten enemy. The leader of an army you ride in tells you when they turn to relieve one of your places. Each kind of news comes at most twice a day.
 
+When your liege says the realm turns to the defence, its armies really do (see [Realms on the back foot](#realms-on-the-back-foot-on-by-default)), and the enemy named is the one the realm is losing to. A realm weaker than its enemies that is not on the defence does not pretend to be their match.
+
 You can also ask your liege in person: *"My liege, what is our plan for this war?"*
+
+## Realms on the back foot (very soon in 2.0.0) { #realms-on-the-back-foot-on-by-default }
+
+On by default. In the base game only you can set a war to defensive, and only for a kingdom you rule. Now an AI realm that is clearly weaker than its enemies and is losing one of its wars (towns and castles lost to that enemy, or well behind in the war) does the same: its lords lay fewer sieges and raids, ride sooner to relieve their own besieged places, and ride sooner at enemy parties, just as the game's defensive stance makes them. It stands on the defence against every realm at war with it, so a realm fighting on two fronts holds back on both. It turns back once it has regained its strength or is no longer losing any of its wars, and a peace with one of its enemies ends it against that one at once.
+
+Never the realm you rule: there the stance is yours to choose. You yourself are never moved by it. A realm that is winning gets no push of its own. This works whether **Smarter warlords** is on or off; switch it off with `DefensiveStanceEnabled` (see [Settings](../settings.md)).
 
 ## Running from you (on by default)
 
@@ -132,6 +142,7 @@ In the settings file (see [Settings](../settings.md)), set to `false`:
 - `PrudenceRiderEnabled`: no riders (from towns and castles or from your party).
 - `PrudenceFieldRiderEnabled`: no riders from your own party.
 - `PrudenceMarshalEnabled`: your liege and army leaders do not explain the war.
+- `DefensiveStanceEnabled`: AI realms that are losing do not turn to the defence.
 
 Smarter warlords (`PrudenceEnabled`, off by default) and its pieces:
 

@@ -4,24 +4,23 @@ Neighbouring kingdoms that are not at war have things happen between them: a cat
 
 ![An event between kingdoms](../assets/kingdom-event.jpg)
 
-## Tension
+## Tension (very soon in 2.0.0) { #tension }
 
 Every pair of kingdoms has a **tension** that only recent incidents move. It starts at 0. In the game you see it as **grievances** (0 to 100: incidents that push toward war) or **goodwill** (0 to 100: incidents that hold war back), or **"no lasting mark"** when it is below 5 either way. It is only one of the things weighed when war is talked of: the rulers' relation, lost lands and the balance of strength count apart. Below, +100 means grievances 100 and -100 means goodwill 100.
 
 - Grievances raise it, courtesies lower it.
 - It fades on its own: it loses half of itself every 60 days.
 - When two kingdoms make peace after a war, it goes back to 0. During the 45-day [truce](war-and-peace.md#truce-and-tribute) that follows, whatever builds up does not fade: it starts fading only once the two could go to war again.
-- At +100 it is almost enough on its own to bring a war about. Below 0 it holds a war back in the same proportion.
-- Above 0 it also counts as a **cause** for war, so a kingdom with no other quarrel no longer needs better odds once the tension is high enough (about 45) (see [War and peace](war-and-peace.md)).
+- At +100 it weighs about a third of what a war needs: far from enough on its own, but it adds to every other cause. Below 0 it holds a war back in the same proportion.
+- Above 0 it also counts as a **cause** for war: a kingdom with no other quarrel needs better odds, and the higher the tension the less of that handicap is left; at +100 it is gone (see [War and peace](war-and-peace.md)).
 
-## When events happen
+## When events happen (very soon in 2.0.0) { #when-events-happen }
 
 Events only happen between two kingdoms whose lands touch and that are not at war with each other.
 
-- **How often:** each pair has about one event every 33 days.
+- **How often:** never two events (or [affairs of the realm](realm-affairs.md)) between the same two kingdoms within 30 days; after that, about one event every 60 days on average for each pair.
 - **Many borders, not many more events.** A kingdom at peace with many neighbours would otherwise collect far more events than one with few. So each pair's chance is adjusted by how many neighbours at peace each of the two has, with 3 as the usual case: a kingdom at peace with 5 neighbours sees about 1.3 times the events of one with 3 (not 1.7 times), and one at peace with a single neighbour about half as many (not a third).
-- **A long peace breeds incidents.** When neither kingdom is at war with anyone, events become more frequent once one of them has been at peace for 10 days, up to three times as frequent after 25 days.
-- **When both are at war with other kingdoms,** events come half as often.
+- **When both are at war with other kingdoms,** events come half as often (about one every 90 days).
 
 Which kind of event comes depends on how things stand:
 

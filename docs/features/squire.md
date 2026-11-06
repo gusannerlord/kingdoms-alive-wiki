@@ -9,7 +9,6 @@ Talk to a lord, choose *"There is something I'd like to discuss"* and then **"My
 The lord must belong to a noble house of a kingdom (not a mercenary company or a minor clan), be free and not of your house. A ruler can take you too. The line only appears if you can ask; it does not if:
 
 - You are sworn to a kingdom, or serve **another** kingdom as a mercenary. (Already a mercenary of **their** kingdom is fine.)
-- Your clan is still at **tier 0**.
 - The lord dislikes you (relation below **0**).
 - You are at war with their kingdom.
 - The lord is your [rival](rival.md).
@@ -213,6 +212,10 @@ Speak with the ruler: **"{lord} has made me a knight of your realm, your Majesty
 Once you are dubbed (and did not stay on), you are no longer called to your lord's hosts and marches until you swear. Swearing to the crown through the game's own vassal talk instead counts just the same.
 
 If your lord dies after **7 or more** errands, their ruler keeps the promise: go to them to be knighted, and the knight's kit comes when you swear. With fewer errands, the service ends with no blame. If you leave the kingdom after the summons or the dubbing, the promise lapses quietly. If your lord's house changes kingdom, you follow them.
+
+### A village of your own (very soon in 2.0.0) {#a-village-of-your-own}
+
+When you swear, if your house is still of clan tier 1 or lower and holds no fief, the lord who knighted you (or the ruler, if that lord is gone) gives you a village of one of their castles to hold as a [landed knight](landed-knights.md), when their house has a castle with no knight and the 100,000 denars an AI lord needs to raise any knight. If only the silver is lacking, they say so in their own words, and you are a knight without land. In the Empire only the emperor grants such land.
 
 ## Staying on
 

@@ -8,7 +8,7 @@ A beaten kingdom no longer just pays and walks away. It can bend the knee: it ke
 
 A kingdom that is clearly winning a war can ask fealty instead of tribute. It can only ask when all of these hold:
 
-- it is **300 or more** ahead in the war score (the same "decided war" mark as for [peace](war-and-peace.md#peace-needs-both-sides));
+- it is **300 or more** ahead in the war score;
 - the loser holds at most **0.85 times** a kingdom's even share of the towns and castles (about 12 on the usual map);
 - the winner is at least **1.2 times** as strong;
 - the winner has fewer than **2** vassal realms, and a free alliance place (see [What the overlord owes](#what-the-overlord-owes));
@@ -40,6 +40,10 @@ If you rule your kingdom, every enemy appears in the **Vassals** tab of the king
 
 The tab also counts the fiefs: *"Of the {start} towns and castles they held when this war began, you have taken {lost}. [...] take some {more} more from them, and they may think otherwise."*, until enough have fallen.
 
+### Fealty in terms of peace (very soon in 2.0.0) { #fealty-in-terms-of-peace }
+
+Fealty can also be one of the [terms of peace](war-and-peace.md#terms-of-peace) set on the Terms of Peace screen, by you or by an AI ruler. The same rules hold there: an AI realm only bends the knee in such terms when it would accept fealty by the points above (with the same 40% of its towns and castles taken, and never before day 500 between AI kingdoms; in a war of independence, 5.5 points and no share of fiefs), and only once it is beaten badly enough to give up a town (outside a war of independence). So kneeling is never easier than giving up a town.
+
 ### Offered out of fear
 
 A small AI kingdom (at most 0.35 times the even share, about 5 towns and castles or fewer) may offer fealty to the strongest enemy that is at least **1.3 times** as strong and **150** ahead in the war score, if it is surrounded: at war with two or more kingdoms, or having lost two or more towns and castles in the last 60 days. It only offers itself to an enemy that has taken at least **40% of the towns and castles it held when that war began**, as above. It is checked every 3 days with a 2% chance while it stays in that state. Between AI kingdoms, never before day 500. Refused, it does not offer to the same kingdom again for 30 days.
@@ -66,7 +70,7 @@ If you attack someone on the map as a vassal, that war stands, but it is yours a
 - **Giving back lost fiefs.** A town or castle the vassal lost to a third kingdom (in the last 120 days) and that the overlord retakes goes back to the house that held it: a favour (**+8**). If you are the overlord, a window **"A fief of your vassal"** asks: **"Return it"** or **"Keep it"**, which is a grievance (**+20**). If you took it as a lord of an AI overlord, you lose it: it goes back to the vassal, and you are told so.
 - **Alliance places.** The tie rides on the game's own alliance, so the two show as allies. Each vassal takes one of the overlord's **two** alliance places.
 
-Kingdoms that may not attack the overlord (a truce, tribute, an alliance) may not attack its vassal either: *"The {kingdom} are under the protection of the {overlord}."* An attacker counts the overlord's full strength against it, and the vassal's against whoever attacks the overlord. No [events between kingdoms](events-between-kingdoms.md) happen between an overlord and its vassal.
+Kingdoms that may not attack the overlord (a truce, an alliance) may not attack its vassal either: *"The {kingdom} are under the protection of the {overlord}."* An attacker counts the overlord's full strength against it, and the vassal's against whoever attacks the overlord. No [events between kingdoms](events-between-kingdoms.md) happen between an overlord and its vassal.
 
 ## Loyalty
 

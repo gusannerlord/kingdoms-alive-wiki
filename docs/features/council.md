@@ -4,7 +4,7 @@ Talk the clan leaders of your own kingdom, the ruler included, into backing or o
 
 ![Raising a matter of war and peace with the king](../assets/council-persuasion.jpg)
 
-## Starting the conversation
+## Starting the conversation (very soon in 2.0.0) { #starting-the-conversation }
 
 Talk to the leader of any other clan of your kingdom and choose **"There is something I'd like to discuss."**, then **"There is a matter of war and peace I would raise with you."**
 
@@ -12,7 +12,7 @@ It works whether you are a vassal or the ruler. Neither you nor the lord can be 
 
 Choose what you want:
 
-- **"We should go to war."** / **"There is a war we should keep out of."** Lists the kingdoms your kingdom could declare war on right now (not during a truce or while they pay you tribute, see [War and peace](war-and-peace.md)).
+- **"We should go to war."** / **"There is a war we should keep out of."** Lists the kingdoms your kingdom could declare war on right now (not during a truce, see [War and peace](war-and-peace.md#truce-and-tribute)).
 - **"We should make peace."** / **"There is a war we should not end yet."** Lists the kingdoms you are at war with.
 
 Then pick the kingdom.
@@ -100,14 +100,14 @@ When a vote is settled:
 - The voting window shows whom you will gain with and whom you will lose with if the vote ends as it stands.
 - The vote on taking a fief away from its holder keeps the base game's rules.
 
-## Who gets a fief
+## Who gets a fief (very soon in 2.0.0) { #who-gets-a-fief }
 
 When a town or castle is conquered, or taken from a vassal, the council votes on who gets it. In the base game only the **three** houses the game finds most deserving stand, and that favours houses with little land: once you hold a few fiefs, you often do not even stand for the one you just conquered. The mod gives you ways to play for it.
 
 - **Five candidates instead of three.** Right after a conquest, the fourth is the house that **led** the conquest, if it is not already among the first three. Conquer it yourself and you always stand. The fifth is the **ruler's house**, unless the fief was the ruler's own or the realm's charter gives fiefs to the realm. When either of them is already among the first three, their place goes to the next most deserving house. (The voting cards are narrower to fit five candidates and "abstain".)
 - **On the vote screen** the ruler's house always stands rightmost of the houses (just before *Abstain*), marked *(Ruler)*, and the house that led the siege that took the fief stands just at its left, marked *(Conqueror)*, with a line on its card saying so. A house that did not take this fief by siege gets no mark, wherever it stands.
 - A house promised the fief in a reckoning takes the place of the least deserving candidate, never the conqueror's or the ruler's.
-- **Friendship counts.** Every lord's vote for your house rises a little with how much they like you: at 50 relation, about as much as a house's own merit weighs with a lord who does not care either way.
+- **Friendship counts.** Every lord's vote for a house rises a little with how much they like its head, yours and the AI's alike: at 50 relation, about as much as a house's own merit weighs with a lord who does not care either way.
 - **Ask for a lord's voice.** Talk to the head of another house of your realm, as ruler or vassal: *"When the next fief of this realm is shared out, I would have your voice for my house."* Any lord with 0 relation or more listens, then you argue it out. The more towns and castles your house already holds, the harder it is (one step for every 2); your Charm and a shared feast or hunt make it easier; an honorable lord, who votes by merit, is harder.
 
 Your chances with a lord who has no special traits:

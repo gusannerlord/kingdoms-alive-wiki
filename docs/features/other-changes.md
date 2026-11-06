@@ -16,6 +16,9 @@ The base game knows corruption only from low security or loyalty. With the mod, 
 
 A **governor** cuts it in his own fief by his Steward: half at 75, none at all at **150**. It is the same for every house, AI or yours (AI houses put their idle lords in as governors as in the base game).
 
+### In the Fiefs tab (very soon in 2.0.0) { #in-the-fiefs-tab }
+The **Fiefs** tab of the clan screen shows each town and castle's current corruption as a **Corruption** row, wherever there is some. Hover over it for the reason in words, and whether its governor's stewardship is cutting it.
+
 ## Longer siege preparations
 **Siege Preparations** (the first thing a siege camp builds, before any siege engine and before it can assault) take **half as long again** (1.5 times as long), for you and for the AI, in any campaign.
 

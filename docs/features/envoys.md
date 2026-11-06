@@ -38,6 +38,14 @@ Two more errands appear during a plot in your realm: **"Win a lord over to our p
 
 During a feud between two houses of your realm, **"Offer our swords to a house at feud"** carries your offer to either house: to its head, or to a grown lord of the house while the head is a prisoner. Whether they take it is up to them, not to your envoy; as a mercenary, you offer your company for their silver. See [Factions and grievances](factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses).
 
+### New errands (very soon in 2.0.0) { #new-errands }
+
+**"Release a landed knight of our house"** (for a lord with landed knights) tells one of your [landed knights](landed-knights.md) that your house releases them and takes back their land. It is an order, not a matter of persuasion. How it lands depends on how you stand with the knight when the envoy arrives: with relation above −30 they are let go with a little lost regard (−5) and no grievance; at −30 or worse it is taken as their land being seized, with a grievance and −20 relation.
+
+**"Carry our defiance: press a right by the sword"** carries your house's defiance to the head of a house of your realm that holds a town, a castle or a [title](titles.md) your house has a right to. Pick the right from the list (those that cannot be pressed now are greyed, with the reason) and the envoy rides to that head. It is not a matter of persuasion: once delivered, your houses are at feud, as if you had said it to their face. If by then the right can no longer be pressed (the head changed, or anything else now bars a feud), the envoy writes to tell you why and nothing comes of it. The same rules apply as in person or from the Factions tab: see [Factions and grievances](factions.md).
+
+**"Carry a petition to the throne: a right to a fief"** is only offered in a realm of the Empire, where houses do not take a fief from one another by the sword but ask the emperor. The envoy lays your house's right to a town or castle another house of your realm holds before the throne; the throne's judges hear both houses, and the emperor gives an answer. Rights that cannot be petitioned now are greyed, with the reason. See [The Empire's own ways](empire.md).
+
 ### Prices and dowries
 A good envoy gets a better price. The price to join or the dowry is cut by about 4% for each half step in the envoy's favour (see below), down to 70% of the base game's figure, and raised the same way for a poor envoy, up to 130%.
 
@@ -140,3 +148,4 @@ In the settings file, set the switch to `false`. See [Settings](../settings.md).
 - `EnvoyMeetingEnabled`: meetings halfway.
 - `EnvoyGiftEnabled`: gifts of gold.
 - `EnvoyPlotJoinEnabled` and `EnvoyPlotLoyalEnabled`: the two plot errands.
+- The three newer errands go with their features: `LandedKnightsEnabled` (releasing a knight), `FactionFeudPressRightEnabled` (pressing a right by the sword) and `ImperialPetitionEnabled` (the petition to the emperor).

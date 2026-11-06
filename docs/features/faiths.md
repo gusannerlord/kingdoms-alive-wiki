@@ -151,6 +151,17 @@ Ask a priest of another faith to take you in. They will tell you plainly what it
 - Houses of the same faith quarrel a little less, and houses of different faiths a little more (the two churches, and the two northern faiths, neither more nor less).
 - Lords marry across faiths less often.
 
+## Faith in the wars between kingdoms (very soon in 2.0.0) { #faith-in-the-wars-between-kingdoms }
+
+- A kingdom wants back the **holy city** of its ruler's faith when a ruler of another faith holds it. Few causes for war weigh more.
+- It also wants the towns, and less the castles, whose people keep its ruler's faith under a ruler of another faith.
+- Rulers of different faiths go to war with each other a little more readily, and rulers of one faith a little less.
+- Here the two churches count as one faith, and so do the two northern faiths. The Khuzaits keep no holy city.
+
+See [War and peace](war-and-peace.md).
+
 ## Settings
 
 Everything is under **Faiths** in the mod's options, one switch for each part: priests, festivals, the sacred months, blessings, changing faith, and faith among the lords. See [Settings](../settings.md#faiths).
+
+Faith in the wars between kingdoms (very soon in 2.0.0): set `WarHolyCityEnabled` (the holy city), `WarFaithLandEnabled` (lands of the ruler's faith) or `WarRulersFaithEnabled` (rulers of different faiths) to `false`.
