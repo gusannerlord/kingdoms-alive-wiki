@@ -2,7 +2,7 @@
 
 AI kingdoms now go to war for a reason, stay in it until it is settled, and rest for a while once it is over. You can also see why: lords say what they are fighting for, and when a kingdom declares war on yours, you are told its reason.
 
-## Why a kingdom goes to war (very soon in 2.0.0) { #why-a-kingdom-goes-to-war }
+## Why a kingdom goes to war { #why-a-kingdom-goes-to-war }
 
 The AI still weighs what it could win against what it could lose. On top of that, these causes push it toward a war:
 
@@ -22,11 +22,11 @@ For all of these, the two churches count as one faith, and so do the two norther
 
 A war with none of these behind it needs clearly better odds. Causes that are strong enough remove that handicap completely; weaker ones remove part of it.
 
-## Dukes and counts in the vote (very soon in 2.0.0) { #dukes-and-counts-in-the-vote }
+## Dukes and counts in the vote { #dukes-and-counts-in-the-vote }
 
 When a kingdom of dukes and counts votes on a war, a duke or count whose lands border the enemy, or who has lost one of them to it, is more eager for it; a duke more than a count. One whose lands lie far from the enemy is a little less keen. The same goes for you: your own vote is yours, but the AI lords of your kingdom weigh their lands when you propose a war.
 
-## Less piling on (very soon in 2.0.0) { #less-piling-on }
+## Less piling on { #less-piling-on }
 
 - **Strength is measured fairly.** Almost half of each kingdom's strength is counted from its size (its towns, castles and clans), not only from the men it has right now. A kingdom that has just lost an army is no longer everyone's prey.
 - **Allies deter.** Half the strength of the target's allies counts on the target's side.
@@ -49,7 +49,7 @@ Your own kingdom counts like any other.
 !!! tip
     If you rule a growing kingdom, make friends with the neighbouring rulers. It is the best protection you have against everyone turning on you.
 
-## Wars that stop and start sensibly (very soon in 2.0.0) { #wars-that-stop-and-start-sensibly }
+## Wars that stop and start sensibly { #wars-that-stop-and-start-sensibly }
 
 - **Weariness.** The men a kingdom has lost in its current wars, and each peace it has signed lately (the effect fades over 60 days), make it expect up to 30% less from a new war. The same losses make it want peace in the war it is fighting, whether it is winning or losing.
 - **Restlessness.** A kingdom with no war against another kingdom for more than 40 days starts to expect more from a war: 2% more for each further day, up to 70% more after 75 days of peace. This is a last resort against endless peace; most wars should come from real causes.
@@ -57,7 +57,7 @@ Your own kingdom counts like any other.
 - **Feuds hold wars back.** A kingdom whose houses are fighting a [feud](factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses), or have one waiting to resume, is slower to start a new war abroad: the larger the share of its strength caught up in feuds, the more it holds back, and more still while a feud is being fought in arms. This binds your council's vote as much as the AI's. While such a feud lasts, the restlessness of a long peace does not count and the ruler looks for no war; the days of peace still count, so once the last feud is over both come back as strong as those days make them.
 - **Civil war.** While a kingdom is in a [civil war](civil-war.md), other AI kingdoms find it harder (not impossible) to attack either side, and its war is never "the right moment" for them.
 
-## Peace needs both sides (very soon in 2.0.0) { #peace-needs-both-sides }
+## Peace needs both sides { #peace-needs-both-sides }
 
 In the base game the kingdom that wants out just leaves, usually paying tribute. Now a kingdom can only make peace if:
 
@@ -69,7 +69,7 @@ A peace offered to your kingdom always comes to you or to your council, as in th
 
 The same rule holds for a house that [broke away](royal-court.md#taking-a-fief-from-a-vassal) from its kingdom over a fief it would not give up: it cannot buy its way back to peace with that kingdom on a whim, as houses without a kingdom do in the base game. The crown must be willing (here, as before, it is enough that the peace costs the crown nothing), or the war must be decided, or it must have lasted 80 days. Other houses without a kingdom (rebels of the base game, mercenaries) make peace as before.
 
-## Truce and tribute (very soon in 2.0.0) { #truce-and-tribute }
+## Truce and tribute { #truce-and-tribute }
 
 - **Truce.** For 45 days after a peace, neither kingdom's council can declare war on the other (base game: 20 days, and only for the AI).
 - **Tribute.** A tribute no longer forbids a war, but it weighs against one: a kingdom that is paid tribute by another thinks twice before attacking it, because the war would end the silver still owed, and breaking a peace whose price is still being paid looks bad. The weight fades as the tribute runs out. A strong cause, such as a hated ruler or lost land, can still outweigh it.
@@ -85,7 +85,7 @@ The truce and the peace rules also bind your kingdom, whether you rule it or ser
 
 This also applies to your kingdom: if you are called into a war, you leave it when the caller makes peace.
 
-## Terms of peace (very soon in 2.0.0) { #terms-of-peace }
+## Terms of peace { #terms-of-peace }
 
 Besides the kingdom screen's peace proposal (as before), a ruler can set **terms** with an enemy ruler on the **Terms of Peace** screen: he picks what each side gives, sees at once whether the enemy ruler would take it and how each council would vote, and offers it.
 
@@ -127,7 +127,7 @@ A clearly beaten kingdom may have to swear fealty instead of paying a tribute. S
 
 When a clan leader dies, the heir inherits part of each of the dead leader's relations. The base game always passes on 70%. Now the share is drawn at random for each person, between 10% and 70%. An heir may keep the late leader's friendships and feuds almost whole, or nearly forget them.
 
-## Seeing why (very soon in 2.0.0) { #seeing-why }
+## Seeing why { #seeing-why }
 
 - **War proposals.** A clan that proposes a war gives its real reason, for example *"Balgard is ours by right, and the Nords hold it. It is time to take it back."*, *"Our allies are already at war with the Aserai. We should stand with them."* or *"The Khuzaits have grown too powerful. They must be checked while it can still be done."* When recent [incidents between the two kingdoms](events-between-kingdoms.md) are not the main reason but still weigh at least a third as much, they are named after it, here and in the window when war is declared on your kingdom: *"... And the cattle raid on the border is not forgotten either."*
 - **The kingdom screen.** When you look at proposing a war, the support shown by the game ("Low support", "Good support"...) is followed by the lords' two main reasons, for or against. For example *"Low support: we have no quarrel with them; the realm is weary of war"* or *"Good support: Sargot is ours by right; we are the stronger side"*. Faith and titles have their own words, for example *"Pravend, the holy city of the Church of Paravenos, is in the hands of the Battanians, who do not even keep the faith. We cannot suffer it a day longer than we must."*, *"Usanc Castle is a castle of our county of Sargot, and the Battanians hold it. The county must be made whole again."* or *"Caladog of the Battanians keeps the Old Ways, not the Church of Paravenos. Between us there can be no lasting trust."*; on the kingdom screen, *"Good support: they hold Pravend, the holy city of the Church of Paravenos; we are the stronger side"*. A lord only names a cause of faith or titles when it is the one that weighs most.

@@ -9,6 +9,7 @@ A good report says:
 2. **When**: what you were doing (on the map, in a town, in a conversation...).
 3. **Your mod list**, or at least the mods that touch the campaign.
 4. If the game crashed: accept the crash report, and tell me the date and time of the crash.
+5. If you can, the game's log: the newest `rgl_log` file in `C:\ProgramData\Mount and Blade II Bannerlord\logs` (ProgramData is a hidden folder: paste the path into the Explorer address bar). The mod's own detailed log lines are off by default; if I need them, I will tell you which switch to turn on in the [settings](settings.md#logs) file.
 
 !!! tip "Feedback is just as welcome"
     I really value your feedback to keep tuning the numbers. If something happens too often, too rarely, or feels unfair, tell me.

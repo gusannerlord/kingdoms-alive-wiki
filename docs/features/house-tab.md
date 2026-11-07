@@ -4,7 +4,7 @@ Kingdoms Alive adds a fifth tab to the **clan screen** (L), next to Members, Par
 
 The tab is only for your house. Every house, yours included, still shows its faith, its rights and its claim to the throne in the encyclopedia.
 
-## What it shows (very soon in 2.0.0) {#what-it-shows}
+## What it shows {#what-it-shows}
 
 Each section appears only while the system behind it is on.
 
@@ -16,4 +16,4 @@ Each section appears only while the system behind it is on.
 
 The tab shows few numbers behind the rules: the bars show how far you have come, not by how much. Your lands is the exception: it counts your towns and castles against how many the lords bear with.
 
-In both builds, for the game's v1.5.5 and v1.4.8 branches.
+In both builds, for the game's v1.5.6 and v1.4.8 branches.

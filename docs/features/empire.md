@@ -1,4 +1,4 @@
-# The Empire's own ways (very soon in 2.0.0)
+# The Empire's own ways
 
 The three empires do not live like the other kingdoms. As in Byzantium, the land, the commands and the justice belong to the emperor: lords do not make war on each other or band together to take a fief, they petition the throne. In return the empire has its own dangers: a general at the head of a theme may march on the palace, and each emperor claims the whole Empire from the other two.
 
@@ -39,6 +39,26 @@ The envoy errand and the button are always visible, greyed out with the reason w
 **As emperor**, every petition comes to you in a window, "A petition before the throne", with the right and where it comes from. You choose: "Grant it: {FIEF} goes to the {CLAIMANT}" or "Refuse it: the {HOLDER} keep {FIEF}". The tooltip of each says what it will cost you.
 
 AI houses bring about 6 petitions in each realm of the Empire over 900 days.
+
+### When the holder will not give it up
+
+Under a strong emperor the throne's word is obeyed: the house that holds the fief gives it up. But a house may refuse a weak emperor, as the magnates of Byzantium did when the throne could not make its will felt. It happens more rarely than when a feudal king takes a fief by decree. The emperor is weak when:
+
+- he has worn the crown less than a year;
+- the lords do not hold his claim to the throne secure (see [The crown and its claim](succession.md));
+- the Empire is losing one of its wars, and does not dominate Calradia;
+- or the Empire has shrunk to a few towns and castles, well below the share of the other realms.
+
+What a refusal means depends on that weakness:
+
+- **Before a new, doubted or losing emperor**, refusing means breaking with the throne: the house leaves the realm with its fiefs, at war with it, or its [plot](civil-war.md) rises over the fief, as when a fief is taken by decree. The fief does not pass, and the petitioner keeps its right.
+- **Before an emperor whose only weakness is a small Empire**, the throne has no strength to spare against a house that holds its walls: the emperor **backs down**. The house keeps the fief and stays in the realm, but its head loses much of the emperor's regard. The petitioner keeps its right, holds the unenforced grant against the crown and the refusal against the house that would not obey, and may bring the petition again after the usual wait.
+
+**The throne humbled.** An emperor who backs down pays for it before the whole court: for a while the lords of his realm lean more readily towards a plot against the crown (and say so when they join one), a strategos feels the pull of the palace more, and his claim to the throne bears the shame for the rest of his reign. Each new retreat adds to it, up to a point; it ends with his reign. An AI emperor of a small Empire knows this, and grants a petition less readily when the holder might refuse.
+
+**If you hold the fief**, a window, "The throne's decision on {FIEF}", asks you once you are free (not in a battle, a siege, a conversation or prison): bow to the decision, refuse, or raise your plot's banner, each greyed with the reason when you cannot. Before a strong emperor you are not asked: you give it up, as an AI house does. The decision stands even if the emperor who gave it no longer reigns when you answer; if you refuse a back-down after his reign has ended, you keep the fief, but nobody is humbled.
+
+**As emperor**, the tooltip of "Grant it" tells you when the holder could refuse you, and what a retreat would cost your throne.
 
 ## Pronoia
 
@@ -87,6 +107,9 @@ The three empires are what was left when the Empire split after Arenicos, and ea
 In the [settings file](../settings.md):
 
 - `ImperialPetitionEnabled`: petitions to the throne (default `true`).
+- `ImperialPetitionDefyEnabled`: a house may refuse a weak emperor's grant (default `true`).
+- `ImperialPetitionDefySmallEnabled`: a small Empire counts as weak, and its emperor backs down when refused (default `true`).
+- `ImperialBackDownHumbleEnabled`: an emperor who backs down is humbled: plots, coups and his claim (default `true`).
 - `PronoiaEnabled`: only the crown swears knights in the Empire, on any castle of the realm (default `true`).
 - `StrategosCoupsEnabled`: strategos coups (default `true`; they also need the themes, `ImperialThemesEnabled`).
 - `WarImperialClaimEnabled`: the claim to the one Empire as a cause for war (default `true`).

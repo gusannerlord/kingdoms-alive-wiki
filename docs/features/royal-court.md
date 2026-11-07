@@ -185,7 +185,7 @@ As ruler, you can still put a vassal's town or castle to the council's vote (the
 - A house riding at your side (in your army, your battle or your siege, or while you are in one of its towns or castles) waits until it is no longer with you before it breaks away.
 - **No easy way back.** A house that broke away over a fief does not slip back into peace with the kingdom it left on a whim, as houses without a kingdom do in the base game. It makes peace on the same terms as two kingdoms (see [Peace needs both sides](war-and-peace.md#peace-needs-both-sides)): the crown must be willing, or the war must be clearly decided, or it must have lasted 80 days.
 
-### Lords, AI rulers and the Empire (very soon in 2.0.0) { #lords-ai-rulers-and-the-empire }
+### Lords, AI rulers and the Empire { #lords-ai-rulers-and-the-empire }
 
 - **AI rulers pay the same.** An AI ruler who puts a vassal's fief to the council loses the same relation with the head of every house of the realm as you do.
 - **The holder's own lord stands by them.** In every vote to take a fief from a house (a reckoning's, the crown's, or a vassal's with a right), the duke or count that house is sworn to backs leaving the fief where it is, as hard as a reckoning backs taking it, less if they bear the house a grudge and not at all if they are at odds (relation −30 or worse). Not when it is that lord's own demand, nor when that lord is in the reckoning against them. See [Dukes, counts and castellans](titles.md).
@@ -231,4 +231,4 @@ In the settings file (see [Settings](../settings.md)):
 - `RevokeAnyProposerEnabled` to `false`: only the house a vote of yours as ruler (or of a reckoning) strips may refuse.
 - `RevokeRulerKeepsFiefEnabled` to `false`: a fief the ruler takes goes to the vote on its new holder, as in the base game.
 - `BreakawayPeaceRulesEnabled` to `false`: a house that broke away makes peace with its old kingdom as easily as in the base game.
-- `TitleLordDemandEnabled` to `false`: a duke or count cannot take back a vassal's fief (very soon in 2.0.0).
+- `TitleLordDemandEnabled` to `false`: a duke or count cannot take back a vassal's fief.

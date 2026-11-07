@@ -77,7 +77,7 @@ In the realms of the Empire, a strategos may also plot a **coup**, a plot of its
 
 The houses with a claim are listed under **The Crown** in the Court tab of the kingdom screen, and on each clan's page in the Encyclopedia (see [The crown and its claim](succession.md#where-you-see-it)).
 
-### Who starts one (very soon in 2.0.0) {#who-starts-one}
+### Who starts one {#who-starts-one}
 
 Every 7 days, in every kingdom, the AI clan leaders may start a plot. Any vassal house can start one if:
 
@@ -90,7 +90,7 @@ A house needs no strength of its own to start a plot. The ruler's brother or son
 
 Each such leader has a **10% chance** a week, plus 5% for each level of Calculating, minus 10% for each level of Honor.
 
-### Who it would crown (very soon in 2.0.0) {#who-it-would-crown}
+### Who it would crown {#who-it-would-crown}
 
 A pretender needs a claim to the throne, a **Clan Strength of 500 or more** (the figure shown on the clan's page in the Encyclopedia), and a relation with the ruler of **+10 or worse**: a lord who is merely cool toward the ruler will still take the crown if it is offered.
 
@@ -100,7 +100,7 @@ A pretender needs a claim to the throne, a **Clan Strength of 500 or more** (the
 
 **The pretender is fixed** for the life of the plot: it is never replaced by another. If the pretender's house dies out, leaves the plot, leaves the kingdom or turns mercenary, comes to the throne, or **loses its claim**, the plot ends. A claim can be lost when the ruler dies and the new one is not kin, when the husband or wife who tied a house to the royal one dies, or when a house slips from among the worthy or the old blood: once a house is a pretender, it keeps such a claim as long as it stays among the **five** best claims of the realm (the **four** best under a hereditary law or the founder's blood).
 
-### Several plots at once (very soon in 2.0.0) {#several-plots-at-once}
+### Several plots at once {#several-plots-at-once}
 
 A kingdom can hold **up to three plots at once**, each behind its own pretender. A house is in one plot at most, the one it leans to most, and goes over to another only if it leans to it clearly more (a house that gave its word stays where it swore). The house a plot would crown never goes over to another plot. The **first plot to rise ends all the others**.
 
@@ -108,7 +108,7 @@ A house whose plot has ended may start another whenever it likes, with no wait. 
 
 A [vassal realm](vassal-realms.md) never has a plot or a civil war: a plot under way dies quietly when its realm bends the knee. And no realm becomes a vassal while either side is in a civil war.
 
-## Who joins, and why (very soon in 2.0.0) {#who-joins-and-why}
+## Who joins, and why {#who-joins-and-why}
 
 Every 7 days, each clan leader of the kingdom weighs every plot. The ruler's own clan never joins. The rest add up a score:
 
@@ -163,7 +163,7 @@ When a plot reaches **20%** of the realm's strength, and you are a vassal of tha
 
 If you knew of it you see *"The plot among the lords of {Kingdom} has come to nothing."* If you were in it and its pretender fell, you are told instead that there is no crowning that house now, and the plot falls apart; if the plot was crowning you and your house lost its claim, you are told that the lords no longer hold your house has any right to the throne.
 
-## The rising (very soon in 2.0.0) {#the-rising}
+## The rising {#the-rising}
 
 An AI plot may raise its banner when **all** of this is true:
 
@@ -196,7 +196,7 @@ When it rises:
 - You are told in the middle of the screen, wherever it happens: *"Civil war: {Leader} of the {Clan} has raised the banner against {ruler}, ruler of the {people}."* (or *"Civil war in your realm: ..."* in your own kingdom). If you led the rising, were in the plot or were asked whether you ride with it, you already know and get no extra notice.
 - The log keeps a red line with the news and the houses that went over to the rebels.
 
-## Winning the civil war (very soon in 2.0.0) {#winning-the-civil-war}
+## Winning the civil war {#winning-the-civil-war}
 
 Each day the mod compares the two sides: the total Clan Strength of each side's vassal clans.
 
@@ -206,7 +206,7 @@ Each day the mod compares the two sides: the total Clan Strength of each side's 
 
 Nothing is settled while you are in a battle or siege on either side; it waits for the fight to end.
 
-## The outcomes (very soon in 2.0.0) {#the-outcomes}
+## The outcomes {#the-outcomes}
 
 **The rebels win.** The **pretender's** house becomes the ruling clan of the old kingdom, even when another house led the rising (if the pretender's house is no longer with the rebels, the rebel kingdom's ruler takes the crown instead). Every rebel house comes back into it (and must stay 60 days), and the rebel kingdom disappears. The old ruler loses **20** relation with the new one. If that ruler was you: *"You have lost the throne of {Kingdom}. {New ruler} of the {Clan} now rules; your house remains as a vassal."*
 
@@ -229,7 +229,7 @@ Only when the house that led the rising is of **another culture or another faith
 
 **Afterwards:** every kingdom that comes out of a civil war gets **100 days of calm**: no new plots, [factions](factions.md) or feuds (and, with the old discontent on, no discontent, while the discontent of the past slowly mends).
 
-## Plots to break away (very soon in 2.0.0) {#plots-to-break-away}
+## Plots to break away {#plots-to-break-away}
 
 Not every plot wants the crown. Houses that have had enough of their ruler, and whose lands lie together, may plot to **leave the realm with their lands** and stand as a realm of their own: a great duke and the lords around him, for example. Such a plot is rare and hard to grow, and likelier in a large realm.
 
@@ -270,7 +270,7 @@ It is not impossible: a kingdom with a strong grievance may still attack. In the
 
 Everything below needs you to lead your clan as a vassal (not a mercenary) of the kingdom, and neither you nor the lord you talk to can be a prisoner. You talk to clan leaders of your own kingdom: choose *"There is something I'd like to discuss."* and the plot options appear among the others.
 
-### What you can say to a clan leader (very soon in 2.0.0) {#what-you-can-say-to-a-clan-leader}
+### What you can say to a clan leader {#what-you-can-say-to-a-clan-leader}
 
 | You say | When it appears | What it does |
 |---|---|---|
@@ -325,7 +325,7 @@ As ruler, the tab lists under **The crown's will** the lords who will vote with 
 - Lords also join and leave your plot by themselves each week, using the same scores as above. An AI ruler tries to win your members back.
 - Your plot only fails if it has not reached 25% within 60 days. It does not give up after 120 days, and it does not die when the realm shrinks. Other plots may grow beside yours, and lords weigh yours against theirs; whichever rises first ends the rest.
 
-### Raise the banner (very soon in 2.0.0) {#raise-the-banner}
+### Raise the banner {#raise-the-banner}
 
 When you lead the plot, its entry in the **Factions** tab has a **"Raise the banner"** button. It works only:
 
@@ -337,7 +337,7 @@ When you lead the plot, its entry in the **Factions** tab has a **"Raise the ban
 
 If something is missing, the button is greyed out and its tooltip says what. A confirmation explains that there is no going back, that peace is impossible for 120 days, and what losing costs: every house that rode comes back branded traitor, and the crown will want your head. Then you **name your kingdom** (it cannot take the name of the realm you rise against). Your plot's houses follow you with their lands, and the civil war begins.
 
-### When an AI plot you are in rises (very soon in 2.0.0) {#when-an-ai-plot-you-are-in-rises}
+### When an AI plot you are in rises {#when-an-ai-plot-you-are-in-rises}
 
 You get a window, **"The banner is raised"**, once you are free to answer: while you are a prisoner or ride in an army, it waits.
 
@@ -346,13 +346,13 @@ You get a window, **"The banner is raised"**, once you are free to answer: while
 
 During a story quest you can only stay, with no penalty.
 
-### Breaking away yourself (very soon in 2.0.0) {#breaking-away-yourself}
+### Breaking away yourself {#breaking-away-yourself}
 
 As a vassal of a realm you do not rule, the **Factions** tab has an entry **"Break away from the realm"**: what such a plot asks, and whether your house could begin one now or why not (*"You are not on bad enough terms with {ruler}: no house would believe you mean it."*, *"None of your towns and castles touch the lands around {seat}..."*). Its **"Seek independence"** button starts it, after a confirmation, with you at its head and the lands around your seat; greyed, it says what is missing. The rules are the AI's: the same relation with the ruler, a town or castle, no other plot, faction or feud, no word given, and one such plot per realm. Houses join and leave it by themselves, and you cannot talk anyone into it. You raise its banner as your own plot's (see [Raise the banner](#raise-the-banner)), but at **30%** of the realm's strength and only with another house beside yours. Like its members, you leave it if you make your peace with the ruler.
 
 To join an AI plot to break away, tell its leader, once you know who it is, *"I know what you are planning. Count me in."*: it is offered only when your house could be in it, and its leader takes you at once. Its entry in the Factions tab says whether your house could stand with them, or why not, and, if you are in it, what it still lacks to rise.
 
-### When your lord rises against the crown (very soon in 2.0.0) {#when-your-lord-rises-against-the-crown}
+### When your lord rises against the crown {#when-your-lord-rises-against-the-crown}
 
 If your house is sworn to a [lord](titles.md) who rises against the crown (a plot for the throne, a plot to break away, or a [charter](factions.md#the-charter) taken up in arms), and your house was not in it and was not asked to ride already, a rider brings you the window **"Your lord raises his banner against the crown"** (or *her*), as soon as you are free on the map, at any time while the war lasts. Your lord is never the ruling house here.
 
@@ -361,7 +361,7 @@ If your house is sworn to a [lord](titles.md) who rises against the crown (a plo
 
 Only you are asked this way: AI vassals weigh their lord when they decide whether to join a plot (see [Who joins, and why](#who-joins-and-why)), and are not asked again when it rises.
 
-### When your realm falls into civil war (very soon in 2.0.0) {#when-your-realm-falls-into-civil-war}
+### When your realm falls into civil war {#when-your-realm-falls-into-civil-war}
 
 When your realm falls into civil war and your house stays with the crown, as a vassal, a window **"Civil war in {Kingdom}"** tells you once, when you are free on the map, what the rebels want, which houses rose, that your house stands with the crown and the rebels are your enemies now, how the war is decided and what each side's victory would bring. Not if you rule the realm or serve it for pay. From then on, ask any lord *"What is happening in the realm?"* to hear how it goes (see [Asking how things stand](factions.md#asking-how-things-stand)).
 
@@ -376,7 +376,7 @@ When your realm falls into civil war and your house stays with the crown, as a v
 
 With [Envoys](envoys.md) you can send a family member or companion to do this talking for you: **"Win a lord over to our plot"** (when you are in one) or **"Keep a lord loyal to the crown"** (when you know of one). An envoy sent to sound a lord out also reports where their house stands on the plot.
 
-## Tips (very soon in 2.0.0) {#tips}
+## Tips {#tips}
 
 - Conquest has a price at home: past its fair share, every wrong the crown does a house stings more, and its lords plot and band together more readily. At twice its fair share, a lord merely cool toward the ruler may start a plot.
 - A plot's leader needs relation −5 or worse with the ruler (up to +5 in a kingdom of twice its fair share), and its pretender +10 or worse. Gaining relation with your discontented lords keeps them from starting one, and keeping on good terms with the strong houses that have a claim leaves a plot nobody to crown.

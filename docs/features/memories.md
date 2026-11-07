@@ -45,7 +45,7 @@ When you talk to a lord, they may open the conversation with a memory of you, in
 | You served them as their squire | that lord | **forever** |
 | As their squire, you stood over them when they fell in battle, or let them lie | that lord | **forever** |
 | As their squire, a talk by their fire they took well (or badly), or a bout in their yard | that lord | about 4 months (2 for a talk taken badly; 8 for a dirty win or yielding in the yard) |
-| You [sparred](sparring.md) with them, whoever won (very soon in 2.0.0) | that lord | 2 months |
+| You [sparred](sparring.md) with them, whoever won | that lord | 2 months |
 
 Only lords who took part remember a battle, and only lords of a realm at war with you remember being captured. Ransoms remember how they were paid: sold to a ransom broker in a tavern, bought back by their house, an heirloom given in place of coin, or a tip about a caravan. Each has its own words.
 
@@ -97,7 +97,7 @@ It also depends on **how you get on now**: **proud** if they like you (relation 
 
 **Walking out.** If you leave their service before your spurs are won, or they send you away, the proud memory is gone. In its place they keep a bitter one, forever: *"Ah, the squire who ran. I tell the story at table sometimes. It always gets a laugh."* If you rise high after walking out, they notice that too: *"You left my service before your spurs were won, and now you wear a crown. I do not know whether to curse you or bow. I do both, quietly."*
 
-## Lords remember each other (very soon in 2.0.0) { #lords-remember-each-other }
+## Lords remember each other { #lords-remember-each-other }
 
 The lords keep in mind what other lords did to them and to theirs, by the same rules as what you did, and it warms or sours the two houses (the relation between their heads) for as long as it is remembered:
 

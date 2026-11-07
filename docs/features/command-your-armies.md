@@ -89,7 +89,7 @@ You do not have to chase lords across the map. Riders go **twice as fast as a lo
 
 The window **The realm's riders** offers, as ruler: *"Offer a lord the office of Marshal"* and *"Send orders to your Marshal"*. As Marshal: *"Carry the king's order for {PLACE} to the lords"* (pick as many lords as you like, nearest to the place first) and *"Send your orders to one of the realm's armies"*.
 
-## Your liege explains the war (very soon in 2.0.0) { #your-liege-explains-the-war }
+## Your liege explains the war { #your-liege-explains-the-war }
 
 While you serve a realm you do not rule, as a vassal or a mercenary, your liege tells you how the war goes, in their own voice and with their portrait: when the realm is losing and turns to the defence, when it is all but beaten, when it takes heart again or presses a beaten enemy. The leader of an army you ride in tells you when they turn to relieve one of your places. Each kind of news comes at most twice a day.
 
@@ -97,7 +97,7 @@ When your liege says the realm turns to the defence, its armies really do (see [
 
 You can also ask your liege in person: *"My liege, what is our plan for this war?"*
 
-## Realms on the back foot (very soon in 2.0.0) { #realms-on-the-back-foot-on-by-default }
+## Realms on the back foot { #realms-on-the-back-foot-on-by-default }
 
 On by default. In the base game only you can set a war to defensive, and only for a kingdom you rule. Now an AI realm that is clearly weaker than its enemies and is losing one of its wars (towns and castles lost to that enemy, or well behind in the war) does the same: its lords lay fewer sieges and raids, ride sooner to relieve their own besieged places, and ride sooner at enemy parties, just as the game's defensive stance makes them. It stands on the defence against every realm at war with it, so a realm fighting on two fronts holds back on both. It turns back once it has regained its strength or is no longer losing any of its wars, and a peace with one of its enemies ends it against that one at once.
 

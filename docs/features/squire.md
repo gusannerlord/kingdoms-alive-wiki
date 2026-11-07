@@ -76,6 +76,15 @@ Not while you are wounded or in disguise.
 
 Errands that cannot be finished through no fault of yours lapse with no blame: you were a prisoner, the reader died, the feast was called off, someone else cleared the hideout.
 
+**A letter for a lord who is hard to reach.** The journal tells you how to reach the reader wherever he is, and the mark on the map follows him:
+
+- **In another lord's host:** meet the host and choose the game's *"Talk to other members"*, or give the letter to the lord who leads it.
+- **At a siege** his realm lays: ride to the siege, and leave the letter with the guards of the siege lines.
+- **Inside the same besieged walls as you:** give it to him from the siege's menu.
+- **Out of reach** (at sea, shut up in a besieged place, in a battle, or nobody knows where): the days of the errand do not run until he can be reached again, and then you have at least the ride and a day more. If he stays out of reach too long (20 days in all), your lord sends it by other hands and nobody blames you.
+
+The drill waits the same way while its castle or town is besieged.
+
 ### Failing your lord
 
 | | Relation with the lord |
@@ -89,7 +98,7 @@ Errands that cannot be finished through no fault of yours lapse with no blame: y
 
 ## To arms
 
-Whenever your lord **raises a host or joins one**, a rider tells you at once and a journal entry **"To arms: {lord}'s host"** opens. Join it within **2 to 8 days** (depending on the ride): speak with your lord (*"I have come to ride at your side, as you bade me."*) or with the host's leader. Then stay until it breaks up.
+Whenever your lord **raises a host or joins one**, a rider tells you at once and a journal entry **"To arms: {lord}'s host"** opens. Join it within **2 to 8 days** (depending on the ride): speak with your lord (*"I have come to ride at your side, as you bade me."*) or with the host's leader. If the host is laying a siege, ride into its siege camp and you fall in with it; if it holds a besieged place, break in and choose **"Fall in with the host"** within the walls. While the host is at sea, shut up behind walls you are outside of, or in a battle, the days to join it do not run. Then stay until it breaks up.
 
 - Riding it out (at least **half a day**) counts as an **errand done**.
 - Leaving before it breaks up is **desertion**, unless you were captured, the host fell apart, or there were no ships for you to cross.
@@ -99,7 +108,7 @@ Whenever your lord **raises a host or joins one**, a rider tells you at once and
 
 When your lord's own party (not a host) sets out to **raid** an enemy village, **besiege** an enemy town or castle, or **relieve** a place of their kingdom under siege or raid, or (with War Sails) takes their ships to **harry the enemy coast** off a port, a rider brings word in their voice. A journal entry opens, **"At {lord}'s side: the raid on {place}"** (or *the siege of*, *the relief of*, *off the coast of*), with the place and your lord marked. If they turn elsewhere, the entry follows.
 
-Reach them in time (in their raid, their siege camp, their battle, or riding beside them) for **+1 relation**. If you cannot make it, nothing is lost. The word only comes when you are not already with them, not in a host, not a prisoner and not too far away. The same place is not called again within a week.
+Reach them in time (in their raid, their siege camp, their battle, or riding beside them) for **+1 relation**. A relief counts too if you get there before them: win a battle against the besiegers or raiders, or hold the walls from within until the attack is over, and the place stays in your realm. If others lift the siege without you, the call is simply over; if the place falls, nothing is lost. If you cannot make it, nothing is lost. The word only comes when you are not already with them, not in a host, not a prisoner and not too far away. The same place is not called again within a week.
 
 ### When your lord fights without you
 
@@ -213,7 +222,7 @@ Once you are dubbed (and did not stay on), you are no longer called to your lord
 
 If your lord dies after **7 or more** errands, their ruler keeps the promise: go to them to be knighted, and the knight's kit comes when you swear. With fewer errands, the service ends with no blame. If you leave the kingdom after the summons or the dubbing, the promise lapses quietly. If your lord's house changes kingdom, you follow them.
 
-### A village of your own (very soon in 2.0.0) {#a-village-of-your-own}
+### A village of your own {#a-village-of-your-own}
 
 When you swear, if your house is still of clan tier 1 or lower and holds no fief, the lord who knighted you (or the ruler, if that lord is gone) gives you a village of one of their castles to hold as a [landed knight](landed-knights.md), when their house has a castle with no knight and the 100,000 denars an AI lord needs to raise any knight. If only the silver is lacking, they say so in their own words, and you are a knight without land. In the Empire only the emperor grants such land.
 

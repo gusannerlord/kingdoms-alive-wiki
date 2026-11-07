@@ -4,7 +4,7 @@ Neighbouring kingdoms that are not at war have things happen between them: a cat
 
 ![An event between kingdoms](../assets/kingdom-event.jpg)
 
-## Tension (very soon in 2.0.0) { #tension }
+## Tension { #tension }
 
 Every pair of kingdoms has a **tension** that only recent incidents move. It starts at 0. In the game you see it as **grievances** (0 to 100: incidents that push toward war) or **goodwill** (0 to 100: incidents that hold war back), or **"no lasting mark"** when it is below 5 either way. It is only one of the things weighed when war is talked of: the rulers' relation, lost lands and the balance of strength count apart. Below, +100 means grievances 100 and -100 means goodwill 100.
 
@@ -14,7 +14,7 @@ Every pair of kingdoms has a **tension** that only recent incidents move. It sta
 - At +100 it weighs about a third of what a war needs: far from enough on its own, but it adds to every other cause. Below 0 it holds a war back in the same proportion.
 - Above 0 it also counts as a **cause** for war: a kingdom with no other quarrel needs better odds, and the higher the tension the less of that handicap is left; at +100 it is gone (see [War and peace](war-and-peace.md)).
 
-## When events happen (very soon in 2.0.0) { #when-events-happen }
+## When events happen { #when-events-happen }
 
 Events only happen between two kingdoms whose lands touch and that are not at war with each other.
 

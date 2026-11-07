@@ -1,16 +1,17 @@
-# Landed knights (very soon in 2.0.0)
+# Landed knights
 
 Below the great houses of a kingdom stand its **landed knights**: houses of a single knight who hold the land of one castle (one of its villages, or both) of the lord of that castle, and owe that lord their sword. **One knight to a castle**: a house may have as many landed knights as it holds castles, and none without a castle (towns do not count). The same rule binds you and every lord of the AI. A house that loses castles keeps the knights it has, but takes no more until it is back under its number, and no knight ever swears to a house that has no room for him, however he comes to it (see *Losing the land*). The one exception is the lord who takes **you** as his knight (below). They are a step between a nobody and a house of the realm, for the AI and for you. In the Empire only the throne grants such land, as a **pronoia** (see [In the Empire: the pronoia](#in-the-empire-the-pronoia)).
 
 ## What a landed knight is
 
 - A house of **one knight**, at **clan tier 1**. The encyclopedia shows the knight alone, with a line saying whose knight he is and which villages he holds. The page of his lord's house names its landed knights.
+- He is dressed and mounted as the young nobles of his culture are when they come of age: a lord's harness, not a common soldier's.
 - He holds **villages, and nothing else**, all of them of the same castle and lord. The game cannot give a village an owner of its own, so the village still belongs to the castle or town it trades with. The knight holds it **of the house that owns that castle or town**, and that house is his lord.
 - The village's **taxes go to the knight**, not to his lord: that is what pays for his men. When his purse runs low the kingdom's treasury helps him only a little (at most 200 a day; a poor house of the realm gets far more), so he must live within his land.
 - He fields **one party** and never calls an army of his own (he rides in other lords' armies).
 - He has **no voice in the council**: no vote and no proposals. He never stands for a castle or a town, never claims the throne, never leads a plot, a reckoning, a charter or a feud, and holds no rights to fiefs. He can hold an office of the royal court, but not that of Marshal.
 - The AI's landed knights **never wed**. You may.
-- He follows his lord: if the lord breaks with the kingdom, rises with a plot or goes over to another crown, his knights go with him. In a feud between houses he stays home.
+- He follows his lord: if the lord breaks with the kingdom, rises with a plot or goes over to another crown, his knights go with him. In a feud between houses he rides with his lord: into his lord's host when his lord takes the field, and home again with him. He takes no side of his own, his men count in his lord's strength, and he is never judged for it (no felony, no brand, no grievance). A castle he takes in the feud goes to his lord. If the other side takes the castle of his village from his lord in that feud, he keeps faith with his lord and his land until the feud is done.
 
 ## How one is made
 
@@ -25,18 +26,17 @@ You let one of your knights go yourself, in person or from afar:
 - **Speaking to him.** With one you have come to despise: *"You have given me cause enough. I am taking back the land you hold of me."* He will not forget it: he holds it against you and thinks much less of you. With any other: *"I can keep you no longer. I release you from your oath..."*: his land comes back to you, he thinks a little less of you, and there is no quarrel between you.
 - **By an envoy:** *"Release a landed knight of our house"*, among the errands of your [envoys](envoys.md). The envoy tells him in your name when he arrives, the hard way or the gentle one depending on how the two of you stand then.
 
-Your purse is your own affair: unlike the lords of the AI, you never lose a knight for want of silver, and making a companion a knight or taking in a landless one asks no sum in your coffers. Only raising a new knight with the button below asks the same 100,000 as an AI lord.
+Your purse is your own affair: unlike the lords of the AI, you never lose a knight for want of silver, and making a companion a knight or taking in a landless one asks no sum in your coffers.
 
 You can make one too: as a lord of a kingdom with a castle that has no knight yet, speak to one of your companions: *"You have served me well. I would give you a village to hold of my house, and make you a knight of {your kingdom}. (Landed knight)"*. You choose the village; those you cannot grant are greyed, with the reason. The companion leaves your party and becomes a house of their own, sworn to yours, with some of your silver to raise their men.
 
 ### Raising a knight yourself
 
-In the clan screen, **House** tab, under *Oaths*, the button **Grant land to a worthy knight** raises a new knight from the worthy men of your kingdom, the way an AI lord makes one. You choose the village (those you cannot grant are greyed, with the reason); the new knight swears to your house, rides under your colours, and you give him the gift a lord gives a new knight (**10,000** denars). The button is always there, greyed with the reason when you cannot use it:
+In the clan screen, **House** tab, under *Oaths*, the button **Grant land to a worthy knight** raises a new knight from the worthy men of your kingdom, the way an AI lord makes one. You choose the village (those you cannot grant are greyed, with the reason); the new knight swears to your house, rides under your colours, and you give him the gift a lord gives a new knight (**10,000** denars, or what you have if less). Unlike an AI lord, your house needs no great purse to raise one. The button is always there, greyed with the reason when you cannot use it:
 
 - you must be sworn to a kingdom (not as a sellsword), free, and not riding in a feud's host;
 - the kingdom must have a ruler, enough houses and no civil war;
 - one of your castles must have no knight yet and a village to give, not under siege;
-- your house needs **100,000** denars or more;
 - at most one knight raised this way every **20 days** (a companion you make a knight does not count).
 
 ## In the Empire: the pronoia
@@ -87,6 +87,8 @@ The people of your village treat you as their lord: its notables greet you as su
 
 While you are a landed knight you follow the same rules as theirs: no vote, no council proposals, no army of your own, no castle or town, no plots, reckonings, charters, feuds, alliances between houses or claims to the throne (those lines of conversation do not appear), no forged rights. You may marry. If your lord leaves the kingdom with the castle or town of your village, you follow once you are free on the map. If you leave the kingdom on your own, your oath is broken and the land with it.
 
+In a feud your lord rides in, you ride with him: you are never asked to take a side, a knight owes his lord his sword in his quarrels. Once you are free on the map (and not in an army, nor in the middle of a sparring bout), you are taken into his host with him, still of the realm and still holding your land, and you come home when he does; you cannot leave the host on your own. A castle you take riding behind him goes to him, and you are told so.
+
 If you lose your land, or a lord of the AI lets you go for want of silver, the journal says so (*"A knight without land"*), and lords of your kingdom may send a rider offering you a village. If none comes for 24 days, your oath no longer binds you: at clan tier 2 or more you serve the crown as any other house; below it you leave the kingdom's service, free to seek your fortune where you will.
 
 ## Errands from your lord
@@ -102,14 +104,14 @@ He tells you what your lord wants and what he will pay. Answer *"Tell my lord it
 | **Clear the road** | A band prowls about one of your lord's villages: deserters while his kingdom is at war, the outlaws of the land otherwise. Find it and destroy it in time. |
 | **Men for the garrison** | His castle's garrison is thin: bring seasoned soldiers (tier 3 or higher, not wounded) and hand them over to the garrison's commander: choose *Leave ... seasoned men with the garrison, as ... asked* in his castle's or town's menu and speak with him. |
 | **Within the walls** | While his kingdom is at war: stay two days inside his castle or town. The days count only while you are inside; *Keep watch on the walls* in its menu lets the time pass, with a bar showing how much is left. |
-| **A letter or a gift** | Put a letter (a gift, from a generous lord) into the hands of the head of another house: an ally of his, or a house of his kingdom he would have closer or make peace with. Talk to that lord: *"I bring a letter from ..."*. Both lords think better of each other, and the other one of you. |
+| **A letter or a gift** | Put a letter (a gift, from a generous lord) into the hands of the head of another house: an ally of his, or a house of his kingdom he would have closer or make peace with. Talk to that lord: *"I bring a letter from ..."*. If he rides in an army, its leader can take it for him; if he lies at a siege, the guards of the siege lines will carry it (an option in the siege's menu); if you are both inside a besieged place, give it to him from the siege's menu. Both lords think better of each other, and he thinks better of you only if you put it into his own hands. While he cannot be reached (at sea, shut in a besieged place, in a battle), the errand's days do not run. |
 | **Judge in his name** | Two notables of one of his villages quarrel over land. Find out what really happened and judge between them: see [Judging a quarrel over land](#judging-a-quarrel-over-land). |
 | **Recruits for the house** | Bring recruits of his own people (tier 2 or lower) to his castle or town and hand them over to the garrison's commander, from its menu. |
 | **A debt** | A notable of his town or villages owes his house money. Talk to him: reason with him (your Charm; once), press him (he and, in a town, its security suffer) or pay the debt yourself (he will remember it). |
 
 **Done**, your lord thinks better of you, pays what he promised (a generous lord more, a tight-fisted one less) and your renown grows a little. **Refused**, he is a little displeased; **failed** or out of time, more. His words, through the rider and afterwards, are in his own voice: an honourable lord speaks of your oath, a cruel one does not shout but remembers, a calculating one makes a note of it.
 
-An errand is called off, without blame, if your lord dies, you are no longer his knight or lose your land, the place is no longer his, his castle is besieged while you are outside it, or the lord you carry a letter to is taken captive. A lord with empty coffers pays what he has, and says so; a debtor who has spent his silver pays what is left. Only you receive errands: the landed knights of the AI do not.
+An errand is called off, without blame, if your lord dies, you are no longer his knight or lose your land, the place is no longer his, or the lord you carry a letter to is taken captive. If his castle or town is besieged while you are outside it, the garrison and recruits errands wait instead: break in and hand the men over from the siege's menu, or, to keep watch on the walls, help break the siege (a battle won there by your side, and the siege lifted, is the errand done). A debt waits while the debtor's town is besieged or his village raided. While an errand waits, its days do not run; if it has to wait about 20 days in all, it is set aside without blame. The journal says each time how the errand is to be done now, and why. A lord with empty coffers pays what he has, and says so; a debtor who has spent his silver pays what is left. Only you receive errands: the landed knights of the AI do not.
 
 ### Judging a quarrel over land
 

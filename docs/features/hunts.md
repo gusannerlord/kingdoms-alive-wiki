@@ -20,9 +20,10 @@ All in all hunts are rare: only a few in the whole map every 100 days.
 A hunt and a feast of the same kingdom never happen at the same time, and a hunt never holds back the next feast:
 
 - No hunt is called while a feast of the kingdom is announced or under way, nor in the **3 days** after one ends.
-- After a feast, a hunt is called only while the feast's 25-day wait is running, and only if the whole hunt (5 days of notice, 2 days of hunting, 3 days of rest) is over before that wait ends.
+- After a feast, a hunt is called only while the feast's 35-day wait is running, and only if the whole hunt (5 days of notice, 2 days of hunting, 3 days of rest) is over before that wait ends.
 - If the peace has lasted **20 days** (12 with Hunting Rights) and no feast has been called in it, the kingdom may hunt instead.
 - In the other direction, no feast is called while a hunt is announced or under way, nor in the 3 days after it ends.
+- No hunt is called while the realm's [assembly](assembly.md) is summoned or sitting, nor in the **3 days** after it rises.
 
 So both can happen in the same peace if it lasts long enough.
 
@@ -78,7 +79,7 @@ If a hunt of your kingdom does not include you, you just see a message: *"{Host}
 
 In the town or castle, the menu shows **Join the hunt** (greyed out if you were not asked). The lodge tells you who hosts, when it rides out, who is already there and who is still on the road. Its options:
 
-- **Wait at the lodge for the hunt to begin** (before it starts);
+- **Wait at the lodge for the hunt to begin** (before it starts): the wait stops by itself when the hunt rides out, and you are back at the lodge with **Ride out with the hunt** open; if the hunt is called off before it rides out, it stops too and you are told why;
 - **Ride out with the hunt** (once it has started): a wait with a progress bar that ends when the hunting is done: *"The hunting at {place} is done, and the guests ride home."*;
 - **Arrange an accident...** (see below);
 - **Leave the lodge**.
@@ -92,6 +93,7 @@ In a town or castle of your clan, the menu shows **Hold a hunt here**. You need:
 - to be in a kingdom (as a vassal or as ruler, not as a mercenary);
 - your kingdom at peace with every other kingdom;
 - no feast of your kingdom called, and **3 days** since the last one ended;
+- no [assembly](assembly.md) of your kingdom summoned or sitting, and **3 days** since the last one rose;
 - no other hunt of your kingdom, **3 days** since its last one, and **20 days** since your own last hunt;
 - not to be bidden to another hunt already;
 - at least one house that would come;
@@ -143,6 +145,8 @@ Both chances are shown when you choose. What follows:
 | Dies, nobody knows | *"Everyone calls it a terrible accident. You alone know better."* Your Honor goes down. |
 | Survives, nobody knows | They are badly hurt, keep well away from you, and lose **10** relation with you. |
 | Found out | Taken as murder: a **blood feud** with their house, as when you execute a lord, with the relation losses that go with it; **30 crime** in the host's kingdom (unless you rule it) and **−10** with the host. |
+
+**On 1.4.8**, which has no blood feuds, an accident found out is answered as the game answers an execution: the houses of the realm lose the relation they would lose over it, the victim's own house too, and your Honor suffers as it would for an execution; the crime and the loss with the host are the same.
 
 If the true dangers of the woods kill your victim first, nobody is to blame and your arrangements are quietly dropped.
 

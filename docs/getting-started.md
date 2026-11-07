@@ -1,8 +1,7 @@
 # Getting started
 
 ## Requirements
-- Mount & Blade II: Bannerlord **1.5.5** (works with the War Sails expansion) or **1.4.8**. There is one download for each: take the one for your game version.
-- **(very soon in 2.0.0)** Version 2.0.0 is for Bannerlord **1.5.6** (the beta branch, with War Sails) or **1.4.8**, again one download for each.
+- Mount & Blade II: Bannerlord **1.5.6** (with or without the War Sails expansion) or **1.4.8** (the default Steam branch). There is one download for each: take the one for your game version.
 - [Harmony](https://www.nexusmods.com/mountandblade2bannerlord/mods/2006), loaded above this mod in the launcher.
 
 ## Installing
@@ -32,7 +31,7 @@ Do not remove it from a campaign you want to keep playing. If you do, keep a cop
 ## Compatibility
 - **Not compatible with the "Diplomacy" mod** or other mods that replace how AI kingdoms decide on war and peace. Despite the name, this is not an add-on for it.
 - If a game update changes the game's war formula, the mod's war scoring switches itself off instead of breaking.
-- The launcher may show a version warning on game versions other than 1.5.5 and 1.4.8 (1.5.6 and 1.4.8 from 2.0.0). The mod has not been tested there.
+- The launcher may show a version warning on game versions other than 1.5.6 and 1.4.8. The mod has not been tested there.
 - **On 1.4.8** there is no War Sails and no sea to cross, so everything about ships and coasts does not come up. That version of the game also has no blood feuds: your [rival](features/rival.md)'s house cannot be paid off at a ransom broker, and a [hunting accident](features/hunts.md) that is found out costs relation and Honor instead.
 
 ## Story mode, sandbox, normal or fast mode

@@ -1,4 +1,4 @@
-# Dukes, counts and castellans (very soon in 2.0.0)
+# Dukes, counts and castellans
 
 In **Vlandia, Sturgia, Battania, the Aserai and Nordvyg**, the land is held in a chain of titles: a castellan holds his castle of a count, a count his town of a duke, and a duke answers to the crown. The empires and the Khuzaits keep to their own ways: in a new campaign, the empires have their [themes](#themes-of-the-empires), commands the emperor gives and takes back, and the Khuzaits their [ulus](#the-ulus-of-the-khuzaits), lands the khan gives to a house to pass down. Both are built on the same pairs of towns as the duchies, and work like a duchy except where said below.
 

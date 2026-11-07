@@ -4,7 +4,7 @@ Talk the clan leaders of your own kingdom, the ruler included, into backing or o
 
 ![Raising a matter of war and peace with the king](../assets/council-persuasion.jpg)
 
-## Starting the conversation (very soon in 2.0.0) { #starting-the-conversation }
+## Starting the conversation { #starting-the-conversation }
 
 Talk to the leader of any other clan of your kingdom and choose **"There is something I'd like to discuss."**, then **"There is a matter of war and peace I would raise with you."**
 
@@ -100,7 +100,7 @@ When a vote is settled:
 - The voting window shows whom you will gain with and whom you will lose with if the vote ends as it stands.
 - The vote on taking a fief away from its holder keeps the base game's rules.
 
-## Who gets a fief (very soon in 2.0.0) { #who-gets-a-fief }
+## Who gets a fief { #who-gets-a-fief }
 
 When a town or castle is conquered, or taken from a vassal, the council votes on who gets it. In the base game only the **three** houses the game finds most deserving stand, and that favours houses with little land: once you hold a few fiefs, you often do not even stand for the one you just conquered. The mod gives you ways to play for it.
 

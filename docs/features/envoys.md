@@ -38,7 +38,11 @@ Two more errands appear during a plot in your realm: **"Win a lord over to our p
 
 During a feud between two houses of your realm, **"Offer our swords to a house at feud"** carries your offer to either house: to its head, or to a grown lord of the house while the head is a prisoner. Whether they take it is up to them, not to your envoy; as a mercenary, you offer your company for their silver. See [Factions and grievances](factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses).
 
-### New errands (very soon in 2.0.0) { #new-errands }
+While you head a side of a feud, **"Ask a house to ride with us in our feud"** carries your request to the head of a house of the realm, as you could ask them face to face (see [Winning houses over](factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses)). The list holds the houses free to take a side, with their likely answer in words and the days of riding; those with no cause of their own to ride against your foes, or whose cause weighs too little, are greyed with the reason, and so is a house that gave its answer on this feud not long ago, whose men are in the thick of a fight, or whose head is a prisoner. The envoy does not change their answer: the house decides as it would in person. Its answer comes back in a letter in the lord's own voice; if it says yes, you pay the compensation for its men, as in person, and it rides with your side (at once if the feud is under way, when it begins if not). A house that says no will not hear of it again for a while.
+
+**While your house rides with a host** in a feud, your envoys still ride. Errands that need a voice in the realm's council, or would bring a house into the realm, are greyed: your house has no voice in the council until the feud is settled.
+
+### New errands { #new-errands }
 
 **"Release a landed knight of our house"** (for a lord with landed knights) tells one of your [landed knights](landed-knights.md) that your house releases them and takes back their land. It is an order, not a matter of persuasion. How it lands depends on how you stand with the knight when the envoy arrives: with relation above −30 they are let go with a little lost regard (−5) and no grievance; at −30 or worse it is taken as their land being seized, with a grievance and −20 relation.
 

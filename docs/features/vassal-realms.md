@@ -40,7 +40,7 @@ If you rule your kingdom, every enemy appears in the **Vassals** tab of the king
 
 The tab also counts the fiefs: *"Of the {start} towns and castles they held when this war began, you have taken {lost}. [...] take some {more} more from them, and they may think otherwise."*, until enough have fallen.
 
-### Fealty in terms of peace (very soon in 2.0.0) { #fealty-in-terms-of-peace }
+### Fealty in terms of peace { #fealty-in-terms-of-peace }
 
 Fealty can also be one of the [terms of peace](war-and-peace.md#terms-of-peace) set on the Terms of Peace screen, by you or by an AI ruler. The same rules hold there: an AI realm only bends the knee in such terms when it would accept fealty by the points above (with the same 40% of its towns and castles taken, and never before day 500 between AI kingdoms; in a war of independence, 5.5 points and no share of fiefs), and only once it is beaten badly enough to give up a town (outside a war of independence). So kneeling is never easier than giving up a town.
 

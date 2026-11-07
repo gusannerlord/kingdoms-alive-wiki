@@ -1,4 +1,4 @@
-# Works in a village (very soon in 2.0.0)
+# Works in a village
 
 In the base game only towns and castles have buildings. With Kingdoms Alive, whoever holds a village may raise a few small works there: nothing grand, cheap and quick, each helping the village a little.
 

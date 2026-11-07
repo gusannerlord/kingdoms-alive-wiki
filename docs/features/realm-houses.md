@@ -12,7 +12,7 @@ If **you** led the rising and lost, the same awaits you: you are brought before 
 
 His house is not banished: it comes back to the realm with its towns and castles, under its new head, and is marked as traitor like the others.
 
-### Houses marked as traitors (very soon in 2.0.0) {#houses-marked-as-traitors}
+### Houses marked as traitors {#houses-marked-as-traitors}
 
 Every rebel house that comes back is marked as traitor for **60 days**, and the house that led the rising is remembered as such. While the mark lasts, the ruler may judge it **by decree**: no vote of the council, no influence spent, and the rest of the realm does not hold it against the ruler.
 
@@ -36,7 +36,7 @@ Among the Khuzaits, a house that holds an [ulus](titles.md#the-ulus-of-the-khuza
 
 **As ruler**, a window asks you about each house when the war ends, the house that led the rising first, and tells you whether it led or followed: *"Rebuke the {Clan} before the court"*, take a town or castle, take them all, banish, pardon, or *"Not yet"* to decide later, then speak to the head of the house: *"Your house rose against the crown. Hear my judgment."* Your choices are your own, whether the house led or followed; the houses you judge may defy you or leave for exile by the same odds as under an AI ruler. You can also banish a marked house from the **Clans** tab of the kingdom screen: while the mark lasts, its **Expel** button reads *Banish*, costs no influence and needs no vote.
 
-## New houses (very soon in 2.0.0) {#new-houses}
+## New houses {#new-houses}
 
 When an AI kingdom has a town or castle to share out (taken in a war, taken from a traitor, or left by a house expelled or gone; never a fief voted away from a house, nor one you took) and holds many more fiefs than houses to hold them, its ruler **raises a new house** and grants it that fief instead of putting it to the vote: *"{Ruler} has raised {Lord} to the nobility of {Kingdom}. The new house of the {Clan} holds {Fief}."*
 

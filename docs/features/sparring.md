@@ -1,4 +1,4 @@
-# Sparring with nobles (very soon in 2.0.0)
+# Sparring with nobles
 
 In peacetime the nobles of your realm take up the blunted practice blades together. A lord who likes you may invite you to a bout in the castle yard or on the sand of a town's arena, and you can ask any noble of your realm who is there. You learn, you make friends, and sometimes a purse changes hands.
 
@@ -8,24 +8,26 @@ In peacetime the nobles of your realm take up the blunted practice blades togeth
 - At most one bout a day for you, and one every 30 days with the same noble, whoever asked.
 
 ## Being invited
-Each morning you spend in the same place as a lord of your realm, that lord may invite you: about 1 in 4 if they like you (relation 10 or more), far less if they only tolerate you, hardly ever if they dislike you. Brave lords ask more often. A lord sends at most one invitation every 30 days, to you or anyone else. The invitation comes in a window with their words ("Onto the sand" / "Into the yard" or "Not today"), and stays in the town or castle menu for the rest of the day as "Answer ...'s invitation to the arena" or "... to the yard".
+Each morning you spend in the same place as a lord of your realm, that lord may invite you: about 1 in 4 if they like you (relation 10 or more), far less if they only tolerate you, hardly ever if they dislike you. Brave lords ask more often. A lord sends at most one invitation every 30 days, to you or anyone else, and no invitation reaches you within **5 days** of the last one or of your last bout. The invitation comes in a window that sets out the terms first (the best of three falls), with their words ("Onto the sand" / "Into the yard" or "Not today"), and stays in the town or castle menu for the rest of the day as "Answer ...'s invitation to the arena" or "... to the yard".
 
 ## Asking
 - From the castle or arena menu: **Look for a sparring partner (Practice blades)**. You see every noble of your realm who is there; those who cannot spar now are greyed out with the reason.
 - In conversation: "Would you take up the practice blades with me? (Practice blades)". The line is hidden when the rules do not allow a bout.
 
-The lord answers in their own voice. Good regard and Valor make a yes likelier, a calculating nature less likely; a request from the ruler is almost never refused. A yes in conversation leaves an option in the menu that day to go to the yard or the arena.
+The lord answers in their own voice. Good regard and Valor make a yes likelier, a calculating nature less likely; a request from the ruler is almost never refused. A yes in conversation leaves an option in the menu that day to go to the yard or the arena, and the lord reminds you it is the best of three falls.
 
 ## The bout
-- On foot, blunted steel, the best of three falls. A side falls when its leader is brought low; nobody leaves the bout with a wound on the map.
+- On foot, blunted steel, the best of three falls. Each fall is fought until the leader of one side goes down, as in a tournament: you can be knocked down too. In two against two, a second who goes down stays down for the rest of that fall. Nobody leaves the bout with a wound on the map.
+- **Each fall in its own scene.** A notice tells you which fall it is and what rides on it. When one side falls, the scene ends and you are back in the town or castle menu, where a window tells you who took the fall, how the bout stands and what the lord makes of it, in their own voice: **"Back into the yard"** (or *onto the sand*) for the next fall, or **"Yield the bout"**, which asks you to confirm first. Everyone comes into each fall whole.
 - Only weapons for both hands, from the game's practice rack: Sparring Twohander, Sparring Two Handed Axe, Sparring Billhook, Sparring Glaive and Sparring Menavlion. You choose yours (the window shows your skill for each).
 - The lord takes their own, by their better skill and their people: a two-handed sword (an axe in Sturgia and the north, either in Battania), or for a polearm fighter the Billhook in Vlandia, the Menavlion in the Empire and the Glaive elsewhere.
 - Two against two, about 1 time in 3, when both sides have a second: for you, a companion or family member with you (you choose); for the lord, one of their house or one of their landed knights, an adult no older than 45 who knows Two Handed or Polearm.
-- Walking off before the end ("Yield the bout") counts as yielding, and everyone will hear of it.
+- Walking off before the end ("Yield the bout", or riding out of the town or castle between falls) counts as yielding, and everyone will hear of it. If a lord or a second walks off between falls, their side has yielded. If you are taken away against your will (captured, say), or the world stops the next fall (war, a siege, the games, nightfall), the bout is broken off and nobody wins it; you are told why.
+- What the bout gives (below) comes once, at the end.
 
 ## What it gives
 - **Weapon experience**, as the game gives for knocking that opponent down once in a tournament: the full amount for the winner, three quarters for the loser (half of that if you yield after blows, nothing if you yield at once), half of it for each second. Up to half again more against an opponent much more skilled than you.
-- **Relation +2** between you, but never above 30 from sparring. Nothing if you yield, or if the bout was won with too many kicks against an honourable opponent.
+- **Relation +2** between you, but never above 30 from sparring. Nothing if you yield, or if the bout was won with too many kicks against an honourable opponent. Lords never kick: only your side's kicks count, and the lords say what they think of them.
 - **A memory**: the lord brings up the bout for a while afterwards (see [Lords who remember you](memories.md)).
 - The noble with the most wins in a realm (at least 4, and two of every three bouts won) becomes known as the court's good blade. If that is you, brave lords invite you more often, and the invitations say so.
 

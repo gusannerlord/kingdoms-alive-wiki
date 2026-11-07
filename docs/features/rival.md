@@ -2,7 +2,7 @@
 
 Beat the wrong lord in a tournament, or let a hatred fester, and someone may swear a feud against you. Over the following weeks they come at you in their own way: taunts, tales told to their ruler, hired blades in a hideout, bands hunting you, ambushes in town streets. At the end, always, a duel to the death in the arena.
 
-You have at most one rival at a time. Each rivalry opens a quest in your journal, **"The feud with {rival}"**, with your rival tracked on the map. If you meet your rival's party on the map, they greet you with a few sharp words before the usual talk. **(very soon in 2.0.0)** They do so wherever you speak to them (their hall, a town, a camp, an army), and the first time you ever speak, right after they introduce themselves.
+You have at most one rival at a time. Each rivalry opens a quest in your journal, **"The feud with {rival}"**, with your rival tracked on the map. If you meet your rival's party on the map, they greet you with a few sharp words before the usual talk. They do so wherever you speak to them (their hall, a town, a camp, an army), and the first time you ever speak, right after they introduce themselves.
 
 ## How a rival appears
 
@@ -109,7 +109,7 @@ The last step is always a duel to the death in the arena, fought by your rival i
 !!! note
     If your kingdom and theirs are at **war**, there is no arena to meet in: the duel waits for peace.
 
-## Face to face (very soon in 2.0.0)
+## Face to face
 
 When you talk to your rival, two new options let you settle it yourself.
 
@@ -139,7 +139,7 @@ Accepted, the rivalry ends there as a success: the hired men are sent away, any 
 
 - **The duel**, won or lost.
 - **The blood feud ends** (see above).
-- **(very soon in 2.0.0)** **You make amends** face to face (see above).
+- **You make amends** face to face (see above).
 - **Your rival dies** some other way, or becomes **family** (by marriage).
 - **Your rival, or their house, comes to rule a kingdom**, or their house joins **your** kingdom while you rule it.
 - **It goes cold**: **150 days** with nothing coming of it (say, a long war that keeps the duel away).
@@ -157,7 +157,7 @@ In the settings file, set the switch to `false`. See [Settings](../settings.md).
 - `RivalTownAmbushEnabled`: no street ambushes.
 - `RivalDuelEnabled`: no duel at the end. The rivalry then lasts until the blood feud ends, your rival dies, or it goes cold.
 - `RivalSmearEnabled`: your rival never speaks against you to their ruler.
-- `RivalCallOutEnabled` (very soon in 2.0.0): you cannot call your rival out yourself.
-- `RivalAmendsEnabled` (very soon in 2.0.0): you cannot ask your rival what would end the feud.
+- `RivalCallOutEnabled`: you cannot call your rival out yourself.
+- `RivalAmendsEnabled`: you cannot ask your rival what would end the feud.
 
 Number you can change: `RivalApologyRenown` (15, the renown an apology costs).
