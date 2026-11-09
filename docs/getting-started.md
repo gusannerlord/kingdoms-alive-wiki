@@ -14,8 +14,19 @@
 !!! note "Why is the folder called CampaignImprovements?"
     That was the mod's first name. The folder and the settings file keep it so that updates and saves keep working.
 
+## Translations { #translations }
+Kingdoms Alive can be played in **Español (LA)**, **Português (BR)**, **Русский**, **Türkçe** and **简体中文**. Each language is a small optional download of its own, in the files of the mod's Nexus page.
+
+1. Download the file for your language, with **the same version as your Kingdoms Alive**.
+2. Extract its folder (for example **KingdomsAliveSP**) into the same **Modules** folder, next to **CampaignImprovements**.
+3. In the launcher, enable it (for example **Kingdoms Alive - Español (LA)**) **below** Kingdoms Alive.
+4. Play with the game set to that language.
+
+!!! note
+    The translations were made by AI and reviewed by AI, and have not yet been read through by native speakers. The settings menu (Mod Configuration Menu) and some numbers and a few phrases built by the code stay in English. A language file from an older version of the mod makes the launcher warn you, and the newer texts show in English: update it with the mod.
+
 ## Updating
-Overwrite the same **CampaignImprovements** folder. Your campaign carries on. New switches are added to your settings file with their default values (almost all on), and switches of features that are gone are dropped from it.
+Overwrite the same **CampaignImprovements** folder (and your language folder, if you use one). Your campaign carries on. New switches are added to your settings file with their default values (almost all on), and switches of features that are gone are dropped from it.
 
 ## New or existing campaign?
 

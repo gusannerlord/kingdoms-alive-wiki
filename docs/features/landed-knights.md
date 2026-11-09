@@ -5,7 +5,7 @@ Below the great houses of a kingdom stand its **landed knights**: houses of a si
 ## What a landed knight is
 
 - A house of **one knight**, at **clan tier 1**. The encyclopedia shows the knight alone, with a line saying whose knight he is and which villages he holds. The page of his lord's house names its landed knights.
-- He is dressed and mounted as the young nobles of his culture are when they come of age: a lord's harness, not a common soldier's.
+- He is dressed and mounted as the young nobles of his culture are when they come of age: a lord's harness, not a common soldier's. He has the face, hair and beard of a noble of his culture too, as does every new lord the mod makes (the knights a rich house takes into its service, the lords of a new house raised by a ruler).
 - He holds **villages, and nothing else**, all of them of the same castle and lord. The game cannot give a village an owner of its own, so the village still belongs to the castle or town it trades with. The knight holds it **of the house that owns that castle or town**, and that house is his lord.
 - The village's **taxes go to the knight**, not to his lord: that is what pays for his men. When his purse runs low the kingdom's treasury helps him only a little (at most 200 a day; a poor house of the realm gets far more), so he must live within his land.
 - He fields **one party** and never calls an army of his own (he rides in other lords' armies).
@@ -24,7 +24,7 @@ As a lord you can also grant a village to a landless knight of your kingdom (*"I
 You let one of your knights go yourself, in person or from afar:
 
 - **Speaking to him.** With one you have come to despise: *"You have given me cause enough. I am taking back the land you hold of me."* He will not forget it: he holds it against you and thinks much less of you. With any other: *"I can keep you no longer. I release you from your oath..."*: his land comes back to you, he thinks a little less of you, and there is no quarrel between you.
-- **By an envoy:** *"Release a landed knight of our house"*, among the errands of your [envoys](envoys.md). The envoy tells him in your name when he arrives, the hard way or the gentle one depending on how the two of you stand then.
+- **By an envoy:** *"Release {knight} from their oath to your house"*, from the knight's page in the encyclopedia (see [Envoys](envoys.md)). The envoy tells him in your name when he arrives, the hard way or the gentle one depending on how the two of you stand then.
 
 Your purse is your own affair: unlike the lords of the AI, you never lose a knight for want of silver, and making a companion a knight or taking in a landless one asks no sum in your coffers.
 
@@ -129,6 +129,23 @@ How it goes depends on whether you found the truth:
 - **Splitting the land** is only fair when both had some right to it. If only one of them was in the right, the one who was in the right takes it as an injustice.
 
 
+## Troubles of your fiefs
+
+Your landed knights can take the troubles of your own lands off your hands: the game's own quests that the notables of your towns, castles and villages offer, the ones you could hand to a companion. Nothing is made up: only troubles that are really there.
+
+**Giving one to a knight.** When a notable of a fief of yours tells you of a trouble, beside the game's answer for sending a companion there is **"My knight will see to it."** (only if you have landed knights). The notable asks *"Which of your knights shall we look for?"* and lists them, each with how they stand with you and the game's **"% risk of failure"**, as for a companion; the tooltip says how many men the knight would bring, how long the ride and the work would take, and whether, on bad terms with you, they might refuse. *"I am thinking of another knight."* takes you back. Once you choose, the notable has a word on your choice, and you send them off: *"So be it. A rider will carry my word."* If none of your knights can go now, the line is greyed and its tooltip gives each knight's reason (no men under their banner, in a battle or a siege, at sea, no road there, too few men fit for it and how many it asks, already about another trouble, or on such bad terms with you that they will take no charge).
+
+**What happens.** A rider carries your word; if the knight is at sea, the rider waits a few days for them to come ashore. The knight answers in their own voice: a knight who is cool towards you may refuse, and one who is no friend of yours surely does. Agreed, you pay what the work asks, as you would for a companion, and the knight rides there with their own men and stays the days the work takes. **The trouble comes first**: while it lasts, no host can call the knight away (they leave one they were riding with, unless it is in a battle or a siege), and the line asking them to join your army is greyed with the reason. The quest is in your journal, and while the knight is on it nobody else takes it: the notable says your knight is already seeing to it.
+
+- **Done:** the reward and the notable's thanks are yours, as with a companion; the knight thinks better of you (**+5**), gains a little renown and the skill experience a companion would.
+- **Refused:** the knight thinks a little less of you (**−2**). **Failed:** less still (**−6**); a knight who fails at dangerous work comes back wounded.
+- Done or not, dangerous work may cost the knight some of their men, as it would a companion.
+- **Called off without blame**, with your silver returned (except silver for grain, which stays with the village): if the notable is gone or no longer needs help, the fief is no longer yours, the place is besieged or raided, the knight is taken, killed or left without men, or they cannot reach the place in time.
+
+**Of their own accord.** While your realm is at peace, each of your knights who bears you no ill will may, now and then (a small chance each day), take up the nearest trouble in your lands by themselves, if they are not riding in an army. It costs you nothing and brings you no reward: the knight sees to it as a lord of the realm would. You are told when they set out and how it went, and it changes how the knight feels about you as above. You can still give them a trouble yourself whenever you like.
+
+**The AI does the same.** Lords of the AI send their own knights to the troubles of their lands while their realm is at peace, by rider, under the same rules, and only to knights who bear them no ill will. When you meet a notable whose trouble a knight is already seeing to, they tell you so.
+
 ## Where to see it
 
 - **Your clan screen, Fiefs tab:** as a landed knight, your villages appear there while your house holds no town, with their hearths, militia, lord and taxes.
@@ -140,3 +157,5 @@ How it goes depends on whether you found the truth:
 ## Turn it off
 
 In the [settings file](../settings.md), set `LandedKnightsEnabled` to `false`, or in the in-game options under *The houses of a realm*. `PronoiaEnabled` set to `false` gives the Empire the same knights as any other realm. Your lord's errands alone: `LordErrandsEnabled` (*Errands from your lord*), or one kind with its own switch.
+
+The troubles of your fiefs: `KnightIssuesEnabled` (all of it), `KnightIssuesPlayerAutoEnabled` (your knights taking them up of their own accord) and `KnightIssuesAiEnabled` (the AI's knights doing the same).

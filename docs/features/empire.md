@@ -23,7 +23,7 @@ In the Empire, a right is not pressed by the sword or by the council: it goes to
 **How you petition** (only as head of your house, and not as the emperor yourself):
 
 - **In person**, talking to the emperor: "I would lay a petition before the throne: a fief held against my house's better right." Then pick the fief. The line only shows when you have a petition the throne can hear.
-- **By an envoy**: "Carry a petition to the throne: a right to a fief" (see [Envoys](envoys.md)).
+- **By an envoy**: "Carry a petition to {emperor}: a right to a fief", from the emperor's page in the encyclopedia (see [Envoys](envoys.md)).
 - **From the kingdom screen**: in the Factions tab, under your house's rights, the button **"Petition the throne"** next to the right.
 
 The envoy errand and the button are always visible, greyed out with the reason when the throne cannot hear it now. It cannot be heard against the emperor's own house, during a civil war, while the fief is under siege or waiting for the council's grant, if your house already has a petition before the throne, or if the throne refused this one less than 60 days ago. A foreign war does not stop it.

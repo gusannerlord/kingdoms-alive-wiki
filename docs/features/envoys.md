@@ -1,155 +1,133 @@
 # Envoys
 
-Send someone of your house to speak to a lord for you. The envoy really rides there and back, and how it goes depends on who you send: a charming spouse who gets on with the lord can open doors that a gruff companion would slam shut.
+Send someone of your house to a lord anywhere in Calradia, with a message you would otherwise have to carry yourself. The envoy really rides there and back, and when the message needs persuading, they argue it as you would, with their own skills and character: a spouse with a ready tongue may do better than you, a rough companion worse.
 
-## Who you can send
-Any adult member of your family or any of your companions, if they are:
+## Sending an envoy
 
-- riding in your party, or in the same town or castle as you;
-- not wounded, not pregnant, not a governor, not leading a party of their own;
-- not tied up in a quest, and not standing as your champion in a [duel](duels.md).
+Envoys are sent from the **encyclopedia**. Open the page of the lord you want to reach and press **Send an envoy**. The button is there for any living lord outside your house; when nothing can be sent to them now, it is greyed and its tooltip says why (they are a prisoner, too young, nobody of your house is free to ride...). The encyclopedia stays open, the game pauses, and the windows open over it:
 
-You cannot send anyone while you are a prisoner or in the middle of a battle.
+1. **What is the message?** Only the errands that make sense with this lord are listed. Those that cannot be asked right now are greyed, with the reason.
+2. **The errand's own choice**, for some errands: the matter before the council, whose hand to offer, how much gold, which right to press, the terms of peace...
+3. **Who should go?** Everyone of your house who could ride, each with their portrait and:
+    - for an errand that needs persuading, the game's own **"% risk of failure"**, as when you send a companion to solve a quest;
+    - the days of riding to reach the lord;
+    - *"some risk of capture"* if the road passes close to an enemy town or castle.
 
-## How to ask
-1. Talk to them and choose **"I need you to carry a message for me."** They answer *"Of course. Tell me to whom, and what I am to say."*
-2. When the conversation ends, a series of windows opens (the game pauses). If you spoke inside a keep or a street, they open when you are back at the menu.
-    - **What is the message?** Pick the errand. Errands you cannot use right now are greyed out with the reason.
-    - For some errands, a choice first: the matter and the realm (council), or whom of your house should marry.
-    - **To whom?** A list of lords with the odds for this envoy and the days of riding to reach them.
-    - **How much?** (gifts only).
-    - **In what tone?** Courtesy, reason or firmness (not for sounding out or meetings).
-    - **Send {envoy}?** A summary: days there and back, the odds, what moved them, and a warning if the road crosses enemy land.
-3. The envoy rides off. News comes back as messages starting *"A letter from {envoy}:"*. When the lord names terms, a window asks you to **Pay** (or **Agree**) or **Decline**.
+    The safest choices come first. The tooltip says, in words, how that person would put it to the lord, and whether better, about as well, or worse than you would yourself. Those who cannot go are greyed, with the reason.
+4. **Send {envoy}?** A summary: the days there and back, what the envoy will say, the odds in words, and a warning if the road crosses enemy land. Press **Send**.
+
+News comes back in letters starting *"A letter from {envoy}"* or in the envoy's own words, and every envoy on the road has an entry in your quest log until they are home.
+
+## Who can go
+
+Any grown member of your family or any of your companions who is **riding in your party, or in the same town or castle as you**, and is not:
+
+- already away on another errand, a prisoner, or wounded;
+- a woman of your family who is with child;
+- the governor of a town or castle, or riding with another party;
+- busy with another task, or bound to fight a [duel](duels.md) as your champion;
+- the one whose own marriage is being proposed.
+
+You cannot send anyone while you are a prisoner, in a battle, in a conversation, or walking a town's streets or a keep (send them once you are back on the map or in a town's menu).
+
+One envoy at a time rides to the same lord, and after an envoy's errand that lord may not hear another of the same kind for a while.
+
+## How the envoy's speech counts
+
+How much it matters who goes depends on the errand.
+
+**Persuasions** (the council, a plot, a voice or a vote over a fief, winning a house over to your realm, demanding that an enemy ruler bow to you). The envoy argues it exactly as the game's persuasion would if they were the one talking: each argument uses their own skill and suits or grates on the lord's character by their own traits, and their own perks count instead of yours. What belongs to your house counts whoever goes: your house's relation with the lord (friendship is between houses), the lord's grudges, what is at stake. Only two things are added on top of the game:
+
+- **Blood helps a little.** Whoever speaks to a lord of their own blood (a parent, a child, a brother or sister, or someone born into the lord's house) lands each argument a little more often. This counts for you in person too, in these same talks.
+- **A hired companion before a ruler.** A ruler who is not a good friend of yours (relation below 30) cares little to hear a hired companion, and that envoy does a little worse.
+
+An envoy does not share the ease of a feast or a hunt you attend: that only helps when you talk there yourself.
+
+**Meetings, sounding a lord out, and winning a house to your charter or reckoning.** The envoy's Charm (below 30 hurts, 120 or more helps), how their character sits with the lord's (shared traits help, opposite ones hurt) and blood ties count, against your own. A hired companion before a ruler who is not your friend does a little worse, except when winning a house to a cause.
+
+**Everything else** is a message: the answer is the lord's own, for their own reasons, whoever brings it. Only the ride and the road matter. The tooltip says so: *"{envoy} would carry your word faithfully; how it is answered does not hang on who brings it."*
 
 ## The errands
 
-| Errand | Who can use it | What it does |
+The names below are as the game shows them, with the lord's or house's name in place.
+
+| Errand | To whom | What it does |
 |---|---|---|
-| **Win a lord of our realm over in the council** | Vassal or ruler (not a mercenary) | Same as [winning the council over](council.md) in person, for one of the four matters ("We should go to war.", "There is a war we should keep out of.", "We should make peace.", "There is a war we should not end yet."). If it works, that clan votes your way on it for 30 days. |
-| **Bring a clan into our realm** | Vassal or ruler (not a mercenary) | Asks a clan leader of another realm (not a ruler) to join yours. If the lord agrees, they name the base game's price for switching sides, and you pay or decline. |
-| **Arrange a marriage** | Anyone | Finds a match for an unmarried member of your house (family or companion, not yourself). If the lord agrees, they name the base game's dowry, and you pay or decline. |
-| **Seek a trade agreement** | Rulers only | A one-year trade agreement with another realm, signed without a vote in your own council. Costs the influence the game charges to propose one (about 200). Only offered where their council would vote for it at least about 1 time in 3. |
-| **Sound a lord out** | Anyone | Learns where a lord stands (see below). |
-| **Arrange a meeting with a lord** | Anyone | The lord rides to a town or castle about halfway between you and waits there for you. |
-| **Carry a gift of gold to a lord** | Anyone | Gold for a clan leader, for relation (see the gift table). |
+| **Ask {lord} to meet you halfway** | Any lord of a realm | The lord rides to a town or castle about halfway and waits for you (see *Meetings*). |
+| **Sound {lord} out** | Any lord of a realm | The envoy learns where the lord stands (see *Sounding a lord out*). |
+| **Carry a gift of gold to {lord}** | The head of a house not at war with you | Gold for goodwill (see *Gifts*). |
+| **Propose a marriage between your house and the {house}** | The head of a house not at war with you | Offers your hand, or that of a lord of your house (see *Marriages*). |
+| **Win the {house} over to your realm** | The head of a house of another realm, not its ruling house, even at war with yours | The game's own talk for bringing a lord over to your kingdom, with its four parts. If the head is won, they name the game's price for changing sides, and you pay or decline when the letter comes. |
+| **Win {lord} over in the council** | The head of a house of your realm | Same as [winning the council over](council.md) in person, for a war or a peace with a realm you pick. Won over, that house votes your way on it. |
+| **Win {lord} over to your plot** / **Keep {lord} loyal to the crown** | A lord of your realm | Same as in person: see [Civil war](civil-war.md). |
+| **Ask {lord} for their voice when the next fief is shared out** | The head of a house of your realm | Same as in person: see [Winning the council over](council.md). |
+| **Win {lord}'s vote to take a fief back into the crown's hands** | The head of a house of your realm | Pick the house whose fief it would be. Same talk as in person; word of it may reach that house. |
+| **Win {lord} over to your cause** | The head of a house of your realm | Wins a house to your charter or reckoning (see [Factions and grievances](factions.md)). For a reckoning you may ask for their seal and promise nothing, or promise them the fief once it is taken. |
+| **Ask {lord} to swear that your houses stand together** | The head of a house of your realm (greyed unless your houses are good friends) | Asks for a sworn pact between your houses, as in person (see [Factions and grievances](factions.md)). The answer is the house's own. |
+| **Ask the {realm}, your allies, to join one of your wars** | A lord of a realm allied to yours | Pick the enemy (*"Against whom?"*, with the cost of each). When the envoy arrives, the ally names the game's cost of the call; pay it when the letter comes and the gold goes to their war chest, and they declare war. |
+| **Offer the {house} a sellsword's contract with your realm** | The head of a minor house (you must rule your realm) | The game's own hiring of a minor house, with its refusals and its rate. If they will take it, you accept or decline when the letter comes. |
+| **Carry your terms of peace to {lord}** | An enemy ruler (you must rule your realm) | The [Terms of Peace](war-and-peace.md#terms-of-peace) screen opens; set your terms and press **Send these terms** (only terms the ruler would accept now). The ruler answers when the envoy arrives, as the war then stands, and terms they take go to the vote of a council, as at the table. Free, as in person. |
+| **Demand that {lord} bow to your crown** | An enemy ruler (you must rule your realm) | Demands fealty, or the crown itself where the rules allow it, as face to face (see [Vassal realms](vassal-realms.md)). If the ruler wavers, the envoy argues it for you. |
+| **Offer your swords to the {house} in their feud** | A house at feud in your realm | Offers your sword (as a mercenary, your company for their silver). Whether they take it is up to them. See [Factions and grievances](factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses). |
+| **Ask the {house} to ride with you in your feud** | The head of a house free to take a side, while you head a side of a feud | As in person: the house decides for its own reasons; if it says yes, you pay the compensation for its men and it rides with you. |
+| **Carry your defiance to the {house}: press a right by the sword** | The head of a house of your realm holding a fief or title your house has a right to | Once delivered, your houses are at feud, as if you had said it to their face. If the right can no longer be pressed when the envoy arrives, they write to say why. |
+| **Carry a petition to {lord}: a right to a fief** | The emperor of your realm (Empire only) | Lays your right to a fief before the throne. See [The Empire's own ways](empire.md). |
+| **Release {lord} from their oath to your house** | One of your [landed knights](landed-knights.md) | Takes back the knight's land: gently if you are on fair terms, as a seizure (with a grudge) if you are at odds. |
 
-Two more errands appear during a plot in your realm: **"Win a lord over to our plot"** (when you are in a plot) and **"Keep a lord loyal to the crown"** (when you know of a plot you are not part of). See [Civil war](civil-war.md).
+While your house rides with a feud's host, errands that need a voice in the realm's council, or would bring a house into the realm, are greyed: your house has no voice in the council until the feud is settled.
 
-During a feud between two houses of your realm, **"Offer our swords to a house at feud"** carries your offer to either house: to its head, or to a grown lord of the house while the head is a prisoner. Whether they take it is up to them, not to your envoy; as a mercenary, you offer your company for their silver. See [Factions and grievances](factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses).
+### Marriages
+Choose **whose hand you offer**: your own, if you are unmarried, or that of a lord of your house. As between families in the base game, the other house chooses whom of theirs to give: its head if they suit, otherwise the eldest of its lords who does. You are told who before you send, and the dowry (only once the lord has been sounded out; otherwise *"price unknown"*). There is no courtship: the families settle it.
 
-While you head a side of a feud, **"Ask a house to ride with us in our feud"** carries your request to the head of a house of the realm, as you could ask them face to face (see [Winning houses over](factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses)). The list holds the houses free to take a side, with their likely answer in words and the days of riding; those with no cause of their own to ride against your foes, or whose cause weighs too little, are greyed with the reason, and so is a house that gave its answer on this feud not long ago, whose men are in the thick of a fight, or whose head is a prisoner. The envoy does not change their answer: the house decides as it would in person. Its answer comes back in a letter in the lord's own voice; if it says yes, you pay the compensation for its men, as in person, and it rides with your side (at once if the feud is under way, when it begins if not). A house that says no will not hear of it again for a while.
+When the envoy arrives and the house still offers the same person, the game's **marriage offer** window opens as soon as you are free on the map, with both portraits, their ages, houses, occupations, relations, traits and skills. **Accept** pays the dowry and the marriage is made as the game makes it between families; you are told who joins which house, and whether the two houses will grow closer. **Decline** costs nothing.
 
-**While your house rides with a host** in a feud, your envoys still ride. Errands that need a voice in the realm's council, or would bring a house into the realm, are greyed: your house has no voice in the council until the feud is settled.
+If anything changes on the way or before you answer (they choose someone else, one of the two marries or dies, war breaks out between you), the match is off and a letter tells you so.
 
-### New errands { #new-errands }
-
-**"Release a landed knight of our house"** (for a lord with landed knights) tells one of your [landed knights](landed-knights.md) that your house releases them and takes back their land. It is an order, not a matter of persuasion. How it lands depends on how you stand with the knight when the envoy arrives: with relation above −30 they are let go with a little lost regard (−5) and no grievance; at −30 or worse it is taken as their land being seized, with a grievance and −20 relation.
-
-**"Carry our defiance: press a right by the sword"** carries your house's defiance to the head of a house of your realm that holds a town, a castle or a [title](titles.md) your house has a right to. Pick the right from the list (those that cannot be pressed now are greyed, with the reason) and the envoy rides to that head. It is not a matter of persuasion: once delivered, your houses are at feud, as if you had said it to their face. If by then the right can no longer be pressed (the head changed, or anything else now bars a feud), the envoy writes to tell you why and nothing comes of it. The same rules apply as in person or from the Factions tab: see [Factions and grievances](factions.md).
-
-**"Carry a petition to the throne: a right to a fief"** is only offered in a realm of the Empire, where houses do not take a fief from one another by the sword but ask the emperor. The envoy lays your house's right to a town or castle another house of your realm holds before the throne; the throne's judges hear both houses, and the emperor gives an answer. Rights that cannot be petitioned now are greyed, with the reason. See [The Empire's own ways](empire.md).
-
-### Prices and dowries
-A good envoy gets a better price. The price to join or the dowry is cut by about 4% for each half step in the envoy's favour (see below), down to 70% of the base game's figure, and raised the same way for a poor envoy, up to 130%.
-
-Prices are hidden in the lists until the lord has been **sounded out**, then shown for 60 days. Dowries vary a lot from one person to another, often tens of thousands of denars; each point of relation between your house and theirs takes about 1,000 off.
+### Gifts
+Three amounts: **1,000**, **5,000** or **20,000** denars, each with a word on how much it would warm the lord. A gift is gold paid over in a bargain, as the game counts it: it buys at most **3 points** of relation (more with the Charm perk *Tribute*), each dearer the further your relation is from 0 (1,000 plus 100 times the square of the relation it starts from). With a lord at 0, 1,000 buys a point and 5,000 three; with a lord at 10 or −10, it takes 20,000 for one; what is left over may buy one more by chance. A gift is always received. After it, as after any bargain, the lord takes no other gift and will not bargain with you for a while; if you bargained with them lately in person, they will not take it and the envoy brings the gold back.
 
 ### Sounding a lord out
 The envoy writes back with what they learnt:
 
-- their regard for their liege (loyal, dutiful, cool or bitter);
-- for lords of your realm: their mind on wars and peaces before the council, and on a plot you know of;
-- the price to join you, and the dowries of their unmarried relatives who could marry someone of yours;
-- if you rule and they rule: whether their council would hear of a trade agreement.
+- the lord's regard for their liege (loyal, dutiful, cool or bitter);
+- for lords of your realm: their mind on each war and peace before the council, and their house's stance on a plot you know of;
+- the price to join your realm;
+- the dowries of their house for anyone of yours they could marry.
 
-Each item is learnt with the envoy's odds (about 80 in 100 to start, moved by the envoy as below; here Roguery adds its own half steps on top, in the same bands as Charm). What the envoy learns is always true; what they miss is listed as not found out.
+Each item is learnt about **8 times in 10**, moved by the envoy's Charm, character and blood ties against yours, and by their **Roguery** against yours (below 50 hurts, 100 or more helps, 175 or more helps more). What the envoy learns is always true; what they miss is listed as not found out. Prices and dowries then show in the envoy windows for **60 days**.
 
 ### Meetings
 Whether a lord agrees depends on how they feel about you, before the envoy's effect:
 
-| Their relation with you | -50 or worse | -30 | -15 | 0 | 10 or better |
+| Their relation with you | −50 or worse | −30 | −15 | 0 | 10 or better |
 |---|---|---|---|---|---|
 | Odds | 10 in 100 | 30 | 55 | 80 | 90 |
 
-The place is a town or castle at peace with both of you and not under siege, and it is marked on your map. The envoy's letter tells you in about how many days the lord should be there, reckoned from how fast their party really travels, and you get a message when they arrive. A lord who is late but still on the road to the meeting is given up to 5 more days; only a lord who never comes calls it off (*"{Lord} never reached {place}; the meeting is off."*). Once there, the lord waits 3 days, a little more with a good envoy, a little less with a poor one (2 to 6 days). Lords in an army, governors, lords riding in someone else's party, and a lord who is giving a feast or hosting a [hunt](hunts.md) cannot come (*"Hosting a hunt; not free to come."*).
+The place is a town or castle at peace with both of you and not under siege, and it is marked on your map. The envoy's letter says in about how many days the lord should be there, and you get a message when they arrive. A lord who is late but still on the road is given a few more days; only a lord who never comes calls it off. Once there, the lord waits **3 days**, a little more with a good envoy, a little less with a poor one (2 to 6 days). A lord in an army, a governor, one riding in someone else's party, and one giving a feast or hosting a [hunt](hunts.md) cannot come.
 
 - You talk to the lord there as usual. Meeting them gives **+1 relation**.
-- If they wait in vain, they leave offended: **-3 relation** (not if you are a prisoner when the wait runs out).
+- If they wait in vain, they leave offended: **−3 relation**.
 - The same lord will not agree to another meeting for 30 days.
 
-## What decides success
-The odds start from what the matter itself gives (what you would have in person for the council, the other council's vote for trade, 80 in 100 for a gift, and so on). Then the envoy moves them in **half steps**. One half step is about 8 to 9 points in 100 around the middle, less near the ends.
-
-| Factor | Effect |
-|---|---|
-| Not you | -1 half step, always |
-| Charm | below 50: -1; 50-99: 0; 100-174: +1; 175 and up: +2 |
-| Character fit | Mercy, Valor, Honor, Generosity and Calculating of the envoy compared with the lord's. Shared traits help, opposite ones hurt: from -3 to +3 |
-| Tone | +1 if it suits the lord, -1 if it grates (see below) |
-| The envoy's own relation with the lord | -10 or worse: -1; 30 or better: +1; 60 or better: +2. Close kin (parent, child, sibling, or born in that clan) counts +2. Never more than +2 in total |
-| Rank | A family member sent to a ruler or a great house (tier 4 or higher): +1. A companion sent to a ruler, unless the companion's own relation with them is 30 or better: -1 |
-
-The tones, as the game describes them:
-
-- **With courtesy and gifts**: suits a merciful or generous lord; offends a cruel or closefisted one.
-- **With reasons and figures**: suits a calculating lord; wasted on an impulsive one.
-- **With firmness and pride**: suits a brave or honourable lord; grates on a cautious or devious one.
-
-!!! tip
-    The confirmation window lists every part of the odds for the envoy you picked. Try two different people for the same lord: a spouse with good Charm and a matching character can add 10 to 20 points over a typical companion.
-
-## When the lord names a price
-If the roll misses by only a little (less than 15 points, and less than a quarter of the odds), the lord is not quite persuaded but names a price, and you decide:
-
-- **Council or plot:** 5,000 denars for each level of how hard the lord is to move (5,000 to 40,000).
-- **Trade agreement:** a gift of 50,000.
-- **Joining your realm, or a marriage:** their usual price or dowry, 25% higher.
-
-If things change before you answer (the lord left, the match is no longer possible), you are told it is too late and pay nothing.
-
 ## Failure
-A plain refusal costs nothing but time: the same lord will not hear that errand again for 30 days (the council errand uses the council's own waits: 45 days, or 60 after a bad failure).
+A refusal costs nothing but time: the lord will not hear the same errand again for a while (30 days for a meeting or a sounding; every other errand keeps the same waits as when you ask in person, for the council 45 days).
 
-Some failures go badly: 15 in 100 of them, or half of them if the envoy's character clashes with the lord's. Then the lord loses **3 relation with you** and **5 with the envoy**, and the wait becomes 60 days. An honourable lord who takes a clumsy gift badly sends it back as a bribe.
+In the talks that can go badly in person (the council, plots, and a voice or vote over a fief), an envoy's failure can go badly too, about as often as their own talk would end in a critical failure: then the lord thinks less of your house (**−4 relation**) and the wait is longer (60 days), exactly as after a critical failure in person. Winning a house over to your realm never goes badly: the talk only ends.
 
-A successful envoy gains Charm experience and a point of relation with the lord.
+An envoy who wins a lord over learns from it (Charm experience); one who sounds a lord out learns Roguery.
 
 ## Travel and danger
-- An envoy rides alone, at twice the speed of a lord's party. Expect about 1 to 2 days to a lord of your own realm, 3 to 4 across the map, rarely more than 9. The same again to come back.
-- If the lord has moved on, the envoy follows once, for up to 3 more days. Farther than that, they turn back.
-- If the road passes close to a town or castle of a realm at war with you, the envoy may be **taken prisoner** there: 5 in 100 on the way out and 5 on the way back, about 10 in 100 for the whole errand. Gift gold is lost with them; the influence of a trade proposal not yet made is returned.
-- The envoy comes back to your party (not while you are a prisoner or in battle), or to the town they left from.
+- An envoy rides alone, two to three times as fast as a lord's party. Expect a day or two to a lord of your own realm, three or four across the map. The same again to come back.
+- If the lord has moved on, the envoy follows for up to **3 more days**; farther than that, they turn back.
+- If the road passes close to a town or castle of a realm at war with you, the envoy may be **taken prisoner** there: 5 in 100 on the way out and 5 on the way back. Gift gold is lost with them.
+- An envoy received by an enemy ruler rides home under that ruler's **safe-conduct**: that realm's towns and castles are no danger on the way back, though other enemies still are.
+- The envoy comes back to your party, or to the town they left from.
 - If your character dies, every family member away as an envoy comes home at once, so your heir is not on the road.
-
-## Gifts
-Three amounts: 1,000, 5,000 or 20,000 denars, only to clan leaders. Each point of relation costs more than the last, and gifts never lift a relation above **25**. The same lord takes one gift every 30 days. A gift well received gives the full amount below; one received coolly gives half. Amounts that would give nothing are greyed out.
-
-Relation gained if well received:
-
-| Their relation with you now | 1,000 | 5,000 | 20,000 |
-|---|---|---|---|
-| -30 or worse | 0 | 0 | 0 |
-| -20 | 0 | 0 | +1 |
-| -10 | 0 | +1 | +16 |
-| 0 | +1 | +6 | +12 |
-| 5 | 0 | +3 | +8 |
-| 10 | 0 | +1 | +4 |
-| 15 | 0 | 0 | +2 |
-| 20 to 24 | 0 | 0 | +1 |
-
-A gift is received well about 80 times in 100 before the envoy's effect. The gold leaves with the envoy; if the lord has grown fonder of you by the time it arrives and it would buy nothing, the envoy brings it back.
 
 ## Turn it off
 In the settings file, set the switch to `false`. See [Settings](../settings.md).
 
 - `EnvoysEnabled`: all envoys.
-- `EnvoyCouncilEnabled`: winning a lord over in the council.
-- `EnvoyRecruitEnabled`: bringing a clan into your realm.
-- `EnvoyMarriageEnabled`: arranging marriages.
-- `EnvoyTradeEnabled`: trade agreements.
-- `EnvoySoundEnabled`: sounding lords out.
-- `EnvoyMeetingEnabled`: meetings halfway.
-- `EnvoyGiftEnabled`: gifts of gold.
-- `EnvoyPlotJoinEnabled` and `EnvoyPlotLoyalEnabled`: the two plot errands.
-- The three newer errands go with their features: `LandedKnightsEnabled` (releasing a knight), `FactionFeudPressRightEnabled` (pressing a right by the sword) and `ImperialPetitionEnabled` (the petition to the emperor).
+- One switch for each errand: `EnvoyMeetingEnabled`, `EnvoySoundEnabled`, `EnvoyGiftEnabled`, `EnvoyMarriageEnabled`, `EnvoyRecruitEnabled` (winning a house over to your realm), `EnvoyCouncilEnabled`, `EnvoyPlotJoinEnabled` and `EnvoyPlotLoyalEnabled` (the two plot errands), `EnvoyFiefClaimEnabled` (a voice when a fief is shared out), `EnvoyFiefPlotEnabled` (a vote to take a fief back), `EnvoyFactionWinEnabled` (a house won to your cause), `EnvoyPactEnabled` (a pact between houses), `EnvoyCallToWarEnabled` (an ally called to war), `EnvoyHireEnabled` (a sellsword's contract), `EnvoyPeaceTermsEnabled` (terms of peace) and `EnvoyDemandFealtyEnabled` (demanding fealty).
+- The other errands go with their features: `FactionFeudPlayerJoinEnabled` (offering your swords in a feud), `FeudCourtEnabled` (asking a house to ride with you), `FactionFeudPressRightEnabled` (pressing a right by the sword), `ImperialPetitionEnabled` (the petition to the emperor) and `LandedKnightsEnabled` (releasing a knight).
+- `SpeakerKinEnabled`: blood ties no longer help in any persuasion, yours or an envoy's.

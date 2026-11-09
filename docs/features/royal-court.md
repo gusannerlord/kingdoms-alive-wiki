@@ -212,6 +212,7 @@ Your chances against a house they have no feelings about:
 
 If they hate that house, the 30–54 row becomes 7%, 32% and 48%.
 
+- **By an envoy:** *"Win {lord}'s vote to take a fief back into the crown's hands"*, from the lord's page in the encyclopedia (see [Envoys](envoys.md)). The envoy argues it with their own skills and character, and word of such talk may reach the house you have in mind.
 - **Won over**, they vote to take a fief from that house the next time you put one to the council, within **60 days**. That vote uses up the promises against that house, whatever comes of it. The [Factions tab](civil-war.md#the-factions-tab) lists them.
 - **Failed**, they will not hear of it again for 45 days; a bad failure means 60 days and −4 relation.
 - **Word may get out.** Every attempt, won or lost, has a **1 in 5** chance of reaching the house you mean to rob: its head loses **10** relation with you, and you are told.
