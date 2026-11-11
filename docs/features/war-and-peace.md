@@ -67,7 +67,7 @@ In the base game the kingdom that wants out just leaves, usually paying tribute.
 
 A peace offered to your kingdom always comes to you or to your council, as in the base game.
 
-The same rule holds for a house that [broke away](royal-court.md#taking-a-fief-from-a-vassal) from its kingdom over a fief it would not give up: it cannot buy its way back to peace with that kingdom on a whim, as houses without a kingdom do in the base game. The crown must be willing (here, as before, it is enough that the peace costs the crown nothing), or the war must be decided, or it must have lasted 80 days. Other houses without a kingdom (rebels of the base game, mercenaries) make peace as before.
+A house that [breaks with its realm](realm-houses.md#a-house-that-breaks-with-its-realm) founds a league of its own, and no peace is made between them for a long while; after that, they make peace as two realms do. A house with no town or castle that breaks away cannot make peace with the realm it left for as long. Other houses without a kingdom (rebels of the base game, mercenaries) make peace as before.
 
 ## Truce and tribute { #truce-and-tribute }
 
@@ -156,7 +156,6 @@ In the [settings file](../settings.md), set any of these to `false`:
 - `WarAmbitionEnabled`: restlessness after a long peace.
 - `WarAfterLongPeaceEnabled`: the ruler looking for a war after a long peace (`WarAfterLongPeaceDays`, 50, is how long).
 - `PeaceNeedsOtherSideConsent`: peace needing both sides.
-- `BreakawayPeaceRulesEnabled`: the same rule for a house that broke away over a fief.
 - `TruceEnabled`: the 45-day truce.
 - `WarTributeWeightEnabled`: a tribute weighing against a war on the realm that pays it.
 - `WarDuringFeudPenaltyEnabled`: feuds holding a kingdom back from new wars; `WarWaitsForFeudsEnabled`: restlessness and the ruler's search for a war waiting while a feud lasts.

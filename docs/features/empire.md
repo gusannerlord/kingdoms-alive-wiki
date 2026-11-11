@@ -6,13 +6,16 @@ The three empires do not live like the other kingdoms. As in Byzantium, the land
 
 A realm of the Empire is any kingdom of imperial culture: the Northern, Western and Southern Empires, and any new kingdom of that culture (yours too, if your house is imperial). Who sits on the throne does not change it. Two exceptions keep the rules of any other kingdom while they last: the host of a feud between houses, and the rebel side of a civil war still being fought.
 
-## No reckonings, feuds or vassal votes on fiefs
+## No reckonings, feuds or vassal demands {#no-reckonings-feuds-or-vassal-votes-on-fiefs}
 
 In a realm of the Empire:
 
 - **No Reckoning.** Lords never band together in a [faction](factions.md) to take a fief from one of their own.
 - **No feuds.** No house takes up arms against another, for a fief or for anything else: "in {REALM} a lord who takes up arms against another is a rebel against the throne."
-- **No vassal Annex.** Only the emperor may put a lord's fief before the council. The emperor's own Annex, the share-out of conquered fiefs, plots against the crown, the Charter, calls to abdicate, houses breaking with the realm and the judgment of traitors all work as in any kingdom.
+- **Only the emperor takes a fief.** No lord demands a fief of another, and a strategos may not demand one of a house of his theme: he commands for the throne, the land is not his. The emperor takes one by [decree](royal-court.md#taking-a-fief-from-a-vassal) like any ruler (an AI emperor only with a cause, and never a house's last town or castle unless it is a traitor). The share-out of conquered fiefs, plots against the crown, the Charter, calls to abdicate, houses breaking with the realm and the judgment of traitors all work as in any kingdom.
+- **[High Crown Authority](crown-laws.md#high-crown-authority)** has no place here: a lord who takes up arms against another is already a rebel. The [tax obligation](crown-laws.md#the-tax-obligation) binds the houses that hold of a strategos, as anywhere.
+
+If you found a realm of your own under the Empire's law, the governor warns you first that it will follow the imperial ways, and you may choose another law.
 
 These rules have no switch: they are simply how the Empire works. If your save from an older version had any of them under way in an empire, they end within the hour, with a message if they concern you. A feud already being fought ends with nobody winning, and everything taken in it is given back.
 
@@ -42,7 +45,7 @@ AI houses bring about 6 petitions in each realm of the Empire over 900 days.
 
 ### When the holder will not give it up
 
-Under a strong emperor the throne's word is obeyed: the house that holds the fief gives it up. But a house may refuse a weak emperor, as the magnates of Byzantium did when the throne could not make its will felt. It happens more rarely than when a feudal king takes a fief by decree. The emperor is weak when:
+Under a strong emperor the throne's word is nearly always obeyed. A house refuses a weak emperor more readily, as the magnates of Byzantium did when the throne could not make its will felt. It happens more rarely than when a feudal king takes a fief by decree. The emperor is weak when:
 
 - he has worn the crown less than a year;
 - the lords do not hold his claim to the throne secure (see [The crown and its claim](succession.md));
@@ -51,12 +54,14 @@ Under a strong emperor the throne's word is obeyed: the house that holds the fie
 
 What a refusal means depends on that weakness:
 
-- **Before a new, doubted or losing emperor**, refusing means breaking with the throne: the house leaves the realm with its fiefs, at war with it, or its [plot](civil-war.md) rises over the fief, as when a fief is taken by decree. The fief does not pass, and the petitioner keeps its right.
+- **Before a new, doubted or losing emperor**, refusing means breaking with the throne: the house leaves the realm with its fiefs and founds its [league](realm-houses.md#a-house-that-breaks-with-its-realm), or its [plot](civil-war.md) rises over the fief, as when a fief is taken by decree. The fief does not pass, and the petitioner keeps its right.
 - **Before an emperor whose only weakness is a small Empire**, the throne has no strength to spare against a house that holds its walls: the emperor **backs down**. The house keeps the fief and stays in the realm, but its head loses much of the emperor's regard. The petitioner keeps its right, holds the unenforced grant against the crown and the refusal against the house that would not obey, and may bring the petition again after the usual wait.
 
 **The throne humbled.** An emperor who backs down pays for it before the whole court: for a while the lords of his realm lean more readily towards a plot against the crown (and say so when they join one), a strategos feels the pull of the palace more, and his claim to the throne bears the shame for the rest of his reign. Each new retreat adds to it, up to a point; it ends with his reign. An AI emperor of a small Empire knows this, and grants a petition less readily when the holder might refuse.
 
-**If you hold the fief**, a window, "The throne's decision on {FIEF}", asks you once you are free (not in a battle, a siege, a conversation or prison): bow to the decision, refuse, or raise your plot's banner, each greyed with the reason when you cannot. Before a strong emperor you are not asked: you give it up, as an AI house does. The decision stands even if the emperor who gave it no longer reigns when you answer; if you refuse a back-down after his reign has ended, you keep the fief, but nobody is humbled.
+**Before a strong emperor** a house answers too, as it would a [decree](royal-court.md#taking-a-fief-from-a-vassal), but far more rarely: it yields, breaks with the realm and founds its league, or its plot rises.
+
+**If you hold the fief**, a window asks you once you are free (not in a battle, a siege, a conversation or prison): bow to the decision, refuse, or raise your plot's banner, each greyed with the reason when you cannot. The decision stands even if the emperor who gave it no longer reigns when you answer; if you refuse a back-down after his reign has ended, you keep the fief, but nobody is humbled.
 
 **As emperor**, the tooltip of "Grant it" tells you when the holder could refuse you, and what a retreat would cost your throne.
 
@@ -116,4 +121,4 @@ In the [settings file](../settings.md):
 - `ImperialUnionEnabled`: yielding the purple at a peace (default `true`; needs the negotiated peace and vassal realms).
 - `ImperialDefectionEnabled`: lords going over more readily to another emperor (default `true`).
 
-The absence of Reckonings, feuds and vassal Annex in the Empire has no switch.
+The absence of Reckonings, feuds and vassal demands in the Empire has no switch. `ImperialPetitionDefyStrongFactor` (0.25) sets how much more rarely a house refuses a strong emperor than a feudal king's decree (0: never).

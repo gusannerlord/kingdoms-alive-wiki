@@ -102,7 +102,7 @@ When a vote is settled:
 
 ## Who gets a fief { #who-gets-a-fief }
 
-When a town or castle is conquered, or taken from a vassal, the council votes on who gets it. In the base game only the **three** houses the game finds most deserving stand, and that favours houses with little land: once you hold a few fiefs, you often do not even stand for the one you just conquered. The mod gives you ways to play for it.
+When a town or castle is conquered, or taken from a house by a reckoning's vote, the council votes on who gets it. In the base game only the **three** houses the game finds most deserving stand, and that favours houses with little land: once you hold a few fiefs, you often do not even stand for the one you just conquered. The mod gives you ways to play for it.
 
 - **Five candidates instead of three.** Right after a conquest, the fourth is the house that **led** the conquest, if it is not already among the first three. Conquer it yourself and you always stand. The fifth is the **ruler's house**, unless the fief was the ruler's own or the realm's charter gives fiefs to the realm. When either of them is already among the first three, their place goes to the next most deserving house. (The voting cards are narrower to fit five candidates and "abstain".)
 - **On the vote screen** the ruler's house always stands rightmost of the houses (just before *Abstain*), marked *(Ruler)*, and the house that led the siege that took the fief stands just at its left, marked *(Conqueror)*, with a line on its card saying so. A house that did not take this fief by siege gets no mark, wherever it stands.

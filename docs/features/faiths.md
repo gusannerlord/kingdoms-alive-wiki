@@ -112,7 +112,7 @@ You carry one blessing at a time.
 
 How the faithful see you follows how you live and what you do, more than where you go.
 
-**Virtues.** Each faith holds two virtues of character dear, the game's own traits, and their opposites are its sins. With every season the priests weigh yours: the more of its virtues you have, the higher you stand; the more of its sins, the lower. Your traits change with what you do in the game, as always: sparing or executing prisoners, keeping or breaking your word, standing or fleeing, giving or keeping.
+**Virtues.** Each faith holds two virtues of character dear, the game's own traits, and their opposites are its sins. They do not raise or lower your standing by themselves: they weigh how much your deeds earn you. With its virtues, whatever raises your standing counts for more with the faithful (up to a fifth more); with its sins, for less. Your traits change with what you do in the game, as always: sparing or executing prisoners, keeping or breaking your word, standing or fleeing, giving or keeping.
 
 | Faith | Its virtues |
 |---|---|

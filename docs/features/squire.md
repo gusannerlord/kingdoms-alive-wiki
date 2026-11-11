@@ -110,6 +110,14 @@ When your lord's own party (not a host) sets out to **raid** an enemy village, *
 
 Reach them in time (in their raid, their siege camp, their battle, or riding beside them) for **+1 relation**. A relief counts too if you get there before them: win a battle against the besiegers or raiders, or hold the walls from within until the attack is over, and the place stays in your realm. If others lift the siege without you, the call is simply over; if the place falls, nothing is lost. If you cannot make it, nothing is lost. The word only comes when you are not already with them, not in a host, not a prisoner and not too far away. The same place is not called again within a week.
 
+### When your lord rides out of the realm {#when-your-lord-rides-out-of-the-realm}
+
+A squire rides where his lord rides, but his oath was sworn in the service of a realm:
+
+- **Into a feud.** When your lord's house rides out in a [feud](factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses), you ride with him in its host until the feud is done, and come home with him. You are never marked as a traitor or a felon for it.
+- **Into a rising, or a league.** When your lord's house rises against the crown in a [civil war](civil-war.md), or breaks with it and founds its [league](realm-houses.md#a-house-that-breaks-with-its-realm), a rider brings word: **"I ride with {lord}"** or **"I stay in the service of {realm}"**. Ride, and you stand at his side until it is settled (if it ends in two realms, you are still his squire in the new one). Stay, and your oath as his squire ends, without ill will on either side; spurs he had spoken for are lost with it. If he has already made you a knight, that stands whatever you choose: stay, and the crown still awaits your oath; ride, and your oath waits until the rising is settled.
+- **Out of the realm for good.** If your lord's house leaves the realm altogether (banished, gone over to another realm, or simply leaving), your oath as his squire ends there, with no blame.
+
 ### When your lord fights without you
 
 When your lord's party goes into battle against an enemy kingdom or clan and you are not there, you get the game's own quick notice, with their portrait: *"{lord} is raiding {village}."*, *"{lord} is storming the walls of {town}!"*, or the game's own text when they are attacked. Once per battle, never for fights with bandits.
@@ -220,7 +228,7 @@ Speak with the ruler: **"{lord} has made me a knight of your realm, your Majesty
 
 Once you are dubbed (and did not stay on), you are no longer called to your lord's hosts and marches until you swear. Swearing to the crown through the game's own vassal talk instead counts just the same.
 
-If your lord dies after **7 or more** errands, their ruler keeps the promise: go to them to be knighted, and the knight's kit comes when you swear. With fewer errands, the service ends with no blame. If you leave the kingdom after the summons or the dubbing, the promise lapses quietly. If your lord's house changes kingdom, you follow them.
+If your lord dies after **7 or more** errands, their ruler keeps the promise: go to them to be knighted, and the knight's kit comes when you swear. With fewer errands, the service ends with no blame. If you leave the kingdom after the summons or the dubbing, the promise lapses quietly. If your lord's house leaves the kingdom, see [When your lord rides out of the realm](#when-your-lord-rides-out-of-the-realm).
 
 ### A village of your own {#a-village-of-your-own}
 
@@ -263,7 +271,7 @@ He serves you for **five years**, counted only while he is free (a prisoner's ti
 - **By the fire.** Some nights he comes to your fire with a question: what to do with prisoners, whether a word given to an enemy binds, when to run from a lost battle… What you answer shapes him, and if you keep answering the same way he grows into it (Honor, Mercy, Valor, Generosity, Calculating).
 - **In battle.** He starts at your side, outlined in **pale blue**, seen through walls and men. If he falls you are told where: reach him and stand over him and he will not forget it; leave him lying and he will not forget that either. Back on the map he tells you what he saw.
 - **The practice yard.** In a castle or a town's arena, at peace, **"Spar with {him} in the yard"** (or **"on the sand"** in a town's arena) is the same bout as with your lord, with him as your opponent: at most every few days, by day, neither of you wounded.
-- **War with his house.** If war comes between your realm and his house, he goes home. If you brought it on them, his house holds it against you.
+- **War with his house.** He follows the fortunes of his family: if war comes between your realm and his house, or his house ends up outside your realm or on the other side of a rising, he goes home. If you brought it on them, his house holds it against you.
 - **If he dies** in your service, his house will not forgive it easily (**−40 relation** with its head). Sending him away early: **−10**.
 
 When his time is served, talk to him: **"Kneel, {name}."** Knight him with a charge of your own choosing (honour, valour, mercy or cunning). He goes home a knight, shaped by you: **+25 relation** with the head of his house, **+15** with him, **+5 renown**, and both he and the lord who gave him remember it for good. **"Not yet."** keeps him a while longer.

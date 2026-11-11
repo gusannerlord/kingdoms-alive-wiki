@@ -16,4 +16,4 @@ Each section appears only while the system behind it is on.
 
 The tab shows few numbers behind the rules: the bars show how far you have come, not by how much. Your lands is the exception: it counts your towns and castles against how many the lords bear with.
 
-In both builds, for the game's v1.5.6 and v1.4.8 branches.
+In both builds, for the game's v1.5.7 and v1.4.8 branches.

@@ -42,7 +42,7 @@ The claim lasts as long as the spouse lives, and dies with them; it never passes
 
 When one of your own marries out this way, you hear that the other house now claims the fiefs of yours nearest its lands.
 
-You can press a claim by marriage whenever you like (in a [reckoning](factions.md#the-reckoning-of-a-house), or to put the fief to the council yourself), though your in-laws will not forgive it easily. The AI houses press theirs only when the heads of the two houses are on bad terms: a house will raise a reckoning against its in-laws only over a fief it claims through that marriage, on bad terms with them. Blood kin never.
+You can press a claim by marriage whenever you like (in a [reckoning](factions.md#the-reckoning-of-a-house), or by the sword), though your in-laws will not forgive it easily. The AI houses press theirs only when the heads of the two houses are on bad terms: a house will raise a reckoning against its in-laws only over a fief it claims through that marriage, on bad terms with them. Blood kin never.
 
 ## A claim forged at a foreign court
 
@@ -60,12 +60,12 @@ The same can be done for a **duke's title**: leave your companion or kinsman at 
 
 ## When others forge claims to your fiefs
 
-AI houses forge claims too. Now and then a house whose head is not honourable quietly works on a claim to one of the four fiefs nearest its own, in any kingdom, yours included; a house that bears a grudge against the holder is likelier to choose that house's fief. They pay the same price as you, from the purse of the house's head, and wait until they have it. You see nothing of it until it succeeds. If the fief is yours, word reaches you: *"the {house} have found an old grant to {fief} in their name, sealed and witnessed, though nobody had heard of it before."* A claim on your fief matters if it ever leaves your hands: the council will hear that house. And if you are the ruler, in peace, the head of that house may come to [your court](royal-court.md#the-requests) to ask you for it.
+AI houses forge claims too. Now and then a house whose head is not honourable quietly works on a claim to one of the four fiefs nearest its own, in any kingdom, yours included; a house that bears a grudge against the holder is likelier to choose that house's fief. They pay the same price as you, from the purse of the house's head, and wait until they have it. You see nothing of it until it succeeds. If the fief is yours, word reaches you: *"the {house} have found an old grant to {fief} in their name, sealed and witnessed, though nobody had heard of it before."* That house can now press it against yours: in a [reckoning](factions.md#the-reckoning-of-a-house) or by the sword, and the council will hear it in a share-out. And if you are the ruler, in peace, the head of that house may come to [your court](royal-court.md#the-requests) to ask you for it.
 
 ## In the council {#in-the-council}
 
 - **Sharing out a fief.** A house with a firm right counts double when the council picks the candidates and weighs them; a weak right counts half as much again. Honourable lords care most about this. It is never a sure thing: a house that already holds a lot is still weighed down by it, and the ruler has the last word.
-- **Putting a fief to the council yourself.** The ruler can propose taking any house's fief (the kingdom screen's **Annex**). A vassal, you or an AI lord, can only do it for a fief their house has a right to, or that a reckoning they are in claims. So can a house's own lord, for a fief in his duchy or county (see [A lord takes back a vassal's fief](titles.md#a-lord-takes-back-a-vassals-fief)). Otherwise the button is greyed: *"Your house has no right to {fief}..."*. With a right but no reckoning you can still try alone, but nobody is bound to vote with you. This holds in war as in peace.
+- **Putting a fief to the council.** The council votes on taking a fief from a house only for a [reckoning](factions.md#the-reckoning-of-a-house) that claims it: its head or one of its houses brings the vote (the kingdom screen's **Annex**). A right alone does not open the button: it is greyed, and tells you the roads open to you (win lords over to a reckoning, or join one, or press the right by the sword). The ruler takes a fief by decree, and a lord demands one of his own vassal, with no vote (see [Taking a fief](royal-court.md#taking-a-fief-from-a-vassal)). This holds in war as in peace.
 - **A reckoning's vote.** When a reckoning puts a fief to the council, the houses outside it lean a little towards the reckoning's right, firm or weak, and the more honourable they are the more they lean. It tips a close vote, no more: a house that is on fair terms with the holder still sides with them, and only one that dislikes the holder goes over to the reckoning.
 - **Joining a reckoning.** A right draws lords to it, honourable ones most.
 - **In the empires** there are no reckonings and no feuds, and nobody but the emperor puts another house's fief before the council: the button is greyed, and a right to a fief held by another house of the realm is laid before the throne as a **petition** instead, in person, by an envoy or from your house's rights in the Factions tab. See [The Empire's own ways](empire.md).
@@ -87,7 +87,6 @@ In the [settings file](../settings.md), set to `false`:
 - `FiefRightsForgeEnabled`: forging claims at a foreign court;
 - `FiefRightsMarriageEnabled`: claims by marriage;
 - `FiefRightsReckoningNeedsRight`: a reckoning needs a right;
-- `FiefRightsNativeRevokeNeedsRight`: a vassal needs a right to put a fief to the council;
 - `FiefRightsAncestralEnabled`: old claims of a line for the AI;
 - `FiefRightsAiForgeEnabled`: AI houses forging claims too;
 - `FiefRightsFeudHonourEnabled`: honourable houses standing with the better right in a feud;

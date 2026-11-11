@@ -1,7 +1,7 @@
 # Getting started
 
 ## Requirements
-- Mount & Blade II: Bannerlord **1.5.6** (with or without the War Sails expansion) or **1.4.8** (the default Steam branch). There is one download for each: take the one for your game version.
+- Mount & Blade II: Bannerlord **1.5.7** (with or without the War Sails expansion) or **1.4.8** (the default Steam branch). There is one download for each: take the one for your game version.
 - [Harmony](https://www.nexusmods.com/mountandblade2bannerlord/mods/2006), loaded above this mod in the launcher.
 
 ## Installing
@@ -28,6 +28,16 @@ Kingdoms Alive can be played in **Español (LA)**, **Português (BR)**, **Рус
 ## Updating
 Overwrite the same **CampaignImprovements** folder (and your language folder, if you use one). Your campaign carries on. New switches are added to your settings file with their default values (almost all on), and switches of features that are gone are dropped from it.
 
+!!! note "Loading a 2.1.0 campaign in 2.2.0"
+    Keep a copy of your save first. Then:
+
+    - In the first hour, every realm whose houses hold their land of a lord and that has no tax law gets the **Low Tax Obligation**: its houses pay their lords the same as before.
+    - A king's peace proclaimed in your campaign lapses and the feud goes on; a feud in which it had branded a side as traitors ends with no victor.
+    - A vote to take a fief already before the council is still held; if it passes, it is carried out as a decree or a lord's demand.
+    - A house that had already broken away stays a house without a realm.
+    - Promised votes to take a fief back for the crown are dropped and their journal entry closes; an envoy carrying that errand comes back.
+    - A province now follows the law of the realm that holds its land: in an Empire or the Khanate, some dormant duchies may fall vacant at once on loading.
+
 ## New or existing campaign?
 
 !!! warning "Start a new campaign with the mod, and keep it to the end"
@@ -42,7 +52,7 @@ Do not remove it from a campaign you want to keep playing. If you do, keep a cop
 ## Compatibility
 - **Not compatible with the "Diplomacy" mod** or other mods that replace how AI kingdoms decide on war and peace. Despite the name, this is not an add-on for it.
 - If a game update changes the game's war formula, the mod's war scoring switches itself off instead of breaking.
-- The launcher may show a version warning on game versions other than 1.5.6 and 1.4.8. The mod has not been tested there.
+- The launcher may show a version warning on game versions other than 1.5.7 and 1.4.8. The mod has not been tested there.
 - **On 1.4.8** there is no War Sails and no sea to cross, so everything about ships and coasts does not come up. That version of the game also has no blood feuds: your [rival](features/rival.md)'s house cannot be paid off at a ransom broker, and a [hunting accident](features/hunts.md) that is found out costs relation and Honor instead.
 
 ## Story mode, sandbox, normal or fast mode

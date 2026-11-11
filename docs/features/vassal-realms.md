@@ -119,9 +119,9 @@ There are four ways for a vassal to be joined to its overlord's realm for good. 
 
 ### How each house decides
 
-Each house of the vassal joins if its leader likes the overlord's ruler well enough (less so by force, more with a royal marriage, less if it loved its old ruler). One that hates them and holds a fief rises against the new realm; the rest leave for another kingdom (never yours), of their own culture first. The old ruling house keeps its word if it agreed. Mercenaries leave. The news: *"The {vassal} are no more: their houses now serve {ruler} of the {overlord}, save {N} that would not."*
+Each house of the vassal joins if its leader likes the overlord's ruler well enough (less so by force, more with a royal marriage, less if it loved its old ruler). One that hates them and holds a fief breaks with the new realm and founds its [league](realm-houses.md#a-house-that-breaks-with-its-realm); the rest leave for another kingdom (never yours), of their own culture first. The old ruling house keeps its word if it agreed. Mercenaries leave. The news: *"The {vassal} are no more: their houses now serve {ruler} of the {overlord}, save {N} that would not."*
 
-If your house belongs to the annexed realm but is not its crown, a window **"A new liege"** asks: **"Swear"** or **"Leave, keeping my fiefs"** (with fiefs, your house rises against the new realm; without, it simply leaves).
+If your house belongs to the annexed realm but is not its crown, a window **"A new liege"** asks: **"Swear"** or **"Leave, and hold my fiefs by the sword"** (with fiefs: your house founds its [league](realm-houses.md#a-house-that-breaks-with-its-realm) against the new realm) or, without fiefs, **"Leave the realm"**.
 
 ## The Vassals tab
 
