@@ -102,7 +102,7 @@ A company of renown is worth buying.
 - **"Send him back the way he came"**.
 - **"Have him bound and taken to {commander}"**: as reporting above, and +5 with the army's commander too.
 
-**Changing sides** pays the purse and signs you to the buyer for **100 days**, with the purse as the advance. You give the silver advanced by your old crown back for the days you did not serve. The betrayed crown never trusts you again and never sends for you: its ruler falls to -30 with you or lower, its lords remember, its ruler's house holds a **blood feud** with yours (not on game version 1.4.8), you lose honour and your name falls. Other parties leave you alone for a day while you ride out.
+**Changing sides** pays the purse and signs you to the buyer for **100 days**, with the purse as the advance. You give the silver advanced by your old crown back for the days you did not serve. The betrayed crown never trusts you again and never sends for you: its ruler falls to -30 with you or lower, its lords remember, its ruler's house holds a **blood feud** with yours, you lose honour and your name falls. Other parties leave you alone for a day while you ride out.
 
 ## Gifts of the crown
 

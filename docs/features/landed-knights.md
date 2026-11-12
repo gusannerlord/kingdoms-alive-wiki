@@ -32,7 +32,7 @@ You can make one too: as a lord of a kingdom with a castle that has no knight ye
 
 ### Raising a knight yourself
 
-In the clan screen, **House** tab, under *Oaths*, the button **Grant land to a worthy knight** raises a new knight from the worthy men of your kingdom, the way an AI lord makes one. You choose the village (those you cannot grant are greyed, with the reason); the new knight swears to your house, rides under your colours, and you give him the gift a lord gives a new knight (**10,000** denars, or what you have if less). Unlike an AI lord, your house needs no great purse to raise one. The button is always there, greyed with the reason when you cannot use it:
+In the clan screen, **House** tab, under *Liege and Vassals*, the button **Grant land to a worthy knight** raises a new knight from the worthy men of your kingdom, the way an AI lord makes one. You choose the village (those you cannot grant are greyed, with the reason); the new knight swears to your house, rides under your colours, and you give him the gift a lord gives a new knight (**10,000** denars, or what you have if less). Unlike an AI lord, your house needs no great purse to raise one. The button is always there, greyed with the reason when you cannot use it:
 
 - you must be sworn to a kingdom (not as a sellsword), free, and not riding in a feud's host;
 - the kingdom must have a ruler, enough houses and no civil war;
@@ -149,9 +149,10 @@ Your landed knights can take the troubles of your own lands off your hands: the 
 ## Where to see it
 
 - **Your clan screen, Fiefs tab:** as a landed knight, your villages appear there while your house holds no town, with their hearths, militia, lord and taxes.
-- **Your clan screen, House tab, "Oaths":** your oath, your lord and your villages. It also shows how many landed knights your house may have (one for each castle) and how many it has, and which of your castles still have none; the knights sworn to you are listed there too, and the tooltip of your towns and castles in the Fiefs tab says who holds which village.
+- **Your clan screen, House tab, "Liege and Vassals":** your oath, your lord and your villages; the lord you hold of, and his own up to the crown. It also shows how many landed knights your house may have (one for each castle) and how many it has, and which of your castles still have none; the knights sworn to you are listed there too, and the tooltip of your towns and castles in the Fiefs tab says who holds which village.
 - **Kingdom screen, Clans tab:** choose a knight's house to see whose knight it is and its village. The village is also shown among the house's fiefs.
-- **Kingdom screen, Court tab:** every landed knight of the kingdom, with their village and lord. They are under "Titles" in kingdoms that use titles, and under "Landed knights" in the others.
+- **Kingdom screen, Crown tab:** every landed knight of the kingdom, with their village and lord. They are under "Titles" in kingdoms that use titles, and under "Landed knights" in the others. Under **"Vassals of the Crown"** each lord's knights are counted on his row and named when you hold the pointer over it.
+- **Encyclopedia:** a knight's page shows the lord he holds his village of, and a lord's page the knights who hold of him (see [Liege and Vassals](titles.md#liege-and-vassals)).
 - **Oaths and duties:** a knight and his lord swear, greet each other, ask for relief and answer the call to the banner as any vassal and lord do (see [Dukes, counts and castellans](titles.md#oaths-and-duties)).
 
 ## Turn it off

@@ -6,7 +6,7 @@ In the base game a kingdom is as strong as the number of its houses, and a house
 
 ### The leader of the rising
 
-The head of the house that led the plot is **put to death**. An AI ruler nearly always does it; a merciful one may spare the life. If you are the ruler, a window asks you: *"Put him to death"* or *"Spare his life"*. The sentence is carried out once the leader is in the crown's hands or free in the realm, never in the middle of a battle, and wherever you happen to be. If he flees abroad with his house, or it cannot be carried out before his house's traitor mark runs out, the sentence lapses. A death by the realm's sentence does not start a blood feud (on 1.5.7; 1.4.8 has none).
+The head of the house that led the plot is **put to death**. An AI ruler nearly always does it; a merciful one may spare the life. If you are the ruler, a window asks you: *"Put him to death"* or *"Spare his life"*. The sentence is carried out once the leader is in the crown's hands or free in the realm, never in the middle of a battle, and wherever you happen to be. If he flees abroad with his house, or it cannot be carried out before his house's traitor mark runs out, the sentence lapses. A death by the realm's sentence does not start a blood feud.
 
 **The sentence comes before the judgment of his house.** While it stands, his house can only be pardoned, and a pardon lifts the sentence; any other judgment waits until the sentence is carried out, lifted or lapses. The same goes for the house the rising would have crowned, if it was not the leader's: it is judged right after it, and as hard, though its head is not condemned.
 

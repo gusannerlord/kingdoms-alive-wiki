@@ -102,7 +102,8 @@ It also depends on **how you get on now**: **proud** if they like you (relation 
 The lords keep in mind what other lords did to them and to theirs, by the same rules as what you did, and it warms or sours the two houses (the relation between their heads) for as long as it is remembered:
 
 - **A tournament** another lord won, while they rode in it: a small sting, for about a month.
-- **A battle under another lord's banner**, on the same side: a little warmth, for about a month.
+- **A battle won under another lord's banner**, on the same side: a little warmth, for about a month.
+- **A battle lost**: someone answers for it. Each lord who fought on the losing side blames the lord who led it, and blames his own ruler and the realm's Marshal as well: the war was theirs to win. Bitterness, for about 3 months; twice as much against a ruler or Marshal who led the beaten side in person. In a feud's host only the one who led it is blamed. *"It was {Lord}'s war we lost at {place}. Those who send men to die should hear about it when they come back beaten."*
 - **Help in a fight already under way**, when another lord rode in and they won: gratitude, for about 3 months.
 - **Taken prisoner** by another lord: resentment, for about 4 months.
 - **Freed from their captors** by another lord's host in a battle: gratitude, for about 8 months.
@@ -110,9 +111,9 @@ The lords keep in mind what other lords did to them and to theirs, by the same r
 - **A town or castle stormed** by another lord: remembered and spoken of (the game itself already makes them bitter for it).
 - **A bout with the practice blades** against another lord ([sparring](sparring.md)): remembered and spoken of for about 2 months (the bout itself brings the two a little closer).
 
-A small thing between the same two houses counts once: a second tournament or battle together refreshes the memory instead of adding to it. When a memory is forgotten, the warmth or bitterness it brought goes with it; a death never is. When a house changes head, the new head takes up what the house remembers. Duels are not counted as deaths in battle.
+A small thing between the same two houses counts once: a second tournament, battle, rescue or help in a fight refreshes the memory instead of adding to it, and so does a second defeat blamed on the same lord. When a memory is forgotten, the warmth or bitterness it brought goes with it; a death never is. When a house changes head, the new head takes up what the house remembers. Duels are not counted as deaths in battle.
 
-This is between the lords themselves. What lords do to you or your house, and what you do to them, is remembered as above and brings their words, but moves your relations only as the game itself does.
+This is between the lords themselves. What lords do to you or your house, and what you do to them, is remembered as above and brings their words, but moves your relations only as the game itself does, with one exception: **a lost battle is blamed on you too**, by the same rule. If you led the side that lost, or you are the ruler or the Marshal of the beaten lords' realm, they think less of you for a while, and the game's usual message tells you so. When you lose under an AI lord, ruler or Marshal, your relation with them does not fall.
 
 **They tell you of it.** When a lord greets you and has nothing weightier to say about you, they may bring up something another lord did to them: *"{Lord} took me prisoner near {place}, some weeks ago. I have not forgotten the inside of her baggage train."*, *"{Lord} put my brother to death, and called it justice. Perhaps it was. I will never forgive it all the same."*
 

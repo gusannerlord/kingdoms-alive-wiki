@@ -35,6 +35,8 @@ Every evening:
 
 Apart from your own feasts (see below), no feast raises a relation above **40**.
 
+What brings the lords together at a feast is the feast itself: while a feast or an [assembly](assembly.md) is announced or held in a town or castle, the game's **Good Lodging** and **Parade** perks bring no relation between two lords there.
+
 ## War breaks it up
 
 - If the kingdom goes to war with another kingdom, the feast ends at once: *"War has come: the feast at {place} breaks up and the lords ride back to their men."*
@@ -139,3 +141,4 @@ In the settings file (see [Settings](../settings.md)):
 - `FeastTournamentsEnabled`: `false` removes the tournament from the feasts of everyone but the ruler.
 - `FeastHallTalkEnabled`: `false` removes the way into the hall and the words over the wine.
 - `HallCrowdLimitEnabled`: `false` lets every lord into the hall again, as in the base game.
+- `GatheringLodgingQuietEnabled`: `false` lets the game's lodging perks bring relation between lords at feasts and assemblies again.

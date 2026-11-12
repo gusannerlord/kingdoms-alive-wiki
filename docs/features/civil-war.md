@@ -68,14 +68,14 @@ Only a house with a **claim to the throne** can be a pretender. The claim belong
 - **its head is close kin of the ruler** while leading a house of their own: the ruler's father or mother, son or daughter, brother or sister, husband or wife;
 - **it married into the royal house**: its head's husband or wife is close kin of the ruler;
 - **it once ruled the realm**: a house that wore this crown before, for example one deposed in an earlier civil war or one that lost the throne in a vote;
-- **the law of the realm counts it among the worthy**. In the realms whose law chooses among the heads of houses (the Senate of the Northern Empire, the acclamation of the Western Empire, Battanian tanistry, the Aserai sheikhs' council and the Thing of the Nords), the **three** houses with the best [claim to rule](succession.md#what-makes-a-claim), besides the ruler's own, have a claim too;
-- **it is of the old blood of the realm**. In the realms of hereditary law (Vlandia, Sturgia, the Southern Empire) and of the founder's blood (the Khuzaits), the **two** houses with the best claim to rule, besides the ruler's own, have a claim too.
+- **the law of the realm counts it among the worthy**. Under a law that has the lords choose among the heads of houses (Senate, Acclamation, Tanistry, Shura, Thing, Feudal Elective, Veche, Rule of the Strongest; by custom, the Northern and Western Empire, Battania, the Aserai and the Nords), the **three** houses with the best [claim to rule](succession.md#what-makes-a-claim), besides the ruler's own, have a claim too;
+- **it is of the old blood of the realm**. Under a law of blood and under the Kurultai (by custom, Vlandia, Sturgia, the Southern Empire and the Khuzaits), the **two** houses with the best claim to rule, besides the ruler's own, have a claim too.
 
 The ruling house itself never plots. Every civil war the rebels win adds the deposed house to those that once ruled, so claims grow with the realm's history.
 
 In the realms of the Empire, a strategos may also plot a **coup**, a plot of its own kind with its own rules: see [The Empire's own ways](empire.md).
 
-The houses with a claim are listed under **The Crown** in the Court tab of the kingdom screen, and on each clan's page in the Encyclopedia (see [The crown and its claim](succession.md#where-you-see-it)).
+The houses with a claim are listed under **The Crown** in the Crown tab of the kingdom screen, and on each clan's page in the Encyclopedia (see [The crown and its claim](succession.md#where-you-see-it)).
 
 ### Who starts one {#who-starts-one}
 
@@ -99,7 +99,7 @@ A pretender needs a claim to the throne, a **Clan Strength of 500 or more** (the
 - If no house with a claim would have it, there is no plot. Nobody is ever forced.
 - **A crown offered in secret.** Your house is weighed like any other. If it fits the lord best, he writes to you in secret (**"A crown offered in secret"**), in his own voice, with the reasons that truly moved him: your house's right to the throne and its strength, and what weighed most (your friendship, your quarrel with the ruler, a weak claim on the throne, kinship, faith, allies already in the plot...). Accept, and the plot is born to crown your house; burn the letter, and he looks elsewhere.
 
-**The pretender is fixed** for the life of the plot: it is never replaced by another. If the pretender's house dies out, leaves the plot, leaves the kingdom or turns mercenary, comes to the throne, or **loses its claim**, the plot ends. A claim can be lost when the ruler dies and the new one is not kin, when the husband or wife who tied a house to the royal one dies, or when a house slips from among the worthy or the old blood: once a house is a pretender, it keeps such a claim as long as it stays among the **five** best claims of the realm (the **four** best under a hereditary law or the founder's blood).
+**The pretender is fixed** for the life of the plot: it is never replaced by another. If the pretender's house dies out, leaves the plot, leaves the kingdom or turns mercenary, comes to the throne, or **loses its claim**, the plot ends. A claim can be lost when the ruler dies and the new one is not kin, when the husband or wife who tied a house to the royal one dies, or when a house slips from among the worthy or the old blood: once a house is a pretender, it keeps such a claim as long as it stays among the **five** best claims of the realm (the **four** best under a law of blood or the Kurultai).
 
 ### Several plots at once {#several-plots-at-once}
 
@@ -168,7 +168,7 @@ Your own plot tires the same way: you are warned when it is close, and told why 
 
 An AI plot may raise its banner when **all** of this is true:
 
-- it holds **45%** of the realm's strength. From there it is a matter of nerve: each week there is a chance it rises, small at first and growing with its strength, and from **70%** it always rises;
+- it holds **50%** of the realm's strength. From there it is a matter of nerve: each week there is a chance it rises, small at first and growing with its strength, and from **70%** it always rises;
 - it began at least **21 days** ago and has at least one clan besides its leader's;
 - with `PlotsOnlyInLargeRealms` on (off by default), the kingdom is too large, or was within the last 14 days;
 - at least one house of the plot holds a town or castle, and the crown keeps at least one of its own;
@@ -249,9 +249,9 @@ Not every plot wants the crown. Houses that have had enough of their ruler, and 
 
 **Who joins.** Every 7 days each house that could be in it weighs it much as it would [a plot against the crown](#who-joins-and-why) (its relation with the leader and the ruler, its character, grievances, kin, allies, its lord), with no pretender to weigh, and two reasons of its own: **+10** for a house of another culture than the ruling house, and up to **+10** in a large realm (*"A realm this wide cannot hold us"*). It joins at **30**. It leaves once its relation with the ruler is more than **5** better than the plot needs (it has made its peace with the crown, a new ruler came, or the realm shrank), or when none of its holds touch the plot's lands any more, or when its leaning falls below 5 as for any plot; the leader's peace with the crown, or the loss of all its holds, ends the plot. If you are in it, each house that joins or leaves writes to you, with its reason when one stands out.
 
-**How it dies.** A plot that has not reached **15%** of the realm's strength within **60 days** comes to nothing; a plot that has not had **45%** for **180 days** gives up.
+**How it dies.** A plot that has not reached **15%** of the realm's strength within **60 days** comes to nothing; a plot that has not had **40%** for **180 days** gives up.
 
-**The rising.** It rises at **45%** of the realm's strength, with at least **one other house** beside its leader, and under the other rules of a [rising](#the-rising): one civil war at a time, a war abroad no hindrance except in a weak realm, and a fief taken from one of its houses sets it alight, as for any plot. An AI plot waits at least 21 days; from 45% each week there is a chance it rises, growing with its strength, and from **50%** it always rises. The rebels fight as the **League of the {Clan}**: *"{Leader} of the {Clan} has raised the banner against {ruler}: the houses with him mean to break away from {Kingdom} with their lands! Civil war in {Kingdom}."* The war is won and lost as [any civil war](#winning-the-civil-war).
+**The rising.** It rises at **40%** of the realm's strength, with at least **one other house** beside its leader, and under the other rules of a [rising](#the-rising): one civil war at a time, a war abroad no hindrance except in a weak realm, and a fief taken from one of its houses sets it alight, as for any plot. An AI plot waits at least 21 days; from 40% each week there is a chance it rises, growing with its strength, and from **50%** it always rises. The rebels fight as the **League of the {Clan}**: *"{Leader} of the {Clan} has raised the banner against {ruler}: the houses with him mean to break away from {Kingdom} with their lands! Civil war in {Kingdom}."* The war is won and lost as [any civil war](#winning-the-civil-war).
 
 - **The rebels win:** they stand as a realm of their own, the **Realm of the {Clan}** after its ruling house (a realm you rule keeps the name you gave it), with the lands around their seat. Their towns and castles that lie apart go to the old ruler, to be shared out by its council. Both realms get their 100 days of calm. If the crown is left with no town or castle at all, the rebels take its throne instead, as in any civil war.
 - **The crown wins:** as for any rising: the head of the house that led it is put to death (unless the ruler spares him) and the rebel houses come home [marked as traitors](realm-houses.md).
@@ -331,7 +331,7 @@ Under **Fiefs and rights**, **Your house's rights** shows your [rights to fiefs]
 When you lead the plot, its entry in the **Factions** tab has a **"Raise the banner"** button. It works only:
 
 - while you are **inside a town or castle** of your kingdom held by a house of your plot (yours included);
-- with the plot holding **40%** of the realm's strength (the AI needs 45%); you need no other house beside yours, no number of days and no luck. A war abroad does not stop you, and your own choice is never held back by a weak realm;
+- with the plot holding **40%** of the realm's strength (the AI needs 50%); you need no other house beside yours, no number of days and no luck. A war abroad does not stop you, and your own choice is never held back by a weak realm;
 - with the crown still holding a town or castle of its own;
 - when no story quest is under way, you are not in the middle of a fight and you do not ride in an army (*"Not while you ride in an army: leave it first."*);
 - while no men of the plot's houses are in the thick of a battle (*"Men of the plot's houses are in the thick of a battle: the banner waits until the fighting is over."*).
@@ -349,7 +349,7 @@ During a story quest you can only stay, with no penalty.
 
 ### Breaking away yourself {#breaking-away-yourself}
 
-As a vassal of a realm you do not rule, the **Factions** tab has an entry **"Break away from the realm"**: what such a plot asks, and whether your house could begin one now or why not (*"You are not on bad enough terms with {ruler}: no house would believe you mean it."*, *"None of your towns and castles touch the lands around {seat}..."*). Its **"Seek independence"** button starts it, after a confirmation, with you at its head and the lands around your seat; greyed, it says what is missing. The rules are the AI's: the same relation with the ruler, a town or castle, no other plot, faction or feud, no word given, and one such plot per realm. Houses join and leave it by themselves, and you cannot talk anyone into it. You raise its banner as your own plot's (see [Raise the banner](#raise-the-banner)), but at **45%** of the realm's strength and only with another house beside yours. Like its members, you leave it if you make your peace with the ruler.
+As a vassal of a realm you do not rule, the **Factions** tab has an entry **"Break away from the realm"**: what such a plot asks, and whether your house could begin one now or why not (*"You are not on bad enough terms with {ruler}: no house would believe you mean it."*, *"None of your towns and castles touch the lands around {seat}..."*). Its **"Seek independence"** button starts it, after a confirmation, with you at its head and the lands around your seat; greyed, it says what is missing. The rules are the AI's: the same relation with the ruler, a town or castle, no other plot, faction or feud, no word given, and one such plot per realm. Houses join and leave it by themselves, and you cannot talk anyone into it. You raise its banner as your own plot's (see [Raise the banner](#raise-the-banner)), but at **40%** of the realm's strength and only with another house beside yours. Like its members, you leave it if you make your peace with the ruler.
 
 To join an AI plot to break away, tell its leader, once you know who it is, *"I know what you are planning. Count me in."*: it is offered only when your house could be in it, and its leader takes you at once. Its entry in the Factions tab says whether your house could stand with them, or why not, and, if you are in it, what it still lacks to rise.
 
@@ -399,7 +399,7 @@ In the settings file (see [Settings](../settings.md)):
 - `CivilWarOutsideRestraintEnabled` to `false`: other kingdoms treat a war against either side of a civil war like any other war.
 - `EnvoyPlotJoinEnabled` / `EnvoyPlotLoyalEnabled` to `false`: removes the two envoy errands for plots.
 - `HuntPlotRecruitEnabled` to `false`: hunts no longer make talking lords into or out of a plot easier.
-- `IndependencePlotEnabled` to `false`: no plots to break away. Numbers you can change: `IndependenceRelation` (−30) and `IndependenceLargeRealmRelation` (−20), `IndependenceRisesAt` (0.45), `IndependenceRisesSureAt` (0.5), `IndependenceStartChance` (0.02), `IndependenceDukeFactor` (1.5), `IndependenceJoinAt` (30), `IndependenceNeighbourFiefs` (4); the rest on the [Settings](../settings.md#kingdoms-and-court) page.
+- `IndependencePlotEnabled` to `false`: no plots to break away. Numbers you can change: `IndependenceRelation` (−30) and `IndependenceLargeRealmRelation` (−20), `IndependenceRisesAt` (0.40), `IndependenceRisesSureAt` (0.5), `IndependenceStartChance` (0.02), `IndependenceDukeFactor` (1.5), `IndependenceJoinAt` (30), `IndependenceNeighbourFiefs` (4); the rest on the [Settings](../settings.md#kingdoms-and-court) page.
 - `CivilWarBriefingEnabled` to `false`: no window when your realm falls into civil war.
 - `InternalWarWeaknessEnabled` to `false`: a realm weak in its wars abroad no longer holds its plots back (nor its other quarrels, see [Factions and grievances](factions.md)). Numbers you can change: `InternalWarWhileLosingFactor` (0.3), `InternalWarWhileAtWarFactor` (1, for a realm at war that is not weak), `InternalWarSmallRealmBelow` (0.5).
 

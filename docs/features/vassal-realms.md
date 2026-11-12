@@ -28,18 +28,19 @@ Then the loser decides by adding up points. It bows at **7 points** or more:
 | Its ruler is valorous | −1 |
 | The crown itself is asked, not fealty (it refused to be annexed and lost the war that followed) | −2 |
 
-Between AI kingdoms, a peace that carries such terms says so in the council vote: *"The {loser} swear fealty to the {winner}: they keep their crown, pay tribute and march in its wars."* Each house of the loser votes against it more the worse its leader stands with the winner's ruler. If the loser refuses, the winner insists for **30 days** and takes no other peace meanwhile; after that it settles for an ordinary peace. An AI winner only asks another AI kingdom when it would accept. Between AI kingdoms this is rare, an end-of-campaign event: it never happens before **day 500** of the campaign. A war of independence or of annexation between a vassal and its (former) overlord is the exception: there the beaten side bows at 5.5 points, with no share of fiefs needed and no day limit.
+Between AI kingdoms, a peace that carries such terms says so in the council vote: *"The {loser} swear fealty to the {winner}: they keep their crown, pay tribute and march in its wars."* Each house of the loser votes against it more the worse its leader stands with the winner's ruler. An AI winner pays the same influence for a demand, once; without it, it makes none. If the loser refuses, the winner insists for **30 days** and takes no other peace meanwhile; after that it settles for an ordinary peace. An AI winner only asks another AI kingdom when it would accept. Between AI kingdoms this is rare, an end-of-campaign event: it never happens before **day 500** of the campaign. A war of independence or of annexation between a vassal and its (former) overlord is the exception: there the beaten side bows at 5.5 points, with no share of fiefs needed and no day limit.
 
 ### Demanding it yourself
 
-If you rule your kingdom, every enemy appears in the **Vassals** tab of the kingdom screen, with how the war stands told in words: *"You are at war with the {enemy}. The war has gone well enough for you that they could be made to listen. They still hold {N} towns and castles, and your hosts are stronger than theirs."* Then comes their answer as it stands: *"They are ready to bend the knee, if you demand it."* or *"They will not bow yet: ..."* with the two things that weigh most against it (for example *"their ruler is too proud to kneel"*).
+If you rule your kingdom, pick a war on the **Diplomacy** tab of the kingdom screen: among the war's actions, beside the game's **Propose Peace** and the mod's **Negotiate terms**, stands **"Demand fealty"**, with the influence it costs, the way the game shows the cost of a peace. Above it you read their answer as it stands: *"They are ready to bend the knee, if you demand it."* or *"They will not bow yet: ..."* with the two things that weigh most against it (for example *"their ruler is too proud to kneel"*), and your odds in the field.
 
-- **"Demand fealty"** is greyed out with the reason while you cannot ask (*"The war has not yet turned far enough your way: beaten kings kneel, and they are not beaten yet."*, *"Their realm is still too great to kneel to anyone: [...] Cut it down to size first."*, *"You already have as many vassal crowns as one overlord can keep in hand."*...). If they would accept, you confirm and the war ends with them as your vassal. If not, they simply refuse: *"The {enemy} refuse: ..."*.
+- **"Demand fealty"** is greyed out with the reason while you cannot ask (*"The war has not yet turned far enough your way: beaten kings kneel, and they are not beaten yet."*, *"Their realm is still too great to kneel to anyone: [...] Cut it down to size first."*, *"You already have as many vassal crowns as one overlord can keep in hand."*, too little influence...). While it is greyed, hold the pointer over it to read how the war stands, in words (*"You are at war with the {enemy}. The war has gone well enough for you that they could be made to listen. They still hold {N} towns and castles, and your hosts are stronger than theirs."*), and how many of their towns and castles you have taken: *"Of the {start} towns and castles they held when this war began, you have taken {lost}. [...] take some {more} more from them, and they may think otherwise."* If they would accept, you confirm, pay the influence, and the war ends with them as your vassal. If not, they refuse (*"The {enemy} refuse: ..."*), and the influence is spent all the same.
+- Only the ruler may make it: anyone else sees the button greyed. It stands under every war of your realm with a kingdom that is neither your vassal nor your overlord, and that is not itself demanding your fealty.
 - **Face to face.** Talk to the enemy ruler, choose *"There is something I'd like to discuss."* and then *"Bend the knee to the {your realm}, and this war ends."* (the line only appears when you could ask). With 7 points they agree. A ruler who is close (5.5 points or more) answers *"You ask a great deal. Convince me that it is wiser to kneel than to fight on."* and you argue with the game's persuasion: three arguments (your hosts broken, using Leadership; the count of spears, Tactics; their crown kept, Charm), two must land. How hard each one is depends on the war and on the ruler's character. Further off, they refuse in their own manner (for example *"Kneel? To you? Never, while I can still sit a horse."*), followed by their two strongest reasons (such as *"I still hold the better part of my realm; take it from me first, if you can."*).
 - **By an envoy**, as ruler: from the enemy ruler's page in the encyclopedia, *"Demand that {ruler} bow to your crown"*. The ruler answers as face to face, and if they waver, your envoy argues it for you with their own skills and character (see [Envoys](envoys.md)). The envoy rides home under the ruler's safe-conduct.
+- Face to face and by an envoy the demand costs no influence.
 - After a refusal or a failed persuasion, that ruler will not hear of it again for **30 days** (**45 days** and **−4 relation** if an argument went very badly). Leaving before a single argument costs nothing.
 
-The tab also counts the fiefs: *"Of the {start} towns and castles they held when this war began, you have taken {lost}. [...] take some {more} more from them, and they may think otherwise."*, until enough have fallen.
 
 ### Fealty in terms of peace { #fealty-in-terms-of-peace }
 
@@ -53,7 +54,7 @@ If the offer is made to you, a window **"An offer of fealty"** opens: an envoy o
 
 ### When you are the one losing
 
-An AI winner asks it of your kingdom by the same rules: 7 points, and 40% of your towns and castles taken in that war. If it does, a window **"A demand of fealty"** opens, and again 15 days later: a herald of {ruler} of the {winner} rides into your camp: *"Your realm is beaten. Swear fealty to my king, and you keep your lands and your crown; you will pay {N} a day and march in our wars. Refuse, and the war goes on."* Answer **"Swear fealty"** or **"Fight on"** (**"Yield the crown"** if they demand your crown). While the demand stands, no other peace with them is possible (*"The {winner} will only make peace if the {loser} swear fealty to them."*). In the Vassals tab that enemy shows *"Demands your fealty"*, with the button **"Offer fealty"** to accept at any time. After 30 days they give up and an ordinary peace is possible again.
+An AI winner asks it of your kingdom by the same rules: 7 points, and 40% of your towns and castles taken in that war. If it does, a window **"A demand of fealty"** opens, and again 15 days later: a herald of {ruler} of the {winner} rides into your camp: *"Your realm is beaten. Swear fealty to my king, and you keep your lands and your crown; you will pay {N} a day and march in our wars. Refuse, and the war goes on."* Answer **"Swear fealty"** or **"Fight on"** (**"Yield the crown"** if they demand your crown). While the demand stands, no other peace with them is possible (*"The {winner} will only make peace if the {loser} swear fealty to them."*). In the Crown tab, under **Tributaries**, that enemy shows *"Demands your fealty"*, with the button **"Offer fealty"** to accept at any time. After 30 days they give up and an ordinary peace is possible again.
 
 ## What a vassal owes
 
@@ -67,7 +68,7 @@ If you attack someone on the map as a vassal, that war stands, but it is yours a
 ## What the overlord owes
 
 - **Defending the vassal.** When someone attacks a vassal, its overlord is called. An AI overlord comes unless it already fights 2 or more kingdoms, the attacker is 1.5 times as strong, or the attacker is its own ally. If you are the overlord, you get the game's call to war (*"A rider of the {vassal} brings grim word: the {enemy} have fallen upon them, and they call on you as their overlord. Bring your realm to war on the {enemy} within 6 days. A vassal left to stand alone does not forget."*; in a realm with only your house: *"[...] Answer the courier before the day is out, or declare war on the {enemy} yourself within 6 days. [...]"*). Answering costs you nothing and your council backs it. Coming to its defence is a favour (**+10**); not coming is a grievance (**+25**): *"The {overlord} did not come to the defence of the {vassal} against the {enemy}. It will not be forgotten."*
-- **No war on the vassal.** *"The {kingdom} are your vassals. Release them or demand their annexation from the Vassals tab."*
+- **No war on the vassal.** *"The {kingdom} are your vassals. Release them or demand their annexation from the Crown tab of the kingdom."*
 - **Giving back lost fiefs.** A town or castle the vassal lost to a third kingdom (in the last 120 days) and that the overlord retakes goes back to the house that held it: a favour (**+8**). If you are the overlord, a window **"A fief of your vassal"** asks: **"Return it"** or **"Keep it"**, which is a grievance (**+20**). If you took it as a lord of an AI overlord, you lose it: it goes back to the vassal, and you are told so.
 - **Alliance places.** The tie rides on the game's own alliance, so the two show as allies. Each vassal takes one of the overlord's **two** alliance places.
 
@@ -89,7 +90,7 @@ Every vassal has a loyalty from 0 to 100. It starts at **55** if the vassal was 
 
 The **rival** is an AI kingdom on the vassal's border that is at war with the overlord, or whose ruler stands at −20 or worse with the overlord's. The stronger it is next to the overlord, the louder it whispers (nothing below 0.6 times, the full 20 at 1.2 times); half as loud if its ruler dislikes the vassal's, and half again if it is at war with the vassal itself. Other grievances: the overlord breaking with another of its vassals by force (**+15**), and a new ruler taking the overlord's throne while the old one lives, after a civil war (**+10**).
 
-The loyalty reads as **Devoted** (80 or more), **Loyal** (60), **Restless** (40), **Defiant** (25) or **Rebellious** (below 25). The Vassals tab shows the same breakdown and a history of what happened (*"Day 412: its overlord came to its defence against the Vlandians"*). If you rule a vassal's overlord, ask its ruler *"How stands your realm toward ours?"*: from *"We stand with you, in this war and the next..."* down to *"I will not lie to you: my realm would be free of you if it could."*, and *"And the {rival} whisper sweet things in my ear."* when a rival is at work.
+The loyalty reads as **Devoted** (80 or more), **Loyal** (60), **Restless** (40), **Defiant** (25) or **Rebellious** (below 25). Its page under **Tributaries** in the Crown tab shows the same breakdown and a history of what happened (*"Day 412: its overlord came to its defence against the Vlandians"*). If you rule a vassal's overlord, ask its ruler *"How stands your realm toward ours?"*: from *"We stand with you, in this war and the next..."* down to *"I will not lie to you: my realm would be free of you if it could."*, and *"And the {rival} whisper sweet things in my ear."* when a rival is at work.
 
 ## Rebellion
 
@@ -97,11 +98,11 @@ An AI vassal whose loyalty stays **below 25 for 6 days** may rise, with a 1 in 1
 
 The rising is a war of independence: *"The {vassal} have renounced their fealty to the {overlord} and taken up arms, with the {rival} at their side."* The two rulers lose **30** relation, the tribute stops, and the vassal makes peace with the enemies it fought only for its overlord. A peace without terms leaves it free. If the overlord wins clearly, it can ask fealty again.
 
-If you rule a vassal realm, you choose when: **"Renounce fealty"** in the Vassals tab, or tell the overlord's ruler *"I renounce my fealty."* (*"So. Say it plainly, and know what follows."*). A window tells you how your hosts compare with theirs and whether a rival would ride at your side, then **"Renounce"** or **"Not yet"**.
+If you rule a vassal realm, you choose when: **"Renounce fealty"** on your overlord's page under **Tributaries** in the Crown tab, or tell the overlord's ruler *"I renounce my fealty."* (*"So. Say it plainly, and know what follows."*). A window tells you how your hosts compare with theirs and whether a rival would ride at your side, then **"Renounce"** or **"Not yet"**.
 
 ## Release
 
-If you rule an overlord, **"Release"** in the Vassals tab frees a vassal: *"They will owe you nothing more, and think the better of you for it."* The rulers gain **10** relation and a normal 45-day truce starts. A vassal whose overlord is destroyed is free too.
+If you rule an overlord, **"Release"** on its page under **Tributaries** in the Crown tab frees a vassal: *"They will owe you nothing more, and think the better of you for it."* The rulers gain **10** relation and a normal 45-day truce starts. A vassal whose overlord is destroyed is free too.
 
 ## Annexation
 
@@ -113,7 +114,7 @@ There are four ways for a vassal to be joined to its overlord's realm for good. 
 
 **3. A royal marriage.** A marriage between the two royal families (a ruler or a ruler's son or daughter, on each side) gives the overlord a strong claim: *"With the marriage of {A} and {B}, the {overlord} has a strong claim to the crown of the {vassal}: when {ruler} dies, its council will weigh it heavily."* It weighs heavily in that vote, lets them stand in it at once, and makes the houses far more willing to stay at the annexation.
 
-**4. By force.** After **72 days** of fealty an overlord can demand the crown. The vassal gives it up if its loyalty is **60 or more** and the overlord is **1.8 times** as strong; otherwise it refuses and there is war: *"The {vassal} refuse to give up their crown, and the {overlord} march on them."* If they refuse and it comes to war, the overlord's ruler loses **10** relation with each honourable lord of their own realm and **100 influence**, and every other vassal of theirs takes a grievance (**+15**). An accepted demand costs nothing. An AI overlord only does this at peace, at least 2.2 times as strong, with a ruler without Honor, and rarely. If you rule the overlord, the button is **"Demand annexation"**, with their answer in the hint. Win the war that follows and you can demand the crown itself (**"Demand their crown"**, in the tab or face to face); a peace without terms leaves them free.
+**4. By force.** After **72 days** of fealty an overlord can demand the crown. The vassal gives it up if its loyalty is **60 or more** and the overlord is **1.8 times** as strong; otherwise it refuses and there is war: *"The {vassal} refuse to give up their crown, and the {overlord} march on them."* If they refuse and it comes to war, the overlord's ruler loses **10** relation with each honourable lord of their own realm and **100 influence**, and every other vassal of theirs takes a grievance (**+15**). An accepted demand costs nothing. An AI overlord only does this at peace, at least 2.2 times as strong, with a ruler without Honor, and rarely. If you rule the overlord, the button is **"Demand annexation"**, with their answer in the hint. Win the war that follows and you can demand the crown itself (**"Demand their crown"**, on the Diplomacy tab under that war or face to face, at the same cost from the Diplomacy tab); a peace without terms leaves them free.
 
 **If you rule the vassal**, you get the windows: **"A union of crowns"** (**"Accept"** / **"Decline"**) and **"A crown demanded"** (**"Accept"** / **"Refuse: war"**). Your house keeps its fiefs and joins the overlord's realm as a house of it.
 
@@ -123,9 +124,11 @@ Each house of the vassal joins if its leader likes the overlord's ruler well eno
 
 If your house belongs to the annexed realm but is not its crown, a window **"A new liege"** asks: **"Swear"** or **"Leave, and hold my fiefs by the sword"** (with fiefs: your house founds its [league](realm-houses.md#a-house-that-breaks-with-its-realm) against the new realm) or, without fiefs, **"Leave the realm"**.
 
-## The Vassals tab
+## Tributaries in the Crown tab {#tributaries-in-the-crown-tab}
 
-The kingdom screen (**K**) has a **Vassals** tab after Court and Factions. It lists your vassals (loyalty, mood and tribute a day), your overlord and its other vassals, the enemies you could ask fealty of, any enemy that *"Demands your fealty"*, and every other vassal realm in Calradia (*"Vassal of the {overlord}"*). Pick one for the details, the loyalty breakdown and its history. Only a ruler gets the buttons.
+The kingdom screen's **Crown** tab has a list headed **Tributaries**: your vassal realms (*"Tributary: {mood}"*), your overlord, and any enemy that *"Demands your fealty"*. Pick one for the details, the loyalty breakdown and its history; only a ruler gets the buttons. With none, its page tells you what a tributary is, and that whether a realm at war with yours would bend the knee is seen with that war on the Diplomacy tab.
+
+The **Diplomacy** tab tells the ties of every realm: *"A tributary of the {overlord}"* under the name of a realm that is another's vassal, and between a vassal and its overlord the tribute a day, *"Your tributary"* or *"Pays tribute to the {overlord}"*.
 
 The encyclopedia page of a kingdom also says *"Vassal realm of the {overlord} since day {N} ({mood})."* or *"Overlord of the {list}."*
 
@@ -142,7 +145,8 @@ The encyclopedia page of a kingdom also says *"Vassal realm of the {overlord} si
 In the settings file, set a switch to `false`. See [Settings](../settings.md).
 
 - `VassalageEnabled`: the whole feature. Ties already in your save sleep and wake up if you switch it back on.
-- `VassalRealmsEnabled`: no new vassal realms, by demand, by offer or from the Vassals tab; existing ones go on.
+- `VassalRealmsEnabled`: no new vassal realms, by demand, by offer or from the Diplomacy tab; existing ones go on.
+- `VassalDemandInfluenceCost` (100): the influence a demand of fealty or of a crown costs from the Diplomacy tab, and an AI ruler's demand; 0 makes it free.
 - `VassalAiDemandsEnabled`: AI winners no longer ask fealty as the price of peace.
 - `VassalFearOffersEnabled`: no offers of fealty out of fear.
 - `VassalLoyaltyEnabled`: loyalty no longer moves.

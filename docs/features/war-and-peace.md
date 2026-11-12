@@ -119,7 +119,7 @@ A clearly beaten kingdom may have to swear fealty instead of paying a tribute. S
 
 - **A vassal marches with its overlord** in every one of its wars, without a vote, and makes no wars, alliances or trade agreements of its own.
 - **The overlord's peace covers the vassal** in that war. The vassal cannot make that peace itself (*"Only the {overlord} can make this peace for your realm."*), and its enemy has to make peace with the overlord.
-- **No war on your own vassal.** To end the tie, release it or demand its annexation from the Vassals tab. Whoever may not attack the overlord (truce, alliance) may not attack its vassal either, an attacker counts the overlord's full strength against it, and the vassal's against whoever attacks the overlord.
+- **No war on your own vassal.** To end the tie, release it or demand its annexation from its page under **Tributaries** in the Crown tab. Whoever may not attack the overlord (truce, alliance) may not attack its vassal either, an attacker counts the overlord's full strength against it, and the vassal's against whoever attacks the overlord.
 - **Dominance counts a vassal's towns and castles at half** for its overlord.
 - **The caller rule above does not bind an overlord and its vassal**: the overlord makes its peace when it likes, and that peace covers the vassal.
 

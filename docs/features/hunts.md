@@ -146,8 +146,6 @@ Both chances are shown when you choose. What follows:
 | Survives, nobody knows | They are badly hurt, keep well away from you, and lose **10** relation with you. |
 | Found out | Taken as murder: a **blood feud** with their house, as when you execute a lord, with the relation losses that go with it; **30 crime** in the host's kingdom (unless you rule it) and **−10** with the host. |
 
-**On 1.4.8**, which has no blood feuds, an accident found out is answered as the game answers an execution: the houses of the realm lose the relation they would lose over it, the victim's own house too, and your Honor suffers as it would for an execution; the crime and the loss with the host are the same.
-
 If the true dangers of the woods kill your victim first, nobody is to blame and your arrangements are quietly dropped.
 
 ## Quiet words

@@ -4,19 +4,21 @@ Every kingdom now has a court. Five offices, held by real people whose skills ma
 
 ## The kingdom screen
 
-The kingdom screen (**K**) has three new tabs after Diplomacy: **Court**, **Factions** and **Vassals** (see [Vassal realms and annexation](vassal-realms.md)). The usual tabs are unchanged, and with War Sails the Fiefs tab still shows your ships.
+The kingdom screen (**K**) has two new tabs after Diplomacy: **Crown** and **Factions**. The usual tabs are unchanged, and with War Sails the Fiefs tab still shows your ships.
 
-The **Court** tab lists:
+The **Crown** tab lists:
 
 - **The Crown**, picked first: the ruler's portrait, the realm's law of succession, the ruler's [right to rule](succession.md) as a bar with the words the lords use for it, the portraits of the heir and of the strongest pretender, the houses with a [claim to the throne](succession.md#claims-to-the-throne) and why, and the [laws of the crown](crown-laws.md#the-crown-screen) in force, with what each does to the houses' regard and the buttons to change them;
 - the five **offices**, with each holder's portrait and name, or *Vacant*. Pick one to see who holds it, a bar with how much of the office's full effect their skill brings (their skill under it, with words such as *"a sure hand"*) and what it gives right now;
 - **Petitions**: how many people are waiting for you to [hold court](#holding-court) (*"N waiting"*, or *"N waiting, fiefs losing loyalty"* once the wait starts to cost you);
-- **Oaths of fealty**: while the houses are swearing to a new ruler, where each one stands.
+- **Oaths of fealty**: while the houses are swearing to a new ruler, where each one stands;
+- **Titles**: the duchies and counties of the realm, its themes or its ulus, and its landed knights (see [Dukes, counts and castellans](titles.md)); in a realm without titles, **Landed knights**;
+- **Vassals of the Crown**: every house of the realm in the tree of lords and vassals, under the crown (see [Liege and Vassals](titles.md#liege-and-vassals));
+- under **Tributaries**, the realms tied to yours: your vassal realms, your overlord, and an enemy that demands your fealty (see [Vassal realms and annexation](vassal-realms.md#tributaries-in-the-crown-tab)).
 
 The **Factions** tab shows the mood of the houses and what you know of the feuds, factions and plots in your realm, and is where you raise the banner if you lead a plot. See [Civil war](civil-war.md#the-factions-tab) and [Factions and grievances](factions.md).
 
-!!! note
-    If another mod also replaces the kingdom screen, only one of them can work.
+Kingdoms Alive adds to the game's screens instead of replacing them (it needs [UIExtenderEx](../getting-started.md#requirements)), so other mods that add to the same screens keep working beside it.
 
 ## The offices
 
@@ -45,20 +47,21 @@ Only the ruler names the court. Anyone adult in the realm can serve: nobles of a
 You name someone **in person** (only the Marshal can also be offered by rider):
 
 - **By talking to them.** Say *"I would have you serve at my court."* (for a lord of another house it is under *"There is something I'd like to discuss."*), then pick the office: *"As my {office}."*, or *"As my {office}, in place of {holder}."* Hovering shows what they would give.
-- **From the Court tab.** Pick an office and press **Appoint**. The list shows everyone who could take it, with their skill. Only people with you can be picked: in the same town or castle, in your party, or in your army. Anyone else is greyed out with *"Speak to her/him in person: she/he is not in this town or castle, nor in your party or army."*. Press **Dismiss** to relieve a holder.
+- **From the Crown tab.** Pick an office and press **Appoint**. The list shows everyone who could take it, with their skill. Only people with you can be picked: in the same town or castle, in your party, or in your army. Anyone else is greyed out with *"Speak to her/him in person: she/he is not in this town or castle, nor in your party or army."*. Press **Dismiss** to relieve a holder.
 - **By rider, for the Marshal only.** From any town or castle of your realm, or through a companion or family member riding with you, a rider can offer the office of Marshal to a lord of another house, wherever they are. See [Riders](command-your-armies.md#riders).
 
 Who says no:
 
 - Family and companions always accept.
-- A lord with relation **below −10** with you refuses: *"An honour, but I would rather not serve you just now. Ask someone else."* In the Court tab they are greyed out: *"She/He would not take an office from you now."*
+- A lord with relation **below −10** with you refuses: *"An honour, but I would rather not serve you just now. Ask someone else."* In the Crown tab they are greyed out: *"She/He would not take an office from you now."*
 - A lord secretly in a plot does not give himself away: he accepts the office.
 
 What it costs or gives:
 
-- Naming a lord of another house pleases that house: **+5** with its head (once every 120 days per house).
+- **A place at court warms a house to its ruler** for as long as it lasts: the head of a house thinks better of the ruler for each office one of his house holds, and the warmth goes when the office does. It never builds up: naming the same house again and again adds nothing.
 - Clan leaders with more renown than the house you chose, and less than 30 relation with you, feel passed over: **−3** each.
-- Dismissing or replacing someone of another house costs **−5** relation with them (the same for an AI ruler), and nothing more; none if they could not serve at the time. Dismissing your own family or companions costs nothing. The known leader of a plot leaves the court at no cost.
+- **Putting someone of another house out of an office** while they serve, by dismissing or replacing them, leaves their house thinking less of the ruler for a good while, or until one of it is named again; each office lost counts, and it never builds up beyond that. The same for an AI ruler. None if they could not serve at the time. Dismissing your own family or companions costs nothing. The known leader of a plot leaves the court at no cost.
+- **One house with more than one office** is resented: while it holds them, every other house of the realm thinks less of the ruler and of that house (if it is the ruler's own, of the ruler). An AI ruler is loath to give a second office to a house that already holds one.
 - An office given as a term of a house's oath is kept while that oath binds it.
 
 When you come to the throne, you inherit the old ruler's court and can keep it or change it.
@@ -98,7 +101,7 @@ People come to ask you for things, and you hear them by holding court in one of 
 
 - As **ruler**, a new request arrives every **25 to 30 days**, from anywhere in the realm. As a **vassal** with fiefs of your own, every **62 to 75 days**, only from your own fiefs, and never the requests marked "ruler" below.
 - You are told who asks and for what, for example: *"{Who} has come to ask you for {what}, and waits to be heard at {place}."* As ruler, a lord's request reads *"... Hold court in one of your own towns or castles and they will ride there to be heard."*
-- Up to **5** can wait at once. The Court tab lists them under **Petitions**, by where they come from.
+- Up to **5** can wait at once. The Crown tab lists them under **Petitions**, by where they come from.
 - While your realm is at war, no new request comes, and the waiting of those already there does not count: nobody gives up and nothing is held against you. A ruler with no town or castle of their own gets no new requests, and the waiting does not count either.
 
 ### "Hold court"
@@ -136,13 +139,13 @@ Charm rolls show their odds in the answer: 35%, plus 0.25% per point of Charm (+
 ### Leaving them waiting
 
 - A request left unheard for **30 days** lapses, usually with a small loss of relation: *"{Who} has given up waiting to be heard at {place}."*
-- Once **20 days** have passed since the oldest request arrived (or since your last court, if that is later), **each of your towns and castles loses 0.1 loyalty a day**. It shows as **"Petitions unheard"** in the loyalty breakdown of each fief, and the Court tab shows *"N waiting, fiefs losing loyalty"*. Every 10 days the lords still waiting lose 1 relation with you, and a message tells you who waits where, which fiefs are losing loyalty and what to do.
-- Before that, the **Petitions** panel of the Court tab tells you how many days have gone by and when the loss would start.
+- Once **20 days** have passed since the oldest request arrived (or since your last court, if that is later), **each of your towns and castles loses 0.1 loyalty a day**. It shows as **"Petitions unheard"** in the loyalty breakdown of each fief, and the Crown tab shows *"N waiting, fiefs losing loyalty"*. Every 10 days the lords still waiting lose 1 relation with you, and a message tells you who waits where, which fiefs are losing loyalty and what to do.
+- Before that, the **Petitions** panel of the Crown tab tells you how many days have gone by and when the loss would start.
 - Holding court and hearing at least one petitioner starts the count again.
 
 ### The Chancellor hears them for you
 
-As ruler, with a Chancellor able to act, the Court tab offers **"Let the chancellor hear them ({N})"**. Your chancellor decides by their own character (a generous one pays, a merciful one forgives, a mean one refuses), and only a generous one spends your gold, never more than 10,000 per hearing. You see their answers first, in a window **"From your chancellor"**: **"Let it be done"** or **"I will hear them myself"**. Through the chancellor, relation gains are halved, and their Charm decides the rolls. The old soldier and the kinsman will only speak to you in person. A ruler with no town or castle of their own can only have petitions heard this way.
+As ruler, with a Chancellor able to act, the Crown tab offers **"Let the chancellor hear them ({N})"**. Your chancellor decides by their own character (a generous one pays, a merciful one forgives, a mean one refuses), and only a generous one spends your gold, never more than 10,000 per hearing. You see their answers first, in a window **"From your chancellor"**: **"Let it be done"** or **"I will hear them myself"**. Through the chancellor, relation gains are halved, and their Charm decides the rolls. The old soldier and the kinsman will only speak to you in person. A ruler with no town or castle of their own can only have petitions heard this way.
 
 ## The oath to a new ruler
 

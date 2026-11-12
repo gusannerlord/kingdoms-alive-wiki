@@ -1,15 +1,20 @@
 # Getting started
 
 ## Requirements
-- Mount & Blade II: Bannerlord **1.5.7** (with or without the War Sails expansion) or **1.4.8** (the default Steam branch). There is one download for each: take the one for your game version.
-- [Harmony](https://www.nexusmods.com/mountandblade2bannerlord/mods/2006), loaded above this mod in the launcher.
+- Mount & Blade II: Bannerlord **1.5.7** (with or without the War Sails expansion).
+- [Harmony](https://www.nexusmods.com/mountandblade2bannerlord/mods/2006), loaded first in the launcher, above the game's own modules (Native, SandBox Core, SandBox...).
+- [UIExtenderEx](https://www.nexusmods.com/mountandblade2bannerlord/mods/2102), loaded right below Harmony, also above the game's own modules. Kingdoms Alive adds its tabs, pages and lines to the game's own screens through it instead of replacing those screens, so other mods that add to the same screens (the encyclopedia, the clan and kingdom screens) work beside it.
+
+!!! note "Playing on 1.4.8?"
+    For the game's **1.4.8** (the default Steam branch), the last version is **Kingdoms Alive 2.2.0**: it is no longer updated, and this wiki describes the newest version, for 1.5.7.
 
 ## Installing
-1. Install Harmony.
-2. Extract the **CampaignImprovements** folder into your game's **Modules** folder, for example:
+1. Install Harmony and UIExtenderEx.
+2. If an older version of the mod is in your **Modules** folder, **delete its CampaignImprovements folder first** (see [Updating](#updating)).
+3. Extract the **CampaignImprovements** folder into your game's **Modules** folder, for example:
    `C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules`
-3. If Windows blocks the file: right-click `Modules\CampaignImprovements\bin\Win64_Shipping_Client\CampaignImprovements.dll`, choose **Properties** and tick **Unblock**.
-4. Open the launcher, go to the **Mods** tab and enable **Kingdoms Alive - Campaign and Diplomacy Overhaul**, with Harmony above it.
+4. If Windows blocks the file: right-click `Modules\CampaignImprovements\bin\Win64_Shipping_Client\CampaignImprovements.dll`, choose **Properties** and tick **Unblock**.
+5. Open the launcher, go to the **Mods** tab and enable **Kingdoms Alive - Campaign and Diplomacy Overhaul**. The order: Harmony first, UIExtenderEx right below it, both above the game's own modules (Native, SandBox Core, SandBox...); Kingdoms Alive below the game's modules.
 
 !!! note "Why is the folder called CampaignImprovements?"
     That was the mod's first name. The folder and the settings file keep it so that updates and saves keep working.
@@ -25,18 +30,15 @@ Kingdoms Alive can be played in **Español (LA)**, **Português (BR)**, **Рус
 !!! note
     The translations were made by AI and reviewed by AI, and have not yet been read through by native speakers. The settings menu (Mod Configuration Menu) and some numbers and a few phrases built by the code stay in English. A language file from an older version of the mod makes the launcher warn you, and the newer texts show in English: update it with the mod.
 
-## Updating
-Overwrite the same **CampaignImprovements** folder (and your language folder, if you use one). Your campaign carries on. New switches are added to your settings file with their default values (almost all on), and switches of features that are gone are dropped from it.
+## Updating { #updating }
+**Delete the old CampaignImprovements folder** in **Modules**, then extract the new one (and the same with your language folder, if you use one). Extracting over the old folder leaves files of the old version behind, and the game would show some of the mod's screens twice; if the mod finds such files, a red message on the game's main menu tells you so. Your campaign carries on, and your settings file is kept: it lives in your Documents folder, not in the mod's. New switches are added to your settings file with their default values (almost all on), and switches of features that are gone are dropped from it.
 
-!!! note "Loading a 2.1.0 campaign in 2.2.0"
+!!! note "Loading a 2.2.0 campaign in 2.3.0"
     Keep a copy of your save first. Then:
 
-    - In the first hour, every realm whose houses hold their land of a lord and that has no tax law gets the **Low Tax Obligation**: its houses pay their lords the same as before.
-    - A king's peace proclaimed in your campaign lapses and the feud goes on; a feud in which it had branded a side as traitors ends with no victor.
-    - A vote to take a fief already before the council is still held; if it passes, it is carried out as a decree or a lord's demand.
-    - A house that had already broken away stays a house without a realm.
-    - Promised votes to take a fief back for the crown are dropped and their journal entry closes; an envoy carrying that errand comes back.
-    - A province now follows the law of the realm that holds its land: in an Empire or the Khanate, some dormant duchies may fall vacant at once on loading.
+    - Every realm keeps the law of succession it has, and that law is its custom: nobody resents it. (In a new campaign Vlandia starts under Salic Primogeniture; in yours it keeps Primogeniture.)
+    - Every realm gets a law of each group of the [laws of the crown](features/crown-laws.md): **Autonomous Vassals** where High Crown Authority is not law, and **No Tax Obligation** where nothing is owed. The realms of the Empire hold High Crown Authority as their custom.
+    - The goodwill a house had from being named to the court, and the ill will from being put out of it, stay as they were; from now on an office warms a house only while it holds it.
 
 ## New or existing campaign?
 
@@ -52,8 +54,8 @@ Do not remove it from a campaign you want to keep playing. If you do, keep a cop
 ## Compatibility
 - **Not compatible with the "Diplomacy" mod** or other mods that replace how AI kingdoms decide on war and peace. Despite the name, this is not an add-on for it.
 - If a game update changes the game's war formula, the mod's war scoring switches itself off instead of breaking.
-- The launcher may show a version warning on game versions other than 1.5.7 and 1.4.8. The mod has not been tested there.
-- **On 1.4.8** there is no War Sails and no sea to cross, so everything about ships and coasts does not come up. That version of the game also has no blood feuds: your [rival](features/rival.md)'s house cannot be paid off at a ransom broker, and a [hunting accident](features/hunts.md) that is found out costs relation and Honor instead.
+- The launcher may show a version warning on game versions other than 1.5.7. The mod has not been tested there.
+- **On 1.4.8** (Kingdoms Alive 2.2.0), the game has no blood feuds: your [rival](features/rival.md)'s house cannot be paid off at a ransom broker, and a [hunting accident](features/hunts.md) that is found out costs relation and Honor instead.
 
 ## Story mode, sandbox, normal or fast mode
 Everything works in all of them. Most testing was done in sandbox campaigns in fast mode. While a story quest is under way, you cannot raise a rebellion or ride with one: the option is greyed out and tells you why. Leaving your kingdom would break the quest.

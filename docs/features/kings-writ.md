@@ -24,7 +24,7 @@ With the writ come **15 manhunters** from the sheriff's yard (once a campaign). 
 
 The writ carries a seat at court. Every kingdom has a fifth office in its [court](royal-court.md), **Warden of the King's Peace**, the keeper of the roads. When no hunter holds it, the ruler gives it to a noble like the other offices (skill: Scouting and Leadership). It adds a little security every day to every town and castle of the realm, according to the holder's skill.
 
-When you get the writ, the seat is yours, and it shows in the Court tab. A noble who held it before gives it up *"and not gladly"*: they think worse of you (**−8**). When the writ ends, the seat falls vacant and the ruler fills it within a few days.
+When you get the writ, the seat is yours, and it shows in the Crown tab. A noble who held it before gives it up *"and not gladly"*: they think worse of you (**−8**). When the writ ends, the seat falls vacant and the ruler fills it within a few days.
 
 ## Paid only in the king's lands
 

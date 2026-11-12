@@ -112,13 +112,28 @@ It is declared and fought like any [feud between houses](factions.md#when-a-reck
 
 ## Where to see it
 
-- **Clan screen, House tab, "Oaths":** your titles, your lord (or the crown) and the seat you hold of him by, the houses that hold land of you, and the dues paid and received today.
+- **Clan screen, House tab, "Liege and Vassals":** your titles, your lord (or the crown) and the seat you hold of him by, and his own lord up to the crown; the houses and knights that hold land of you, with theirs below them; and the dues paid and received today. See [Liege and Vassals](#liege-and-vassals).
 - **Clan screen, Fiefs tab:** every town and castle shows whom it is held of; its county, its duchy and the knights on its villages are in the tooltip.
 - **Kingdom screen, Clans tab:** choose a house to see its first title, its lord and how many houses hold land of it, under its tier. The full lists are on its encyclopedia page.
 - **Kingdom screen, Fiefs tab:** choose a town or castle to see its duchy and whom it is held of; its county and its knights are in the tooltip.
-- **Kingdom screen, Court tab, "Titles":** every duchy of the kingdom with its duke and counts (or every theme with its strategos, every ulus with its noyan), and the kingdom's landed knights. An emperor or a khan has its buttons here (see below).
+- **Kingdom screen, Crown tab, "Titles":** every duchy of the kingdom with its duke and counts (or every theme with its strategos, every ulus with its noyan), and the kingdom's landed knights. An emperor or a khan has its buttons here (see below).
 - **Kingdom screen, Factions tab, "Fiefs and rights":** your house's claims to titles beside its rights to fiefs, and the claims of others to your titles, each of yours with its **Press by the sword** button.
-- **Encyclopedia:** a house's page lists its titles, the houses it holds its land of, and its vassals; a head of house's page their titles; a town's or castle's page its county and duchy, and whom it is held of.
+- **Kingdom screen, Crown tab, "Vassals of the Crown":** the whole tree of the realm's houses under the crown (see [Liege and Vassals](#liege-and-vassals)).
+- **Encyclopedia:** a house's page lists its titles, the houses it holds its land of, and its vassals; a head of house's page their titles, their liege and their vassals; a town's or castle's page its county and duchy, and whom it is held of.
+
+## Liege and Vassals {#liege-and-vassals}
+
+Every house of a realm answers to one lord, and he to his own, up to the crown, as in Crusader Kings. Those who hold of you answer to you alone: the vassal of your vassal is not yours. A landed knight is the vassal of the house he holds his village of (in the Empire, of the throne). A house with no town or castle, or whose land still waits for the council to grant it, answers to the crown itself. Sellswords are no one's vassals.
+
+You see the tree in three places, each name a link to the person:
+
+- **Clan screen, House tab, "Liege and Vassals":** your house's titles; **Your liege**, by name and house, with why you hold your land of him (*"{Seat}, your first seat, lies in the county of {County}, which the {Lord} hold: you hold your land of them."*), and his own lord above him, up to the crown; **Your vassals**, each with its own vassals one level below; your landed knights and the button to grant land to a new one (see [Landed knights](landed-knights.md)); and today's dues.
+- **Kingdom screen, Crown tab, "Vassals of the Crown":** the ruler at the root, the houses that answer to the crown, and under each the houses that answer to it, down to the last. A lord's landed knights are counted on his row (*"Duke of {place} · {N} knights"*) and named when you hold the pointer over it.
+- **Encyclopedia:** the page of a lord who heads a house, or of a landed knight, shows his liege and his vassals.
+
+**The mightiest houses** of the realm, by their men and their land, stand first in each list and are marked with a red blade; the list says what it means.
+
+A house riding in a feud keeps its oath: a house under another banner in a feud's host is still its lord's vassal; one that rides against its own lord, or against the crown, pays it no dues while the feud lasts. The tree shows both.
 
 ## Themes of the empires
 
@@ -130,7 +145,7 @@ In the **Northern, Western and Southern Empires**, each pair of towns is a **the
 - **A new emperor** looks at every theme once: he keeps the strategos he finds unless another house suits him clearly better.
 - **Relieved is not stripped.** No vote, no refusing, no breaking with the realm: the house keeps its towns and castles. It does remember being relieved, as a grievance against the crown.
 - **What a strategos has:** the dues of the houses that hold of him while he commands, and everything a duke has (his vassals follow him, he shields them, he calls them to his banner, oaths, a claim to win back a lost town of the theme in the wars between kingdoms), except that he may not ask the council for a fief held of him: the land is not his. The emperor's own towns and castles in a theme wrong no strategos. There are no feuds between houses in the empires, so a strategos never leads his vassals into one; a strategos may instead plot to seize the throne itself (see [The Empire's own ways](empire.md)).
-- **As emperor**, the Court tab's **Titles** entry gives you **"Name a strategos"** (pick the theme, then the house; one you replace remembers it) and **"Relieve a strategos"** (the theme stays in your hand until you name another). A theme with no strategos is put to you every week, as a vacant duchy is. You choose freely.
+- **As emperor**, the Crown tab's **Titles** entry gives you **"Name a strategos"** (pick the theme, then the house; one you replace remembers it) and **"Relieve a strategos"** (the theme stays in your hand until you name another). A theme with no strategos is put to you every week, as a vacant duchy is. You choose freely.
 
 ## The ulus of the Khuzaits
 
@@ -141,7 +156,7 @@ Among the **Khuzaits**, each pair of towns is an **ulus**, held by a house and p
 - **Claimed for treason.** The khan claims the ulus of a house he knows to lead a plot in his realm (one not yet risen), and with it the best of its land in it (a town before a castle). The house answers as to any fief taken: its plot may rise over it, or it may break with the realm, or it yields. **The ulus passes only if the house yields**; then it falls vacant. A house that answers otherwise keeps the ulus and the land (one that breaks with the realm loses its ulus by leaving it). With no land there, it is asked to yield the title alone. A house marked as traitor after a rising keeps or loses its ulus with the [crown's judgment](realm-houses.md#houses-marked-as-traitors): it loses it with land taken or banishment, only if the sentence is truly carried out, and keeps it with a pardon or a rebuke.
 - **In a civil war,** the ulus of a house riding with the rebels sleeps (no dues) until the war is over. It keeps it after an amnesty or a rebel victory; if its house breaks away as a realm of its own, the ulus falls vacant.
 - **If you are the noyan** whose ulus the khan claims, a window **"The khan's judgment"** asks you: **"Bow to the khan"**, **"Raise the plot's banner"** (when you are in a plot that can rise) or **"Renounce your oath"**.
-- **As khan**, the Court tab's **Titles** entry gives you **"Take back an ulus"**, greyed until a noyan betrays you (a house waiting for your judgment after a rising is judged in that window instead).
+- **As khan**, the Crown tab's **Titles** entry gives you **"Take back an ulus"**, greyed until a noyan betrays you (a house waiting for your judgment after a rising is judged in that window instead).
 
 A theme or an ulus belongs to the realm that gave it: a house that leaves that realm loses it at once. Its land follows the law of the realm that holds it (see [Counties and duchies](#counties-and-duchies)). In a campaign begun before the themes and the ulus came to the mod, the empires and the Khuzaits stay without titles.
 
