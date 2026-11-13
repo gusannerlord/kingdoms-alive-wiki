@@ -14,8 +14,9 @@ A right is either **firm** or **weak**.
 
 | How | Strength |
 |---|---|
-| **It lost the fief**: to a siege, a vote of the council, a peace, a feud between houses, or its own townsfolk rising | Firm |
-| **The realm took it back**: a fief lost to a foe, retaken by the realm and given to another house. Both the house that now holds it and the house that lost it have a firm right | Firm |
+| **It lost the fief to a foe**: to a siege, a peace, a feud between houses, or its own townsfolk rising | Firm |
+| **It lost the fief by a decision of its realm**: a vote of the council, a decree (a lord's sentence for felony included) or a petition granted at the assembly (one granted by the emperor leaves no right at all); or the house broke with its realm over the fief and its old realm took it back in that war | Weak |
+| **The realm took it back**: a fief lost to a foe, retaken by the realm and given to another house. Both the house that now holds it and the house that lost it have a firm right. A fief a house [broke with its realm](realm-houses.md#a-house-that-breaks-with-its-realm) over is the exception: retaken during that war, it goes straight to the house it was promised to, if one was named, and the house that took it back gains no right to it | Firm |
 | **It led the siege** that took the fief, and the council gave it to another house | Weak |
 | **By blood**: a house died out, and the nearest houses of its kin (by marriage first) take up its claims | Weak |
 | **By marriage**: the head of a house, its heir or you marry; the house that takes in the spouse claims the two towns and castles of their house of birth nearest its own lands on the wedding day, for as long as the spouse lives (see below) | Weak |
@@ -24,7 +25,7 @@ A right is either **firm** or **weak**.
 | **Of our duchy**: a duke or noyan, to a county (by its town) or castle of his duchy held by a house of his realm that does not answer to him (see [Rights of a duchy and of a county](titles.md#rights-of-a-duchy-and-of-a-county)) | Weak, for as long as that lasts |
 | **Of our county**: a count, to a castle of his county held by a house of his realm that does not answer to him | Weak, for as long as that lasts |
 
-A house that gives a fief away, leaves its realm, or dies out keeps no right to it.
+A house that gives a fief away, leaves its realm, or dies out keeps no right to it. Nor does a house whose fief is taken by the judgment of a beaten rising or by a sentence of the assembly.
 
 ## Old claims of a line {#old-claims-of-a-line}
 

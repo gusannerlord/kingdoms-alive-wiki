@@ -69,7 +69,7 @@ Only a house with a **claim to the throne** can be a pretender. The claim belong
 - **it married into the royal house**: its head's husband or wife is close kin of the ruler;
 - **it once ruled the realm**: a house that wore this crown before, for example one deposed in an earlier civil war or one that lost the throne in a vote;
 - **the law of the realm counts it among the worthy**. Under a law that has the lords choose among the heads of houses (Senate, Acclamation, Tanistry, Shura, Thing, Feudal Elective, Veche, Rule of the Strongest; by custom, the Northern and Western Empire, Battania, the Aserai and the Nords), the **three** houses with the best [claim to rule](succession.md#what-makes-a-claim), besides the ruler's own, have a claim too;
-- **it is of the old blood of the realm**. Under a law of blood and under the Kurultai (by custom, Vlandia, Sturgia, the Southern Empire and the Khuzaits), the **two** houses with the best claim to rule, besides the ruler's own, have a claim too.
+- **it is among the mightiest of the realm**. Under a law of blood and under the Kurultai (by custom, Vlandia, Sturgia, the Southern Empire and the Khuzaits), the **two** houses with the best claim to rule, besides the ruler's own, have a claim too.
 
 The ruling house itself never plots. Every civil war the rebels win adds the deposed house to those that once ruled, so claims grow with the realm's history.
 
@@ -99,7 +99,7 @@ A pretender needs a claim to the throne, a **Clan Strength of 500 or more** (the
 - If no house with a claim would have it, there is no plot. Nobody is ever forced.
 - **A crown offered in secret.** Your house is weighed like any other. If it fits the lord best, he writes to you in secret (**"A crown offered in secret"**), in his own voice, with the reasons that truly moved him: your house's right to the throne and its strength, and what weighed most (your friendship, your quarrel with the ruler, a weak claim on the throne, kinship, faith, allies already in the plot...). Accept, and the plot is born to crown your house; burn the letter, and he looks elsewhere.
 
-**The pretender is fixed** for the life of the plot: it is never replaced by another. If the pretender's house dies out, leaves the plot, leaves the kingdom or turns mercenary, comes to the throne, or **loses its claim**, the plot ends. A claim can be lost when the ruler dies and the new one is not kin, when the husband or wife who tied a house to the royal one dies, or when a house slips from among the worthy or the old blood: once a house is a pretender, it keeps such a claim as long as it stays among the **five** best claims of the realm (the **four** best under a law of blood or the Kurultai).
+**The pretender is fixed** for the life of the plot: it is never replaced by another. If the pretender's house dies out, leaves the plot, leaves the kingdom or turns mercenary, comes to the throne, or **loses its claim**, the plot ends. A claim can be lost when the ruler dies and the new one is not kin, when the husband or wife who tied a house to the royal one dies, or when a house slips from among the worthy or the mightiest: once a house is a pretender, it keeps such a claim as long as it stays among the **five** best claims of the realm (the **four** best under a law of blood or the Kurultai).
 
 ### Several plots at once {#several-plots-at-once}
 
@@ -134,6 +134,7 @@ Every 7 days, each clan leader of the kingdom weighs every plot. The ruler's own
 | That lord stays out of it | −8 |
 | That lord is the crown itself, as the house's count or duke | −30 |
 | Of another faith than the ruler | +6 |
+| The plot would crown a house of another people than the lord's own | −20 (not for the plot's leader nor the house it would crown; your plots too). It also counts when a lord weighs leaving the plot |
 | The ruler refused lately to [step down](factions.md) | +5, for 90 days |
 | The [claims](succession.md) of the plot's pretender and the ruler | up to +10 when the pretender's claim is the better one; up to −10 when the ruler's claim is beyond question |
 

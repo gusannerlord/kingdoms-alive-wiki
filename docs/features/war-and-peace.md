@@ -32,6 +32,7 @@ When a kingdom of dukes and counts votes on a war, a duke or count whose lands b
 - **Allies deter.** Half the strength of the target's allies counts on the target's side.
 - **Spoils are shared.** A target that others are already fighting promises less: the first kingdom already at war with it lowers the expected gain by almost a third, and each one after that by half again: with three foes already on it, little is left to win. A cause of its own (lost land, its faith, its titles, a bad relation) still counts in full.
 - **A kingdom is a little less afraid of a stronger one** (up to 10% less, when the other side is twice as strong).
+- **Rich kingdoms are easier to attack.** In the base game, how much a lord must stand to win before he puts a war to his council rises with the wealth of the kingdom he would fight, so the richest kingdoms were seldom attacked and the poorest were the easy prey. That bar is now drawn toward that of a kingdom of middling wealth: against a kingdom twice as rich as the middle it is about 1.4 times the middle's instead of twice, and against one half as rich about 0.7 times instead of half.
 - **"We are stronger" is not reason enough.** When a kingdom at peace weighs a new war, what it simply stands to win ("Right now we are stronger than them", "their lands are rich") counts for less than in the base game; a real cause weighs as before, and so does the fear of losing. Wars already under way, and the making of peace, are weighed as before: kingdoms only start fewer wars of plain greed, and rest longer between them. The number is `WarSpoilsWeight` (0.7) in the [settings file](../settings.md).
 
 ## A kingdom that grows too much
@@ -55,6 +56,7 @@ Your own kingdom counts like any other.
 - **Restlessness.** A kingdom with no war against another kingdom for more than 40 days starts to expect more from a war: 2% more for each further day, up to 70% more after 75 days of peace. This is a last resort against endless peace; most wars should come from real causes.
 - **The ruler looks for a war.** In the base game, a lord who wants to put a war to his council picks a kingdom at random, often one on the far side of the map, so a kingdom could sit at peace for months beside a neighbour its ruler longed to fight. Now, once an AI kingdom has had 50 days of complete peace (no war with another kingdom, a civil war included, and no war within: no house that broke away holding its fiefs against the crown), its ruler weighs every day each kingdom it could fight: one with a common border, no truce, nothing in the rules that forbids it. He takes the one he would most gladly fight and, if that war is worth what any war needs and his council leans towards it, puts it to the council himself, paying the same influence as anyone. A ruler whose council would vote him down keeps his influence and waits. The council votes as always, and the reason given is the real one. If no war is worth it, nothing happens: peace goes on. A kingdom you rule is never pushed: you decide. If you serve an AI ruler, his proposal comes before the council, and to you, like any other. The other lords' own proposals go on as in the base game.
 - **Feuds hold wars back.** A kingdom whose houses are fighting a [feud](factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses), or have one waiting to resume, is slower to start a new war abroad: the larger the share of its strength caught up in feuds, the more it holds back, and more still while a feud is being fought in arms. This binds your council's vote as much as the AI's. While such a feud lasts, the restlessness of a long peace does not count and the ruler looks for no war; the days of peace still count, so once the last feud is over both come back as strong as those days make them.
+- **A feud's hosts are the realm's border.** The towns and castles held by the hosts of a [feud](factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses) between a kingdom's houses count as that kingdom's border when it would otherwise have none with its foe: for its wars, so the game does not force a peace for lack of a border, and for who counts as its neighbour.
 - **Civil war.** While a kingdom is in a [civil war](civil-war.md), other AI kingdoms find it harder (not impossible) to attack either side, and its war is never "the right moment" for them.
 
 ## Peace needs both sides { #peace-needs-both-sides }
@@ -62,7 +64,7 @@ Your own kingdom counts like any other.
 In the base game the kingdom that wants out just leaves, usually paying tribute. Now a kingdom can only make peace if:
 
 - the other side also wants peace: not merely when it would lose nothing by it, but when it is at least three quarters of the way to wanting it enough to ask for it itself; or
-- the war is clearly decided: the two war scores are at least 375 apart (on the base game's scale of 0 to 750). For a kingdom that started with six towns and nine castles, that is roughly two towns and a castle, or less with heavy losses in the field; or
+- the war is clearly decided: the two war scores are at least 500 apart (on the base game's scale of 0 to 750). For a kingdom that started with six towns and nine castles, that is roughly three towns, or two towns and three castles, or less with heavy losses in the field; or
 - the war has lasted 80 days. After that either side can leave as in the base game.
 
 A peace offered to your kingdom always comes to you or to your council, as in the base game.
@@ -80,7 +82,8 @@ The truce and the peace rules also bind your kingdom, whether you rule it or ser
 
 ## Allies called to war
 
-- **The caller stays.** A kingdom that called an ally into a war cannot make peace in that war while the ally is still bound to it (42 days in the base game), and its enemy cannot make peace with it either. The exception is a war that is beyond doubt (war scores 450 or more apart). On the kingdom screen: *"The Battanians came to this war at this realm's call. It cannot be left while they are still bound to it."*
+- **The caller stays.** A kingdom that called an ally into a war cannot make peace in that war while the ally is still bound to it (42 days in the base game), and its enemy cannot make peace with it either. The exception is a war that is beyond doubt (war scores 500 or more apart), and even then the peace must still pass the rule above: the other side agrees, the war is decided, or it has lasted long enough. On the kingdom screen: *"The Battanians came to this war at this realm's call. It cannot be left while they are still bound to it."*
+- **No ally is called into a lost war.** A kingdom clearly losing a war (its war score 450 or more behind its enemy's) calls no ally into it: not when the war or an alliance begins, not by its council, not by you. A call already answered stands, and an overlord still comes to defend its [vassal realm](vassal-realms.md). This binds your kingdom too, if the rules bind it: an allied lord does not take up such a call in talk, your envoy's errand shows that war greyed with the reason, a message tells you why when your council or a notice would have made the call, and an envoy who arrives after the war has turned brings that word back.
 - **The ally leaves with the caller.** When the caller makes peace, the allies it called are at peace with that enemy an hour later, with no tribute either way. In the base game they were left fighting alone.
 
 This also applies to your kingdom: if you are called into a war, you leave it when the caller makes peace.
@@ -162,6 +165,8 @@ In the [settings file](../settings.md), set any of these to `false`:
 - `DiplomacyRulesApplyToPlayerKingdom`: the truce and peace rules also binding your kingdom.
 - `CallerStaysWhileAlliesAreBound`: a caller cannot leave while its ally is bound.
 - `CallerPeaceCoversCalledAllies`: called allies make peace with the caller.
+- `NoCallWhileLosingEnabled`: no ally called into a war the caller is clearly losing (`NoCallWhileLosingWarScoreGap`, 450).
+- `WarBarSmoothingEnabled`: the bar for a war against a rich kingdom rising less with its wealth.
 - `HeirRelationEnabled`: heirs inheriting a random share of relations.
 - `NegotiatedPeaceEnabled`: terms of peace; `NegotiatedPeaceAiEnabled`: AI kingdoms offering and demanding terms.
 - `WarSupportExplained`: the reasons for a war or a peace on the kingdom screen.
