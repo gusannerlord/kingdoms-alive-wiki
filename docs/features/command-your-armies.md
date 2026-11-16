@@ -1,6 +1,6 @@
 # Command your armies
 
-Your realm now has someone at the head of its armies: the **Marshal** of the [royal court](royal-court.md). As ruler, you give your war aims to your Marshal and they carry them to the lords. As a vassal, you can be that Marshal yourself, take your liege's orders and see them done. Orders go by word of mouth or by riders who find the lords wherever they are, and every lord answers in their own voice.
+Your realm now has someone at the head of its armies: the **Marshal** of the [royal court](royal-court.md). As ruler, you give your war aims to your Marshal and they carry them to the lords. As a vassal, you can be that Marshal yourself, take up your liege's aims for the war and see them met. Orders go by word of mouth or by riders who find the lords wherever they are, and every lord answers in their own voice.
 
 AI realms that are losing a war now fight it on the defence, as you can set a war of yours: see [Realms on the back foot](#realms-on-the-back-foot-on-by-default).
 
@@ -57,28 +57,36 @@ A new order replaces any the army holds. Your own orders are always taken up.
 ### Becoming Marshal
 
 - An AI ruler may offer you the office like any other, with the letter **"An office at court"** (see [The royal court](royal-court.md#ai-rulers-and-their-courts)). Once named, the ruler tells you in their own voice, for example *"You are Marshal of {REALM}. My orders will come to you, and you will pass them to the lords."*
-- Or ask for it. Talk to your ruler: *"My liege, let me lead the realm's armies as your Marshal."* They grant it if there is no Marshal, if the Marshal is a captive, or if you stand higher than the one who holds it. Your house's tier counts most, then how your ruler likes you, then your record as Marshal (orders carried out count for you, orders failed against you). If they say no, they say why: *"The great houses would not follow a lesser one..."*, *"... has my trust, and you have yet to earn as much."* or *"... Show me what you can do in the field, and we will speak again."* You cannot ask while you hold another office, or soon after being dismissed from one.
-- Once you are Marshal, your ruler does not replace you with someone better suited. You lose the office only if you cannot serve (a captive, or away) for about a month, or if you leave the realm.
+- Or ask for it. Talk to your ruler: *"My liege, let me lead the realm's armies as your Marshal."* They grant it if there is no Marshal, if the Marshal is a captive, or if you stand higher than the one who holds it. Your house's tier counts most, then how your ruler likes you, then your record as Marshal (aims met and the realm's walls well kept count for you, aims failed and walls lost through your neglect against you). If they say no, they say why: *"The great houses would not follow a lesser one..."*, *"... has my trust, and you have yet to earn as much."* or *"... Show me what you can do in the field, and we will speak again."* You cannot ask while you hold another office, or soon after being dismissed from one.
+- Once you are Marshal, your ruler does not replace you with someone better suited. You lose the office only if you cannot serve (a captive, or away) for about a month, if you leave the realm, or if you [lay it down](royal-court.md#laying-down-an-office) yourself. Ask for it again with the same words, and your ruler answers as above.
 
-### The ruler's orders
+### Your liege's aims { #your-lieges-aims }
 
-When no order stands, your ruler gives you one, at most every 3 days: relieve the nearest of the realm's besieged fortresses or, if none is besieged, take the least defended of the enemy fortresses on the border near you (*"Marshal, our next aim is {PLACE}. Speak to the lords and lead them there."*, or, for a hard one, *"... It will not fall easily: gather enough lords before you march on it."*). The place is marked on your map, and the order goes in your quest log with the time you have left.
+Your ruler does not send you a new order every few days. They give you **aims for the war**, one at a time, and leave the road to you. Every aim is an enemy town or castle that neighbours the realm's own lands, and one the realm has the strength to take. Each comes in their own voice, with the reason they want the place, and goes in your journal with the days you have left, its place marked on your map.
 
-Pass it on:
+- **Take {PLACE}**: the one your ruler most wants (*"Marshal, it is our next aim. Gather the lords and take it in the time I give you."*).
+- **Win back {PLACE}**: one the realm lost by siege, or one a house of the realm lost and still holds a [right](fief-rights.md) to (*"Marshal, I want it back. Gather the lords and win it back in the time I give you."*). Your ruler wants these back more than new ground, though a richer or easier prize may still come first.
 
-- **To a lord in person**, any lord of the realm leading their own party: *"As Marshal, I bring the king's command: {PLACE} is to be taken. Make for it with your men."* They take it up unless they dislike you (relation below −10): *"Marshal or not, I will not march at your word. Find someone else to run your errands."*
+An aim is **met the moment the realm holds the place, whoever of the realm takes it**: you, another army of the realm, or a lord on his own. Your ruler thanks you, you gain their regard and some influence, and if you had a hand in it they praise you for it. The next aim comes a day later.
+
+**The time.** Your ruler gives you a time for each aim, and the journal counts down the days left. The time stands still while you are a captive or away from the armies, and while the realm's defence is yours (below), and it never runs out while the realm's banners are before the place's walls. If it does run out with the place still in enemy hands, your ruler thinks less of you, whatever you did for it. If the realm makes peace with whoever holds the place, or it passes to a realm you are not at war with, the aim is simply let go. If another realm at war with yours takes it, the aim stands. A place whose aim has just ended is not given to you again for a while.
+
+**The realm's defence.** When the war goes so badly that your ruler turns the realm to the defence (see [Realms on the back foot](#realms-on-the-back-foot-on-by-default)), they charge you with the realm's defence for a time: *"Marshal, the war goes against us. Until it turns, the realm's defence comes first: see that none of our towns and castles falls."* It goes in your journal as **Defend {REALM} for {RULER}**, with the days until your ruler looks back on it, and the towns and castles under attack are marked on your map.
+
+- Every town or castle of the realm the enemy takes by siege meanwhile counts against you, and your ruler tells you so when it falls. Not if you were a captive or away from the armies, rode in your ruler's own army, were fighting for the realm's walls, were before the walls of the aim your ruler gave you, or the place fell before anyone could reach it.
+- Your ruler judges the charge only at its end, in war or in peace. If the enemy came at the realm's walls, you fought for them, and none fell through your neglect, they remember it in your favour.
+- If the realm is still on the defence then, a new charge begins at once, in the same words.
+- While the charge is yours, any aim of the war you already hold **waits, its time standing still**: your ruler tells you so, and the journal says it. If the realm takes the place all the same, the aim is met. When the charge ends, the aim runs again.
+
+**Passing an aim on.** You command the realm's armies, so the aim is theirs as much as yours:
+
+- **To a lord in person**, any lord of the realm leading their own party: *"As Marshal, I bring the king's command: {PLACE} is to be taken. Make for it with your men."* They take it up unless they dislike you: *"Marshal or not, I will not march at your word. Find someone else to run your errands."*
 - **By rider** to several lords at once (see [Riders](#riders)).
-- **By ordering an army.** As Marshal you can talk to any army's leader: *"As Marshal, I have orders for your army."* The same three orders as above. They take your own orders unless they dislike you (relation below −10); a leader who takes one up and ignores it loses 5 relation with you.
+- **By ordering an army.** As Marshal you can talk to any army's leader: *"As Marshal, I have orders for your army."* The same three orders as above. They take your orders unless they dislike you; a leader who takes one up and ignores it thinks less of you for it.
 
-How your ruler judges it, after up to 10 days:
+An aim that waits for the realm's defence is not passed on, and the lords do not march for it until it runs again.
 
-| Outcome | What it gives |
-|---|---|
-| Done, and you had a hand in it (you fought or marched there, passed the order to lords, or sent an army) | **+3** relation with your ruler, **+10** influence |
-| Done by others alone | Nothing; *"Next time, lead."* |
-| Lost, or nothing came of it, and you did nothing for it | **−3** relation with your ruler |
-
-You are never blamed if you were a captive, if you rode in your ruler's own army, if you strove for it, or if the place fell before anyone could reach it.
+Ask your ruler *"Who leads the realm's armies, and to what end?"* and they remind you of the aim they gave you: *"You do, Marshal. Have you forgotten? And I still want {PLACE} taken; the lords look to you for it."*
 
 ## Riders
 
@@ -136,8 +144,8 @@ In the settings file (see [Settings](../settings.md)), set `PrudenceEnabled` to 
 
 In the settings file (see [Settings](../settings.md)), set to `false`:
 
-- `PrudenceRealmEnabled`: the whole realm's command (orders, orders to one army, riders, your liege's words). The Marshal of the court stays, with the court's own effect.
-- `PrudenceOfficeEnabled`: the Marshal leads no armies: no orders, no orders to one army, no riders.
+- `PrudenceRealmEnabled`: the whole realm's command (orders, your liege's aims, orders to one army, riders, your liege's words). The Marshal of the court stays, with the court's own effect.
+- `PrudenceOfficeEnabled`: the Marshal leads no armies: no orders or aims, no orders to one army, no riders.
 - `PrudenceArmyOrdersEnabled`: no orders to one army.
 - `PrudenceRiderEnabled`: no riders (from towns and castles or from your party).
 - `PrudenceFieldRiderEnabled`: no riders from your own party.

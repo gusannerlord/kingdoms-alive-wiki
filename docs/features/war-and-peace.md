@@ -34,6 +34,7 @@ When a kingdom of dukes and counts votes on a war, a duke or count whose lands b
 - **A kingdom is a little less afraid of a stronger one** (up to 10% less, when the other side is twice as strong).
 - **Rich kingdoms are easier to attack.** In the base game, how much a lord must stand to win before he puts a war to his council rises with the wealth of the kingdom he would fight, so the richest kingdoms were seldom attacked and the poorest were the easy prey. That bar is now drawn toward that of a kingdom of middling wealth: against a kingdom twice as rich as the middle it is about 1.4 times the middle's instead of twice, and against one half as rich about 0.7 times instead of half.
 - **"We are stronger" is not reason enough.** When a kingdom at peace weighs a new war, what it simply stands to win ("Right now we are stronger than them", "their lands are rich") counts for less than in the base game; a real cause weighs as before, and so does the fear of losing. Wars already under way, and the making of peace, are weighed as before: kingdoms only start fewer wars of plain greed, and rest longer between them. The number is `WarSpoilsWeight` (0.7) in the [settings file](../settings.md).
+- **No third front lightly.** A kingdom already at war with two realms (the hosts of its own feuds and the youngest leagues not counted) is very slow to declare a third war. What it simply stands to win, "we are the stronger side" above all, barely counts then, and the war must clear a much higher bar, higher still for a fourth. Only a strong cause carries it: land it lost, its holy city, its titles, a ruler it hates. This weighs only on a war it would declare itself, never on answering an ally's call, and your own realm's lords weigh it the same way. The kingdom screen says so when it holds your council back: *"we are already at war on two fronts, and will not open a third"*. Switch: `WarFrontsRestraintEnabled`.
 
 ## A kingdom that grows too much
 
@@ -43,6 +44,7 @@ Every kingdom has an even share of the towns and castles on the map. Kingdoms th
 - **Fear** starts at 1.3 times the share (about 20) and is full at 1.8 times (about 27). Its neighbours then expect up to 50% more from a war against it, the war gets an extra push of its own, and its land counts at full value (the base game counts the land of a very large kingdom above a certain value at half).
 - **Coalition.** Weaker kingdoms do not open a war against it alone, but once someone is fighting it, others count part of that strength as their own and join in. Joining others against it costs little or nothing in shared spoils, the less the more dominant it is.
 - **The right moment lasts longer** against it: up to 40 days after its wars began instead of 20 (it grows from about 19 towns and castles and is full at 21), and an attacker needs only half its strength alone, because the kingdoms already fighting it count too.
+- **Fear weighs strength too.** A kingdom stronger than a dominant one fears it, and resents its growth, only as much as their strengths say: a large realm with a weak army is little threat to a mightier one, and its many fiefs give the stronger side little reason to attack it. A kingdom weaker than the dominant one fears it as before. Switch: `DominanceFearWeighsStrength`.
 - **Good relations calm the fear.** Each 40 points of relation between the two ruling clans halve the fear (a quarter of it at +80), but it never drops below a quarter.
 
 Your own kingdom counts like any other.
@@ -150,6 +152,8 @@ In the [settings file](../settings.md), set any of these to `false`:
 - `WarNoCausePenaltyEnabled`: wars without a cause needing better odds.
 - `DominanceEnabled`: everything about a kingdom grown too large (`DominanceLiftsSharedSpoils`, `DominanceRemovesSizeDiscount` and `DominanceCountsDestroyedKingdoms` fine-tune it; switch the last one off in a campaign that starts with kingdoms removed).
 - `ExpansionResentmentEnabled`: resentment of a growing kingdom.
+- `DominanceFearWeighsStrength`: a stronger kingdom fearing a dominant one only as much as their strengths say.
+- `WarFrontsRestraintEnabled`: the resistance to a third front.
 - `WarHolyCityEnabled`: kingdoms want back the holy city of their faith.
 - `WarFaithLandEnabled`: lands of the ruler's faith under a ruler of another faith are coveted.
 - `WarRulersFaithEnabled`: rulers' faiths push toward war or peace.

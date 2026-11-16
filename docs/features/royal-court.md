@@ -24,7 +24,7 @@ Kingdoms Alive adds to the game's screens instead of replacing them (it needs [U
 
 | Office | Skill | Full effect |
 |---|---|---|
-| **Marshal** | Leadership and Tactics (the average) | +0.5 militia and +0.5 security a day in every town and castle of the realm, whoever holds it; villages +0.125 militia a day. Also leads the realm's armies and carries the ruler's orders to the lords (see [Command your armies](command-your-armies.md)) |
+| **Marshal** | Leadership and Tactics (the average) | +0.5 militia and +0.5 security a day in every town and castle of the realm, whoever holds it; villages +0.125 militia a day. Also leads the realm's armies and carries the ruler's orders and aims to the lords (see [Command your armies](command-your-armies.md)) |
 | **Steward** | Steward and Trade (the average) | +4% tax in the towns and castles of the ruler's own clan |
 | **Master of Works** | Engineering | +8% construction in the towns and castles of the ruler's own clan |
 | **Chancellor** | Charm | +0.5 influence a day for the ruler's clan; less of the goodwill toward the ruler a house loses over the [crown's wrongs](factions.md#lords-remember): a good one spares about a third, and only a truly exceptional one half (a small wrong may then cost no goodwill at all, now and then; the grievance itself is remembered just the same); with the old [discontent of large kingdoms](civil-war.md#discontent-off-by-default) turned on (off by default since 1.27.1), also 15% less of it |
@@ -35,7 +35,7 @@ Kingdoms Alive adds to the game's screens instead of replacing them (it needs [U
 
 - **Skill decides how much.** A holder with skill 30 or less gives nothing; at 250 or more, the full effect. In between it grows steadily: about half at 140.
 - **A place at court is an honour.** The clan of each holder gets **+0.3 influence a day** (once per clan, however many offices it holds). The ruler's own clan does not get this.
-- **The Marshal leads the armies.** Whatever their skill, the Marshal is the one who takes the ruler's war aims and carries them to the lords; as ruler you give your orders through them, and as Marshal you take your liege's. See [Command your armies](command-your-armies.md).
+- **The Marshal leads the armies.** Whatever their skill, the Marshal is the one who takes the ruler's war aims and carries them to the lords; as ruler you give your orders through them, and as Marshal you take up your liege's aims for the war. See [Command your armies](command-your-armies.md).
 - One office per person. A holder who is a prisoner, in hiding or away on another task keeps the office, but it gives nothing until they are back. A Marshal whose house rides in a [feud](factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses)'s host counts as away: while the realm is at war with another, an AI ruler names another, and you cannot name a lord riding in a host. Someone [sent](#sending-others-on-the-realms-business) on an affair that belongs to their own office keeps working while away.
 - You see the bonus in the game's usual tooltips, for example *"Marshal (Name)"*.
 - An office falls vacant when its holder dies, leaves the realm, becomes ruler or (a companion) leaves the ruler's household. You are told: *"The office of {office} of {realm} is vacant..."*
@@ -81,7 +81,17 @@ When a fief of the realm falls to a siege and no army of the realm marched to it
 
 **Offers to you.** If you or a noble of your family is the best choice for an office, the ruler sends a letter, **"An office at court"**, saying what the office would give. **Accept** for the office and **+10** relation with the ruler. **Decline** costs **−5** relation, and that ruler will not ask again for 60 days. Your companions are never offered offices by an AI ruler.
 
-**Holding an office for an AI ruler.** Your office works for the whole realm according to your skill, and your clan gets the +0.3 influence a day. As **Marshal** you also take your ruler's war orders (see [Command your armies](command-your-armies.md#as-a-vassal-the-marshal)), and you can ask your ruler for that office yourself. A ruler never replaces you as Marshal with someone better suited: only if you have been unable to serve (a captive, or away) for about a month, or no longer may hold it (you leave the realm, for instance). The [affairs of your kingdom](realm-affairs.md) that belong to your office come to you as the ruler's charge: the messenger rides from the ruler, and the rewards are bigger. Leaving a charge undone as Marshal or Steward costs relation with the ruler.
+**Holding an office for an AI ruler.** Your office works for the whole realm according to your skill, and your clan gets the +0.3 influence a day. As **Marshal** you also take up your ruler's aims for the war (see [Command your armies](command-your-armies.md#your-lieges-aims)), and you can ask your ruler for that office yourself. A ruler never replaces you as Marshal with someone better suited: only if you have been unable to serve (a captive, or away) for about a month, or no longer may hold it (you leave the realm, for instance). The [affairs of your kingdom](realm-affairs.md) that belong to your office come to you as the ruler's charge: the messenger rides from the ruler, and the rewards are bigger. Leaving a charge undone as Marshal or Steward costs relation with the ruler.
+
+### Laying down an office { #laying-down-an-office }
+
+An office you hold at the court of an AI ruler need not be yours for good. Speak to the ruler: for each office you hold there is a line, *"My liege, I would lay down the office of {office}."* (hovering over it says what it costs). The ruler asks whether you mean it, in their own voice (*"You wish to lay down the office of {office}? Then I must find another for it. Are you certain?"*): answer *"It is my wish. I lay it down."* or *"No, forget I spoke of it."*
+
+- The ruler thinks a little less of you and names someone else to the office at once.
+- From then on, that office is offered to no one of your house, at the ruler's monthly look, at the [assembly](assembly.md) or by letter, until you ask for it again.
+- **Asking for it again.** Speak to the ruler: *"My liege, I would serve you again as {office}."* The ruler weighs you against whoever holds it now, as at their monthly look: *"Very well. You are my {office} again."*, or a refusal that gives the real reason (the holder serves them better, your house has not sworn to them, they know of your plot, or the holder sits there by the terms of their house's oath). For the Marshal, ask as always: *"My liege, let me lead the realm's armies as your Marshal."*
+- The **Warden of the King's Peace** is not laid down this way: that seat comes with the [King's Writ](kings-writ.md#warden-of-the-kings-peace) and goes back with it, at no cost, when you give the writ back.
+- Only you lay an office down: the lords of the AI keep theirs until the ruler relieves them or they can no longer serve.
 
 ## Sending others on the realm's business
 
@@ -89,7 +99,7 @@ When an [affair of your kingdom](realm-affairs.md) comes up (a free company, a r
 
 - *"One of my companions or kin will see to it."*: someone riding in your party goes, with men you pick in the game's troop screen.
 - *"My vassals will see to it."* (if you rule): a house of your realm sends one of its lords (never its head) with soldiers from its own garrison. The list shows your relation with the head of each house, the chance it accepts and the influence it costs (30 at relation 0, less the better you stand with them, between 10 and 50). A house on bad terms with you may refuse: never at relation 0 or better, always at −30 or worse.
-- The holder of the fitting office is listed first: Marshal for sellswords and revolts, Steward for hunger, Chancellor for bad blood.
+- Only those who can go are listed, and the holder of the fitting office first: Marshal for sellswords and revolts, Steward for hunger, Chancellor for bad blood.
 
 Whoever goes is away for some days and has an entry in your quest log until they are back. How it goes depends on their skill: at 120 it is safe, below that it takes longer and may fail. What you entrust never gives you more than doing it yourself. The work of the realm cannot be entrusted. Full details: [Someone else sees to it](realm-affairs.md#someone-else-sees-to-it).
 
@@ -249,6 +259,7 @@ In the settings file (see [Settings](../settings.md)):
 - `CourtOfficesEnabled` to `false`: the offices give nothing and nobody is named. The realm's armies then have a Marshal of their own (see [Command your armies](command-your-armies.md#one-marshal)).
 - `CourtAiAppointEnabled` to `false`: AI rulers do not name their courts or offer you offices.
 - `CourtChargeEnabled` to `false`: holding an office for an AI ruler does not bring you its affairs as the ruler's charge.
+- `CourtResignEnabled` to `false`: you cannot lay down an office at an AI ruler's court.
 - `AffairDelegationEnabled` to `false`: affairs of your kingdom cannot be sent to companions, kin or houses.
 - `AudiencesEnabled` to `false`: no petitions and no "Hold court".
 - `OathEnabled` to `false`: no oath of fealty when a ruler changes.

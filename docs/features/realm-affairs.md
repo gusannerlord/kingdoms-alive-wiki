@@ -181,7 +181,7 @@ For the free company, the revolt, the hunger and the feud, you can tell the mess
 - The house sends one of its lords, **never its head**, preferably one who holds no office at court. That lord must be free in one of the house's own towns or castles, and takes soldiers from its garrison, which always keeps at least half its men (and never fewer than 40).
 - **Influence:** **30** at relation 0 with its head, 0.3 less per point of relation (0.3 more per point below 0), between **10 and 50**. For example 15 at relation +50, 39 at −30. Paid only if the house accepts. The feud adds its own 20 influence on top.
 - **A house may say no.** At relation 0 or better it always accepts. Below that the chance of refusal grows in a straight line, to certain at **−30** or worse (the list says in words how likely it is to accept). A refusal costs nothing: *"{head} of the {house} sends word that the house has other cares: it will not take the charge from you."* That house will not be asked again about this affair.
-- If you have a [court](royal-court.md#the-offices), the holder of the office that fits the affair is listed first: the **Marshal** for the free company and the revolt, the **Steward** for hunger, the **Chancellor** for bad blood.
+- If you have a [court](royal-court.md#the-offices), the holder of the office that fits the affair is listed first, if they can go (only those who can go are listed): the **Marshal** for the free company and the revolt, the **Steward** for hunger, the **Chancellor** for bad blood.
 
 ### Skill, men, days and risk
 

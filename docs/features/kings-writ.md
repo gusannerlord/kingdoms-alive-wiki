@@ -241,7 +241,12 @@ Your castle can raise three works of its own, built from its **Manage** screen l
 - **Gaol Tower**: a larger dungeon, and the crown's cart takes the outlaws you leave there and books their price to your name.
 - **Watchtower**: a safer castle, the outlaw bands about it marked on your map, and earlier word of any host coming for you.
 
-They work while the castle is yours and you are Master of the King's Hunt.
+The buildings belong to the castle, like any other of the game, and are **never torn down**: not when the writ ends, not when the castle changes hands. What they do splits in two:
+
+- **What any castle would have from them** goes on wherever they stand and whoever holds them: the Gaol Tower's room for prisoners and the Watchtower's security.
+- **The work of the King's Hunt** (the Lodge's manhunters, the crown's cart at the gaol, the outlaw bands marked from the Watchtower and its early word of the outlaws' host) comes only to the castle of the Master whose writ is in force.
+
+They are raised only there too. In any other castle the projects screen shows them as *"Raised only for the King's Hunt"*, and a level of theirs under construction is dropped (what was built stays); the masons tell you so when they lay down their tools. If a campaign from before 2.4.0 had levels taken away (the writ ended, or the castle changed hands), they go back into their castle once.
 
 ### The outlaws' host
 
@@ -270,7 +275,7 @@ From **High Justice of the Roads** you may name **one captain**, and as Master *
 | You go to war with that realm | **Lost.** |
 | A bribe is found out | **Lost.** |
 
-**Closed:** a rider of the sheriff brings you everything still owed, and every wanted chief still in your chains is paid and goes to a dungeon. **Lost:** what is owed is forfeit, **−5** with the ruler, and no writ from them for 120 days. Either way the contract and the summons end with it, and the men still waiting in the yard go looking for another captain.
+**Closed:** a rider of the sheriff brings you everything still owed, and every wanted chief still in your chains is paid and goes to a dungeon. **Lost:** what is owed is forfeit, **−5** with the ruler, and no writ from them for 120 days. Either way the contract and the summons end with it, and the men still waiting in the yard go looking for another captain. The buildings of the hunters' castle stay where they are, but the work of the King's Hunt stops there (see [The hunters' castle](#the-hunters-castle)).
 
 ## Turn it off
 In the settings file, set the switch to `false`. See [Settings](../settings.md).
