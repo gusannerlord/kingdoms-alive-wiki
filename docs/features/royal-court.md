@@ -14,6 +14,7 @@ The **Crown** tab lists:
 - **Oaths of fealty**: while the houses are swearing to a new ruler, where each one stands;
 - **Titles**: the duchies and counties of the realm, its themes or its ulus, and its landed knights (see [Dukes, counts and castellans](titles.md)); in a realm without titles, **Landed knights**;
 - **Vassals of the Crown**: every house of the realm in the tree of lords and vassals, under the crown (see [Liege and Vassals](titles.md#liege-and-vassals));
+- **Captains of the Host**, as ruler in war: give or take the command of the realm's lords against one enemy realm (see [Captains of the Host](command-your-armies.md#captains-of-the-host));
 - under **Tributaries**, the realms tied to yours: your vassal realms, your overlord, and an enemy that demands your fealty (see [Vassal realms and annexation](vassal-realms.md#tributaries-in-the-crown-tab)).
 
 The **Factions** tab shows the mood of the houses and what you know of the feuds, factions and plots in your realm, and is where you raise the banner if you lead a plot. See [Civil war](civil-war.md#the-factions-tab) and [Factions and grievances](factions.md).
@@ -42,7 +43,7 @@ Kingdoms Alive adds to the game's screens instead of replacing them (it needs [U
 
 ### Naming your court (as ruler)
 
-Only the ruler names the court. Anyone adult in the realm can serve: nobles of any house of the kingdom (your own included) and, at your court, your family and **companions**. Mercenaries cannot.
+Only the ruler names the court. Anyone adult in the realm can serve: nobles of any house of the kingdom (your own included) and, at your court, your family and **companions**. Mercenaries cannot. The **Marshal** is the one exception: only the head of a house can raise the realm's hosts, so only the head of a house can be Marshal, never a kinsman or companion who does not lead one (see [One Marshal](command-your-armies.md#one-marshal)).
 
 You name someone **in person** (only the Marshal can also be offered by rider):
 
@@ -70,7 +71,7 @@ When you come to the throne, you inherit the old ruler's court and can keep it o
 
 - Every AI ruler fills their court every 30 days, choosing the most skilled nobles of the realm, with a preference for those they like. They pass over houses involved in a plot and houses that refused them the oath.
 - They replace a holder only for someone clearly better, or one who has been unable to serve for about a month.
-- For **Marshal** they prefer a lord who leads their own party in the field over one who keeps to their hall, whatever the skill; they look elsewhere only if no such lord is to be had. When the Marshal's seat falls empty, the ruler fills it within a day or two, not at the next monthly look.
+- For **Marshal** they name only the head of a house, and prefer one who leads their own party in the field over one who keeps to their hall, whatever the skill; they look elsewhere only if no such lord is to be had. When the Marshal's seat falls empty, or its holder no longer heads his house, the ruler fills it at once, not at the next monthly look.
 - They dismiss a holder who leads a plot once it is talked about in the realm, at no cost. Replacing anyone else costs them the same little regard it costs you.
 - A new AI ruler keeps the old court for 15 days before changing it.
 - An empty office does not wait for the monthly look: an AI ruler fills it within a few days (4 to 8), once a new ruler's first 15 days are over. If the best choice is of your house while an office is already being offered to you, the seat goes to the best of the others instead of staying empty.
@@ -125,6 +126,10 @@ In the menu of one of **your own** towns or castles, choose **"Hold court"**. Ho
 - The court ends by itself when everyone who could come has been heard, or when the bar runs out (those still on the road go home). **"Rise from court"** ends it early, and leaving the place ends it too.
 - With nobody to hear, the button is greyed out and says why: *"Nobody is waiting to be heard."*, *"Nobody here asks to be heard. Those waiting are at: ..."* or who cannot come now.
 - It cannot be held while the place is under siege.
+
+### Court in the hall {#court-in-the-hall}
+
+While you hold court, **"Go into the hall and hear them in person"**. In the lord's hall, those waiting to be heard who are there (lords, the notables of the villages, common folk) stand in a line before your seat, the one who has waited longest first. Hear them by speaking to them, in any order: the one you heard leaves the line and the line moves up. A herald and a scribe stand by your seat and guards along the walls. The notables of the town itself keep to the square: you hear them from the wait, as before. When you come out, the court goes on with its bar, and the days pass as before.
 
 ### The requests
 
@@ -190,6 +195,10 @@ A window, **"The oaths of fealty"**, lists every house as *likely to swear*, *wa
 
 You can also talk to a house that has not sworn: persuade it (*"Hear me out before your house decides."*, once per house), offer it an office or a fief (accepted at once), or press it: *"You will swear, or answer for it. (30 influence)"*, which costs **−10** relation either way and makes it swear 7 times in 10.
 
+### Oaths in the hall {#oaths-in-the-hall}
+
+While a realm swears to its new ruler and the ruler sits in a hall, the oath is a ceremony you can watch: the heads of the houses that have not yet sworn wait in a line before the throne, those who have sworn stand to one side and the rest to the other. A house that swears while you are there goes over to the sworn, and the hall applauds. A herald, a scribe, guards and a man-at-arms behind the ruler stand by.
+
 ## Taking a fief: decree, demand or reckoning {#taking-a-fief-from-a-vassal}
 
 The council votes on taking a fief from a house only in a reckoning. There are three roads, as in the great feudal kingdoms, where taking back land was a lord's own act and not a matter for a vote.
@@ -205,6 +214,17 @@ Every time, with no limit and nothing coming back:
 - **30** relation with the head of the house that loses the fief, and **10** with the head of every other vassal house of the realm (for a lord: of each of his other vassals), who wonder whose fief is next. If the house that gets the fief holds a firm [right](fief-rights.md) to it, the others lose nothing; the house that loses it still does. The confirmation counts the houses it will cost you.
 - The influence the button asks.
 - The house that loses it holds it against the crown (or against its lord), and keeps an old right to the fief.
+
+### A fief taken for nothing {#a-fief-taken-for-nothing}
+
+A ruler who takes a fief into the crown's own hands **with no cause the realm would own** commits what the realm calls a seizure: the house is no marked traitor and no felon of the crown, it leads no charter against the ruler in the open, and the ruling house holds no firm [right](fief-rights.md) to the fief. The confirmation tells you so before you seal it: *"...the realm will call this decree a seizure. It costs the crown far more of its standing, and the {house} are far readier to take up arms over it, alone or with any plot against you."*
+
+- **The decree costs far more influence.** The realm's policies that make a decree dearer or cheaper, such as Feudal Inheritance, move this price too.
+- **The house is far readier to break with the realm** over it, still weighed by its head's character and regard for the ruler.
+- **A plot it is sworn to rises over it more readily**, and the other houses of the plot are readier to rise with it.
+- **A lord who demands a fief of his vassal with no such cause** (no traitor, no felon of his, no firm right of his house to it) pays the same higher price in influence.
+
+The same for you and for the AI. An AI ruler can often bear the price; one moved only by bad blood with a house does it more rarely than before. Taking a fief from a traitor, a felon, the leader of an open charter, or for a house with a firm right to it, costs what it always did.
 
 **Never a house's last town or castle.** Neither a decree of the ruler's own nor a lord's demand can take the last town or castle of a house, unless that house is marked as [traitors](realm-houses.md#houses-marked-as-traitors) or is a felon of the one taking it. Nothing is ever taken from the ruling house. The button is greyed with the reason, and the same holds for the AI.
 
@@ -222,7 +242,7 @@ The button is also greyed while the matter is still open (the house is weighing 
 **A decree of the crown.** The house:
 
 - **yields**: the fief passes at once to the crown, or to the house the ruler backed;
-- **breaks with the realm**, and founds a league of its own (see [A house that breaks with its realm](realm-houses.md#a-house-that-breaks-with-its-realm)). Lords do not give up their land lightly: the chance starts at **35%** for a town and **20%** for a castle, higher for a brave, proud head or one who hates the ruler, lower for an honourable or calculating one or one on good terms with the ruler, and never below 5% nor above 85%;
+- **breaks with the realm**, and founds a league of its own (see [A house that breaks with its realm](realm-houses.md#a-house-that-breaks-with-its-realm)). Lords do not give up their land lightly: the chance starts at **35%** for a town and **20%** for a castle, higher for a brave, proud head or one who hates the ruler, lower for an honourable or calculating one or one on good terms with the ruler, and never below 5% nor above 85%. After [a fief taken for nothing](#a-fief-taken-for-nothing) it starts far higher;
 - or **raises its plot**, if it is sworn to one (see [A fief taken can set a plot alight](civil-war.md#the-rising)).
 
 It never bars its gates against the crown.
@@ -238,8 +258,8 @@ When a house does not yield to your decree or demand, a window, **"The answer of
 Under [High Crown Authority](crown-laws.md#high-crown-authority) a lord may not take up arms against his vassal. The vassal who bars the gates keeps the fief, and the lord takes his plea to the throne.
 
 - **An AI ruler** judges it by its cause: against a vassal marked as traitors, or a felon of that lord, he nearly always backs the lord. Otherwise he keeps out of it, unless he has reason: the lord holds a firm right to the fief, the ruler holds the lord very dear, or he hates the vassal; the more reasons, the likelier. He never backs a lord against a vassal he holds very dear.
-- **If you are the ruler**, a window, **"A lord's plea"**, offers **"Back {lord} by decree"** or **"Keep out of it"**.
-- **Backed**, it is a decree like any other: the vassal yields or breaks with the realm, and the crown pays its usual price (but not with the lord who asked).
+- **If you are the ruler**, the plea comes in the [feud panel](factions.md#the-feud-panel), the lord and his vassal face to face, with the lord's right to the fief and the law that keeps the sword out of it. It offers **"Back {lord} by decree"** or **"Keep out of it"**.
+- **Backed**, it is a decree like any other: the vassal yields or breaks with the realm, and the crown pays its usual price (but not with the lord who asked). No council has voted for it, so the decree also costs the ruler's house influence, you and the AI alike: an AI ruler without it keeps out of it, and your **"Back {lord} by decree"** is greyed with the reason.
 - **Shielded**, the vassal keeps the fief, the lord holds it against the crown, and he may demand nothing of that vassal for a season, unless the vassal turns traitor or felon.
 
 ### If the fief is yours
@@ -263,6 +283,8 @@ In the settings file (see [Settings](../settings.md)):
 - `AffairDelegationEnabled` to `false`: affairs of your kingdom cannot be sent to companions, kin or houses.
 - `AudiencesEnabled` to `false`: no petitions and no "Hold court".
 - `OathEnabled` to `false`: no oath of fealty when a ruler changes.
+- `CourtSceneEnabled` to `false`: no court in the hall; you hear them from the wait.
+- `OathSceneEnabled` to `false`: no ceremony in the hall while a realm swears.
 - `FiefRevocationEnabled` to `false`: taking a fief from a vassal works as in the base game, with no lost relations and no revolt.
 - `RevokeCrownDecreeAiEnabled` to `false`: AI rulers do not take fiefs by decree of their own accord (your Decree button stays).
 - `TitleLordDemandEnabled` to `false`: a duke or count cannot demand a vassal's fief; `TitleLordDemandAiEnabled` to `false`: AI lords never do it of their own accord (your Demand button stays).

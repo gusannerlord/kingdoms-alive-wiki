@@ -1,6 +1,6 @@
 # Command your armies
 
-Your realm now has someone at the head of its armies: the **Marshal** of the [royal court](royal-court.md). As ruler, you give your war aims to your Marshal and they carry them to the lords. As a vassal, you can be that Marshal yourself, take up your liege's aims for the war and see them met. Orders go by word of mouth or by riders who find the lords wherever they are, and every lord answers in their own voice.
+Your realm now has someone at the head of its armies: the **Marshal** of the [royal court](royal-court.md). As ruler, you give your war aims to your Marshal and they carry them to the lords. As a vassal, you can be that Marshal yourself, take up your liege's aims for the war and see them met; and when you lead an army of your own, the Marshal now and then gives you [an aim for it](#aims-for-your-army-as-a-vassal). Orders go by word of mouth or by riders who find the lords wherever they are, and every lord answers in their own voice. The Marshal is the lord who raises most of the realm's hosts, only [lords of rank](#who-raises-the-realms-hosts) raise one at all, and in war the ruler may name a [Captain of the Host](#captains-of-the-host) against one enemy realm.
 
 AI realms that are losing a war now fight it on the defence, as you can set a war of yours: see [Realms on the back foot](#realms-on-the-back-foot-on-by-default).
 
@@ -10,12 +10,46 @@ A second part, **Smarter warlords**, changes how AI lords wage war. It is **off 
 
 - The Marshal of the court is the one who leads the realm's armies. The Crown tab says so: *"The Marshal leads the realm's armies in the field. The ruler's orders for the war go to the Marshal, who carries them to the lords and sees them done..."*
 - A Marshal who is a captive, in hiding or away on another duty keeps the office but gives no orders until they are back.
-- Orders exist only in your own realm: when you rule it, or when you are its Marshal. Elsewhere, the armies wage war as the AI decides.
+- Orders exist only in your own realm: when you rule it, when you are its Marshal, or when you lead one of its armies as a vassal (see [Aims for your army](#aims-for-your-army-as-a-vassal)). Elsewhere, the armies wage war as the AI decides.
 - Mercenaries cannot be Marshal.
+- **The Marshal heads a house**: only the head of a house can raise a host of the realm, so only the head of a house can be Marshal. A Marshal who no longer leads his house lays the office down, and an AI ruler names another at once, as he does when the realm begins or the seat falls empty for any reason. As ruler, you are told, and you name the new one yourself: never one of your kin or companions who does not head a house.
+- **The Marshal raises the hosts.** Of all the lords of the realm, the Marshal is the most eager to raise a host, the ruler next, then the [princes](#who-raises-the-realms-hosts) of the ruling house. The other lords are slower to raise their own while the Marshal or the ruler can; when neither can (a captive, short of men, food or standing, or away), they raise hosts as they always have, the princes first. So too while you are the ruler or the Marshal yourself and the other cannot.
+- **The Marshal rides under the ruler only.** As the ruler rides in no other lord's host, the Marshal rides in none but the ruler's or a host of the Marshal's own: no lord calls the Marshal to theirs, nor can you unless you rule. As Marshal, you are called to none but the ruler's, though you may still join any host of your own accord.
 - Any lord of your realm can ask the ruler *"Who leads the realm's armies, and to what end?"*, and hear who the Marshal is and what they have been sent to do.
 
 !!! note "With the court's offices switched off"
     If `CourtOfficesEnabled` is off, the realm has a Marshal of its own instead, always the head of a house. AI rulers name one and look again once a year, keeping the one they have unless another is clearly better. As ruler, you name yours by saying *"I would have you serve as Marshal of the realm."* (they accept unless they dislike you) or by rider.
+
+## Who raises the realm's hosts {#who-raises-the-realms-hosts}
+
+A host of the realm is raised by a lord of rank, as it was in the realms Calradia is drawn from. You and the AI keep the same rules.
+
+- **Lords of rank.** Only the ruler and the ruling house, the Marshal, a [Captain of the Host](#captains-of-the-host), the holder of a province (a duke, a strategos, a noyan...) and the lord of a town raise a host of the realm. A house that holds castles alone, or no land, rides in the hosts of others.
+- **Precedence.** No lord is called to a host by one of lower rank, save by the ruler, the Marshal or a captain: a duke does not ride at a count's call, and a prince of the ruling house rides at no duke's nor count's.
+- **Princes lead.** A prince of the ruling house at the head of his own company may raise a host of the realm even though the head of his house rides too, and the more readily when neither the ruler nor the Marshal can. One of a duke's house may raise one when no ruler, Marshal, prince, duke or count can, before any lord of castles. Their house pays the influence. If you rule or hold a province, your own kin at the head of their companies may raise hosts too, on your house's influence. A lord who raises a host this way calls no head of a house of his own rank.
+- **When no lord of rank can.** If no lord of rank, princes included, can raise a host, the lords of castles may, so a realm is never left without one.
+- **Risings and feuds keep their own rules.** A realm risen in arms (the rebels of a civil war, a league, a house breaking away) lets the lords of castles raise hosts too, and the hosts of a [feud](factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses) raise theirs by their own rules. A host already raised goes on.
+
+## Captains of the Host {#captains-of-the-host}
+
+A realm at war on more than one front, or whose Marshal cannot take the field, needs a second sword. In war a ruler may give the lord of a town, or the holder of a province, command of the realm's lords against one enemy realm, under the title of his people:
+
+| Realm | Title |
+|---|---|
+| Vlandia | King's (or Queen's) Lieutenant |
+| The empires | Strategos Autokrator |
+| The Khuzaits | Bearer of the Paiza |
+| Sturgia | Voivode |
+| The Aserai | Amir al-Juyush |
+| Nordvyg | Lendmann |
+| Battania | Penteulu |
+| Others | Captain of the Host |
+
+- **What it gives.** While that war lasts, the captain may call to his host any lord of the realm save the Marshal, the great houses as well as the lesser, and raises hosts as readily as the ruler does. One captain for each war against a realm that holds land; a realm risen in arms gives no such commands.
+- **AI rulers** give it when the realm fights on more than one front or its Marshal cannot raise a host, to the lord they think best fit, most often a duke. They may offer it to you, face to face or by letter: accept or decline (declining sits a little ill with them).
+- **Asking for it.** As the head of a house with a town or a province, say to your ruler *"My liege, give me command of the realm's lords in one of your wars."*, in person or by [envoy](envoys.md), and name the war. They grant it by the same weighing, in their own voice, or tell you why not: a single war with a Marshal who has the host in hand, a house too small yet for the great lords to follow, or a trust you have yet to earn. If they say no, give it a while before you ask again.
+- **As ruler**, give and take the commands in the **Crown** tab of the kingdom screen, under the same conditions.
+- **It ends** with the peace or the fall of that enemy, when the captain is no longer the lord of a town or a province of the realm (or is made Marshal, or comes into the ruling house), leaves the realm, or is relieved by the ruler. The command is in your journal while it is yours.
 
 ## As ruler
 
@@ -57,6 +91,7 @@ A new order replaces any the army holds. Your own orders are always taken up.
 ### Becoming Marshal
 
 - An AI ruler may offer you the office like any other, with the letter **"An office at court"** (see [The royal court](royal-court.md#ai-rulers-and-their-courts)). Once named, the ruler tells you in their own voice, for example *"You are Marshal of {REALM}. My orders will come to you, and you will pass them to the lords."*
+- Only the head of a house can be Marshal: if you are not, it is not offered to you and you cannot ask for it.
 - Or ask for it. Talk to your ruler: *"My liege, let me lead the realm's armies as your Marshal."* They grant it if there is no Marshal, if the Marshal is a captive, or if you stand higher than the one who holds it. Your house's tier counts most, then how your ruler likes you, then your record as Marshal (aims met and the realm's walls well kept count for you, aims failed and walls lost through your neglect against you). If they say no, they say why: *"The great houses would not follow a lesser one..."*, *"... has my trust, and you have yet to earn as much."* or *"... Show me what you can do in the field, and we will speak again."* You cannot ask while you hold another office, or soon after being dismissed from one.
 - Once you are Marshal, your ruler does not replace you with someone better suited. You lose the office only if you cannot serve (a captive, or away) for about a month, if you leave the realm, or if you [lay it down](royal-court.md#laying-down-an-office) yourself. Ask for it again with the same words, and your ruler answers as above.
 
@@ -86,7 +121,34 @@ An aim is **met the moment the realm holds the place, whoever of the realm takes
 
 An aim that waits for the realm's defence is not passed on, and the lords do not march for it until it runs again.
 
+**Riding in your ruler's host.** While you ride as Marshal in your ruler's own host, the ruler leads the war in person: no new aim and no new charge of the realm's defence come to you, and the time of the aim you hold stands still until you ride on your own again. The journal says so.
+
 Ask your ruler *"Who leads the realm's armies, and to what end?"* and they remind you of the aim they gave you: *"You do, Marshal. Have you forgotten? And I still want {PLACE} taken; the lords look to you for it."*
+
+## As a vassal: aims for your army { #aims-for-your-army-as-a-vassal }
+
+When you lead an army of a realm at war as one of its vassals (not its ruler, not its Marshal, not a mercenary), the Marshal keeps an eye on it. Now and then they give you **one aim your army can really carry out**, as they see it from where you stand. If the realm has no Marshal free to command, your liege gives it instead. The lords of the AI choose their own aims: only you are given these.
+
+They come in the giver's own voice, face to face if they are at hand (*"{GIVER} draws you aside."*) or by a rider who finds your army, under the title **Word from {GIVER}**, with the reason and what they would have of you. You answer **"I will see to it."** or **"Not this time."** An aim you never answer is withdrawn after a while, at no cost.
+
+- **Break the siege of {PLACE}**: an enemy siege of one of the realm's towns or castles that your army can reach before the besiegers are ready to storm it, and is strong enough to drive off (*"Our people are behind those walls. Go to them, and do not let them fall."*). Ride to it and fight the besiegers, or go within its walls and hold them.
+- **Bring {LEADER}'s army to battle**: an enemy army near you, weaker than yours and slower, that you can catch before it gets away (*"Catch them in the open, before they find walls to hide behind."*). Such a chance does not last, so its time is far shorter than for taking a fortress.
+- **Take {PLACE}** or **Win back {PLACE}**: an enemy fortress on the realm's border that is not held too strongly for your army, chosen as your liege chooses the Marshal's aims, with the same time to do it.
+
+While your army besieges a place, the only aim you are given is to take or win back that same place; shut inside a besieged one of your own, none.
+
+**It counts as yours only if your army had a hand in it.** A siege your army fought for, or held from within the walls; a fortress your army was besieging when it fell, or took; the army you were sent after, beaten by you or by a battle you joined. If another army of the realm does it without you, the matter is simply closed: *"{PLACE} is ours again, and your army had no part in it. No matter: the realm has it."*
+
+**Besiegers who will not face you.** If the besiegers lift their siege because your army is coming, the aim turns into a chase: *"They ran from {PLACE} rather than face you. Do not let them get away: ride them down."* Your journal and map follow their army. Beat them and the aim is met in full; if they get away behind walls or out of reach, the siege was still broken by your coming, and that counts, if for less.
+
+**What it brings.**
+
+- **Refusing** costs a little of the giver's regard, and no other aim comes to you for a good while.
+- **Carrying it out** wins their favour and some influence for your house.
+- **Accepting and then failing** is remembered: the time running out, a siege you never came near falling, fleeing from the army you were sent to fight when it falls on you, or disbanding your army or letting it fall apart before it has played its part.
+- **What is no fault of yours is simply let go**, with a word from the giver: more enemies come than your army can face, the place is held too strongly now, the enemy army goes behind walls, breaks up or outruns you, the place falls though your army came to its aid, a battle lost fighting, your capture, a peace, or your house riding out to a feud. Breaking off an attack and trying again while there is time is no failure either.
+
+Each aim is in your journal, with the days left (a broken siege has no time but the siege itself) and its place, or the army you are after, marked on your map. If you become Marshal or ruler, leave the realm or take service as a mercenary, the aim ends quietly.
 
 ## Riders
 
@@ -128,7 +190,7 @@ This part changes how every AI lord and army wages war. It plays by the same rul
 - **They lift sieges they cannot win.** A besieger who sees a relief coming, or defenders too strong for them, lifts the siege instead of dying at the walls: once the danger outweighs the camp by about a tenth. A siege all but won (the garrison down to a fifth) is kept unless the danger is twice the camp. A camp that sees itself losing a battle at the walls breaks off and leaves; if you ride in an AI lord's army, you go with it. They do not start a siege they would lift at once, and they remember an enemy lord they saw ride into the place while that lord stays nearby.
 - **They take refuge.** A lord fleeing a stronger host (they stand their ground from about 95% of its strength, a little less for a brave lord, a little more for a cautious one) rides into the nearest fortress of a friendly realm they can reach first, instead of running across the map. They stay inside while the host is in sight, and lay no siege it could reach until it is far, weaker or gone. Not your clan, and not lords riding in an army.
 - **They hunt armies they can catch.** An AI army may ride at an enemy army it sees, when it is at least as strong and no more than twice as strong (stronger than that and the enemy would only run), and only if it can catch it within about 12 hours. Your army is fair game if you lead one, and so are armies still gathering and armies besieging a third realm.
-- **A relief waits out of reach.** Lords riding to relieve a place gather about 4 hours' march from the besiegers' camp until they are strong enough, instead of right beside it. If the place is yours, or you are inside it, word reaches you that the relief waits and why.
+- **A relief waits out of reach.** Lords riding to relieve a place gather about 4 hours' march from the besiegers' camp until they are strong enough, instead of right beside it (not on 1.4.8, where they keep the game's own waiting). If the place is yours, or you are inside it, word reaches you that the relief waits and why.
 - **They call more lords.** An AI army set on a siege or on relieving one of its places, but too weak for it, calls free lords within a day's ride, a few a day, paying the influence as you would. If you ride in that army, its leader tells you when they send for more lords, and why. It never calls when its own men are below 70% of full strength (50% for a relief waiting out of reach).
 - **The army leader tells you why.** Riding in an AI army, you hear from its leader why they lift a siege, break off a battle, ride at an enemy army or let one go. When an enemy army turns toward the army you lead or ride in, your scouts ride in to warn you. A line on screen tells you when a siege is lifted for fear of a relief and your realm is on either side.
 
@@ -146,7 +208,13 @@ In the settings file (see [Settings](../settings.md)), set to `false`:
 
 - `PrudenceRealmEnabled`: the whole realm's command (orders, your liege's aims, orders to one army, riders, your liege's words). The Marshal of the court stays, with the court's own effect.
 - `PrudenceOfficeEnabled`: the Marshal leads no armies: no orders or aims, no orders to one army, no riders.
+- `PrudenceVassalAimsEnabled`: no aims for the army you lead as a vassal.
 - `PrudenceArmyOrdersEnabled`: no orders to one army.
+- `MarshalHostsEnabled`: any lord as eager as the next to raise a host.
+- `MarshalRidesWithRulerOnlyEnabled`: the Marshal answers any lord's call.
+- `ArmyRankEnabled`: any head of a house may raise a host.
+- `KinHostsEnabled`: only the head of a house raises one, as in the base game.
+- `CaptainsEnabled`: no Captains of the Host.
 - `PrudenceRiderEnabled`: no riders (from towns and castles or from your party).
 - `PrudenceFieldRiderEnabled`: no riders from your own party.
 - `PrudenceMarshalEnabled`: your liege and army leaders do not explain the war.

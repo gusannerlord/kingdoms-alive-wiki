@@ -89,6 +89,7 @@ As in Crusader Kings, a duke (or a noyan) **keeps his title even when he holds n
 - **A sleeping title.** While no town of the duchy is held by a house of the duke's kingdom (another kingdom took them, or his house left the kingdom without them), the title sleeps: no dues, no vassals, no rights to its land, and nobody can challenge for it. It is still his, shown among his titles, and wakes when a town of it is back in his kingdom's hands. A house that leaves its kingdom keeps its duchy, sleeping if the towns stay behind (an ulus or a theme is lost instead: see below).
 - **Vacant** only when the house dies out, or when it holds no town or castle anywhere for **96 days** (a lord with no seat at all has nowhere to hold a title from). The house keeps a firm claim to it.
 - **Granted again.** If a house with a claim to a vacant title holds most of its towns, the title is its at once: there is nobody to fight. Otherwise the ruler of the kingdom that holds most of the duchy's towns grants it to one of the houses holding them: the one he likes best and with the most towns there, a house with a claim to the title weighing much more (a firm claim more than a weak one; the grant says so beside each house). If you rule, you choose. The houses passed over will remember it. You may answer *"Not now"* once at no cost; after that, the houses that could have had it hold it against the crown as if you had passed them over (once for each vacancy).
+- **The grant, face to face.** When a vacant duchy, theme or ulus is yours to grant as ruler, it comes in a panel like the game's marriage offer, with the time stopped: the lands of the title at the top, and **one card for each house that may have it**. Each card shows the head of the house with their portrait, banner, traits and your relation; the towns and castles the house holds in the title; its [claim](#claims-to-a-title) to it (a theme has none: it is the emperor's to give); the house, its ties, and what binds it to you (*"Of your own blood"* for a khan's kin); and, under *"If you choose another"*, whether it will hold being passed over against you. Each card has its own button to grant the title to that house, and **"Not now"** puts the matter off as before. Every name is a link to the encyclopedia.
 
 ## Claims to a title
 
@@ -131,7 +132,35 @@ You see the tree in three places, each name a link to the person:
 - **Kingdom screen, Crown tab, "Vassals of the Crown":** the ruler at the root, the houses that answer to the crown, and under each the houses that answer to it, down to the last. A lord's landed knights are counted on his row (*"Duke of {place} · {N} knights"*) and named when you hold the pointer over it.
 - **Encyclopedia:** the page of a lord who heads a house, or of a landed knight, shows his liege and his vassals.
 
-**The mightiest houses** of the realm, by their men and their land, stand first in each list and are marked with a red blade; the list says what it means.
+**Drawn as a tree.** In the House and Crown tabs the tree is drawn as one: a card for each house, with lines from each lord down to his vassals; a long branch ends in "…" further down.
+
+**The mightiest houses** of the realm, by their men and their land, stand first among the houses of their rank and are marked with a red blade; the list says what it means.
+
+## Marks of rank {#marks-of-rank}
+
+Each house bears the mark of its rank over the corner of its banner or portrait wherever the screens list houses: the Clans and Crown tabs of the kingdom screen, the House tab of the clan screen and a lord's page in the encyclopedia.
+
+| Mark | Rank |
+|---|---|
+| A crown | the ruler's house |
+| Gold walls | the lord of a province (a duke, a strategos, a noyan...) |
+| Silver walls | the lord of a town (a count) |
+| Bronze walls | a house of castles alone (a castellan) |
+| A village | a landed knight |
+
+In a realm without titles, the walls follow the land a house holds. A legend over the lists of the Crown and House tabs names each mark present in the realm's own words.
+
+**Grouped by rank.** In the Crown tab (the houses that answer to the crown) and the House tab (those that answer to you), the houses stand in groups by rank, each under its name in the realm's own words: dukes, counts, castellans and landed knights, or strategoi, noyans and the rest by the realm. The Clans tab of the kingdom screen opens sorted by rank, the ruler's house first and sellswords last, with the first house picked, and its Type column sorts by rank.
+
+## The political map {#the-political-map}
+
+Draw the campaign map back high above and it becomes a political map, as in Crusader Kings:
+
+- **The realms' colours.** The land takes on the colour of the realm that holds it, each realm in the colour of its banner (kept apart from its neighbours'), its duchies, themes or ulus in lighter and darker shades of it. A realm without titles is in one colour, and the land of a house outside any realm in pale parchment. Mountains, rivers and lakes are coloured too; only the open sea is left bare. It comes in as the map rises and is full well before the very highest.
+- **Borders.** A thin line lies where one province meets another, each side a darker shade of its own colour, wider and darker where two realms meet, with a faint dark edge along the coast.
+- **Realms' names** stand in large letters over each realm's greatest stretch of land, as large as that land allows on your screen, set aside from the towns' banners. A realm too small for its name shows none; its towns' banners still say whose they are.
+
+The land always counts for whoever holds it now. The map is made ready while the campaign loads. Each part has its own switch in the mod's options, together with how strong the colours and borders are, and every change takes effect at once, with no need to restart. It needs the titles (`TitlesEnabled`).
 
 A house riding in a feud keeps its oath: a house under another banner in a feud's host is still its lord's vassal; one that rides against its own lord, or against the crown, pays it no dues while the feud lasts. The tree shows both.
 

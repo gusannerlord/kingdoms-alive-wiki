@@ -52,6 +52,16 @@ In the town or castle, **Attend the assembly** takes you to the hall, which tell
 
 Only the head of your house can lay its cases. A house that serves for pay, or holds its land as a [landed knight](landed-knights.md), lays no case and answers none.
 
+### The assembly in the hall {#the-assembly-in-the-hall}
+
+While the assembly sits, the lord's hall is a court in session. The ruler sits on the throne; the two sides of the case before the court stand before it, each behind its head, the claimant's on one side and the other's on the other, and the houses that have not chosen between them in the middle, all facing the throne, arguing in turn while the others listen. With no case between two houses, the houses stand in rows by rank. The ruler's house sits beside the throne. A lord you win over in the hall crosses it, there and then, to his new side.
+
+- A **herald** and a **scribe** stand by the throne, and a man-at-arms behind the ruler and behind the head of each side.
+- **Guards** of the realm's people stand along the walls, keeping the peace of the assembly.
+- In a town, a few **townsfolk** watch from the back of the hall.
+- When the ruler **rules on your case** in the hall, the side it went to raises a shout and the other stands silent.
+- A low **murmur** fills the hall, and falls silent while you speak with the ruler.
+
 ### How a day goes
 
 - **The second day**, the **roll of the court** is drawn from what the realm really has: *"Before the court: the petition of the Osticos for Pravend, which the crown holds; the accusation of the Rhagaea against the Vizartos: they stormed Amprela, which was theirs."* A case is only put on the roll if the house that brings it is in the hall. If there is nothing, the court says so: *"Nothing is laid before the court: the realm has no quarrel it would bring."*
@@ -151,3 +161,4 @@ In the settings file (see [Settings](../settings.md)):
 - `AssemblyKingStaysEnabled` to `false`: the ruler is not held at his hall while he presides.
 - `AssemblyPlaintiffPullEnabled` to `false`: houses with a case ride to the assembly no more eagerly than the others.
 - `AssemblyWarWrongsEnabled`, `AssemblyRedressEnabled`, `AssemblyRewardEnabled` to `false`: no wrongs of the war, no pleas for redress, no reward for the war.
+- `AssemblySceneEnabled` to `false`: the hall is as in any visit while the assembly sits; `AssemblyCourtEnabled`, `AssemblyGuardsEnabled`, `AssemblyWitnessesEnabled`, `AssemblyVerdictEnabled`, `AssemblyHushEnabled` to `false`: without that part of it. The assembly in the hall needs `HallOrderEnabled` (see [Feasts](feasts.md#the-lords-hall)).

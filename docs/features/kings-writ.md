@@ -181,6 +181,8 @@ At the sheriff of any town of the realm, say *"I have brought {name} in chains. 
 | *"The dungeon, for as long as the king pleases."* | The full price. He goes to that town's dungeon. +1 with the ruler. |
 | *"The rope. Let every outlaw in the realm hear how he ended."* | The full price (if his gang comes for him, only once he hangs: see below). He hangs at dawn in the square. Mercy falls, your fame rises. A cruel ruler likes it (+3). |
 
+In the hall the accused stands before the throne between two guards, the justiciar before the throne (beside it if the ruler sits there), the lords who are there watching behind, townsfolk at the back in a town, with a scribe and guards. The hall answers the sentence: the rope is cheered, the dungeon draws scattered applause, mercy is met with silence, and the accused is led out under guard.
+
 If the hall cannot be used, the same choice comes in a window, **"The king's justice"**. The sheriff will not call the court while men not sworn to the writ ride with you.
 
 As **High Justice of the Roads**, when you take a chief alive a window offers **"The right of the rope"**: **"Hang him here"**, for his full price, or **"He will stand trial"**.
@@ -290,6 +292,7 @@ In the settings file, set the switch to `false`. See [Settings](../settings.md).
 - `WritRaidEnabled`: no raids in towns. `WritRaidTownsfolkEnabled`: no townsfolk in the raid's streets; the curfew bell rings and the streets are empty.
 - `WritWantedEnabled`: no wanted chiefs.
 - `WritTrialEnabled`: no trial in the hall; the verdict comes in a window.
+- `TrialSceneEnabled`: the trial in the hall without its ceremony (guards, witnesses, the hall's answer).
 - `WritGallowsEnabled`: no rescue at the gallows.
 - `WritFameEnabled`: no fame among the outlaws. `WritAssassinsEnabled`: no price on your head. `WritBribesEnabled`: no bribes.
 - `WritCompanyRulesEnabled`: soldiers who are not manhunters may ride with you.

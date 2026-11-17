@@ -184,6 +184,7 @@ An AI plot may raise its banner when **all** of this is true:
 
 - if **40%** or more of the realm's strength stands behind the plot, the house will not give it up and the plot **rises within the hour** (at once after a decree);
 - under that, it depends on the head of the house and on the plot's strength: the nearer the plot is to 40% and the bolder the head (Valor), the likelier it rises all the same; a calculating head holds back. If it does not rise, the house may still break with the realm alone (leaving the plot), by the same odds as any house that loses a fief, or else it bows and yields.
+- after [a fief taken for nothing](royal-court.md#a-fief-taken-for-nothing), a seizure by the crown, the plot rises surely with less of the realm behind it, and the other houses weigh it more readily still;
 - in a realm weak in its wars abroad (above), each of these chances, the sure one at 40% too, is cut to 0.3.
 
 Before such a rising, every house of the realm that is free to choose weighs the plot once more, angrier for what happened: more so if it is kin or friend of the house wronged, or already holds a grievance against the crown. Those who are won over ride with the plot.

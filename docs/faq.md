@@ -50,7 +50,7 @@ Yes. Only the extra AI marriages and children on the [fast mode families](featur
 Yes.
 
 **Is it in English only?**
-No. Optional translations into Español (LA), Português (BR), Русский, Türkçe and 简体中文 are separate downloads on the mod's Nexus page: see [Translations](getting-started.md#translations). They were made by AI and reviewed by AI, and have not yet been read through by native speakers. The settings menu of Mod Configuration Menu stays in English.
+No. Optional translations into Español (LA), Português (BR), Русский, Türkçe and 简体中文 are separate downloads on the mod's Nexus page: see [Translations](getting-started.md#translations). They were made by AI and reviewed by AI, and have not yet been read through by native speakers. With a translation, the mod's settings in Mod Configuration Menu are in your language too. The same files serve on 1.5.7 and on 1.4.8.
 
 ## Roadmap
 - Fix any bugs that turn up.

@@ -126,17 +126,33 @@ When you hold a feast in one of your towns, a second window asks **What purse wi
 
 When the champion is a lord of the AI, or one of your house who is not riding with you, the game pays his house the value of the prize in gold instead of the piece itself. Here that payment is capped at **100,000 denars**; if it is one of yours, you are told what the cap took off.
 
-## The crowded hall
+## The lord's hall {#the-lords-hall}
 
-In the base game, every lord in a settlement goes into the lord's hall, even when the hall has no more places for them. Those left over all pile up at the door. With a feast in town this happens a lot.
+In the base game, the lords in a settlement wander the whole keep, up the stairs and into the bedrooms, and those with no place left all pile up at the door. With this mod, in any visit to a lord's hall:
 
-With this mod, the hall only lets in as many lords as it has places for. The ones who come in are picked at random each time you enter. Your own clan, the feast's host, a lord you asked to speak to from the menu, a lord waiting for you at a meeting and lords needed by a quest always come in. The others are still in the settlement, and you can talk to them from the menu as usual. This applies to any crowded hall, not only during feasts.
+- **The lords keep to the great hall.** Nobody is sent upstairs; whoever has no seat of his own takes a free chair or stands with others in talk. A ruler and consort who are both in the town are both in the hall.
+- **The hall lets in as many lords as it can hold**, which is many more than before. When it is truly full, the lords who come in are picked each time you enter; your own clan, the feast's host, a lord you asked to speak to from the menu, a lord waiting for you at a meeting and lords needed by a quest always come in. The others are still in the settlement, and you can talk to them from the menu as usual.
+
+## The feast in the hall {#the-feast-in-the-hall}
+
+While a feast is held, the hall is full of it:
+
+- **Every guest has a place.** The host takes the high seat when the ruler is not there. The seats nearest it go to the houses of most standing and friendship with the host, and yours is kept for you by the same rule: what you see is where you stand. Lords who hate each other are seated apart; the rest stand in groups of friends.
+- **Families.** The guests' wives, husbands and grown kin who ride with them come into the hall too (the base game shows only the lord who leads each party).
+- **Musicians** of the host's people play the music of their halls, with a dancer at the grandest feasts, and some guests gather round to listen and applaud.
+- **Servants.** Serving women go from guest to guest with their jugs.
+- **Laid tables.** The hall's great tables are laid with the food and cups of the host's people, richer at a grander feast, with candles at night.
+- **Retinues.** A man-at-arms stands behind the host and behind the ruler.
+- **The sound of the feast**: the murmur of a full hall.
+- **Moments.** The host rises to welcome you when you come in of an evening, unless he hates you; the lords near you cheer your [toast](#a-word-over-the-wine); and what happened at the table that evening shows in the hall: two lords who quarrelled are seen arguing, a newly wed pair stand together with their kin.
 
 ## Turn it off
 
 In the settings file (see [Settings](../settings.md)):
 
 - `FeastsEnabled`: `false` turns off all feasts, for the AI and for you, and their tournaments with them.
+- `HallOrderEnabled`: `false` lets the lords wander the keep as in the base game; the life of a feast in the hall needs it on.
+- `FeastSeatingEnabled`, `FeastFamiliesEnabled`, `FeastMusiciansEnabled`, `FeastServantsEnabled`, `FeastTablesEnabled`, `FeastAmbienceEnabled`, `FeastRetinueEnabled`, `FeastMomentsEnabled`: `false` removes that part of the feast in the hall.
 - `GrandTournamentEnabled`: `false` keeps the feasts but removes the grand tournament: a ruler's feast then has a lord's tournament, or none if `FeastTournamentsEnabled` is off too.
 - `FeastTournamentsEnabled`: `false` removes the tournament from the feasts of everyone but the ruler.
 - `FeastHallTalkEnabled`: `false` removes the way into the hall and the words over the wine.

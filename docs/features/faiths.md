@@ -90,6 +90,10 @@ Each faith holds one great festival a year, always at the same time of year, in 
 - **If it is your faith**, word comes a few days before and a quest log entry marks the town. There, **Join the festival**: keep the rites day by day, make an offering, speak with the priest. Each day you keep raises your standing and wins the lords of your faith who are there, the more so the better the faithful think of you. When it ends you take home its **blessing**. The quest log entry tells you beforehand which blessing the festival gives. When it ends, it tells you where you now stand among the faithful, which lords you prayed beside, and what the blessing does and how long it stays with you (half a year).
 - **If it is not**, you may **Watch the festival** from the edge of the crowd.
 
+### The festival in the square {#the-festival-in-the-square}
+
+While you keep the rites, **"Go out among the crowd"** takes you into the town's square: the priest preaching in the heart of the square, the townsfolk and the lords of the faith gathered about him, a small band of musicians playing beside them (with "Musicians at the feast" on), and a cheer now and then. The days of the festival go on when you come back to the wait.
+
 ## The sacred months
 
 Every autumn the Aserai keep the sacred months, as the clans of Asera's sons have always done.
@@ -162,6 +166,6 @@ See [War and peace](war-and-peace.md).
 
 ## Settings
 
-Everything is under **Faiths** in the mod's options, one switch for each part: priests, festivals, the sacred months, blessings, changing faith, and faith among the lords. See [Settings](../settings.md#faiths).
+Everything is under **Faiths** in the mod's options, one switch for each part: priests, festivals (and, apart, the festival in the square), the sacred months, blessings, changing faith, and faith among the lords. See [Settings](../settings.md#faiths).
 
 Faith in the wars between kingdoms: set `WarHolyCityEnabled` (the holy city), `WarFaithLandEnabled` (lands of the ruler's faith) or `WarRulersFaithEnabled` (rulers of different faiths) to `false`.
