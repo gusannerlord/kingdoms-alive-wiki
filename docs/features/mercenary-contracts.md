@@ -178,7 +178,7 @@ If the ruler themselves lies in the dungeon of an enemy town within a long ride 
     Clearing an Unsworn hideout and sweeping three Unsworn bands are no longer mercenary tasks: they are now contracts of [the King's Writ](kings-writ.md#the-kings-contracts), for a free man-hunter. With the writ's contracts turned off (`WritContractsEnabled` or `WritEnabled` set to `false`), they are mercenary tasks again:
 
     - **Clear an Unsworn hideout**: 4,000 denars, 3 renown, +5 with the ruler, within 30 days. A hideout near the realm's villages, marked on your map as **"Unsworn Hideout"**, with **35 to 40** Unsworn on foot inside. The last fight is against the **Unsworn Captain**.
-    - **Sweep of the Unsworn bands**: 2,000 denars, 3 renown, +5 with the ruler, within 50 days. **Three bands** of about **20 to 40** Unsworn roam around villages of the realm, each with an arrow on the edge of the map. They will not talk or surrender, and come after you if they are clearly stronger.
+    - **Sweep of the Unsworn bands**: denars, renown and the ruler's favour, if done in time. **Three bands** of Unsworn roam around villages of the realm, each with an arrow on the edge of the map. They will not talk or surrender, and come after you if they are clearly stronger than you and the friends riding near you, never while you ride in an army.
 
 ## How the task is chosen
 
@@ -241,9 +241,11 @@ Sellswords of no culture. Their names in the party screen:
 
 Where to get them:
 
-- **Taverns.** When a town's tavern changes the mercenaries it offers (every two days, as in the base game), about **1 time in 5** they are Unsworn instead, mostly of the lower tiers. You hire them from the tavern's mercenary like any other.
+- **Taverns.** When a town's tavern changes the mercenaries it offers (as often as in the base game), now and then they are Unsworn instead, mostly of the lower ranks. You hire them from the tavern's mercenary like any other.
 - AI lords and caravans hire them from the same taverns, so you will also meet Unsworn in other parties.
-- **Prisoners.** Like any regular troop of **tier 2 or higher**: every Unsworn except the Recruit.
+- **Prisoners.** Like any regular troop past the first rank: every Unsworn except the Recruit.
+
+They are swords for hire, and ask the pay of one: somewhat more than a regular soldier of their rank (see [Wages and rising in rank](recruitment.md#wages-and-rising-in-rank)).
 
 !!! tip
     Need hundreds of men at once, for a few weeks? Hire a whole company instead: see [Companies for hire](free-companies.md).

@@ -6,16 +6,18 @@ In the base game only towns and castles have buildings. With Kingdoms Alive, who
 
 - The **landed knight** who holds the village; if none does, the **lord of its castle or town**.
 - You and the AI follow the same rules. You build in your own village (as a landed knight) or in the villages of your towns and castles that no knight of yours holds.
-- AI lords build too, now and then, when they would still have 80,000 denars left after paying.
+- AI lords build too, now and then, when they would still have plenty of gold left after paying.
 
 ## The works
 
-| Work | Cost | Days | What it does |
-|---|---|---|---|
-| Well and Irrigation Ditches | 5,000 | 10 | +0.15 hearths per day. |
-| Palisade and Watchtower | 6,500 | 15 | +0.5 militia per day, and raiders loot the village 20% more slowly. |
-| Mill | 8,000 | 20 | +5% to the goods the village makes, so it has more to sell. |
-| Storehouse | 4,000 | 10 | After a raid, +3% of the village mended each day on top of its own recovery: it is back on its feet 25 to 50% faster (more in a large realm, which recovers slowly; less in a small one). |
+| Work | What it does |
+|---|---|
+| Well and Irrigation Ditches | The village grows a little faster in hearths, and so sends more men to war (see [Recruitment by the land](recruitment.md)). |
+| Palisade and Watchtower | More militia each day, and raiders take longer to loot the village. |
+| Mill | The village makes more goods, so it has more to sell. |
+| Storehouse | After a raid, the village mends faster on top of its own recovery (most of all in a large realm, which recovers slowly; least in a small one). |
+
+Each costs a few thousand denars and takes a week or two; the screen shows the exact cost, days and value of each.
 
 The hearths and the militia only grow while the village is not raided or looted, as in the base game.
 

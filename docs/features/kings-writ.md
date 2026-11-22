@@ -89,7 +89,7 @@ The writ's own troops, as in Warband: hard riders, gaolers and crossbowmen with 
 
 **Freeing them.** Some outlaw bands near you hold manhunters captive. Beat the band and free them in the prisoner screen after the battle.
 
-**Wages**: the same as regular soldiers of their tier.
+**Wages**: the same as regular soldiers of their rank (see [Wages and rising in rank](recruitment.md#wages-and-rising-in-rank)), and they rise in rank at the same cost.
 
 ## The sheriffs' master-at-arms
 
@@ -203,7 +203,7 @@ Each realm's outlaws learn your name: every band broken adds a little, every den
 1. **Small bands** (fewer than 25 men) in the king's lands dare not come at you.
 2. Talking to a weaker band, a new line: *"I ride under {ruler}'s writ, and you know my name. Lay down your arms in the king's name, and you will live to see a court."* The more fame, the likelier they yield: *"...We know who you are."* Otherwise: *"Writ or no writ, a rope is a rope."*
 3. **Bribes.** A boy presses a wanted chief's purse into your hand: **"An outlaw's purse"**. **"Keep the purse"** gives you the gold and costs you Honor, but for the next **60 days** the sheriffs may hear of it, and claiming that chief's price later is a great risk. Found out, the writ is torn. **"Throw it in the mud"** gives you Honor and fame.
-4. **A price on your head.** The outlaws pool their coin, and a band of **Hired Blades** rides for you: **"A price on your head"**, followed on your map for 12 days. Beat them and their captain's purse is yours. It can happen again every month or so.
+4. **A price on your head.** The outlaws pool their coin, and a band of **Hired Blades** rides for you: **"A price on your head"**, followed on your map for some days. Like every outlaw band of the writ, they fall on you only when they are clearly stronger than you and the friends riding near you, and never while you ride in an army. Beat them and their captain's purse is yours. It can happen again every month or so.
 
 ## Ranks
 

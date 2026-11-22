@@ -6,35 +6,35 @@ Neighbouring kingdoms that are not at war have things happen between them: a cat
 
 ## Tension { #tension }
 
-Every pair of kingdoms has a **tension** that only recent incidents move. It starts at 0. In the game you see it as **grievances** (0 to 100: incidents that push toward war) or **goodwill** (0 to 100: incidents that hold war back), or **"no lasting mark"** when it is below 5 either way. It is only one of the things weighed when war is talked of: the rulers' relation, lost lands and the balance of strength count apart. Below, +100 means grievances 100 and -100 means goodwill 100.
+Every pair of kingdoms has a **tension** that only recent incidents move. It starts at nothing. In the game you see it as **grievances** (out of 100: incidents that push toward war) or **goodwill** (out of 100: incidents that hold war back), or **"no lasting mark"** when there is hardly any either way. It is only one of the things weighed when war is talked of: the rulers' relation, lost lands and the balance of strength count apart.
 
 - Grievances raise it, courtesies lower it.
-- It fades on its own: it loses half of itself every 60 days.
-- When two kingdoms make peace after a war, it goes back to 0. During the 45-day [truce](war-and-peace.md#truce-and-tribute) that follows, whatever builds up does not fade: it starts fading only once the two could go to war again.
-- At +100 it weighs about a third of what a war needs: far from enough on its own, but it adds to every other cause. Below 0 it holds a war back in the same proportion.
-- Above 0 it also counts as a **cause** for war: a kingdom with no other quarrel needs better odds, and the higher the tension the less of that handicap is left; at +100 it is gone (see [War and peace](war-and-peace.md)).
+- It fades on its own, slowly: an old grievance counts for less and less, and in the end for nothing.
+- When two kingdoms make peace after a war, it is wiped clean. During the [truce](war-and-peace.md#truce-and-tribute) that follows, whatever builds up does not fade: it starts fading only once the two could go to war again.
+- At full grievances it weighs a fair part of what a war needs: far from enough on its own, but it adds to every other cause. Goodwill holds a war back in the same way.
+- Grievances also count as a **cause** for war: a kingdom with no other quarrel needs better odds, and the higher the grievances the less of that handicap is left; at full grievances it is gone (see [War and peace](war-and-peace.md)).
 
 ## When events happen { #when-events-happen }
 
 Events only happen between two kingdoms whose lands touch and that are not at war with each other.
 
-- **How often:** never two events (or [affairs of the realm](realm-affairs.md)) between the same two kingdoms within 30 days; after that, about one event every 60 days on average for each pair.
-- **Many borders, not many more events.** A kingdom at peace with many neighbours would otherwise collect far more events than one with few. So each pair's chance is adjusted by how many neighbours at peace each of the two has, with 3 as the usual case: a kingdom at peace with 5 neighbours sees about 1.3 times the events of one with 3 (not 1.7 times), and one at peace with a single neighbour about half as many (not a third).
-- **When both are at war with other kingdoms,** events come half as often (about one every 90 days).
+- **How often:** never two events (or [affairs of the realm](realm-affairs.md)) between the same two kingdoms close together; after that they come now and then, at random, for each pair alike.
+- **Many borders, not many more events.** A kingdom at peace with many neighbours would otherwise collect far more events than one with few. So each pair's chance is adjusted by how many neighbours at peace each of the two has: a kingdom with many peaceful borders sees somewhat more events than one with a few, not many times more, and one with a single neighbour somewhat fewer.
+- **When both are at war with other kingdoms,** events come less often.
 
 Which kind of event comes depends on how things stand:
 
-| Situation | Grievances | Courtesies |
-|---|---|---|
-| Both at peace with everyone | 85% | 15% |
-| One of them at war with a third kingdom | 25% | 75% |
-| Both at war with third kingdoms | 50% | 50% |
+| Situation | What comes |
+|---|---|
+| Both at peace with everyone | Mostly grievances |
+| One of them at war with a third kingdom | Mostly courtesies |
+| Both at war with third kingdoms | Either, as often |
 
 Few will pick a quarrel with a kingdom that is fighting, or while fighting themselves.
 
 ## The events
 
-Events come in three sizes, and they weigh a lot. Small ones move the tension by 35 (6 times in 10), medium ones by 80 (3 in 10), large ones by 100 (1 in 10): a single large grievance between two kingdoms with nothing between them takes them straight to grievances 100. The tension never goes past 100 either way. Which kingdom acted is a toss-up.
+Events come in three sizes, and they weigh a lot. Small ones are the most common and move the tension a fair way; medium ones move it a long way; large ones are rare, and a single large grievance between two kingdoms with nothing between them takes them straight to full grievances. The tension never goes past full either way. Which kingdom acted is a toss-up.
 
 **Grievances** (raise the tension)
 
@@ -65,22 +65,22 @@ Events come in three sizes, and they weigh a lot. Small ones move the tension by
 
 ## How AI rulers react
 
-Both rulers answer each event. An AI ruler **stirs it up** (a grievance counts 40% more, a courtesy 40% less), **lets it be**, or **smooths it over** (the reverse). Their choice depends on:
+Both rulers answer each event. An AI ruler **stirs it up** (a grievance counts for more, a courtesy for less), **lets it be**, or **smooths it over** (the reverse). Their choice depends on:
 
 - their relation with the other ruler (a disliked ruler gets stirred against);
 - their character: valorous rulers stir things up; merciful and calculating ones calm them down;
 - whether they already have a war elsewhere (then they calm things down);
 - a fair bit of chance.
 
-However the two rulers answer, one event never moves the tension by more than one and a half times its size.
+However the two rulers answer, one event never moves the tension much beyond its own size.
 
 ## When it is your kingdom
 
 When an event involves the kingdom you rule or serve, the game's own event window opens with the story, where things now stand, and up to three choices. As a mercenary you are only told.
 
-The window says, for example, *"Your steward reckons that the recent incidents between your realm and the Vlandians have left grievances 42/100, and that they lean the realm considerably toward war."* ("a little" below 20, "considerably" from 20 to 49, "heavily" from 50), and reminds you that this is only one of the things weighed when war is talked of.
+The window says, for example, *"Your steward reckons that the recent incidents between your realm and the Vlandians have left grievances 42/100, and that they lean the realm considerably toward war."* ("a little", "considerably" or "heavily"), and reminds you that this is only one of the things weighed when war is talked of.
 
-**As ruler** you answer instead of your kingdom's AI, and your answer weighs a lot: it moves the tension by a further 75% of what the event moved it.
+**As ruler** you answer instead of your kingdom's AI, and your answer weighs a lot: it moves the tension by most of what the event moved it, once more.
 
 | Choice | Grievance | Courtesy | Cost (small / medium / large event) |
 |---|---|---|---|
@@ -88,7 +88,7 @@ The window says, for example, *"Your steward reckons that the recent incidents b
 | Neither | "Let it take its course." | "Let it take its course." | Nothing |
 | Toward peace | "Send (ruler) a gift and a soft word, and let it rest." | "Answer in kind, and send (ruler) a gift of your own." | Send 5,000 / 15,000 / 40,000 denars to their ruler |
 
-**As a vassal** your ruler has already answered, but you can lean on the scales: your answer moves the tension by a further 25% of what the event moved it.
+**As a vassal** your ruler has already answered, but you can lean on the scales: your answer moves the tension by a further part of what the event moved it, less than a ruler's.
 
 | Choice | Grievance | Courtesy | Cost (small / medium / large event) |
 |---|---|---|---|
@@ -100,7 +100,7 @@ Hovering over a choice shows the cost and where things will stand afterwards, su
 
 A choice that would change nothing is not offered: if the grievances or the goodwill are already at 100 that way, or you have no gold (as ruler, toward peace) or no influence (as a vassal) to pay with. If neither paid choice would change anything, no window opens; you only get the message.
 
-After a window, the next one comes no sooner than 40 to 60 days later (an event that only brings a message does not start this wait). Events of your kingdom in between still happen, and you get a message such as *"... Recent incidents with the Sturgians: grievances 42/100."* If the window cannot open within 2 days (for example because you are in a battle), the event takes its course without you.
+After a window, the next one waits a good while (an event that only brings a message does not start this wait). Events of your kingdom in between still happen, and you get a message such as *"... Recent incidents with the Sturgians: grievances 42/100."* If the window cannot open soon (for example because you are in a long battle), the event takes its course without you.
 
 !!! tip
     As ruler, a cheap way to keep a strong neighbour off your back is to smooth over the small incidents. A gift of 5,000 denars to their ruler can undo most of a cattle raid.
@@ -109,7 +109,7 @@ Some affairs of your own kingdom, and some requests you grant when you [hold cou
 
 ## How it leads to war
 
-When a war grows out of the tension and nothing else weighs more, the attacking clan names the last incident: *"We have not forgotten the seizing of the caravan. The Vlandians must be made to answer for it."* When the incidents are not the main reason but still weigh at least a third as much, they are named after it: *"... And the seizing of the caravan is not forgotten either."*
+When a war grows out of the tension and nothing else weighs more, the attacking clan names the last incident: *"We have not forgotten the seizing of the caravan. The Vlandians must be made to answer for it."* When the incidents are not the main reason but still weigh a fair part as much, they are named after it: *"... And the seizing of the caravan is not forgotten either."*
 
 On the kingdom screen your own lords may say *"the cattle raid on the border still rankles"* in favour of a war, or *"our two realms have been on good terms of late"* against one.
 

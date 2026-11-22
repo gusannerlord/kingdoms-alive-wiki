@@ -10,10 +10,10 @@ A law of the crown is never simply repealed: it changes only when the council ta
 
 While High Crown Authority is the law of a realm:
 
-- **No house may take up arms against another**, by any road: no [feud](factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses) over a fief, no [feud for a title](titles.md#a-feud-for-a-title), no lord taking up arms against a vassal who bars the gates. A right to land goes before the council in a [reckoning](factions.md#the-reckoning-of-a-house), and only the ruler's decree makes the council's vote good. A title changes hands only when it falls vacant. Your buttons and lines that would start a feud are greyed: *"High Crown Authority is the law of {realm}: no house may take up arms against another."*
+- **No house may take up arms against another**, by any road: no [feud](factions.md#when-a-reckoning-takes-up-arms-feuds-between-houses) over a fief, no [feud for a title](titles.md#a-feud-for-a-title), no lord taking up arms against a vassal who bars the gates. A right to land goes before the ruler in a [reckoning](factions.md#the-reckoning-of-a-house), heard at the realm's [assembly](assembly.md). A title changes hands only when it falls vacant. Your buttons and lines that would start a feud are greyed: *"High Crown Authority is the law of {realm}: no house may take up arms against another."*
 - **Every feud ends the day it passes.** Feuds being fought or waiting end with no victor: what was taken in them goes back, the grudge stays, and nobody answers for felony. Feuds still being prepared in silence are given up, and the holder keeps the fief.
-- **The houses resent it.** While it lasts, the head of every house of the realm thinks **10** less of the ruler, and each house holds it against the crown as a grievance that does not fade (it weighs more in a great realm). [Charters](factions.md#the-charter) come sooner, and their first demand is always that Autonomous Vassals be restored.
-- **A vassal's quarrel goes to the throne.** A lord whose vassal will not yield a fief cannot ride against him: he takes his plea to the ruler (see [A lord's plea](royal-court.md#a-lords-plea)). A council's vote in a reckoning takes no fief by itself: it goes up to the ruler, who backs it by decree or keeps out of it.
+- **The houses resent it.** While it lasts, the head of every house of the realm thinks less of the ruler, and each house holds it against the crown as a grievance that does not fade (it weighs more in a great realm). [Charters](factions.md#the-charter) come sooner, and their first demand is always that Autonomous Vassals be restored.
+- **A vassal's quarrel goes to the throne.** A lord whose vassal will not yield a fief cannot ride against him: he takes his plea to the ruler (see [A lord's plea](royal-court.md#a-lords-plea)).
 - **The Empire's own custom.** In a realm of the [Empire](empire.md), a lord who takes up arms against another is a rebel, and always has been: High Crown Authority is in force there from the start as the throne's own peace, with no regard lost and no grievance, and no council can vote it away. Autonomous Vassals is greyed there, with that reason.
 
 Plots, charters and reckonings go on under it, and a house may still break with the realm.
@@ -24,16 +24,18 @@ What each house pays its lord, of what its towns and castles yield. There is one
 
 | Law | Each house pays its lord | The heads of the houses think of the ruler |
 |---|---|---|
-| **No Tax Obligation** | nothing | **3** better |
-| **Low Tax Obligation** | **2.5%** | **2** less |
-| **Normal Tax Obligation** | **5%** | **5** less |
-| **High Tax Obligation** | **10%** | **10** less |
+| **No Tax Obligation** | nothing | a little better |
+| **Low Tax Obligation** | a small share | a little less |
+| **Normal Tax Obligation** | a larger share | less |
+| **High Tax Obligation** | a heavy share | much less |
+
+The policy itself, in the Policies tab, gives the share in the game's own words.
 
 - **Who pays, who gets paid.** The chain of [dukes, counts and castellans](titles.md): a count pays his duke, a duke the crown, and so on. The ruler's own house, sellswords and [landed knights](landed-knights.md) neither pay this share nor count in the regard.
 - **Each house votes by its own purse:** what it would collect from its vassals, less what it would pay its lord. A count who pays and collects nothing usually votes against raising it; a duke with many counts beneath him votes for it; the crown gains.
 - **Where it binds.** Every realm whose houses hold their land of a lord (dukes and counts, the [themes](titles.md#themes-of-the-empires) of the Empires, the [ulus](titles.md#the-ulus-of-the-khuzaits) of the Khuzaits) begins with the **Low Tax Obligation**, and so does a realm born later (a rebel realm, or your own). Where no house holds its land of a lord, nothing is owed: No Tax Obligation stands there, bringing no goodwill, and the others are greyed, with that reason.
 
-The groups add up (a law of succession against the custom too): under High Crown Authority and a High Tax Obligation, the heads of the houses think 20 less of the ruler.
+The groups add up (a law of succession against the custom too): under High Crown Authority and a High Tax Obligation, the heads of the houses think far less of the ruler than under either alone.
 
 ## The law of succession {#the-law-of-succession}
 
@@ -61,7 +63,7 @@ An AI ruler weighs these laws by his character and his needs, rarely, and never 
 In the kingdom screen's **Crown** tab, **The Crown** also shows:
 
 - **Crown Authority:** the law in force, **Tax Obligation:** with its share, and **Succession:** with whether it is the custom of the realm or against it;
-- one line for each part of the houses' regard for the crown and its cause, such as *"The houses' regard for the crown: -10 (High Crown Authority)"*;
+- one line for each part of the houses' regard for the crown and its cause, such as *"The houses' regard for the crown: {N} (High Crown Authority)"*;
 - a vote already before the council, if any;
 - three buttons: **Succession…**, **Crown Authority…** and **Taxes…**. Each opens a window with the laws of its group, the one in force marked, and **Put it before the council**: the same vote as the Policies tab, at the same cost. A button is greyed with the reason when you can put none of them: you are not the ruler, another law of the crown is before the council, you lack the influence, and so on.
 
@@ -70,6 +72,6 @@ In the kingdom screen's **Crown** tab, **The Crown** also shows:
 In the [settings file](../settings.md), set to `false`:
 
 - `CrownAuthorityEnabled`: High Crown Authority (it stays in the list, greyed, and does nothing);
-- `CrownTaxesEnabled`: the tax obligation (every house pays the low share, 2.5%);
+- `CrownTaxesEnabled`: the tax obligation (every house pays the low share);
 - `SuccessionLawChangeEnabled`: changing the law of succession (the laws stay in the list, greyed);
 - `CrownAiRulerEnabled`: AI rulers weighing these laws of their own accord.

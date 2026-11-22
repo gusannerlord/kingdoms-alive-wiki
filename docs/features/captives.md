@@ -59,11 +59,12 @@ The caravan is marked on your map with an arrow, and a journal entry opens: **"T
 
 Only while the captive rides **in your party**. A company of one of the game's minor mercenary companies (of the captive's culture when there is one), named **"Sellswords of the {house}"**, is hired against you:
 
-- They are about **as strong as your party, up to 1.3 times**, counted by the worth of each man (from 15 up to 400 men).
-- They ride out of the house's nearest fief within about 4 days' ride, or else appear near you, out of sight. Your scouts tell you where they come from.
+- They are about as strong as your party, or somewhat stronger, counted by the worth of each man.
+- They ride out of the house's nearest fief if it is not too far, or else appear near you, out of sight. Your scouts tell you where they come from.
 - An **arrow** on the map points to them, and a journal entry opens: **"Sellswords of the {house} come for {captive}"**.
-- They ride a little faster than an average lord. They **attack** whenever they are at least three quarters as strong as you and you are out in the open; otherwise they shadow you. Other lords leave them alone, and they do not parley: *"We are paid to bring a man home, not to talk. Stand aside, or don't."*
-- They give up about **8 days** after they could have reached you.
+- They ride a little faster than an average lord. They **attack** when they are nearly as strong as your whole side (you and the friendly lords close by) and you are out in the open; otherwise they shadow you. Other lords leave them alone, and they do not parley: *"We are paid to bring a man home, not to talk. Stand aside, or don't."*
+- **Not against an army.** A house sends no hired blades while you ride in an army, are at sea or in a siege: it waits, and if you are still out of reach after some days, it turns to knives in the towns instead. Blades already on your trail when you join an army do not throw themselves on it: they draw off out of its sight and wait a few days for you to ride alone again, then give up and go home.
+- They give up some days after they could have reached you.
 
 | Outcome | Result |
 |---|---|

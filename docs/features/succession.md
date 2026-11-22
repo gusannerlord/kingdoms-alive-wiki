@@ -104,13 +104,13 @@ On top of that, a ruler's claim grows or shrinks with the reign:
 - **The oath**: a new ruler to whom most houses [swore fealty](royal-court.md#the-oath-to-a-new-ruler) stands firmer than one most houses refused.
 - **The lords' regard**: the ruler's relation with the heads of houses.
 - **Sacred Majesty**, and the **Senate** policy in a realm of the Senate, add to it.
-- **Usurpation**: a crown taken by winning a civil war starts with a heavy stain that fades over about four months.
+- **Usurpation**: a crown taken by winning a civil war starts with a heavy stain that fades over some months.
 
 ## What a claim does
 
 A ruler with a **weak** claim:
 
-- faces lords who start a plot with less hatred for them: a lord with a better claim than the ruler needs 10 less bad blood to start one (and, with `PlotsOnlyInLargeRealms` on, a weak ruler can be plotted against even in a kingdom that is not [too large](civil-war.md#too-large));
+- faces lords who start a plot with less hatred for them: a lord with a better claim than the ruler needs less bad blood to start one (and, with `PlotsOnlyInLargeRealms` on, a weak ruler can be plotted against even in a kingdom that is not [too large](civil-war.md#too-large));
 - is a worse cause to swear to: more houses ask for something or refuse the oath;
 - is slow to start a war, unless it would win back land of their own culture, and quicker to want peace;
 - tempts neighbours who already have a quarrel with the realm, above all in the first months after a succession. A weak crown is never a reason for war on its own;
@@ -124,11 +124,11 @@ A good claim to rule is not the same as a **claim to the throne**: only some hou
 
 ### How a house wins a claim {#how-a-house-wins-a-claim}
 
-If your house is a vassal of the realm with no claim to the throne, the tooltip of the claim in your clan screen's [House tab](house-tab.md), and a line at the end of the claimants in the Crown tab (*"Your own house has no claim. ..."*), tell you how to come by one under your realm's law: a marriage into the ruling house, your head close kin of the ruler, a house that once ruled, or, where the law names them, a place among the first houses by their right to rule. For that last way they also tell you what the law weighs most, where your house stands (for example *"Your house stands fifth of the 9 houses of the realm by that right; the first 3 have a claim."*), and where it falls furthest short of the house with the most of it, or that it already has as much as any. Landed knights and a house serving for pay are not reckoned among them.
+If your house is a vassal of the realm with no claim to the throne, the tooltip of **Claim to the throne** under **Your standing** in the Realm tab of the kingdom screen, and a line at the end of the claimants in the Crown tab (*"Your own house has no claim. ..."*), tell you how to come by one under your realm's law: a marriage into the ruling house, your head close kin of the ruler, a house that once ruled, or, where the law names them, a place among the first houses by their right to rule. For that last way they also tell you what the law weighs most, where your house stands (for example *"Your house stands fifth of the houses of the realm by that right"*, and how many of the first have a claim), and where it falls furthest short of the house with the most of it, or that it already has as much as any. Landed knights and a house serving for pay are not reckoned among them.
 
 ### A crown promised at a peace {#a-crown-promised-at-a-peace}
 
-A [civil war](civil-war.md#the-outcomes) that ends in a peace with the rebels somewhat ahead can settle the next crown over the law. In a realm whose crown passes by blood, the pretender's house is named **heir**: when the ruler leaves the throne, by death or otherwise, its head is crowned. In a realm that chooses its ruler, the crown's house and the houses that stood by it **pledge their votes** to the pretender's house at the next choice; the vote is still real, and a house that pledged and votes for another breaks its word. The heir, or the house the votes are pledged to, is the one the Crown tab of the kingdom screen shows as next to follow the ruler.
+The peace of a [civil war](civil-war.md#the-outcomes) can settle the next crown over the law, when its terms name the rising's house to follow the ruler. In a realm whose crown passes by blood, the pretender's house is named **heir** (after a house broke with the realm, the rebel house with the best right to the crown that day): when the ruler leaves the throne, by death or otherwise, its head is crowned. In a realm that chooses its ruler, the crown's house and the houses that stood by it **pledge their votes** to the pretender's house at the next choice; the vote is still real, and a house that pledged and votes for another breaks its word. The heir, or the house the votes are pledged to, is the one the Crown tab of the kingdom screen shows as next to follow the ruler. While the promise stands, that house joins no plot or charter of another house.
 
 In the realms of the Empire, the throne can also change hands by a strategos's coup, and the knights of the crown's pronoia pass to the new ruling house: see [The Empire's own ways](empire.md).
 

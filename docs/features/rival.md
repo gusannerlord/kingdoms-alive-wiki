@@ -73,16 +73,17 @@ Your rival hires **35 men**, their captain among them, who hole up in one of the
 
 ### Bands hunting you
 
-**"Hired Blades of {rival}"** appear near you, just out of sight: **20 to 40 men** depending on how far your campaign has gone. An **arrow** at the edge of the map points to them, and they are tracked in your journal.
+**"Hired Blades of {rival}"** appear near you, just out of sight, more of them the further your campaign has gone. An **arrow** at the edge of the map points to them, and they are tracked in your journal.
 
 - They ride faster than a lord's party, so you cannot simply outrun them.
-- They **chase** you while they are more than 1.2 times as strong as your party and you are on the open map; otherwise they keep on your heels. Lose men, and they will come.
-- Other lords leave them alone, and they do not talk. After **6 days** they give up.
-- While you have fewer than **15 healthy men** the band waits; after two such delays it is dropped. At sea it waits until you land.
+- They **chase** you while they are clearly stronger than you and the friends riding near you, and you are out on the open map; otherwise they keep on your heels. Lose men, or ride away from your friends, and they will come.
+- They never fall on a host: while you ride in an army, led by you or not, they keep their distance, and no band sets out against you.
+- Other lords leave them alone, and they do not talk. After some days they give up.
+- While your company is too small to be worth the hunt, or you ride in an army, the band waits; put off a second time, it is dropped. At sea it waits until you land.
 
 ### The larger company
 
-After a band or the hideout, your rival may pay for more: **"{company} in the Pay of {rival}"**, **37 to 70 men** led by elite mercenaries. It works like a band and gives up after **8 days**.
+After a band or the hideout, your rival may pay for more: **"{company} in the Pay of {rival}"**, a bigger company led by elite mercenaries. It works like a band and holds on a little longer before it gives up.
 
 ### Street ambushes
 

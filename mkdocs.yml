@@ -88,6 +88,7 @@ nav:
       - The King's Writ: features/kings-writ.md
       - Companies for hire: features/free-companies.md
   - Campaign:
+      - Recruitment by the land: features/recruitment.md
       - Fast mode families: features/fast-mode.md
       - Other changes: features/other-changes.md
   - Settings: settings.md

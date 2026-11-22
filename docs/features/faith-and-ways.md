@@ -7,13 +7,13 @@ Needs [the faiths](faiths.md) on for everything about faith; the ways (culture) 
 ## What a fief takes up
 
 - **The faith** of the realm: the faith of its ruling house. A fief keeps its own until enough of its people have come round, and then it keeps the realm's: its priest is the realm's, its festivals and pilgrims are the realm's.
-- **The ways** of the realm: its culture. This goes notable by notable, in the town and in its villages. Each takes up the new ways on their own, sooner the more they like the fief's lord. When half of them have, so has the fief and its villages: its townsfolk, its militia and the recruits of its notables. The rest follow sooner after that.
+- **The ways** of the realm: its culture. This goes notable by notable, in the town and in its villages. Each takes up the new ways on their own, sooner the more they like the fief's lord. When enough of them have, so has the fief and its villages: its townsfolk, its militia and the recruits of its notables. The rest follow sooner after that.
 
 A house with no realm brings its own faith and ways. A fief that passes to another realm starts over toward the new one; a fief that goes back to a realm of its own faith and ways is at peace again.
 
-With nothing to help or hinder it, the faith takes about **300 days** and the ways about **400 days** (a related faith comes round about a third faster). What its lord does can make the faith come sooner, but never quickly: a lord who does everything in his power still waits about **200 days**. A lord who leaves the old temple and its priest to its people waits more than twice as long.
+With nothing to help or hinder it, the faith takes a long while to come round, and the ways longer still (a related faith comes round sooner). What its lord does can make the faith come sooner, but never quickly. A lord who leaves the old temple and its priest to its people waits far longer.
 
-In a campaign started before this version, fiefs already held by a realm of another faith are taken to have come half way already.
+In a campaign started before this version, fiefs already held by a realm of another faith are taken to have come part of the way already.
 
 Once a fief has taken up a realm's ways, that realm's old enemies no longer count it as *their* land to win back.
 
@@ -22,7 +22,7 @@ Once a fief has taken up a realm's ways, that realm's old enemies no longer coun
 While a fief keeps another faith or other ways than its realm's:
 
 - **Loyalty.** The game already takes loyalty from a fief of another culture than its lord's. A fief of another faith loses some more each day (less for a related faith), easing as the new faith takes hold. It shows in the fief's loyalty breakdown as *Of another faith*.
-- **Risings.** A town of another faith **and** other ways rises at a higher loyalty than the game's (35 instead of 25), one with only one of them at 30, and higher still for a while after its temple is destroyed or its old laws are revoked. The rebels are its own people, of its old ways.
+- **Risings.** A town of another faith **and** other ways rises at a higher loyalty than the game's, one with only one of them a little less readily, and more readily still for a while after its temple is destroyed or its old laws are revoked. The rebels are its own people, of its old ways.
 - **Trouble.** Now and then: a preacher of the old faith has the crowd in the square (loyalty), a brawl in the market between old families and newcomers (security), or a fire at the new faith's altar (the new faith loses ground). If the fief is yours, you hear of it.
 
 ## The old temple
@@ -53,9 +53,9 @@ AI lords do the same by their character and their Charm.
 
 - **A mission.** Ask a priest of your realm's faith: *"Some of my lands do not yet keep our faith. Would you send preachers there?"*. Choose the fief and the purse; for a month or so the faith takes hold faster there. Where the people are angry, the preachers may be stoned in the street and flee, and no one will go back there for a month. A town whose temple you left to its people gets its first priest of your faith this way.
 - **Alms.** In hard times (the town is starving, or was besieged or its village raided lately) a new option in the town or castle menu: *Give alms to the people*. Two purses. Loyalty rises, and where a new faith is taking hold, the people listen a little more. Once a month.
-- **The old laws.** Through the fief's governor (*Speak with ... about the old laws*): grant the fief its old laws by charter, for some influence. While the charter stands, the people do not feel the game's loss of loyalty for a lord of another culture, there is less trouble, but the fief keeps its ways about five times as long. Revoking the charter costs loyalty at once, the notables think less of you, the town is readier to rise for a while, and no new charter is believed for some months. Without a governor there is no one to keep the laws in your name.
+- **The old laws.** Through the fief's governor (*Speak with ... about the old laws*): grant the fief its old laws by charter, for some influence. While the charter stands, the people do not feel the game's loss of loyalty for a lord of another culture, there is less trouble, but the fief keeps its ways far longer. Revoking the charter costs loyalty at once, the notables think less of you, the town is readier to rise for a while, and no new charter is believed for some months. Without a governor there is no one to keep the laws in your name.
 - **The governor.** A governor of the fief's own ways calms its people; one of the realm's faith helps the faith along.
-- **Festivals.** The game's daily project *Festival and Games* gives twice the loyalty in a fief that is changing. A lord who left the old temple to its people gains some loyalty there while the old faith's great festival is under way.
+- **Festivals.** The game's daily project *Festival and Games* gives more loyalty in a fief that is changing. A lord who left the old temple to its people gains some loyalty there while the old faith's great festival is under way.
 
 The AI does all of this too: it grants the old laws when a fief is near rising, pays for missions and alms when it has silver to spare, and now and then a calculating lord revokes a charter once the fief is quiet.
 
@@ -66,7 +66,7 @@ The AI does all of this too: it grants the old laws when a fief is near rising, 
 
 ### On the fief's own screens { #on-the-fiefs-own-screens }
 
-- **The town's Manage screen.** Under the town's figures, *Culture* and *Faith* show what its people keep now; while it is taking up the realm's, a second line shows the new one and how many keep it already, e.g. *Battanian 43%*. The faith turns once all its people have come round; the culture once half of its notables (those of its villages too) keep the new ways.
+- **The town's Manage screen.** Under the town's figures, *Culture* and *Faith* show what its people keep now; while it is taking up the realm's, a second line shows the new one and how many keep it already, as a share of its people. The faith turns once all its people have come round; the culture once enough of its notables (those of its villages too) keep the new ways.
 - **The clan's Fiefs tab.** For each town and castle, *Faith* and *Culture*; while it turns, *New faith* and *New ways* with how many keep them already.
 - Hover over any of these rows for the rest, in words: what it is turning from and to, what became of its temple and its old priest, preachers at work, a governor of the new faith, its old laws, and how many of its notables keep the new ways.
 

@@ -35,7 +35,10 @@ In your quest log as well: almost everything the mod asks of you (a feast or hun
 Also in your quest log. A rivalry has its own entry, *"The feud with {rival}"* (see [Your rival](features/rival.md)). As a mercenary, your service shows as *"In the service of the crown of ..."*, and each task the ruler sends you has an entry of its own (see [Mercenary contracts](features/mercenary-contracts.md)).
 
 **Where are the mod's new tabs?**
-In the kingdom screen (**K**), after Diplomacy: **Crown** ([The royal court](features/royal-court.md); your vassal realms and overlord are under its **Tributaries**, see [Vassal realms](features/vassal-realms.md)) and **Factions** ([Factions and grievances](features/factions.md), [Civil war](features/civil-war.md)).
+In the kingdom screen (**K**), after Diplomacy: **Crown** ([The royal court](features/royal-court.md); your vassal realms and overlord are under its **Tributaries**, see [Vassal realms](features/vassal-realms.md)) and **Realm** (every house of the realm under **Fealty**, its plots, feuds and claims, what waits on your word under **Pending**, and your **Envoys**; see [Factions and grievances](features/factions.md) and [Civil war](features/civil-war.md)). In the clan screen (**L**), the **House** tab gathers your own house's faith, claims and grievances: see [Your house at a glance](features/house-tab.md).
+
+**Where do I make peace?**
+Only on the **Terms of Peace** screen: press **Negotiate terms** on a war in the Diplomacy tab, or tell the enemy ruler in person that your realms should make peace. A white peace is there too, and a civil war or a feud of your realm ends there as well. Both councils vote on it. See [Terms of peace](features/war-and-peace.md#terms-of-peace).
 
 **Does it work with the Diplomacy mod?**
 No. Both change how kingdoms decide on war and peace. Use one or the other.

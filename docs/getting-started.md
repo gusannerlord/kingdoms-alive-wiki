@@ -6,7 +6,7 @@
 - [UIExtenderEx](https://www.nexusmods.com/mountandblade2bannerlord/mods/2102), loaded right below Harmony, also above the game's own modules. Kingdoms Alive adds its tabs, pages and lines to the game's own screens through it instead of replacing those screens, so other mods that add to the same screens (the encyclopedia, the clan and kingdom screens) work beside it.
 
 !!! note "Playing on 1.4.8?"
-    Kingdoms Alive is made for **1.4.8** again, and needs Harmony and UIExtenderEx there too. A few things differ there (see [Compatibility](#compatibility)): the game's 1.4.8 has no blood feuds, lords riding to relieve a siege keep the game's own waiting, and free companies do not cross the sea. If you come from Kingdoms Alive 2.2.0, the last version for 1.4.8 until now, read [Updating](#updating) first.
+    Kingdoms Alive is made for **1.4.8** again, and needs Harmony and UIExtenderEx there too. A few things differ there (see [Compatibility](#compatibility)): the game's 1.4.8 has no blood feuds, and lords riding to relieve a siege keep the game's own waiting. If you come from Kingdoms Alive 2.2.0, the last version for 1.4.8 until now, read [Updating](#updating) first.
 
 ## Installing
 1. Install Harmony and UIExtenderEx.
@@ -49,6 +49,7 @@ If you use **Arms of the Faithful**, the optional add-on that gives the warriors
 
 - It can be added to a campaign in progress, and everything starts working from the day you load it, but a new campaign is the way it is meant to be played.
 - Some features build up over time (tension between kingdoms, the grievances of the lords, plots, the courts of AI rulers, vassal realms), so give them a few weeks of game time.
+- Two of the biggest changes are on from the start, and you will feel them from your first days: [Smarter warlords](features/command-your-armies.md#smarter-warlords-on-by-default), AI lords and armies who see as you do and wage war more wisely, and [recruitment by the land](features/recruitment.md), where men come from the villages, towns and castles of their lord and are missed there, and veterans are made, not bought. Both can be turned off in the game's options or in the [settings](settings.md).
 
 ## Removing the mod
 Do not remove it from a campaign you want to keep playing. If you do, keep a copy of your save first: the campaign may no longer load, or may misbehave. Things the mod had under way (an envoy or companion away on an errand and its quest log entry, a feast or hunt, a civil war, a court, a vassal realm) stay as they were at that moment or are lost. Some of these are kept in your save as quests of the mod's own (your rival, your mercenary service and its tasks, anyone you sent away), and the Unsworn troops are the mod's own too: without the mod, a save that holds them may not load.
@@ -57,7 +58,7 @@ Do not remove it from a campaign you want to keep playing. If you do, keep a cop
 - **Not compatible with the "Diplomacy" mod** or other mods that replace how AI kingdoms decide on war and peace. Despite the name, this is not an add-on for it.
 - If a game update changes the game's war formula, the mod's war scoring switches itself off instead of breaking.
 - The launcher may show a version warning on game versions other than 1.5.7 and 1.4.8. The mod has not been tested there.
-- **On 1.4.8** the game has no blood feuds: your [rival](features/rival.md)'s house cannot be paid off at a ransom broker, and a [hunting accident](features/hunts.md) that is found out costs relation and Honor instead. Lords riding to relieve a siege do not [wait out of the besiegers' reach](features/command-your-armies.md): they keep the game's own waiting. And [free companies](features/free-companies.md) do not take ship: on 1.4.8 they march only by land.
+- **On 1.4.8** the game has no blood feuds: your [rival](features/rival.md)'s house cannot be paid off at a ransom broker, and a [hunting accident](features/hunts.md) that is found out costs relation and Honor instead. Lords riding to relieve a siege do not [wait out of the besiegers' reach](features/command-your-armies.md): they keep the game's own waiting.
 
 ## Story mode, sandbox, normal or fast mode
 Everything works in all of them. Most testing was done in sandbox campaigns in fast mode. While a story quest is under way, you cannot raise a rebellion or ride with one: the option is greyed out and tells you why. Leaving your kingdom would break the quest.

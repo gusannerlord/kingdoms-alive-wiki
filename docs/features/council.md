@@ -65,7 +65,7 @@ How hard a lord is depends on how far they are from your view, your relation wit
 
 **Success:** the lord votes your way on that matter, with a firm vote, for **30 days**. You see a message such as *"(clan) will back a war with the Vlandians for the next 30 days."* A ruler you win over votes the same way and will not overrule the council on it.
 
-Winning lords over changes their vote, not what they propose. Someone still has to put the war or peace to the council, and that can be you. A promise for peace only counts while the rules allow that peace.
+Winning lords over changes their vote, not what they propose. Someone still has to put the war or peace to the council, and that can be you: a peace with another realm is put from the negotiation table (**Negotiate terms** on the Diplomacy tab, see [War and peace](war-and-peace.md)), and a lord you won over for that peace votes for it there. A promise for peace only counts while the rules allow that peace.
 
 You also gain the skill experience the base game gives for the arguments that landed, at most once per clan every 30 days.
 

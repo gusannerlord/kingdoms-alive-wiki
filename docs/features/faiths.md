@@ -49,7 +49,7 @@ A priest's recruits are not village lads: they are the sworn warriors of the fai
 | The Faith of the Sacred Months | Well Guard | Rider of the Truce | Sword of Asera |
 | The Sky Father | Kam's Rider | Sky-Sworn | Rider of Mount Iltan |
 
-They are few and slow to come: a priest has only a handful waiting at most, and a long while passes before another answers the call. They fight for their gods more than for silver, and ask far less pay than other soldiers of their rank.
+They are few and slow to come: a priest has only a handful waiting at most, and a long while passes before another answers the call. They fight for their gods more than for silver, and ask less pay than other soldiers of their rank (see [Wages and rising in rank](recruitment.md#wages-and-rising-in-rank)).
 
 The Gods of the North are kept in the Nord towns of **War Sails**. With War Sails, their warriors are Nords and seafarers, in the berserkers' helms and cloaks and the Ulfhednar's wolf; without it, they wear what the old Nords left in Calradia.
 
@@ -73,7 +73,7 @@ A priest asks the faithful for help, as the townsfolk do: ask what service you c
 
 ## Festivals
 
-Each faith holds one great festival a year, always at the same time of year, in its holy town. In a fast mode campaign, where a year lasts only 24 days, each faith holds it **every second year**:
+Each faith holds one great festival a year, always at the same time of year, in its holy town. In a fast mode campaign, where the years pass quickly, each faith holds it **every second year**:
 
 | Festival | Faith | When |
 |---|---|---|
@@ -92,7 +92,19 @@ Each faith holds one great festival a year, always at the same time of year, in 
 
 ### The festival in the square {#the-festival-in-the-square}
 
-While you keep the rites, **"Go out among the crowd"** takes you into the town's square: the priest preaching in the heart of the square, the townsfolk and the lords of the faith gathered about him, a small band of musicians playing beside them (with "Musicians at the feast" on), and a cheer now and then. The days of the festival go on when you come back to the wait.
+While you keep the rites, **"Go out among the crowd"** takes you into the town's square, where the festival is kept as its faith keeps it. Each faith sets out the square in its own way, with the shrines, fires, banners, carpets and laid tables of its people, and goes through its own rites, one after another and over again while you are there. The townsfolk and the lords of the faith take part; a small band of the people's musicians plays nearby (with "Musicians at the feast" on). You watch, walk among them and talk; the rites are theirs to keep.
+
+| Faith | The festival in the square |
+|---|---|
+| The Imperial Church | A procession with the offerings about the square, the liturgy before the shrine with the faithful on their knees, then the shared meal at the tables, with no dancing. |
+| The Church of Paravenos | A procession about the square and the mass on their knees, then the fair: dancing and drink. |
+| The Forest Gods | The offerings laid one by one before the idol, the ring dance about the great fire, then the feast with horns of mead. |
+| The Gods of the North | The offering at the shrine, the toasts at the long tables, then dancing by the fire. |
+| The Old Ways | The druid's rite between two fires, the folk passing between the fires, then music and the dance. |
+| The Faith of the Sacred Months | A poet reciting to the folk sat on the carpets, the fair among the stalls, then the blessing. |
+| The Sky Father | Sunwise about the cairn of stones, the shaman and his drum, then the toast of kumis to the sky. |
+
+The days of the festival go on when you come back to the wait.
 
 ## The sacred months
 
@@ -116,7 +128,7 @@ You carry one blessing at a time.
 
 How the faithful see you follows how you live and what you do, more than where you go.
 
-**Virtues.** Each faith holds two virtues of character dear, the game's own traits, and their opposites are its sins. They do not raise or lower your standing by themselves: they weigh how much your deeds earn you. With its virtues, whatever raises your standing counts for more with the faithful (up to a fifth more); with its sins, for less. Your traits change with what you do in the game, as always: sparing or executing prisoners, keeping or breaking your word, standing or fleeing, giving or keeping.
+**Virtues.** Each faith holds two virtues of character dear, the game's own traits, and their opposites are its sins. They do not raise or lower your standing by themselves: they weigh how much your deeds earn you. With its virtues, whatever raises your standing counts for more with the faithful; with its sins, for less. Your traits change with what you do in the game, as always: sparing or executing prisoners, keeping or breaking your word, standing or fleeing, giving or keeping.
 
 | Faith | Its virtues |
 |---|---|
