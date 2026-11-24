@@ -16,6 +16,7 @@ A right is either **firm** or **weak**.
 |---|---|
 | **It lost the fief to a foe**: to a siege, a peace, a feud between houses, or its own townsfolk rising | Firm |
 | **It lost the fief by a decision of its realm**: a decree (a lord's sentence for felony included), a reckoning the ruler found for at the assembly, or a petition granted at the assembly (one granted by the emperor leaves no right at all) | Weak |
+| **It lost the fief to its own crown in a rising**: taken back by the crown it rose against, during the rising or in the [time that follows a lost one](realm-houses.md#houses-marked-as-traitors); it does not grow firm while that time lasts | Weak |
 | **The realm took it back**: a fief lost to a foe, retaken by the realm and given to another house. Both the house that now holds it and the house that lost it have a firm right | Firm |
 | **It led the siege** that took the fief, and the council gave it to another house | Weak |
 | **By blood**: a house died out, and the nearest houses of its kin (by marriage first) take up its claims | Weak |
