@@ -46,11 +46,11 @@ Under the tree, a box reads out what the button says of the house you picked. No
 
 **On the right**, the house you picked: its head in 3D, traits, relation, liege, friends and foes, its people in the realm's service, and under them **What you can do with the {house}**, what can be done now first and what cannot after it:
 
-- **Send an envoy...**: the envoy windows of the encyclopedia, exactly as from the lord's page (see [Envoys](envoys.md)).
-- **One line for each errand** that has a bearing on the realm's quarrels: win the house over to your plot, keep it loyal to the crown (only if you rule), win it to your cause, ask it to ride with you in your feud, press a right against it by the sword, petition the throne, ask for a pact between your houses, call an ally to war, swear fealty to a new ruler, offer an office at court or a command, demand fealty, or release a landed knight. Each opens the envoy windows with that errand already chosen.
+- **Send an envoy...**: the envoy windows of the encyclopedia, exactly as from the lord's page (see [Envoys](envoys.md#sending-an-envoy)).
+- **One line for each errand** that has a bearing on the realm's quarrels: win the house over to your plot, keep it loyal to the crown (only if you rule), win it to your cause, ask it to ride with you in your feud, press a right against it by the sword, petition the throne, ask for a pact between your houses, call an ally to war, swear fealty to a new ruler, offer an office at court or a command, demand fealty, or release a landed knight. Each sends an envoy to that house with the errand in mind: you choose who goes, and it is the first matter offered when the envoy is heard.
 - **Seek him out** (or **Seek her out**), or **Stop seeking**.
 
-Only what the lords of Calradia also do has a line of its own. What only you do (asking for a meeting, sounding a lord out, a gift, offering your own sword in a feud, and the like) is still there in conversation and among the errands of **Send an envoy...**.
+Only what the lords of Calradia also do has a line of its own. What only you do (asking for a meeting, sounding a lord out, a gift, offering your own sword in a feud, and the like) is still there in conversation, and for your envoys to raise once they stand before the lord.
 
 #### Wars within, Causes, Claims and Assembly
 
@@ -69,11 +69,11 @@ A lord whose stance you have not sounded keeps their reasons to themselves, and 
 
 #### Pending
 
-Everything that waits for your word, in one list: a letter of a feud, a charter laid before you, a case of the assembly, an oath, a lord's plea, a sentence, an envoy's letter with a price, terms of peace, a vote of your realm's council, and the rest of what the realm asks of you. Each line says what it is and who asks it, and when something holds it back right now, it says so. Pending only lists: the windows come as before, and nothing is answered by looking at the list.
+Everything that waits for your word, in one list: a letter of a feud, a charter laid before you, a case of the assembly, an oath, a lord's plea, a sentence, an envoy's letter with a price, terms of peace, a vote of your realm's council, an envoy who waits before a lord to speak for you, and the rest of what the realm asks of you. Each line says what it is and who asks it, and when something holds it back right now, it says so. Pending only lists: the windows come as before, and nothing is answered by looking at the list.
 
 #### Envoys
 
-Your envoys on the road (to whom, with what errand, about when they will be back), the letters that wait for your answer, those riding home, and the meetings agreed. Envoys sent from this tab are the envoys of always: someone of your house, or a [rider from your party](envoys.md#a-rider-from-your-party), really rides to the lord, and the answer comes back by letter.
+Your envoys on the road (to whom, and about when they will be back), those who wait before a lord to speak for you (**Waits to speak for you**), the letters that wait for your answer, those riding home, and the meetings agreed. Envoys sent from this tab are the envoys of always: someone of your house, or a [rider from your party](envoys.md#a-rider-from-your-party), really rides to the lord, and you speak through them [when they arrive](envoys.md#when-the-envoy-arrives).
 
 #### Let me look into it first
 
@@ -118,11 +118,11 @@ Only the ruler names the court. Anyone adult in the realm can serve: nobles of a
 You offer an office in person or by envoy:
 
 - **In person.** Say *"I would have you serve at my court."* (for a lord of another house it is under *"There is something I'd like to discuss."*), then pick the office: *"As my {office}."*, or *"As my {office}, in place of {holder}."* Hovering shows what they would give. Your family and companions are always asked this way.
-- **By envoy**, to a lord of another house, wherever they are: *"Offer {lord} an office at your court"*, from the lord's page in the encyclopedia or from their house under Fealty in the [Realm tab](#the-realm-tab). You pick the office before the envoy sets out; the answer is the lord's, as if you asked in person. See [Envoys](envoys.md).
+- **By envoy**, to a lord of another house, wherever they are: *"Offer an office"*, from the lord's page in the encyclopedia or from their house under Fealty in the [Realm tab](#the-realm-tab). You choose the office in the conversation once your envoy stands before the lord; the answer is the lord's, as if you asked in person. See [Envoys](envoys.md).
 - **By rider, for the Marshal.** From any town or castle of your realm, or through a companion or family member riding with you, a rider can offer the office of Marshal to a lord of another house, wherever they are. See [Riders](command-your-armies.md#riders).
 - **Dismiss** a holder from the office's entry in the Crown tab.
 
-A command against one enemy realm (a [Marshal of a Front](command-your-armies.md)) is offered the same ways: in person (*"I would have you lead the realm's lords in one of my wars."*) or by envoy (*"Offer {lord} command of the realm's lords in one of your wars"*).
+A command against one enemy realm (a [Marshal of a Front](command-your-armies.md)) is offered the same ways: in person (*"I would have you lead the realm's lords in one of my wars."*) or by envoy (*"Offer a command"*).
 
 Who says no:
 
@@ -257,7 +257,7 @@ Each AI house weighs it up: its relation with the new ruler, its Honor, whether 
 You are told: *"{ruler} is now ruler of {kingdom}. Every house is to swear fealty within {days} days: go to her/him in person to swear, ask for something, or refuse."* Go to the ruler in person, choose *"There is something I'd like to discuss."* and then *"I have come about my oath of fealty."*:
 
 - *"I swear to be your faithful vassal..."*: the ruler thinks better of you, and you gain some influence.
-- **By an envoy**: from the ruler's page in the encyclopedia you may send a family member or companion to swear in your name, with no terms (to ask for something, go in person). Your house is sworn the day the envoy stands before the ruler: the same regard any house gets for swearing, but not the extra of kneeling in person, nor the influence. Greyed with the reason if the envoy would arrive too late.
+- **By an envoy**: from the ruler's page in the encyclopedia you may send a family member or companion, who can swear in your name, with no terms (to ask for something, go in person). When the envoy stands before the ruler within your time, a window **"An oath to {ruler}"** asks you at once: **Swear in my name**, and your house is sworn that day: the same regard any house gets for swearing, but not the extra of kneeling in person, nor the influence; or **Not now**, and your time runs on as usual. Nothing is sworn without your word. If a battle or another window keeps that question from you, your house is not marked before it can be asked. See [Envoys](envoys.md#the-oath).
 - *"I will swear, but I would ask something in return."* (once per oath): ask for an empty office, a fief of the ruler's own clan (only if they have one to spare by the rule above; much harder to argue), or gold, more for a greater house. Then you argue it out with the game's persuasion. Win and you get it and swear, but the ruler thinks a little less of you for it, as of any house that names its price. Lose and the ruler says *"No. You will have nothing of me for an oath you owe in any case."* (and thinks less of you); then swear without terms, refuse, or take more time.
 - *"I will not swear to you."*: the ruler thinks far less of you, and your house is marked for a long while.
 - Not going in time costs you the ruler's regard, and your house is marked.

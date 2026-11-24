@@ -122,7 +122,7 @@ Your chances with a lord who has no special traits:
 | 80 | 100 | 74% | 48% | 32% | 7% |
 | 80 | 200 | 85% | 63% | 48% | 32% |
 
-- **By an envoy:** *"Ask {lord} for their voice when the next fief is shared out"*, from the lord's page in the encyclopedia (see [Envoys](envoys.md)). The envoy argues it with their own skills and character.
+- **By an envoy:** *"Ask for their voice on a fief"*, from the lord's page in the encyclopedia (see [Envoys](envoys.md)). The envoy argues it with their own skills and character.
 - **Won over**, they back your house in the next sharing out in which it stands, within **60 days**. The promise is only spent once they have actually voted for you. A lord with less than **500** influence backs you strongly, but never with everything they have.
 - A lord whose own house stands for the fief still votes for their own house.
 - When a fief is being taken from a house, that house will not speak for yours over it, whatever it promised, and its liking for you does not count in that vote either. Its promise is not spent: it waits for the next fief shared out.
